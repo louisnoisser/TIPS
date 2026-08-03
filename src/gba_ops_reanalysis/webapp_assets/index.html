@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indication Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d6c74'/%3E%3Cpath d='M14 38h11l5-14 7 24 5-10h8' fill='none' stroke='%23fffaf4' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">G-BA OPS Reanalysis</p>
+          <h1 id="app-title">Indication Dashboard</h1>
+          <p id="app-subtitle" class="hero-text"></p>
+          <div id="hero-badges" class="badge-row"></div>
+        </div>
+        <div class="hero-panel">
+          <p class="panel-label">Current signal</p>
+          <div id="hero-summary" class="hero-summary"></div>
+        </div>
+      </header>
+
+      <nav class="section-nav reveal">
+        <a href="#overview">Overview</a>
+        <a href="#access">Access</a>
+        <a href="#centers">Centers</a>
+        <a href="#figures">Figures</a>
+        <a href="#methods">Methods</a>
+      </nav>
+
+      <main>
+        <section id="overview" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Overview</p>
+            <h2>High-level results</h2>
+          </div>
+          <div id="metrics-grid" class="metrics-grid"></div>
+          <div id="findings-grid" class="findings-grid"></div>
+          <div class="chart-grid">
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Longitudinal</p>
+                <h3>Procedure volume over time</h3>
+              </div>
+              <div id="volume-chart"></div>
+            </article>
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Threshold sensitivity</p>
+                <h3>Center counts by cohort</h3>
+              </div>
+              <div id="center-chart"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="access" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Access explorer</p>
+            <h2>Population-weighted regional access</h2>
+          </div>
+          <div class="control-row">
+            <label>
+              Network threshold
+              <select id="threshold-select"></select>
+            </label>
+            <label>
+              Travel time
+              <select id="time-select"></select>
+            </label>
+            <label>
+              County urbanity
+              <select id="urbanity-select">
+                <option value="all">All</option>
+                <option value="urban">Urban</option>
+                <option value="rural">Rural</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+          </div>
+          <div class="chart-grid access-grid">
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">States</p>
+                <h3>Coverage and national gap</h3>
+              </div>
+              <div id="state-bars"></div>
+            </article>
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Counties</p>
+                <h3>Lowest-access counties</h3>
+              </div>
+              <div class="search-row">
+                <input id="county-search" type="search" placeholder="Filter counties">
+              </div>
+              <div id="county-table"></div>
+            </article>
+          </div>
+          <div class="chart-grid">
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Coverage</p>
+                <h3>Population coverage curves</h3>
+              </div>
+              <div id="population-chart"></div>
+            </article>
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Rates</p>
+                <h3>State and county hotspots</h3>
+              </div>
+              <div class="table-split">
+                <div>
+                  <h4>State case rates</h4>
+                  <div id="state-rate-table"></div>
+                </div>
+                <div>
+                  <h4>County provider rates</h4>
+                  <div id="county-rate-table"></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="centers" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Center profile</p>
+            <h2>Latest-year leaders and longitudinal concentration</h2>
+          </div>
+          <div class="table-split">
+            <div>
+              <h3>Top latest-year centers</h3>
+              <div id="center-table"></div>
+            </div>
+            <div>
+              <h3>Top IK-aggregated centers</h3>
+              <div id="ik-table"></div>
+            </div>
+          </div>
+          <div class="chart-grid">
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Concentration</p>
+                <h3>Top-10 share and HHI</h3>
+              </div>
+              <div id="concentration-chart"></div>
+            </article>
+            <article class="chart-card">
+              <div class="chart-copy">
+                <p class="card-kicker">Churn</p>
+                <h3>IK retention between years</h3>
+              </div>
+              <div id="churn-chart"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="figures" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Figure deck</p>
+            <h2>Publication-style outputs</h2>
+          </div>
+          <div id="figure-gallery" class="figure-gallery"></div>
+        </section>
+
+        <section id="methods" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Methods</p>
+            <h2>How this dashboard was built</h2>
+          </div>
+          <div class="method-layout">
+            <ul id="method-list" class="method-list"></ul>
+            <article class="summary-card">
+              <p class="card-kicker">Source summary</p>
+              <div id="summary-markdown" class="summary-markdown"></div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="figure-modal" class="figure-modal">
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close">Close</button>
+      <img id="modal-image" alt="">
+      <div class="modal-copy">
+        <h3 id="modal-title"></h3>
+        <p id="modal-caption"></p>
+      </div>
+    </dialog>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

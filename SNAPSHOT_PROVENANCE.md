@@ -1,0 +1,57 @@
+# Clean snapshot provenance
+
+- Export date: 2026-08-03
+- Source repository branch: `main`
+- Source repository HEAD: `e162c991af5d699d169240b903a1c35cbb4df5f9`
+- Snapshot basis: current source working tree, including appropriate uncommitted
+  source and test files
+- Destination: private personal repository `louisnoisser/TIPS`
+
+No `.git` directory, commit, branch, tag, remote, or other Git metadata from the
+source repository was copied. This repository begins with one independent root
+commit.
+
+## Deliberate exclusions
+
+The snapshot excludes hospital-level XML source data, official BfArM/DIMDI
+catalogue XML/PDF/ZIP files, ORS graphs and caches, OSM extracts, elevation
+data, population rasters, generated result and publication folders, generated
+webapp data, backups, manual-review packages, environments, caches, operating-
+system files, credentials, and temporary files.
+
+The 68 absent tracked files from the legacy
+`outputs/indications/tips_8-839-8/` directory were obsolete generated outputs.
+They were neither restored nor reproduced. Included code generates outputs from
+external inputs and does not require those specific deleted files. The excluded
+legacy repository guide and README did contain links to them; both were replaced
+by snapshot-specific documentation.
+
+## Snapshot-only portability adjustment
+
+The copied `src/gba_ops_reanalysis/config.py` was adjusted only in this clean
+repository to remove a legacy absolute path into another user's home directory.
+The copied audit continuation script now derives the optional Codex search
+directory from `Path.home()` instead of embedding the export machine's home
+directory. Population data are resolved from `GBA_OPS_POP_RASTER` or the
+conventional local `spatial/` path. The source working tree was not modified.
+
+## Audit evidence boundary
+
+Selected small derived audit CSV, JSON, and Markdown files are retained under
+`outputs/ops_code_audit_2013_2024/`. Primary ClaML sources, reconciliation raw
+tables not selected for the snapshot, backups, and the manual-review package
+are excluded. Absolute paths within retained inventory/manifest fields document
+the original audit environment and are nonportable historical metadata.
+
+## Verification at export
+
+All 49 included Python files parsed successfully, and all local package imports
+resolved within the selected module closure. The secret scan found no private
+keys or recognizable populated GitHub, OpenAI, AWS, or generic credential
+patterns. No embedded ClaML XML was found in the selected audit evidence.
+
+The isolated test run produced 25 passes, 14 failures, and 19 setup errors. The
+non-passing checks require deliberately excluded source catalogues or generated
+site-resolution, geographic release, and publication-output files. These
+external-data dependencies are retained as regression tests rather than being
+silently weakened or supplied with copied organization data.

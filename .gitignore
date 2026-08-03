@@ -1,0 +1,70 @@
+# Local Python environments and package/build state
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Credentials and authentication material
+.env
+.env.*
+!.env.example
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
+*cookies*
+
+# Source and third-party data intentionally excluded from this snapshot
+data/
+ops_bfarm_2013_2024/
+ors-docker/
+spatial/*.tif
+*.osm
+*.osm.*
+*.pbf
+*.zip
+
+# Generated analyses and local runtime artefacts
+results/
+output/
+outputs/*
+!outputs/ops_code_audit_2013_2024/
+outputs/ops_code_audit_2013_2024/*
+!outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.md
+!outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.csv
+!outputs/ops_code_audit_2013_2024/ops_code_summary_2013_2024.csv
+!outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2018_diff.csv
+!outputs/ops_code_audit_2013_2024/ops_code_audit_2019_2024_unchanged_check.csv
+!outputs/ops_code_audit_2013_2024/reconciliation_independent_verification.csv
+!outputs/ops_code_audit_2013_2024/existing_audit_file_inventory.csv
+!outputs/ops_code_audit_2013_2024/catalogue_source_inventory_2013_2018.csv
+!outputs/ops_code_audit_2013_2024/audit_run_manifest.json
+outputs/ops_code_audit_2013_2024/backups/
+outputs/ops_code_audit_2013_2024/manual_review_package/
+
+# Databases, temporary files, and local logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+tmp/
+temp/
