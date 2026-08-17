@@ -1,6 +1,7 @@
 {
   "original_audit_timestamp": "2026-08-03T09:47:32.805824+00:00",
-  "continuation_audit_timestamp_utc": "2026-08-03T17:15:28.669649+00:00",
+  "continuation_audit_timestamp_utc": "2026-08-04T07:55:24.319936+00:00",
+  "ops_2012_review_gate_timestamp_utc": "2026-08-04T07:55:24.319936+00:00",
   "git_repository": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis",
   "git_branch": "main",
   "git_commit_hash": "e162c991af5d699d169240b903a1c35cbb4df5f9",
@@ -24,6 +25,11 @@
       "path": "outputs/audit/tips_code_level_audit.csv",
       "sha256": "beb19fe8e3af74ae0d6a45ab069409b5e63704c04c7170053f18dce7c845e51d",
       "size_bytes": 2049916
+    },
+    {
+      "path": "ops_bfarm_2013_2024/2012/ops2012syst_claml_20111103.xml",
+      "sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
+      "size_bytes": 6410675
     },
     {
       "path": "ops_bfarm_2013_2024/2013/ops2013syst_claml_20121012.xml",
@@ -98,10 +104,19 @@
   ],
   "accepted_historical_sources": [
     {
+      "year": 2012,
+      "path": "ops_bfarm_2013_2024/2012/ops2012syst_claml_20111103.xml",
+      "sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
+      "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "supporting pre-period provenance; not an analytical audit year",
+      "provenance_evidence": "ClaML 2.0.0; OPS Title version=2012, date=2011-10-14; Identifier authority=DIMDI uid=1.2.276.0.76.5.410; lang=de; preliminary=false; copyright=Copyright DIMDI 1994-2012; 15411 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
+    },
+    {
       "year": 2013,
       "path": "ops_bfarm_2013_2024/2013/ops2013syst_claml_20121012.xml",
       "sha256": "0e965ba2497d176e0a3feb4aa65adf61ba942a48a02963ce0efe858d53a712ee",
       "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "analytical-period annual catalogue source",
       "provenance_evidence": "ClaML 2.0.0; OPS Title version=2013, date=2012-10-12; Identifier authority=DIMDI uid=1.2.276.0.76.5.414; lang=de; preliminary=false; copyright=Copyright DIMDI 1994-2013; 15722 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
     },
     {
@@ -109,6 +124,7 @@
       "path": "ops_bfarm_2013_2024/2014/ops2014syst_claml_20131104.xml",
       "sha256": "90b1a4676aed409da0db313bd735a07be49fc79080ae88459bff9eca676359cc",
       "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "analytical-period annual catalogue source",
       "provenance_evidence": "ClaML 2.0.0; OPS Title version=2014, date=2013-10-16; Identifier authority=DIMDI uid=1.2.276.0.76.5.418; lang=de; preliminary=false; copyright=Copyright DIMDI 1994-2014; 16216 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
     },
     {
@@ -116,6 +132,7 @@
       "path": "ops_bfarm_2013_2024/2015/ops2015syst_claml_20141017.xml",
       "sha256": "e8858a5373ee105f4c6aa26cf8718e7c6a8c1c1e30a6bd3381bd6601bcbcaec8",
       "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "analytical-period annual catalogue source",
       "provenance_evidence": "ClaML 2.0.0; OPS Title version=2015, date=2014-10-17; Identifier authority=DIMDI uid=1.2.276.0.76.5.425; lang=de; preliminary=false; copyright=DIMDI 1994-2015; 16479 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
     },
     {
@@ -123,6 +140,7 @@
       "path": "ops_bfarm_2013_2024/2016/ops2016syst_claml_20151016.xml",
       "sha256": "390830d8021d5bf6024b9a2d4a59099b18aeb7960df58d93f8ff35bb4c63876d",
       "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "analytical-period annual catalogue source",
       "provenance_evidence": "ClaML 2.0.0; OPS Title version=2016, date=2015-10-16; Identifier authority=DIMDI uid=1.2.276.0.76.5.431; lang=de; preliminary=false; copyright=DIMDI 1994-2016; 16864 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
     },
     {
@@ -130,6 +148,7 @@
       "path": "ops_bfarm_2013_2024/2017/ops2017syst_claml_20161019.xml",
       "sha256": "1a01defe650df9c98091bc8046754ca4e5d02bffbc61fe81d5071641683b0ac5",
       "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "analytical-period annual catalogue source",
       "provenance_evidence": "ClaML 2.0.0; OPS Title version=2017, date=2016-10-19; Identifier authority=DIMDI uid=1.2.276.0.76.5.464; lang=de; preliminary=false; copyright=DIMDI 1994-2017; 17301 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
     },
     {
@@ -137,6 +156,7 @@
       "path": "ops_bfarm_2013_2024/2018/ops2018syst_claml_20171018.xml",
       "sha256": "ea7f93017c3c519c884d4f8da306f14f75f98e6ca7b15ec10a866b891556c8e2",
       "source_type": "extracted official historical DIMDI ClaML XML",
+      "evidence_role": "analytical-period annual catalogue source",
       "provenance_evidence": "ClaML 2.0.0; OPS Title version=2018, date=2017-10-18; Identifier authority=DIMDI uid=1.2.276.0.76.5.472; lang=de; preliminary=false; copyright=DIMDI 1994-2018; 17602 Class elements including literal 8-839.8; structural elements match the verified 2024 official ClaML. No project-generator marker was found."
     }
   ],
@@ -172,28 +192,240 @@
     {
       "path": "outputs/ops_code_audit_2013_2024/backups/pre_continuation_20260803/run_audit.py",
       "sha256": "d47d267aea66ee1f3fb8491a0443ab3f6dfd8130574b111420c453837e7c3700"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/audit_run_manifest.json",
+      "sha256": "7208fbd47c9ff3a76b1a9db10a7584e8b0dd3cb01da18e517bd3baf37471f5f4"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/audits/ops_code_audit_2013_2024/continue_audit.py",
+      "sha256": "d494026c9dd964007df4ba62d42b79ea2ae564482aa28b7f395d595508cc60a1"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "d836d4dec92d480918cfa657691e41037315de65b4c3a105ade372203d51da28"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/existing_audit_file_inventory.csv",
+      "sha256": "f62e1654692a1ca8a66d6b1b576e97b3f1a29064098c365f197568cc7130fabd"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/README.md",
+      "sha256": "dba1b35a6fade4646b83a75c580aca2227dbd3a4369cd9f30908221a9434aeec"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/audit_run_manifest.json",
+      "sha256": "7208fbd47c9ff3a76b1a9db10a7584e8b0dd3cb01da18e517bd3baf37471f5f4"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_audit_2013_2024.csv",
+      "sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_summary_2013_2024.csv",
+      "sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/reconciliation_independent_verification.csv",
+      "sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2013_2024.csv",
+      "sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2013_2024.md",
+      "sha256": "e39cbbd5e56eb31649110c88e7b83e436e6ac8c0e1c4ca2f926d568cf2bd5b2f"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_summary_2013_2024.csv",
+      "sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/reconciliation_independent_verification.csv",
+      "sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/audit_run_manifest.json",
+      "sha256": "0a638abcf1baa0bd05d2943e0f211828067422fc5b2da1c1a674cd6c8f38c59b"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/audits/ops_code_audit_2013_2024/continue_audit.py",
+      "sha256": "575e7c4d33bd68798d903f7deef18012f7fb8cf71c6fa8d228d7f94140c4f066"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/existing_audit_file_inventory.csv",
+      "sha256": "f62e1654692a1ca8a66d6b1b576e97b3f1a29064098c365f197568cc7130fabd"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/README.md",
+      "sha256": "857ee6b7bc23bf440fb4f8cbe062512aee21972b12bcb041da3c13f99e601d14"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2012syst_claml_20111103.xml",
+      "sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2013syst_claml_20121012.xml",
+      "sha256": "0e965ba2497d176e0a3feb4aa65adf61ba942a48a02963ce0efe858d53a712ee"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2014syst_claml_20131104.xml",
+      "sha256": "90b1a4676aed409da0db313bd735a07be49fc79080ae88459bff9eca676359cc"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2015syst_claml_20141017.xml",
+      "sha256": "e8858a5373ee105f4c6aa26cf8718e7c6a8c1c1e30a6bd3381bd6601bcbcaec8"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2016syst_claml_20151016.xml",
+      "sha256": "390830d8021d5bf6024b9a2d4a59099b18aeb7960df58d93f8ff35bb4c63876d"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2017syst_claml_20161019.xml",
+      "sha256": "1a01defe650df9c98091bc8046754ca4e5d02bffbc61fe81d5071641683b0ac5"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2018syst_claml_20171018.xml",
+      "sha256": "ea7f93017c3c519c884d4f8da306f14f75f98e6ca7b15ec10a866b891556c8e2"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2024syst-claml.zip",
+      "sha256": "308a1f946f3761a1b0a5985edab5b1946faaa5020ab58e32e9d7fb1536b71c9c"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2024syst_claml_20231020.xml",
+      "sha256": "0baf9c97efdfe1dc5c66ac50fb35b3d6fb1144614cde44515ff2eb829d694110"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/audit_run_manifest.json",
+      "sha256": "0a638abcf1baa0bd05d2943e0f211828067422fc5b2da1c1a674cd6c8f38c59b"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_2012_supporting_provenance.csv",
+      "sha256": "179ca3fb9a584da3cbafea6eb4235ae35adf5f35acc6292d49b8449ebfd9ea42"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2013_2024.csv",
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2013_2024.md",
+      "sha256": "206807bbc1427c7b3e2d547f8a1bbcb38943b8dd853d0a45453ca6d9682300e3"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_reconciliation_mismatches.csv",
+      "sha256": "ae765640703e42bdce0db5534c827a24c67b8fcdbd05268d4130accc17615467"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_reconciliation_site_year.csv",
+      "sha256": "294b0e5cfb44f4091322f2de25373a3c1d26754cf4bea2dbdee9f3d0bae7ba8d"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_summary_2013_2024.csv",
+      "sha256": "344fa67c3bb7e4640924dbc8a7712db378e90a7bafa549518e1e30e1c7f14a49"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/package_manifest.json",
+      "sha256": "9b91ae2df0c66c878d08df242fcea8d16a301851f291e9f75c2602b0e5c32d14"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/reconciliation_independent_verification.csv",
+      "sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_2012_supporting_provenance.csv",
+      "sha256": "179ca3fb9a584da3cbafea6eb4235ae35adf5f35acc6292d49b8449ebfd9ea42"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2013_2024.csv",
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2013_2024.md",
+      "sha256": "206807bbc1427c7b3e2d547f8a1bbcb38943b8dd853d0a45453ca6d9682300e3"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_occurrence_by_year.csv",
+      "sha256": "cbeb4711dd722321f2b17ab8eccff4f2f444fe6b6d39230e1b84351ef5e1fea1"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_reconciliation_mismatches.csv",
+      "sha256": "ae765640703e42bdce0db5534c827a24c67b8fcdbd05268d4130accc17615467"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_reconciliation_site_year.csv",
+      "sha256": "294b0e5cfb44f4091322f2de25373a3c1d26754cf4bea2dbdee9f3d0bae7ba8d"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_summary_2013_2024.csv",
+      "sha256": "344fa67c3bb7e4640924dbc8a7712db378e90a7bafa549518e1e30e1c7f14a49"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/reconciliation_independent_verification.csv",
+      "sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18"
     }
   ],
   "copied_file_provenance": [
     {
       "source_path": "outputs/ops_code_audit_2013_2024/ops_code_summary_2013_2024.csv",
-      "source_sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8",
+      "source_sha256": "366bfeb8b70553dc6948cc41ffc3ae90294ee9f733e6e3fa0b4d42128c7473b6",
       "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_summary_2013_2024.csv",
-      "copied_sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8",
+      "copied_sha256": "366bfeb8b70553dc6948cc41ffc3ae90294ee9f733e6e3fa0b4d42128c7473b6",
       "hash_match": true
     },
     {
       "source_path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.csv",
-      "source_sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d",
+      "source_sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
       "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2013_2024.csv",
-      "copied_sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d",
+      "copied_sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
       "hash_match": true
     },
     {
       "source_path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2018_diff.csv",
-      "source_sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f",
+      "source_sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb",
       "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2013_2018_diff.csv",
-      "copied_sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f",
+      "copied_sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb",
       "hash_match": true
     },
     {
@@ -219,9 +451,37 @@
     },
     {
       "source_path": "outputs/ops_code_audit_2013_2024/reconciliation_independent_verification.csv",
-      "source_sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee",
+      "source_sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18",
       "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/reconciliation_independent_verification.csv",
-      "copied_sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee",
+      "copied_sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18",
+      "hash_match": true
+    },
+    {
+      "source_path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.md",
+      "source_sha256": "e46cbf69d9308601e27069008886774536246245cc1c38602dffa74b4c32e54c",
+      "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2013_2024.md",
+      "copied_sha256": "e46cbf69d9308601e27069008886774536246245cc1c38602dffa74b4c32e54c",
+      "hash_match": true
+    },
+    {
+      "source_path": "outputs/ops_code_audit_2013_2024/catalogue_source_inventory_2013_2018.csv",
+      "source_sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360",
+      "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/catalogue_source_inventory_2013_2018.csv",
+      "copied_sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360",
+      "hash_match": true
+    },
+    {
+      "source_path": "outputs/ops_code_audit_2013_2024/ops_2012_supporting_provenance.csv",
+      "source_sha256": "6d22cd13389679015e1a084c34aafdd2031c09bf3b1d057a6655015ce2f83699",
+      "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_2012_supporting_provenance.csv",
+      "copied_sha256": "6d22cd13389679015e1a084c34aafdd2031c09bf3b1d057a6655015ce2f83699",
+      "hash_match": true
+    },
+    {
+      "source_path": "ops_bfarm_2013_2024/2012/ops2012syst_claml_20111103.xml",
+      "source_sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
+      "copied_path": "outputs/ops_code_audit_2013_2024/manual_review_package/accepted_claml_sources/ops2012syst_claml_20111103.xml",
+      "copied_sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
       "hash_match": true
     },
     {
@@ -322,6 +582,24 @@
       "8-839.8a"
     ]
   },
+  "confirmed_introduction_years": {
+    "8-839.87": 2013,
+    "8-839.88": 2013,
+    "8-839.89": 2016,
+    "8-839.8a": 2016
+  },
+  "ops_2012_supporting_provenance": {
+    "analytical_audit_year": false,
+    "path": "ops_bfarm_2013_2024/2012/ops2012syst_claml_20111103.xml",
+    "sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
+    "claml_version": "2.0.0",
+    "ops_version": "2012",
+    "catalogue_date": "2011-10-14",
+    "authority": "DIMDI",
+    "authority_uid": "1.2.276.0.76.5.410",
+    "local_primary_source_verification_complete": true,
+    "independent_review_result_asserted": false
+  },
   "reconciliation_independent_recomputation": {
     "total_site_year_rows": 2057,
     "unique_physical_site_years": 2057,
@@ -333,7 +611,25 @@
     "manual_review_rows": 0,
     "missing_reconciliation_status_rows": 0,
     "maximum_absolute_numeric_difference": 0.0,
-    "sum_numeric_differences": 0.0,
+    "sum_absolute_numeric_differences": 0.0,
+    "site_and_institution_identifiers_remain_separate": true,
+    "institution_year_mapping": "reporting_year + institution_identifier from the documented final row-level mapping",
+    "literal_code_values_found": [
+      "8-839.8",
+      "8-839.80",
+      "8-839.81",
+      "8-839.82",
+      "8-839.83",
+      "8-839.84",
+      "8-839.85",
+      "8-839.86",
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a",
+      "8-839.8x"
+    ],
+    "parent_8a_8x_remain_three_distinct_literals": true,
     "mismatch_file_exists": true,
     "mismatch_file_data_rows": 0,
     "mismatch_file_consistent": true
@@ -357,16 +653,101 @@
   },
   "production_file_modified": false,
   "de_novo_sensitivity_analysis_started": false,
+  "historical_catalogue_question_locally_verified_from_claml": true,
+  "historical_catalogue_question_independently_reviewed": false,
+  "reconciliation_codex_internal_consistency_check_complete": true,
+  "reconciliation_independent_external_recomputation_complete": false,
+  "final_status": "Local audit verification complete; independent manual review of the updated audit CSVs, reconciliation recomputation, and ClaML primary sources remains pending.",
   "warnings": [
-    "Exact introduction before 2013 for codes already present in the first audited year is not assessed without an accepted 2012 ClaML.",
     "The one-off creator of the canonical code-level CSV remains absent from the repository.",
-    "Independent manual review of copied primary sources and analyst semantic judgments remains required."
+    "A matching row-level CSV hash proves file identity, not the correctness of the reconciliation logic or level distinction.",
+    "The Codex recomputation is an internal consistency check; no completed external row-level review is asserted from local evidence."
   ],
   "unresolved_issues": [
-    "Exact pre-2013 introduction year of 8-839.87 and 8-839.88 is outside the accepted 2013-2024 source interval.",
-    "Canonical code-level CSV creator script is not retained."
+    "Canonical code-level CSV creator script is not retained.",
+    "Independent manual review of the updated audit CSVs, reconciliation recomputation, and ClaML primary sources remains pending."
   ],
   "output_files": [
+    {
+      "path": "outputs/ops_code_audit_2013_2024/.DS_Store",
+      "sha256": "ef77f605e574f361101ed8685b90fc4629aa0584cb78e33a8a3387fe62d7178f",
+      "size_bytes": 8196
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/audits/ops_code_audit_2013_2024/continue_audit.py",
+      "sha256": "d494026c9dd964007df4ba62d42b79ea2ae564482aa28b7f395d595508cc60a1",
+      "size_bytes": 57577
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "d836d4dec92d480918cfa657691e41037315de65b4c3a105ade372203d51da28",
+      "size_bytes": 8364
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/existing_audit_file_inventory.csv",
+      "sha256": "f62e1654692a1ca8a66d6b1b576e97b3f1a29064098c365f197568cc7130fabd",
+      "size_bytes": 5742
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/README.md",
+      "sha256": "dba1b35a6fade4646b83a75c580aca2227dbd3a4369cd9f30908221a9434aeec",
+      "size_bytes": 6532
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f",
+      "size_bytes": 36305
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_audit_2013_2024.csv",
+      "sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d",
+      "size_bytes": 151819
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe",
+      "size_bytes": 271247
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/ops_code_summary_2013_2024.csv",
+      "sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8",
+      "size_bytes": 6496
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/manual_review_package/reconciliation_independent_verification.csv",
+      "sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee",
+      "size_bytes": 2374
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f",
+      "size_bytes": 36305
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2013_2024.csv",
+      "sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d",
+      "size_bytes": 151819
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2013_2024.md",
+      "sha256": "e39cbbd5e56eb31649110c88e7b83e436e6ac8c0e1c4ca2f926d568cf2bd5b2f",
+      "size_bytes": 17006
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe",
+      "size_bytes": 271247
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/ops_code_summary_2013_2024.csv",
+      "sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8",
+      "size_bytes": 6496
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_2012_integration_20260803/reconciliation_independent_verification.csv",
+      "sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee",
+      "size_bytes": 2374
+    },
     {
       "path": "outputs/ops_code_audit_2013_2024/backups/pre_continuation_20260803/ops_code_audit_2013_2024.csv",
       "sha256": "9fbd9ffdd14e8cc66622c09c061c01bf12c688d34656b89e46e5181860e86b1c",
@@ -403,9 +784,174 @@
       "size_bytes": 55902
     },
     {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/audits/ops_code_audit_2013_2024/continue_audit.py",
+      "sha256": "575e7c4d33bd68798d903f7deef18012f7fb8cf71c6fa8d228d7f94140c4f066",
+      "size_bytes": 69279
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360",
+      "size_bytes": 10340
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/existing_audit_file_inventory.csv",
+      "sha256": "f62e1654692a1ca8a66d6b1b576e97b3f1a29064098c365f197568cc7130fabd",
+      "size_bytes": 5742
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/README.md",
+      "sha256": "857ee6b7bc23bf440fb4f8cbe062512aee21972b12bcb041da3c13f99e601d14",
+      "size_bytes": 8669
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2012syst_claml_20111103.xml",
+      "sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
+      "size_bytes": 6410675
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2013syst_claml_20121012.xml",
+      "sha256": "0e965ba2497d176e0a3feb4aa65adf61ba942a48a02963ce0efe858d53a712ee",
+      "size_bytes": 6559370
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2014syst_claml_20131104.xml",
+      "sha256": "90b1a4676aed409da0db313bd735a07be49fc79080ae88459bff9eca676359cc",
+      "size_bytes": 7759061
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2015syst_claml_20141017.xml",
+      "sha256": "e8858a5373ee105f4c6aa26cf8718e7c6a8c1c1e30a6bd3381bd6601bcbcaec8",
+      "size_bytes": 7918808
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2016syst_claml_20151016.xml",
+      "sha256": "390830d8021d5bf6024b9a2d4a59099b18aeb7960df58d93f8ff35bb4c63876d",
+      "size_bytes": 7437671
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2017syst_claml_20161019.xml",
+      "sha256": "1a01defe650df9c98091bc8046754ca4e5d02bffbc61fe81d5071641683b0ac5",
+      "size_bytes": 7641187
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2018syst_claml_20171018.xml",
+      "sha256": "ea7f93017c3c519c884d4f8da306f14f75f98e6ca7b15ec10a866b891556c8e2",
+      "size_bytes": 7801433
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2024syst-claml.zip",
+      "sha256": "308a1f946f3761a1b0a5985edab5b1946faaa5020ab58e32e9d7fb1536b71c9c",
+      "size_bytes": 11701623
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/accepted_claml_sources/ops2024syst_claml_20231020.xml",
+      "sha256": "0baf9c97efdfe1dc5c66ac50fb35b3d6fb1144614cde44515ff2eb829d694110",
+      "size_bytes": 8598705
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360",
+      "size_bytes": 10340
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_2012_supporting_provenance.csv",
+      "sha256": "179ca3fb9a584da3cbafea6eb4235ae35adf5f35acc6292d49b8449ebfd9ea42",
+      "size_bytes": 3452
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb",
+      "size_bytes": 36317
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2013_2024.csv",
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
+      "size_bytes": 148869
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2013_2024.md",
+      "sha256": "206807bbc1427c7b3e2d547f8a1bbcb38943b8dd853d0a45453ca6d9682300e3",
+      "size_bytes": 20545
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe",
+      "size_bytes": 271247
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_reconciliation_mismatches.csv",
+      "sha256": "ae765640703e42bdce0db5534c827a24c67b8fcdbd05268d4130accc17615467",
+      "size_bytes": 494
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_reconciliation_site_year.csv",
+      "sha256": "294b0e5cfb44f4091322f2de25373a3c1d26754cf4bea2dbdee9f3d0bae7ba8d",
+      "size_bytes": 1807229
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/ops_code_summary_2013_2024.csv",
+      "sha256": "344fa67c3bb7e4640924dbc8a7712db378e90a7bafa549518e1e30e1c7f14a49",
+      "size_bytes": 7850
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/manual_review_package/reconciliation_independent_verification.csv",
+      "sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18",
+      "size_bytes": 2825
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_2012_supporting_provenance.csv",
+      "sha256": "179ca3fb9a584da3cbafea6eb4235ae35adf5f35acc6292d49b8449ebfd9ea42",
+      "size_bytes": 3452
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2013_2018_diff.csv",
+      "sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb",
+      "size_bytes": 36317
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2013_2024.csv",
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
+      "size_bytes": 148869
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2013_2024.md",
+      "sha256": "206807bbc1427c7b3e2d547f8a1bbcb38943b8dd853d0a45453ca6d9682300e3",
+      "size_bytes": 20545
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_audit_2019_2024_unchanged_check.csv",
+      "sha256": "76d5e040c53732d04eb2c29d20a5e850b8e34f78b066c5fb8d26f6e5ca97ffbe",
+      "size_bytes": 271247
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_occurrence_by_year.csv",
+      "sha256": "cbeb4711dd722321f2b17ab8eccff4f2f444fe6b6d39230e1b84351ef5e1fea1",
+      "size_bytes": 6133
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_reconciliation_mismatches.csv",
+      "sha256": "ae765640703e42bdce0db5534c827a24c67b8fcdbd05268d4130accc17615467",
+      "size_bytes": 494
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_reconciliation_site_year.csv",
+      "sha256": "294b0e5cfb44f4091322f2de25373a3c1d26754cf4bea2dbdee9f3d0bae7ba8d",
+      "size_bytes": 1807229
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/ops_code_summary_2013_2024.csv",
+      "sha256": "344fa67c3bb7e4640924dbc8a7712db378e90a7bafa549518e1e30e1c7f14a49",
+      "size_bytes": 7850
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/backups/pre_reverification_20260804/reconciliation_independent_verification.csv",
+      "sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18",
+      "size_bytes": 2825
+    },
+    {
       "path": "outputs/ops_code_audit_2013_2024/catalogue_source_inventory_2013_2018.csv",
-      "sha256": "d836d4dec92d480918cfa657691e41037315de65b4c3a105ade372203d51da28",
-      "size_bytes": 8364
+      "sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360",
+      "size_bytes": 10340
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/existing_audit_file_inventory.csv",
@@ -414,8 +960,13 @@
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/README.md",
-      "sha256": "dba1b35a6fade4646b83a75c580aca2227dbd3a4369cd9f30908221a9434aeec",
-      "size_bytes": 6532
+      "sha256": "6bcedb45c3a4a36cd6283c35089b279496a01403756d462421fe6de3d3f82818",
+      "size_bytes": 8773
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/manual_review_package/accepted_claml_sources/ops2012syst_claml_20111103.xml",
+      "sha256": "8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5",
+      "size_bytes": 6410675
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/accepted_claml_sources/ops2013syst_claml_20121012.xml",
@@ -458,14 +1009,29 @@
       "size_bytes": 8598705
     },
     {
+      "path": "outputs/ops_code_audit_2013_2024/manual_review_package/catalogue_source_inventory_2013_2018.csv",
+      "sha256": "3ed246432122d95cbc6640cc3408c4078d970d32e9cc0b0741c0b969cdf9f360",
+      "size_bytes": 10340
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_2012_supporting_provenance.csv",
+      "sha256": "6d22cd13389679015e1a084c34aafdd2031c09bf3b1d057a6655015ce2f83699",
+      "size_bytes": 3672
+    },
+    {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2013_2018_diff.csv",
-      "sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f",
-      "size_bytes": 36305
+      "sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb",
+      "size_bytes": 36317
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2013_2024.csv",
-      "sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d",
-      "size_bytes": 151819
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
+      "size_bytes": 148869
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2013_2024.md",
+      "sha256": "e46cbf69d9308601e27069008886774536246245cc1c38602dffa74b4c32e54c",
+      "size_bytes": 20691
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_audit_2019_2024_unchanged_check.csv",
@@ -484,28 +1050,33 @@
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/ops_code_summary_2013_2024.csv",
-      "sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8",
-      "size_bytes": 6496
+      "sha256": "366bfeb8b70553dc6948cc41ffc3ae90294ee9f733e6e3fa0b4d42128c7473b6",
+      "size_bytes": 7826
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/manual_review_package/reconciliation_independent_verification.csv",
-      "sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee",
-      "size_bytes": 2374
+      "sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18",
+      "size_bytes": 2825
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/ops_2012_supporting_provenance.csv",
+      "sha256": "6d22cd13389679015e1a084c34aafdd2031c09bf3b1d057a6655015ce2f83699",
+      "size_bytes": 3672
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2018_diff.csv",
-      "sha256": "3da31ecc67e77239266795832c4a485996d0e8a9a21afed878aeed05377cfd8f",
-      "size_bytes": 36305
+      "sha256": "fe574322b3f35a3ea5b224b91db6fcaa8dfbef4de98920c2a7be2c1da21756bb",
+      "size_bytes": 36317
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.csv",
-      "sha256": "09ea6b796753b99de36bf2061ae74614799a12310bf8491ae3032a5856c0288d",
-      "size_bytes": 151819
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
+      "size_bytes": 148869
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.md",
-      "sha256": "e39cbbd5e56eb31649110c88e7b83e436e6ac8c0e1c4ca2f926d568cf2bd5b2f",
-      "size_bytes": 17006
+      "sha256": "e46cbf69d9308601e27069008886774536246245cc1c38602dffa74b4c32e54c",
+      "size_bytes": 20691
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2019_2024_unchanged_check.csv",
@@ -529,13 +1100,13 @@
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/ops_code_summary_2013_2024.csv",
-      "sha256": "5e8e771ab26f3576e6445a05432cd9a553a1d1ebfaf03412fd9c187a624f61d8",
-      "size_bytes": 6496
+      "sha256": "366bfeb8b70553dc6948cc41ffc3ae90294ee9f733e6e3fa0b4d42128c7473b6",
+      "size_bytes": 7826
     },
     {
       "path": "outputs/ops_code_audit_2013_2024/reconciliation_independent_verification.csv",
-      "sha256": "f3f3768b7c3cb7f2dd8dc08717f6bf236d0e2e3ce96ca6ad07aff761a97db8ee",
-      "size_bytes": 2374
+      "sha256": "83d4ec454d7e03caeebc76b961990c84d65233fa0448c76a3b7688dfaa51dd18",
+      "size_bytes": 2825
     }
   ],
   "manifest_self_hash_note": "The manifest cannot contain its own final SHA-256 without self-reference; the main and manual-package copies are byte-identical after final write."

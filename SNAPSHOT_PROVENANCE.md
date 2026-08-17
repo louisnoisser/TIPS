@@ -55,3 +55,17 @@ non-passing checks require deliberately excluded source catalogues or generated
 site-resolution, geographic release, and publication-output files. These
 external-data dependencies are retained as regression tests rather than being
 silently weakened or supplied with copied organization data.
+
+## Checkpoint update: 2026-08-17
+
+The checkpoint at source HEAD `e162c991af5d699d169240b903a1c35cbb4df5f9`
+adds the current de-novo sensitivity, late-stage geographic validation, and
+193/113-site accessibility scripts. It also retains selected small aggregate
+reports, QA tables, manifests, and manuscript-candidate text needed to document
+those completed analyses.
+
+The update continues to exclude site-level membership and routing tables,
+individual and union geometries, figures, Word files, source XML, official
+catalogue files, ORS configuration and runtime data, OSM/elevation assets,
+population rasters, archives, and other bulky generated outputs. No source
+repository Git metadata or history was copied.

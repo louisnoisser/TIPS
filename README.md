@@ -76,5 +76,8 @@ embedded ClaML XML. Some inventory and manifest fields retain absolute paths
 from the original audit run solely as historical provenance; those paths are
 not portable and do not imply that the referenced source files are included.
 
-The de-novo sensitivity analysis was not started as part of creating this
-snapshot.
+The 2026-08-17 checkpoint adds the completed de-novo sensitivity and
+193/113-site accessibility analysis code together with selected small aggregate
+QA, provenance, and reporting tables. Site-level source data, routing
+geometries, figures, rasters, catalogues, and other large generated artefacts
+remain excluded.

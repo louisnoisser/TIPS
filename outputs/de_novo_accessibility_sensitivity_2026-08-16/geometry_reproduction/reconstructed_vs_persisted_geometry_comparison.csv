@@ -1,0 +1,5 @@
+network,time_minutes,reference_area_m2,reconstructed_area_m2,symmetric_difference_area_m2,symmetric_difference_pct_reference,reconstructed_outside_reference_m2,reference_outside_reconstructed_m2,containment_status,tolerance_m2,tolerance_fraction_of_reference,material_geometric_difference,status
+inclusive_identifiable,30,106304940546.73875,106304940545.46446,1.29032188640161,1.213792961799643e-09,0.007872349041261481,1.2824495373636782,mutual_within_tolerance,1063.0494054673875,1e-08,False,PASS
+inclusive_identifiable,60,301581851780.1569,301581851786.45233,10.539793089497302,3.4948366512387022e-09,8.420685303443783,2.119107786038633,mutual_within_tolerance,3015.818517801569,1e-08,False,PASS
+inclusive_openly_numeric,30,74152314842.69131,74152314841.88667,0.804561249061986,1.0850116422781994e-09,9.449210879102724e-07,0.8045603041408261,mutual_within_tolerance,741.5231484269132,1e-08,False,PASS
+inclusive_openly_numeric,60,261348762052.6588,261348762052.04514,5.295741721206126,2.026312150711123e-09,2.3420006139950824,2.9537411072003534,mutual_within_tolerance,2613.487620526588,1e-08,False,PASS

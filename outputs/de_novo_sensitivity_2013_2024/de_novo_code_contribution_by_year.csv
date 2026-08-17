@@ -1,0 +1,49 @@
+reporting_year,code_set_regime,ops_code,applicable_in_year,availability_status,openly_visible_national_activity,suppressed_entry_count,sites_with_openly_numeric_entry,sites_with_suppressed_entry,sites_with_either_entry_type
+2013,two-code (2013–2015),8-839.87,True,applicable,354,72,22,54,69
+2013,two-code (2013–2015),8-839.88,True,applicable,688,76,45,56,82
+2013,two-code (2013–2015),8-839.89,False,not applicable—absent from annual catalogue,,,,,
+2013,two-code (2013–2015),8-839.8a,False,not applicable—absent from annual catalogue,,,,,
+2014,two-code (2013–2015),8-839.87,True,applicable,364,72,23,55,68
+2014,two-code (2013–2015),8-839.88,True,applicable,927,81,54,65,99
+2014,two-code (2013–2015),8-839.89,False,not applicable—absent from annual catalogue,,,,,
+2014,two-code (2013–2015),8-839.8a,False,not applicable—absent from annual catalogue,,,,,
+2015,two-code (2013–2015),8-839.87,True,applicable,291,74,26,60,76
+2015,two-code (2013–2015),8-839.88,True,applicable,1017,119,52,81,114
+2015,two-code (2013–2015),8-839.89,False,not applicable—absent from annual catalogue,,,,,
+2015,two-code (2013–2015),8-839.8a,False,not applicable—absent from annual catalogue,,,,,
+2016,four-code (2016–2024),8-839.87,True,applicable,201,69,16,60,70
+2016,four-code (2016–2024),8-839.88,True,applicable,1182,88,63,72,111
+2016,four-code (2016–2024),8-839.89,True,applicable,33,23,3,22,24
+2016,four-code (2016–2024),8-839.8a,True,applicable,11,27,2,24,25
+2017,four-code (2016–2024),8-839.87,True,applicable,172,67,18,54,63
+2017,four-code (2016–2024),8-839.88,True,applicable,1213,98,74,71,125
+2017,four-code (2016–2024),8-839.89,True,applicable,18,20,2,19,20
+2017,four-code (2016–2024),8-839.8a,True,applicable,33,30,6,27,32
+2018,four-code (2016–2024),8-839.87,True,applicable,156,61,16,52,64
+2018,four-code (2016–2024),8-839.88,True,applicable,1259,108,72,92,141
+2018,four-code (2016–2024),8-839.89,True,applicable,40,26,3,21,23
+2018,four-code (2016–2024),8-839.8a,True,applicable,20,30,4,27,31
+2019,four-code (2016–2024),8-839.87,True,applicable,134,86,15,68,78
+2019,four-code (2016–2024),8-839.88,True,applicable,1298,122,79,91,146
+2019,four-code (2016–2024),8-839.89,True,applicable,27,20,2,18,20
+2019,four-code (2016–2024),8-839.8a,True,applicable,23,31,4,29,33
+2020,four-code (2016–2024),8-839.87,True,applicable,104,61,12,53,62
+2020,four-code (2016–2024),8-839.88,True,applicable,1472,120,84,91,147
+2020,four-code (2016–2024),8-839.89,True,applicable,24,23,2,22,24
+2020,four-code (2016–2024),8-839.8a,True,applicable,21,39,5,36,39
+2021,four-code (2016–2024),8-839.87,True,applicable,123,85,13,73,84
+2021,four-code (2016–2024),8-839.88,True,applicable,1822,114,96,84,153
+2021,four-code (2016–2024),8-839.89,True,applicable,27,28,3,25,28
+2021,four-code (2016–2024),8-839.8a,True,applicable,60,31,8,28,36
+2022,four-code (2016–2024),8-839.87,True,applicable,175,51,14,48,61
+2022,four-code (2016–2024),8-839.88,True,applicable,1868,134,97,103,157
+2022,four-code (2016–2024),8-839.89,True,applicable,20,27,1,26,26
+2022,four-code (2016–2024),8-839.8a,True,applicable,56,33,10,31,40
+2023,four-code (2016–2024),8-839.87,True,applicable,146,68,13,58,68
+2023,four-code (2016–2024),8-839.88,True,applicable,1997,125,96,99,163
+2023,four-code (2016–2024),8-839.89,True,applicable,26,18,2,18,20
+2023,four-code (2016–2024),8-839.8a,True,applicable,92,48,10,43,48
+2024,four-code (2016–2024),8-839.87,True,applicable,145,53,17,49,61
+2024,four-code (2016–2024),8-839.88,True,applicable,2295,120,104,98,162
+2024,four-code (2016–2024),8-839.89,True,applicable,8,24,2,23,25
+2024,four-code (2016–2024),8-839.8a,True,applicable,100,24,13,23,34

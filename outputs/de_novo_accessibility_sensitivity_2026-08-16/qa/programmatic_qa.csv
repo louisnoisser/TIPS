@@ -1,0 +1,15 @@
+domain,assertion,status
+locked inputs,all required hashes match,PASS
+selected-code counts,2548; 176/106/70; 44/14/4/0,PASS
+membership,176 and 106 resolve exactly by stable site_id,PASS
+set relations,176 subset 193; 106 subset 113; differences 17 and 7,PASS
+geometry bank,193/193 at 30 and 60 minutes; 60 locked plus 133 recovery,PASS
+inclusive coverage reproduction,193/113 counts and manuscript rounding reproduce,PASS
+inclusive geometry reproduction,reconstructed unions match persisted recovery unions within 1e-8 area fraction,PASS
+coverage monotonicity,inclusive >= selected-code and 60min >= 30min on raw counts,PASS
+geometry containment,193 contains 176 and 113 contains 106 within 1e-8 area fraction,PASS
+coordinates,validated master read only; no coordinate changed,PASS
+routing,no ORS request or routing performed,PASS
+scope,no selected-code threshold accessibility calculated,PASS
+protected outputs,new output directory only; no Figure 4 or Word output,PASS
+Git,"script performs no Git command, commit, push, branch or remote modification",PASS

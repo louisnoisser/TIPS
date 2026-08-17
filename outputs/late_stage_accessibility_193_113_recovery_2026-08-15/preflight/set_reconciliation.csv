@@ -1,0 +1,8 @@
+set,count,status
+identifiable_active,193,PASS
+openly_numeric,113,PASS
+suppressed_only,80,PASS
+ge20,60,PASS
+openly_numeric_lt20,53,PASS
+ge50,31,PASS
+ge100,16,PASS

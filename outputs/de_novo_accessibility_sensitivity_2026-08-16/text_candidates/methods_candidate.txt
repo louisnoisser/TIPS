@@ -1,0 +1,1 @@
+We performed a geographic sensitivity analysis restricted to 176 identifiable and 106 openly numeric physical sites reporting activity under specific de novo TIPS creation subcodes in 2024. The analysis used the same validated coordinates, existing site-level isochrones and population framework as the inclusive reference-network analysis.

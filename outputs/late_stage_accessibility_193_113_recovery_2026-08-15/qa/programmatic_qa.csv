@@ -1,0 +1,11 @@
+domain,assertion,status
+inputs,all locked recovery hashes and ORS identity,PASS
+sets,193=113+80; 113=60+53; 31 ge50; 16 ge100,PASS
+routing readiness,193/193 A/B ready; zero invariant failures,PASS
+denominators,one-person integer discrepancy is independent rounding artefact,PASS
+population gate,all locked cells reproduced exactly,PASS
+routing control,16/16 and locked coverage/geometry reproduced,PASS
+new routing,133/133 serially routed and checkpointed,PASS
+coverage,raw monotonicity and 60>=30,PASS
+geometry,nested unions pass,PASS
+figures,"uniform markers, all accessibility layers, 16 labels, B-D pixel-identical",PASS

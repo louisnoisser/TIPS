@@ -26,12 +26,15 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 AUDIT_DIR = ROOT / "outputs/ops_code_audit_2013_2024"
 BACKUP_DIR = AUDIT_DIR / "backups/pre_continuation_20260803"
+GATE_BACKUP_DIR = AUDIT_DIR / "backups/pre_2012_integration_20260803"
+REVERIFICATION_BACKUP_DIR = AUDIT_DIR / "backups/pre_reverification_20260804"
 CATALOGUE_ROOT = ROOT / "ops_bfarm_2013_2024"
 MANUAL_DIR = AUDIT_DIR / "manual_review_package"
 SOURCE_PACKAGE_DIR = MANUAL_DIR / "accepted_claml_sources"
 CANONICAL_DATA = ROOT / "outputs/audit/tips_code_level_audit.csv"
 
 YEARS = tuple(range(2013, 2025))
+SUPPORTING_YEAR = 2012
 HISTORICAL_YEARS = tuple(range(2013, 2019))
 PRESERVED_YEARS = tuple(range(2019, 2025))
 REQUESTED_CODES = (
@@ -214,6 +217,31 @@ def historical_rows() -> tuple[pd.DataFrame, dict[int, dict[str, Any]], list[dic
     extra_branch: list[dict[str, Any]] = []
     previous_by_code: dict[str, dict[str, str]] = {}
 
+    # OPS 2012 is supporting pre-period provenance only. It establishes the
+    # preceding-year state without adding 2012 to the 144-row analytical audit.
+    supporting = parse_and_validate_xml(source_xml(SUPPORTING_YEAR), SUPPORTING_YEAR)
+    parsed[SUPPORTING_YEAR] = supporting
+    supporting_classes = supporting["classes"]
+    for code in REQUESTED_CODES:
+        node = supporting_classes.get(code)
+        rubrics = rubric_values(node) if node is not None else {}
+        title = joined(rubrics.get("preferred", []))
+        inclusion = joined(rubrics.get("inclusion", []))
+        exclusion = joined(rubrics.get("exclusion", []))
+        notes = joined(
+            [
+                f"[{kind}] {value}"
+                for kind, values in rubrics.items()
+                if kind not in {"preferred", "inclusion", "exclusion"}
+                for value in values
+            ]
+        )
+        previous_by_code[code] = {
+            "exists": "yes" if node is not None else "no",
+            "wording": exact_wording(title, inclusion, exclusion, notes),
+            "classification": CLASSIFICATION[code] if node is not None else "not applicable—code absent",
+        }
+
     for year in HISTORICAL_YEARS:
         info = parse_and_validate_xml(source_xml(year), year)
         parsed[year] = info
@@ -242,47 +270,35 @@ def historical_rows() -> tuple[pd.DataFrame, dict[int, dict[str, Any]], list[dic
             )
             current = exact_wording(title, inclusion, exclusion, notes)
             previous = previous_by_code.get(code)
-            if year == 2013:
-                wording_change = "unknown"
-                semantic_change = "unknown"
-                classification_change = "unknown"
-                previous_wording = ""
-                manual = True
-                manual_reason = (
-                    "The accepted local audit begins in 2013; no local accepted 2012 ClaML "
-                    "was available to establish the preceding-year change or exact pre-2013 introduction."
-                )
-                semantic_explanation = manual_reason
+            assert previous is not None
+            previous_wording = previous["wording"]
+            previous_exists = previous["exists"] == "yes"
+            if exists and not previous_exists:
+                wording_change = "yes"
+                semantic_change = "yes"
+                classification_change = "yes"
+                semantic_explanation = "Literal code introduced into the annual 8-839.8 branch."
+            elif not exists and previous_exists:
+                wording_change = "yes"
+                semantic_change = "yes"
+                classification_change = "yes"
+                semantic_explanation = "Literal code removed from the annual 8-839.8 branch."
+            elif not exists and not previous_exists:
+                wording_change = "not_applicable"
+                semantic_change = "not_applicable"
+                classification_change = "no"
+                semantic_explanation = "Code absent in both consecutive annual catalogues."
             else:
-                assert previous is not None
-                previous_wording = previous["wording"]
-                previous_exists = previous["exists"] == "yes"
-                if exists and not previous_exists:
-                    wording_change = "yes"
-                    semantic_change = "yes"
-                    classification_change = "yes"
-                    semantic_explanation = "Literal code introduced into the annual 8-839.8 branch."
-                elif not exists and previous_exists:
-                    wording_change = "yes"
-                    semantic_change = "yes"
-                    classification_change = "yes"
-                    semantic_explanation = "Literal code removed from the annual 8-839.8 branch."
-                elif not exists and not previous_exists:
-                    wording_change = "not_applicable"
-                    semantic_change = "not_applicable"
-                    classification_change = "no"
-                    semantic_explanation = "Code absent in both consecutive annual catalogues."
-                else:
-                    wording_change = "yes" if current != previous_wording else "no"
-                    semantic_change = "no"
-                    classification_change = "no"
-                    semantic_explanation = (
-                        "Exact wording changed without changing the audited clinical classification."
-                        if wording_change == "yes" else
-                        "No wording or audited clinical-classification change."
-                    )
-                manual = False
-                manual_reason = ""
+                wording_change = "yes" if current != previous_wording else "no"
+                semantic_change = "no"
+                classification_change = "no"
+                semantic_explanation = (
+                    "Exact wording changed without changing the audited clinical classification."
+                    if wording_change == "yes" else
+                    "No wording or audited clinical-classification change."
+                )
+            manual = False
+            manual_reason = ""
 
             subclasses = [item.attrib.get("code", "") for item in parent.findall("SubClass")]
             absence = (
@@ -496,15 +512,20 @@ def build_summary(updated: pd.DataFrame, firsts: dict[str, dict[str, Any]]) -> p
                 "semantic_stable": "no" if semantic_changes.any() else "yes",
                 "analyst_classification": final_classification,
                 "recommended_inclusion_in_de_novo_sensitivity": "yes" if code in DE_NOVO_CODES else "no",
-                "manual_review_status": "pending_manual_review",
+                "manual_review_status": (
+                    "historical_catalogue_locally_verified_from_claml; "
+                    "independent_manual_review_pending"
+                ),
                 "manual_review_reason": (
-                    "Primary-source rows and analyst semantic judgments require independent review; "
-                    "for codes present in 2013, exact introduction before the audited interval is not assessed."
+                    "Codex locally verified the historical catalogue timeline directly from the included ClaML primary sources. "
+                    "No completed independent historical or row-level review is asserted from local evidence; manual review remains pending."
                 ),
                 "introduction_interpretation": (
                     "A: absent in 2013-2015 official catalogues and introduced in 2016"
                     if code in {"8-839.89", "8-839.8a"} else
-                    "present in the first audited catalogue year 2013; exact pre-2013 introduction not assessed"
+                    "absent in OPS 2012 and introduced in OPS 2013"
+                    if code in {"8-839.87", "8-839.88"} else
+                    "present in supporting OPS 2012; exact earlier introduction is outside this TIPS de-novo gate"
                 ),
             }
         )
@@ -521,7 +542,31 @@ def independent_reconciliation() -> tuple[pd.DataFrame, pd.DataFrame, dict[str, 
     difference = pd.to_numeric(recon.difference, errors="coerce")
     unresolved = recon.resolved_vs_unresolved.astype(str).str.lower().eq("unresolved")
     duplicate = recon.duplicated(
-        ["reporting_year", "institution_identifier", "physical_site_identifier"], keep=False
+        ["reporting_year", "physical_site_identifier"], keep=False
+    )
+    literal_codes: set[str] = set()
+    for column in ("contributing_code_level_records", "all_precedence_candidate_records"):
+        for value in recon[column]:
+            for component in value.split(" || "):
+                candidate = component.split(":", 1)[0].strip().lower()
+                if candidate.startswith("8-839.8"):
+                    literal_codes.add(candidate)
+    required_literals = {"8-839.8", "8-839.8a", "8-839.8x"}
+    literals_distinct = required_literals.issubset(literal_codes)
+    identifiers_separate = (
+        {"institution_identifier", "physical_site_identifier"}.issubset(recon.columns)
+        and recon.reporting_unit_type.eq("physical_site").all()
+        and recon.institution_identifier.ne(recon.physical_site_identifier).any()
+    )
+    prior_verification = pd.read_csv(
+        AUDIT_DIR / "reconciliation_independent_verification.csv",
+        dtype=str,
+        keep_default_na=False,
+    )
+    previously_referenced_hashes = set(
+        prior_verification.loc[
+            prior_verification.evidence_file.eq(rel(recon_path)), "evidence_sha256"
+        ]
     )
     values = {
         "total_site_year_rows": len(recon),
@@ -538,12 +583,21 @@ def independent_reconciliation() -> tuple[pd.DataFrame, pd.DataFrame, dict[str, 
         "manual_review_rows": int(manual.sum()),
         "missing_reconciliation_status_rows": int(status.str.strip().eq("").sum()),
         "maximum_absolute_numeric_difference": float(difference.abs().max()),
-        "sum_numeric_differences": float(difference.sum()),
+        "sum_absolute_numeric_differences": float(difference.abs().sum()),
+        "site_and_institution_identifiers_remain_separate": bool(identifiers_separate),
+        "institution_year_mapping": "reporting_year + institution_identifier from the documented final row-level mapping",
+        "literal_code_values_found": sorted(literal_codes),
+        "parent_8a_8x_remain_three_distinct_literals": bool(literals_distinct),
         "mismatch_file_exists": mismatch_path.is_file(),
         "mismatch_file_data_rows": len(mismatch),
         "mismatch_file_consistent": len(mismatch) == int(status.str.contains("mismatch", case=False, na=False).sum()),
     }
     evidence_hash = sha256_file(recon_path)
+    if previously_referenced_hashes != {evidence_hash}:
+        raise RuntimeError(
+            "Row-level reconciliation hash differs from the previous verification output: "
+            f"previous={sorted(previously_referenced_hashes)}, current={evidence_hash}"
+        )
     rows = [
         {
             "claim": "reconciled site-years",
@@ -578,7 +632,9 @@ def independent_reconciliation() -> tuple[pd.DataFrame, pd.DataFrame, dict[str, 
         ("manual-review rows", values["manual_review_rows"]),
         ("missing reconciliation status rows", values["missing_reconciliation_status_rows"]),
         ("maximum absolute numeric difference", values["maximum_absolute_numeric_difference"]),
-        ("sum of numeric differences", values["sum_numeric_differences"]),
+        ("sum of absolute numeric differences", values["sum_absolute_numeric_differences"]),
+        ("site and institution identifiers remain separate", values["site_and_institution_identifiers_remain_separate"]),
+        ("8-839.8, 8-839.8a, and 8-839.8x remain distinct literals", values["parent_8a_8x_remain_three_distinct_literals"]),
     )
     rows.extend(
         {
@@ -610,7 +666,7 @@ def independent_reconciliation() -> tuple[pd.DataFrame, pd.DataFrame, dict[str, 
 
 def source_inventory(parsed: dict[int, dict[str, Any]]) -> pd.DataFrame:
     rows: list[dict[str, Any]] = []
-    for year in HISTORICAL_YEARS:
+    for year in (SUPPORTING_YEAR, *HISTORICAL_YEARS):
         directory = CATALOGUE_ROOT / str(year)
         for path in sorted(directory.iterdir()):
             if path.name == ".DS_Store":
@@ -627,6 +683,10 @@ def source_inventory(parsed: dict[int, dict[str, Any]]) -> pd.DataFrame:
             rows.append(
                 {
                     "year": year,
+                    "evidence_role": (
+                        "supporting pre-period provenance for exact introduction timing"
+                        if year == SUPPORTING_YEAR else "analytical-period annual catalogue source"
+                    ),
                     "filename": path.name,
                     "absolute_path": str(path.resolve()),
                     "classification": classification,
@@ -658,6 +718,55 @@ def source_inventory(parsed: dict[int, dict[str, Any]]) -> pd.DataFrame:
                 }
             )
     return pd.DataFrame(rows)
+
+
+def supporting_2012_provenance(info: dict[str, Any]) -> pd.DataFrame:
+    classes = info["classes"]
+    parent = classes["8-839.8"]
+    subclasses = [item.attrib.get("code", "") for item in parent.findall("SubClass")]
+    requested_codes = (
+        "8-839.84", "8-839.86", "8-839.87", "8-839.88",
+        "8-839.89", "8-839.8a", "8-839.8x",
+    )
+    rows: list[dict[str, Any]] = []
+    for code in requested_codes:
+        node = classes.get(code)
+        rubrics = rubric_values(node) if node is not None else {}
+        exists = node is not None
+        rows.append(
+            {
+                "catalogue_year": SUPPORTING_YEAR,
+                "evidence_role": "supporting pre-period provenance; not an analytical audit year",
+                "code": code,
+                "exists": "yes" if exists else "no",
+                "exact_official_title": joined(rubrics.get("preferred", [])),
+                "exact_inclusion_notes": joined(rubrics.get("inclusion", [])),
+                "exact_exclusion_notes": joined(rubrics.get("exclusion", [])),
+                "claml_location": (
+                    f"Class[@code='{code}']" if exists else
+                    f"Class[@code='8-839.8']/SubClass list; Class[@code='{code}'] absent"
+                ),
+                "absence_evidence": (
+                    f"No literal Class[@code='{code}']; exact 8-839.8 SubClass list: {', '.join(subclasses)}"
+                    if not exists else ""
+                ),
+                "source_path": rel(info["path"]),
+                "source_sha256": info["sha256"],
+                "claml_version": info["root"].attrib.get("version", ""),
+                "ops_catalogue_version": info["title"].attrib.get("version", ""),
+                "catalogue_date": info["title"].attrib.get("date", ""),
+                "authority": info["identifier"].attrib.get("authority", ""),
+                "authority_uid": info["identifier"].attrib.get("uid", ""),
+                "language": info["metas"].get("lang", ""),
+                "preliminary": info["metas"].get("preliminary", ""),
+                "copyright": info["metas"].get("copyright", ""),
+                "independently_established_expected_presence": "not asserted",
+                "local_result_matches_independent_review": "not assessed",
+                "local_primary_source_verification": "complete",
+            }
+        )
+    result = pd.DataFrame(rows)
+    return result
 
 
 def expected_file_inventory(backup_hashes: dict[str, str]) -> pd.DataFrame:
@@ -718,6 +827,7 @@ def updated_report(
     audit: pd.DataFrame,
     summary: pd.DataFrame,
     source_files: pd.DataFrame,
+    supporting_2012: pd.DataFrame,
     unchanged: pd.DataFrame,
     reconciliation_summary: pd.DataFrame,
     reconciliation_values: dict[str, Any],
@@ -728,7 +838,7 @@ def updated_report(
     ][["catalogue_year", "code", "exists", "official_title", "source_xml_member",
        "source_xml_sha256", "claml_xml_location", "manual_review_flag"]]
     source_condensed = source_files[source_files.classification.eq("extracted official ClaML XML")][
-        ["year", "filename", "sha256", "ops_catalogue_version", "publication_or_version_date",
+        ["year", "evidence_role", "filename", "sha256", "ops_catalogue_version", "publication_or_version_date",
          "stated_authority", "language", "official_provenance_established"]
     ]
     wording_changes = audit[
@@ -760,7 +870,7 @@ complete original set is preserved under
 Direct CSV checks confirmed an exact 144-row year-code Cartesian matrix and
 separate literal keys for `8-839.8`, `8-839.8a`, and `8-839.8x`.
 
-## Accepted 2013–2018 official sources
+## Accepted 2012 supporting source and 2013–2018 official sources
 
 {markdown_table(source_condensed)}
 
@@ -770,27 +880,38 @@ annual copyright metadata, contains the complete OPS class system and literal
 8-839.8 branch, and structurally matches the verified 2024 official ClaML. No
 project-generator marker was found. The absence of the original ZIP therefore
 does not make provenance ambiguous under the continuation criteria. Every file
-in the six annual directories is classified in
+in the seven annual directories is classified in
 [`catalogue_source_inventory_2013_2018.csv`](catalogue_source_inventory_2013_2018.csv).
 
-No catalogue year from 2013 through 2024 remains unresolved. The 2013 source
-does not by itself establish whether codes already present in 2013 were first
-introduced earlier than the audited interval.
+OPS 2012 is supporting pre-period provenance only and is not an added analytical
+audit year. Its exact literal-code findings are recorded in
+[`ops_2012_supporting_provenance.csv`](ops_2012_supporting_provenance.csv):
+
+{markdown_table(supporting_2012, ['code', 'exists', 'exact_official_title',
+    'claml_location', 'source_sha256', 'local_primary_source_verification'])}
+
+Codex locally verified the historical catalogue question directly from the
+included ClaML primary sources. No completed independent review is asserted
+from repository evidence. The local parse shows that `.87`, `.88`, `.89`, and `.8a` are absent in
+OPS 2012; `.87` and `.88` are present in OPS 2013 and were therefore introduced
+in 2013; `.89` and `.8a` were introduced in 2016. No specific de-novo TIPS
+subcode exists before 2013. No catalogue year from 2013 through 2024 remains
+unresolved.
 
 ## Historical availability of the de novo codes
 
 {markdown_table(history)}
 
-- `.87` and `.88` exist continuously from the first audited catalogue year,
-  2013, through 2024. Their titles describe one uncovered and one covered stent.
+- `.87` and `.88` are absent in OPS 2012 and exist continuously from their
+  confirmed introduction in 2013 through 2024. Their titles describe one
+  uncovered and one covered stent.
 - `.89` and `.8a` are absent from the complete 2013, 2014, and 2015 branches.
   Both are introduced in 2016 with titles describing two or more uncovered and
   covered stents, respectively.
 - No additional de novo code exists in any complete annual 8-839.8 branch.
-- `.84` means reduction of an existing portosystemic shunt throughout
-  2013–2023 and changes in 2024 to stent insertion into an existing shunt.
-- `.86` means revision with stent insertion throughout 2013–2023 and changes in
-  2024 to extension of an existing shunt by stent insertion.
+- `.84` and `.86` are longitudinally classified neutrally as secondary
+  interventions on an existing shunt. Their exact annual wording is retained
+  row by row and must not be treated as constant across the study period.
 
 Complete historical changes are in
 [`ops_code_audit_2013_2018_diff.csv`](ops_code_audit_2013_2018_diff.csv) and the
@@ -821,6 +942,10 @@ One fixed de novo code set is **not** historically valid for 2013–2024:
 - 2013–2015: `8-839.87`, `8-839.88`
 - 2016–2024: `8-839.87`, `8-839.88`, `8-839.89`, `8-839.8a`
 
+Comparability across 2015 and 2016 may be affected by the introduction of
+additional specific de-novo subcodes in 2016. Catalogue availability alone
+does not establish the direction or magnitude of any effect.
+
 This planned sensitivity measures **“activity coded with specific de novo TIPS
 creation subcodes”** and does not necessarily identify all de novo placements,
 unique patients, or admissions. `8-842.*` remains excluded.
@@ -846,20 +971,29 @@ Changed rows: **{int((~unchanged.unchanged).sum())}**. See
 - Manual-review rows: **{reconciliation_values['manual_review_rows']}**
 - Missing status: **{reconciliation_values['missing_reconciliation_status_rows']}**
 - Maximum absolute difference: **{reconciliation_values['maximum_absolute_numeric_difference']}**
-- Sum of differences: **{reconciliation_values['sum_numeric_differences']}**
+- Sum of absolute differences: **{reconciliation_values['sum_absolute_numeric_differences']}**
+- Site and institution identifiers remain separate: **{reconciliation_values['site_and_institution_identifiers_remain_separate']}**
+- Parent, `.8a`, and `.8x` remain distinct literals: **{reconciliation_values['parent_8a_8x_remain_three_distinct_literals']}**
 - Mismatch CSV data rows: **{reconciliation_values['mismatch_file_data_rows']}**
 
 Thus the previous claims of 2,057 reconciled site-years, zero mismatches, and
-zero unresolved mismatches are independently **verified** directly from the
-reconciliation CSV. Neither reconciliation CSV nor the occurrence CSV was
-altered.
+zero unresolved mismatches are internally reproduced directly from the
+row-level CSV. Its matching SHA-256 proves that the file is unchanged; it does
+not independently prove the reconciliation logic or the conceptual site-versus-
+institution distinction. This Codex recomputation is an internal consistency
+check. Final closure requires an independent external recomputation. Neither
+reconciliation CSV nor the occurrence CSV was altered.
 
 ## Manual review
 
 The complete package, including actual byte-identical ClaML source copies, is
 at [`manual_review_package`](manual_review_package/). Manual review remains
-required for the source acceptance, semantic judgments, row changes, and
-reconciliation evidence before any de novo sensitivity analysis begins.
+required for the row-level reconciliation evidence before any de novo
+sensitivity analysis begins.
+
+**Status:** Local audit verification complete; independent manual review of the
+updated audit CSVs, reconciliation recomputation, and ClaML primary sources
+remains pending.
 """
 
 
@@ -899,6 +1033,7 @@ def main() -> None:
     summary = build_summary(updated, firsts)
     recon, recon_summary, recon_values = independent_reconciliation()
     sources = source_inventory(parsed)
+    supporting_2012 = supporting_2012_provenance(parsed[SUPPORTING_YEAR])
     inventory = expected_file_inventory(backup_hashes)
 
     # Write only mutable continuation outputs; frozen occurrence/reconciliation files remain untouched.
@@ -910,6 +1045,7 @@ def main() -> None:
         "unchanged": AUDIT_DIR / "ops_code_audit_2019_2024_unchanged_check.csv",
         "reconciliation_summary": AUDIT_DIR / "reconciliation_independent_verification.csv",
         "source_inventory": AUDIT_DIR / "catalogue_source_inventory_2013_2018.csv",
+        "supporting_2012": AUDIT_DIR / "ops_2012_supporting_provenance.csv",
         "file_inventory": AUDIT_DIR / "existing_audit_file_inventory.csv",
         "manifest": AUDIT_DIR / "audit_run_manifest.json",
     }
@@ -919,9 +1055,13 @@ def main() -> None:
     unchanged.to_csv(paths["unchanged"], index=False)
     recon_summary.to_csv(paths["reconciliation_summary"], index=False)
     sources.to_csv(paths["source_inventory"], index=False)
+    supporting_2012.to_csv(paths["supporting_2012"], index=False)
     inventory.to_csv(paths["file_inventory"], index=False)
     paths["report"].write_text(
-        updated_report(updated, summary, sources, unchanged, recon_summary, recon_values),
+        updated_report(
+            updated, summary, sources, supporting_2012,
+            unchanged, recon_summary, recon_values,
+        ),
         encoding="utf-8",
     )
 
@@ -936,6 +1076,9 @@ def main() -> None:
         "ops_code_reconciliation_site_year.csv",
         "ops_code_reconciliation_mismatches.csv",
         "reconciliation_independent_verification.csv",
+        "ops_code_audit_2013_2024.md",
+        "catalogue_source_inventory_2013_2018.csv",
+        "ops_2012_supporting_provenance.csv",
     ):
         copied.append(
             copy_verified(
@@ -944,7 +1087,7 @@ def main() -> None:
                 replace_generated_copy=True,
             )
         )
-    for year in HISTORICAL_YEARS:
+    for year in (SUPPORTING_YEAR, *HISTORICAL_YEARS):
         source = parsed[year]["path"]
         copied.append(copy_verified(source, SOURCE_PACKAGE_DIR / source.name))
 
@@ -978,6 +1121,7 @@ def main() -> None:
         raise RuntimeError("A frozen occurrence/reconciliation file changed during continuation")
     input_paths = [
         CANONICAL_DATA,
+        parsed[SUPPORTING_YEAR]["path"],
         *(parsed[year]["path"] for year in HISTORICAL_YEARS),
         CATALOGUE_ROOT / "2024/ops2024syst-claml.zip",
         *(BACKUP_DIR / filename for filename in EXPECTED_PREVIOUS_FILES),
@@ -985,6 +1129,7 @@ def main() -> None:
     manifest = {
         "original_audit_timestamp": original_manifest.get("audit_timestamp_utc", ""),
         "continuation_audit_timestamp_utc": continuation_timestamp,
+        "ops_2012_review_gate_timestamp_utc": continuation_timestamp,
         "git_repository": str(ROOT),
         "git_branch": git("branch", "--show-current"),
         "git_commit_hash": git("rev-parse", "HEAD"),
@@ -1007,13 +1152,23 @@ def main() -> None:
                 "path": rel(parsed[year]["path"]),
                 "sha256": parsed[year]["sha256"],
                 "source_type": "extracted official historical DIMDI ClaML XML",
+                "evidence_role": (
+                    "supporting pre-period provenance; not an analytical audit year"
+                    if year == SUPPORTING_YEAR else "analytical-period annual catalogue source"
+                ),
                 "provenance_evidence": parsed[year]["evidence"],
             }
-            for year in HISTORICAL_YEARS
+            for year in (SUPPORTING_YEAR, *HISTORICAL_YEARS)
         ],
         "backup_paths": [
             {"path": rel(BACKUP_DIR / name), "sha256": backup_hashes[name]}
             for name in (*EXPECTED_PREVIOUS_FILES, "run_audit.py")
+        ] + [
+            {"path": rel(path), "sha256": sha256_file(path)}
+            for path in sorted(GATE_BACKUP_DIR.rglob("*")) if path.is_file()
+        ] + [
+            {"path": rel(path), "sha256": sha256_file(path)}
+            for path in sorted(REVERIFICATION_BACKUP_DIR.rglob("*")) if path.is_file()
         ],
         "copied_file_provenance": copied,
         "reconstructed_file_status": {
@@ -1034,6 +1189,24 @@ def main() -> None:
             "2013-2015": ["8-839.87", "8-839.88"],
             "2016-2024": ["8-839.87", "8-839.88", "8-839.89", "8-839.8a"],
         },
+        "confirmed_introduction_years": {
+            "8-839.87": 2013,
+            "8-839.88": 2013,
+            "8-839.89": 2016,
+            "8-839.8a": 2016,
+        },
+        "ops_2012_supporting_provenance": {
+            "analytical_audit_year": False,
+            "path": rel(parsed[SUPPORTING_YEAR]["path"]),
+            "sha256": parsed[SUPPORTING_YEAR]["sha256"],
+            "claml_version": parsed[SUPPORTING_YEAR]["root"].attrib.get("version", ""),
+            "ops_version": parsed[SUPPORTING_YEAR]["title"].attrib.get("version", ""),
+            "catalogue_date": parsed[SUPPORTING_YEAR]["title"].attrib.get("date", ""),
+            "authority": parsed[SUPPORTING_YEAR]["identifier"].attrib.get("authority", ""),
+            "authority_uid": parsed[SUPPORTING_YEAR]["identifier"].attrib.get("uid", ""),
+            "local_primary_source_verification_complete": True,
+            "independent_review_result_asserted": False,
+        },
         "reconciliation_independent_recomputation": recon_values,
         "frozen_file_hashes_before_and_after": {
             name: {
@@ -1044,35 +1217,42 @@ def main() -> None:
         },
         "production_file_modified": False,
         "de_novo_sensitivity_analysis_started": False,
+        "historical_catalogue_question_locally_verified_from_claml": True,
+        "historical_catalogue_question_independently_reviewed": False,
+        "reconciliation_codex_internal_consistency_check_complete": True,
+        "reconciliation_independent_external_recomputation_complete": False,
+        "final_status": "Local audit verification complete; independent manual review of the updated audit CSVs, reconciliation recomputation, and ClaML primary sources remains pending.",
         "warnings": [
-            "Exact introduction before 2013 for codes already present in the first audited year is not assessed without an accepted 2012 ClaML.",
             "The one-off creator of the canonical code-level CSV remains absent from the repository.",
-            "Independent manual review of copied primary sources and analyst semantic judgments remains required.",
+            "A matching row-level CSV hash proves file identity, not the correctness of the reconciliation logic or level distinction.",
+            "The Codex recomputation is an internal consistency check; no completed external row-level review is asserted from local evidence.",
         ],
         "unresolved_issues": [
-            "Exact pre-2013 introduction year of 8-839.87 and 8-839.88 is outside the accepted 2013-2024 source interval.",
             "Canonical code-level CSV creator script is not retained.",
+            "Independent manual review of the updated audit CSVs, reconciliation recomputation, and ClaML primary sources remains pending.",
         ],
     }
 
     # Package README is created before the manifest and records copy hashes.
     availability = updated[
         updated.catalogue_year.astype(int).isin(HISTORICAL_YEARS)
-        & updated.code.isin(["8-839.89", "8-839.8a"])
+        & updated.code.isin(["8-839.87", "8-839.88", "8-839.89", "8-839.8a"])
     ].pivot(index="catalogue_year", columns="code", values="exists").reset_index()
     source_copy_table = pd.DataFrame(copied)
     readme = f"""# Manual review package: OPS 8-839.8*, 2013–2024
 
 ## Review question
 
-Verify the official annual availability and exact definitions of the TIPS
-8-839.8 branch, particularly whether `.89` and `.8a` existed before their first
-G-BA appearance in 2016, and independently confirm the reconciliation.
+Prepare independent review of the TIPS 8-839.8 historical catalogue timeline
+and the row-level reconciliation.
 
-2013 is critical because it is the first audited year and contains `.87/.88`
-but not `.89/.8a`. 2016 is critical because both `.89` and `.8a` first appear
-in the official branch and in the G-BA data. 2024 is included as the verified
-endpoint and contains material wording changes.
+Codex locally verified the historical catalogue timeline directly against the
+included ClaML primary sources. No completed independent historical review is
+asserted from repository evidence. The local finding is that `.87/.88` are
+absent in OPS 2012 and present in OPS 2013, while
+`.89/.8a` are absent through OPS 2015 and introduced in OPS 2016. The actual
+2012 source and its provenance table are included in this package. OPS 2012 is
+supporting pre-period evidence, not an added analytical audit year.
 
 ## Historical availability
 
@@ -1088,16 +1268,25 @@ Official catalogue first year in the audited interval versus G-BA first year:
 Interpretation A applies to `.89` and `.8a`. A year-specific de novo set is
 required: `.87/.88` for 2013–2015 and `.87/.88/.89/.8a` for 2016–2024.
 
-The reconciliation was independently confirmed from the frozen CSV:
+Comparability across 2015 and 2016 may be affected by the introduction of
+additional specific de-novo subcodes in 2016. Catalogue availability alone
+does not establish the direction or magnitude of any effect. `.84` and `.86`
+are described longitudinally as secondary interventions on an existing shunt;
+their exact annual wording is retained in the audit CSV.
+
+Codex internally recomputed the reconciliation directly from the included raw
+`ops_code_reconciliation_site_year.csv`:
 {recon_values['total_site_year_rows']} rows,
 {recon_values['fully_reconciled_rows']} fully reconciled,
 {recon_values['mismatching_rows']} mismatches,
 {recon_values['unresolved_rows']} unresolved, and
 {recon_values['manual_review_rows']} manual-review rows.
 
-No annual catalogue from 2013–2024 remains unresolved. Exact pre-2013
-introduction of `.87/.88` was not assessed because no accepted 2012 ClaML is
-part of this package.
+The raw row-level CSV still requires independent manual review outside Codex.
+A matching SHA-256 proves that it is unchanged; it does not independently
+prove the reconciliation logic or the site-versus-institution distinction. The
+audit is not finally closed until an independent reviewer confirms the reported
+values and the accompanying primary-source evidence.
 
 ## Copied-file integrity
 
@@ -1106,15 +1295,20 @@ part of this package.
 All accepted source files are actual ClaML XML/archive bytes, not screenshots,
 links, or derived title tables. Each source/copy SHA-256 pair matches.
 
-The de novo sensitivity analysis has **not** been started. Manual review is
-required before it begins.
+The de novo sensitivity analysis has **not** been started and must not begin
+before independent manual review is complete.
+
+**Status:** Local audit verification complete; independent manual review of the
+updated audit CSVs, reconciliation recomputation, and ClaML primary sources
+remains pending.
 """
     (MANUAL_DIR / "README.md").write_text(readme, encoding="utf-8")
 
     # Hash every output except the self-referential manifest, then write and copy it.
     output_candidates = [
         path for path in AUDIT_DIR.rglob("*")
-        if path.is_file() and path.name != "audit_run_manifest.json"
+        if path.is_file()
+        and path.name not in {"audit_run_manifest.json", "package_manifest.json"}
         and path != MANUAL_DIR / "audit_run_manifest.json"
     ]
     manifest["output_files"] = [
@@ -1132,6 +1326,35 @@ required before it begins.
     shutil.copy2(paths["manifest"], manifest_copy)
     if sha256_file(paths["manifest"]) != sha256_file(manifest_copy):
         raise RuntimeError("Manual-package manifest copy hash mismatch")
+
+    package_manifest_path = MANUAL_DIR / "package_manifest.json"
+    package_files = [
+        path for path in MANUAL_DIR.rglob("*")
+        if path.is_file() and path != package_manifest_path
+    ]
+    package_manifest = {
+        "created_utc": continuation_timestamp,
+        "purpose": "independent manual review preparation for catalogue and reconciliation evidence",
+        "historical_catalogue_question_locally_verified_from_claml": True,
+        "historical_catalogue_question_independently_reviewed": False,
+        "codex_internal_reconciliation_recomputation_complete": True,
+        "independent_external_reconciliation_recomputation_complete": False,
+        "de_novo_sensitivity_analysis_started": False,
+        "status": "Local audit verification complete; independent manual review of the updated audit CSVs, reconciliation recomputation, and ClaML primary sources remains pending.",
+        "files": [
+            {
+                "path": path.relative_to(MANUAL_DIR).as_posix(),
+                "sha256": sha256_file(path),
+                "size_bytes": path.stat().st_size,
+            }
+            for path in sorted(package_files)
+        ],
+        "self_hash_note": "This manifest excludes its own SHA-256 to avoid self-reference.",
+    }
+    package_manifest_path.write_text(
+        json.dumps(package_manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     # Final invariants.
     if len(updated) != 144 or len(diff) != 72 or len(unchanged) != 72:
@@ -1163,6 +1386,7 @@ required before it begins.
             f"8-839.89={row89.exists}; 8-839.8a={row8a.exists}"
         )
     print("Catalogue/G-BA first years: .87=2013/2013, .88=2013/2013, .89=2016/2016, .8a=2016/2016.")
+    print("OPS 2012 supporting source confirms .87/.88/.89/.8a absent; .87/.88 introduced in 2013.")
     print(".89 and .8a interpretation: A.")
     print("Fixed 2013-2024 de novo set: no.")
     print("Year-specific sets: 2013-2015=.87,.88; 2016-2024=.87,.88,.89,.8a.")
@@ -1172,9 +1396,8 @@ required before it begins.
     print(f"Manual-review package: {MANUAL_DIR}")
     print("Production/publication files modified: no. De novo sensitivity analysis started: no.")
     print(
-        "Do not start the de novo sensitivity analysis until the updated audit CSVs, "
-        "independently recomputed reconciliation results, and the actual ClaML primary-source "
-        "files for the critical historical years have been manually reviewed."
+        "Local audit verification complete; independent manual review of the updated audit CSVs, "
+        "reconciliation recomputation, and ClaML primary sources remains pending."
     )
 
 

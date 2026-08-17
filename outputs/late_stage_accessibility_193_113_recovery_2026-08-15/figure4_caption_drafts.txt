@@ -1,0 +1,7 @@
+Figure 4 candidate C193 caption
+
+Potential geographic accessibility across progressively selective 2024 reporting-defined networks. Panel A includes 193 identifiable active physical sites reporting TIPS-related procedural activity in the inclusive OPS family: 113 openly numeric sites and 80 suppressed-only sites. Suppressed-only denotes reporting status and does not establish a site-level total of 1–3. Panels B–D show cumulative visible-activity thresholds of ≥20, ≥50 and ≥100 procedure occurrences. Dark and light blue indicate potential 30- and 60-minute driving accessibility; equal-sized markers indicate site presence. All 16 ≥100 sites are labelled in Panel D. The analysis does not establish de novo TIPS capability or observed patient utilisation.
+
+Figure 4 candidate C113 caption
+
+Potential geographic accessibility across progressively selective 2024 reporting-defined networks. Panel A includes 113 openly numeric physical sites; Panels B–D show cumulative visible-activity thresholds of ≥20, ≥50 and ≥100 procedure occurrences. Dark and light blue indicate potential 30- and 60-minute driving accessibility; equal-sized markers indicate site presence. All 16 ≥100 sites are labelled in Panel D. Accessibility represents potential geographic accessibility, not observed utilisation.

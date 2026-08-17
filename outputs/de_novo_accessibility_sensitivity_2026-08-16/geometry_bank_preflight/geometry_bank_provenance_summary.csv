@@ -1,0 +1,12 @@
+metric,observed,expected,details,status
+expected_unique_sites,193,193,validated corrective-QA master,PASS
+sites_with_30min_geometry,193,193,,PASS
+sites_with_60min_geometry,193,193,,PASS
+locked_ge20_provenance_sites,60,60,outputs/final_submission_assets_2026-07-24/geography/accessibility_site_isochrones.geojson,PASS
+recovery_provenance_sites,133,133,outputs/late_stage_accessibility_193_113_recovery_2026-08-15/routing/checkpoints/routing_checkpoint.csv,PASS
+duplicate_geometry_mappings,0,0,[],PASS
+extra_30min_site_ids,0,0,,PASS
+extra_60min_site_ids,0,0,,PASS
+unmatched_recovery_geometry_files,0,0,,PASS
+recovery_checkpoint_completed,133,133,machine-readable checkpoint,PASS
+individual_geometry_records,386,386,193 sites × two travel times,PASS

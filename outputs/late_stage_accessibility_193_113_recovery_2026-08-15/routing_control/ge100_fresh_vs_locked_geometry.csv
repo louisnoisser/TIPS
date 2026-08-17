@@ -1,0 +1,3 @@
+time_minutes,locked_valid,fresh_valid,topology_repair,locked_area_m2,fresh_area_m2,symmetric_difference_area_m2,symmetric_difference_pct_locked,fresh_outside_locked_m2,locked_outside_fresh_m2,containment_relationship,tolerance_m2,material_geographic_difference,status
+30,True,True,none,13899353274.561441,13899353274.561441,0.0,0.0,0.0,0.0,mutual,1.3899353274561441,False,PASS
+60,True,True,none,103320368630.32951,103320368630.32951,4.151131805259613e-07,4.0177284114345053e-16,1.780708715657612e-07,2.3704230896020011e-07,near-equal within tolerance,10.332036863032952,False,PASS

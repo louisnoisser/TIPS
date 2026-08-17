@@ -1,0 +1,29 @@
+check,settlement_class,time_minutes,values,status,network
+network nesting,national,30,54607076 >= 46315905 >= 37484973 >= 25708947 >= 16035551,PASS,
+network nesting,national,60,79233461 >= 74994578 >= 68977523 >= 60465819 >= 48597532,PASS,
+network nesting,urban,30,46703475 >= 40979520 >= 34149823 >= 24006466 >= 15204838,PASS,
+network nesting,urban,60,58927969 >= 56999047 >= 53945428 >= 48700252 >= 41008054,PASS,
+network nesting,rural,30,7903591 >= 5336379 >= 3335149 >= 1702480 >= 830713,PASS,
+network nesting,rural,60,20305458 >= 17995500 >= 15032074 >= 11765549 >= 7589467,PASS,
+network nesting,other,30,10 >= 6 >= 1 >= 1 >= 0,PASS,
+network nesting,other,60,35 >= 31 >= 21 >= 18 >= 11,PASS,
+60min >= 30min,national,30_to_60,79233461 >= 54607076,PASS,full_identifiable_reference
+60min >= 30min,urban,30_to_60,58927969 >= 46703475,PASS,full_identifiable_reference
+60min >= 30min,rural,30_to_60,20305458 >= 7903591,PASS,full_identifiable_reference
+60min >= 30min,other,30_to_60,35 >= 10,PASS,full_identifiable_reference
+60min >= 30min,national,30_to_60,74994578 >= 46315905,PASS,openly_numeric_reference
+60min >= 30min,urban,30_to_60,56999047 >= 40979520,PASS,openly_numeric_reference
+60min >= 30min,rural,30_to_60,17995500 >= 5336379,PASS,openly_numeric_reference
+60min >= 30min,other,30_to_60,31 >= 6,PASS,openly_numeric_reference
+60min >= 30min,national,30_to_60,68977523 >= 37484973,PASS,ge20
+60min >= 30min,urban,30_to_60,53945428 >= 34149823,PASS,ge20
+60min >= 30min,rural,30_to_60,15032074 >= 3335149,PASS,ge20
+60min >= 30min,other,30_to_60,21 >= 1,PASS,ge20
+60min >= 30min,national,30_to_60,60465819 >= 25708947,PASS,ge50
+60min >= 30min,urban,30_to_60,48700252 >= 24006466,PASS,ge50
+60min >= 30min,rural,30_to_60,11765549 >= 1702480,PASS,ge50
+60min >= 30min,other,30_to_60,18 >= 1,PASS,ge50
+60min >= 30min,national,30_to_60,48597532 >= 16035551,PASS,ge100
+60min >= 30min,urban,30_to_60,41008054 >= 15204838,PASS,ge100
+60min >= 30min,rural,30_to_60,7589467 >= 830713,PASS,ge100
+60min >= 30min,other,30_to_60,11 >= 0,PASS,ge100
