@@ -1,0 +1,5 @@
+check,observed,expected,status
+193 routing-ready,193,193,PASS
+113 routing-ready,113,113,PASS
+C/D precision,0,0,PASS
+invariant failures,0,0,PASS

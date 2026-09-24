@@ -1,0 +1,580 @@
+facility_id,ik,hospital_name,activity_type,suppressed_entries,visible_count,lower_count,midpoint_count,upper_count,threshold,included_visible-only,included_lower-bound,included_midpoint,included_upper-bound,changes_vs_visible
+260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,visible-plus-suppressed,5,19,24,29,34,20,False,True,True,True,True
+260511781-772188000,260511781,Rheinland Klinikum  Lukaskrankenhaus Neuss,visible-plus-suppressed,7,4,11,18,25,20,False,False,False,True,True
+260530396-772936000,260530396,Cellitinnen-Krankenhaus Heilig Geist,suppression-only,9,0,9,18,27,20,False,False,False,True,True
+260551381-773391000,260551381,Klinikum Ibbenbüren,visible-plus-suppressed,4,16,20,24,28,20,False,True,True,True,True
+260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,visible-plus-suppressed,6,18,24,30,36,20,False,True,True,True,True
+260590071-772744000,260590071,Katholisches Klinikum Bochum,visible-plus-suppressed,7,4,11,18,25,20,False,False,False,True,True
+260590505-772000000,260590505,Ev. Krankenhaus Herne gGmbH,visible-plus-suppressed,3,11,14,17,20,20,False,False,False,True,True
+260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,visible-plus-suppressed,5,19,24,29,34,20,False,True,True,True,True
+260611236-771648000,260611236,Klinikum Hanau GmbH,visible-plus-suppressed,2,18,20,22,24,20,False,True,True,True,True
+260810475-771511000,260810475,Klinikum Esslingen GmbH,visible-plus-suppressed,4,8,12,16,20,20,False,False,False,True,True
+260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,visible-plus-suppressed,4,19,23,27,31,20,False,True,True,True,True
+260930050-771597000,260930050,Krankenhaus Barmherzige Brüder Regensburg,visible-plus-suppressed,5,12,17,22,27,20,False,False,True,True,True
+260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,visible-plus-suppressed,4,16,20,24,28,20,False,True,True,True,True
+260940198-771124000,260940198,Sana Klinikum Hof,visible-plus-suppressed,4,13,17,21,25,20,False,False,True,True,True
+260960079-773642000,260960079,Universitätsklinikum Würzburg,visible-plus-suppressed,2,18,20,22,24,20,False,True,True,True,True
+261000013-771100000,261000013,Klinikum Saarbrücken,visible-plus-suppressed,4,16,20,24,28,20,False,True,True,True,True
+261101300-773608000,261101300,Helios Klinikum Berlin-Buch,visible-plus-suppressed,4,15,19,23,27,20,False,False,True,True,True
+261101878-773183000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,2,16,18,20,22,20,False,False,True,True,True
+261200721-773088000,261200721,Medizinische Universität Lausitz - Carl Thiem,visible-plus-suppressed,3,11,14,17,20,20,False,False,False,True,True
+261600634-771973000,261600634,Zentralklinik Bad Berka GmbH,visible-plus-suppressed,2,14,16,18,20,20,False,False,False,True,True
+261601145-773338000,261601145,KMG Klinikum Sömmerda,visible-plus-suppressed,4,12,16,20,24,20,False,False,True,True,True
+260100034-771320000,260100034,Malteser Krankenhaus St. Franziskus-Hospital,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260100476-772465000,260100476,Klinikum Nordfriesland gGmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260101193-772660000,260101193,Krankenhaus Reinbek St. Adolf-Stift GmbH,visible-plus-suppressed,1,10,11,12,13,20,False,False,False,False,False
+260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,visible-plus-suppressed,1,35,36,37,38,20,True,True,True,True,False
+260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,visible-only,0,88,88,88,88,20,True,True,True,True,False
+260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,visible-plus-suppressed,3,118,121,124,127,20,True,True,True,True,False
+260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,visible-plus-suppressed,6,201,207,213,219,20,True,True,True,True,False
+260200035-772584000,260200035,Asklepios Klinik Barmbek,visible-plus-suppressed,1,43,44,45,46,20,True,True,True,True,False
+260200046-772530000,260200046,Schön Klinik Hamburg Eilbek,visible-plus-suppressed,1,10,11,12,13,20,False,False,False,False,False
+260200079-772901000,260200079,Asklepios Klinikum Harburg,visible-plus-suppressed,3,44,47,50,53,20,True,True,True,True,False
+260200284-773032000,260200284,Israelitisches Krankenhaus in Hamburg,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260200400-772533000,260200400,Kath. Marienkrankenhaus gGmbH,visible-plus-suppressed,1,14,15,16,17,20,False,False,False,False,False
+260310209-772363000,260310209,Städtisches Klinikum Braunschweig gGmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260310378-772918000,260310378,Universitätsmedizin Göttingen,visible-plus-suppressed,3,81,84,87,90,20,True,True,True,True,False
+260310447-772684000,260310447,Evangelisches Krankenhaus Göttingen-Weende gGmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260310766-771722000,260310766,Klinikum Wolfsburg,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260320597-771519000,260320597,Medizinische Hochschule Hannover,visible-plus-suppressed,6,92,98,104,110,20,True,True,True,True,False
+260320622-772333000,260320622,St. Bernward Krankenhaus GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260321781-772721000,260321781,KRH Klinikum Siloah,visible-plus-suppressed,1,6,7,8,9,20,False,False,False,False,False
+260330167-772803000,260330167,Helios Klinik Cuxhaven GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260330361-772578000,260330361,Städtisches Klinikum Lüneburg gemeinnützige GmbH,visible-only,0,13,13,13,13,20,False,False,False,False,False
+260340740-771936000,260340740,Klinikum Oldenburg AöR,visible-plus-suppressed,1,16,17,18,19,20,False,False,False,False,False
+260340886-772441000,260340886,Christliches Krankenhaus Quakenbrück GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260341444-772466000,260341444,Ammerland-Klinik Westerstede,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260500481-772088000,260500481,AGAPLESION Klinikum Hagen gem. GmbH,visible-only,0,4,4,4,4,20,False,False,False,False,False
+260510018-773410000,260510018,Universitätsklinikum Düsseldorf,visible-plus-suppressed,2,269,271,273,275,20,True,True,True,True,False
+260510132-773140000,260510132,Evangelisches Krankenhaus Düsseldorf,visible-only,0,9,9,9,9,20,False,False,False,False,False
+260510256-771548000,260510256,Helios St. Johannes Klinik,visible-plus-suppressed,3,8,11,14,17,20,False,False,False,False,False
+260510381-771967000,260510381,Universitätsklinikum Essen (AöR),visible-plus-suppressed,6,69,75,81,87,20,True,True,True,True,False
+260510461-771980000,260510461,Elisabeth-Krankenhaus Essen,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260510575-772782000,260510575,Helios Klinikum Krefeld,visible-plus-suppressed,3,9,12,15,18,20,False,False,False,False,False
+260510611-771123000,260510611,Alexianer Krefeld GmbH - Krankenhaus Maria-Hilf,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260510746-771889000,260510746,Evangelisches Krankenhaus Mülheim an der Ruhr GmbH,visible-plus-suppressed,3,4,7,10,13,20,False,False,False,False,False
+260510826-771259000,260510826,Sana-Klinikum Remscheid GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260510906-772692000,260510906,Helios Universitätsklinikum Wuppertal - Campus Elberfeld,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,visible-plus-suppressed,3,24,27,30,33,20,True,True,True,True,False
+260511462-771827000,260511462,St. Vinzenz Hospital,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260512032-771585000,260512032,Helios Klinikum Niederberg,visible-plus-suppressed,1,8,9,10,11,20,False,False,False,False,False
+260530012-771450000,260530012,Uniklinik RWTH Aachen,visible-plus-suppressed,2,20,22,24,26,20,True,True,True,True,False
+260530056-772078000,260530056,Luisenhospital Aachen,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260530103-772247000,260530103,Universitätsklinikum Bonn,visible-plus-suppressed,12,306,318,330,342,20,True,True,True,True,False
+260530283-773491000,260530283,Universitätsklinikum Köln,visible-plus-suppressed,2,75,77,79,81,20,True,True,True,True,False
+260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,visible-plus-suppressed,2,201,203,205,207,20,True,True,True,True,False
+260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,visible-plus-suppressed,10,37,47,57,67,20,True,True,True,True,False
+260530886-771698000,260530886,Marien-Hospital,visible-plus-suppressed,1,4,5,6,7,20,False,False,False,False,False
+260531661-772113000,260531661,Rhein-Maas Klinikum GmbH,visible-only,0,12,12,12,12,20,False,False,False,False,False
+260550131-772432000,260550131,Universitätsklinikum Münster,visible-plus-suppressed,9,154,163,172,181,20,True,True,True,True,False
+260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,visible-plus-suppressed,6,36,42,48,54,20,True,True,True,True,False
+260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,visible-plus-suppressed,4,26,30,34,38,20,True,True,True,True,False
+260550905-773430000,260550905,Klinikum Rheine,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260551154-772550000,260551154,Knappschaft Kliniken Gelsenkirchen -Buer GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260551165-772472000,260551165,"Knappschaft Kliniken Vest GmbH, Paracelsus Marl",suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260551165-772473000,260551165,"Knappschaft Kliniken Vest GmbH, Recklinghausen",suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260551416-772191000,260551416,St. Franziskus-Hospital GmbH Münster,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260570044-771239000,260570044,Evangelisches Klinikum Bethel gGmbH,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260570044-773641000,260570044,Evangelisches Klinikum Bethel gGmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260570692-772283000,260570692,Johannes Wesling Klinikum Minden,visible-plus-suppressed,2,23,25,27,29,20,True,True,True,True,False
+260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,visible-plus-suppressed,5,27,32,37,42,20,True,True,True,True,False
+260590037-773238000,260590037,Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil gGmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260590139-773659000,260590139,Klinikzentrum Mitte,visible-only,0,37,37,37,37,20,True,True,True,True,False
+260590402-773164000,260590402,HAMM,suppression-only,5,0,5,10,15,20,False,False,False,False,False
+260590696-773218000,260590696,Städt. Krankenhaus Maria-Hilf Brilon gGmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260591506-771395000,260591506,KLW St. Paulus GmbH St. Marien Hospital Lünen,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260591608-772932000,260591608,Knappschaft Kliniken Universitätsklinikum Bochum GmbH,visible-plus-suppressed,2,13,15,17,19,20,False,False,False,False,False
+260592084-772561000,260592084,St. Barbara-Klinik Hamm GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260593600-772597000,260593600,Alexianer Klinikum Hochsauerland | Standort Karolinen-Hospital Hüsten,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260610019-771807000,260610019,Klinikum Darmstadt GmbH,visible-plus-suppressed,4,6,10,14,18,20,False,False,False,False,False
+260610359-772356000,260610359,Sana Klinikum Offenbach GmbH,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260610360-771398000,260610360,Ketteler Krankenhaus,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260610393-773371000,260610393,Helios Dr. Horst-Schmidt Kliniken Wiesbaden GmbH,visible-plus-suppressed,3,9,12,15,18,20,False,False,False,False,False
+260612124-772858000,260612124,Universitätsklinikum Frankfurt,visible-plus-suppressed,3,95,98,101,104,20,True,True,True,True,False
+260620011-772565000,260620011,Klinikum Kassel GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260620157-772145000,260620157,Klinikum Fulda gAG,suppression-only,5,0,5,10,15,20,False,False,False,False,False
+260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,visible-plus-suppressed,3,28,31,34,37,20,True,True,True,True,False
+260641243-772737000,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260700109-773518000,260700109,Gemeinschaftsklinikum Mittelrhein gGmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260710087-771220000,260710087,Krankenhaus Maria Hilf,suppression-only,4,0,4,8,12,20,False,False,False,False,False
+260720034-771463000,260720034,Klinikum Mutterhaus der Borromäerinnen,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,visible-plus-suppressed,2,20,22,24,26,20,True,True,True,True,False
+260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,visible-plus-suppressed,6,112,118,124,130,20,True,True,True,True,False
+260730478-772427000,260730478,Nardini Klinikum St. Elisabeth Zweibrücken,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260810146-773033000,260810146,Diakonie-Klinikum Stuttgart,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260810191-772796000,260810191,Marienhospital Stuttgart,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260810271-772311000,260810271,Robert Bosch Krankenhaus,visible-plus-suppressed,4,51,55,59,63,20,True,True,True,True,False
+260810453-771315000,260810453,Krankenhaus Leonberg,visible-plus-suppressed,1,20,21,22,23,20,True,True,True,True,False
+260810589-772384000,260810589,ALB FILS KLINIKUM GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260810647-772121000,260810647,Klinikum Ludwigsburg,visible-plus-suppressed,6,124,130,136,142,20,True,True,True,True,False
+260810794-772048000,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260811192-772437000,260811192,Diak Klinikum Landkreis Schwäbisch Hall gGmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260811579-771470000,260811579,Stauferklinikum Schwäbisch Gmünd,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,visible-plus-suppressed,3,117,120,123,126,20,True,True,True,True,False
+260812525-771314000,260812525,Klinikum Sindelfingen-Böblingen,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,visible-plus-suppressed,9,34,43,52,61,20,True,True,True,True,False
+260820284-772071000,260820284,Fürst-Stirum-Klinik Bruchsal,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260820433-772905000,260820433,Klinikum Mittelbaden Rastatt,visible-plus-suppressed,3,4,7,10,13,20,False,False,False,False,False
+260820466-771700000,260820466,Universitätsklinikum Heidelberg,visible-plus-suppressed,6,137,143,149,155,20,True,True,True,True,False
+260820503-771242000,260820503,Krankenhaus Salem derEvang. Stadtmission Heidelberg gGmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,visible-plus-suppressed,3,35,38,41,44,20,True,True,True,True,False
+260830048-771473000,260830048,St Josefskrankenhaus,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260831481-772585000,260831481,Klinikum Konstanz,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260832299-773657000,260832299,Universitätsklinikum Freiburg,visible-only,0,137,137,137,137,20,True,True,True,True,False
+260833520-771962000,260833520,Ortenau Klinikum Lahr,visible-plus-suppressed,2,7,9,11,13,20,False,False,False,False,False
+260840108-772041000,260840108,Universitätsklinikum Tübingen,visible-plus-suppressed,9,53,62,71,80,20,True,True,True,True,False
+260840200-773713000,260840200,Universitätsklinikum Ulm,visible-plus-suppressed,3,38,41,44,47,20,True,True,True,True,False
+260841928-771415000,260841928,Bundeswehrkrankenhaus Ulm,visible-plus-suppressed,2,4,6,8,10,20,False,False,False,False,False
+260910090-772207000,260910090,Helios Klinikum München West,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260910136-772835000,260910136,TUM Klinikum Deutsches Herzzentrum,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260910637-772849000,260910637,RoMed Klinikum Rosenheim,suppression-only,4,0,4,8,12,20,False,False,False,False,False
+260911295-772387000,260911295,Klinikum Fürstenfeldbruck,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260911320-773597000,260911320,Klinikum Garmisch-Partenkirchen Standort Murnau,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260911320-773617000,260911320,Klinikum Garmisch-Partenkirchen - Haupthaus,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260911386-773259000,260911386,Berufsgenossenschaftliche Unfallklinik Murnau gGmbH,suppression-only,5,0,5,10,15,20,False,False,False,False,False
+260912434-772274000,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,visible-plus-suppressed,3,7,10,13,16,20,False,False,False,False,False
+260913037-773586000,260913037,Klinikum Ingolstadt GmbH,visible-plus-suppressed,2,9,11,13,15,20,False,False,False,False,False
+260913195-772053000,260913195,TUM Klinikum Rechts der Isar,visible-plus-suppressed,1,71,72,73,74,20,True,True,True,True,False
+260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",visible-plus-suppressed,3,41,44,47,50,20,True,True,True,True,False
+260914050-771734000,260914050,LMU Klinikum,suppression-only,6,0,6,12,18,20,False,False,False,False,False
+260914050-771736000,260914050,LMU Klinikum,visible-plus-suppressed,11,118,129,140,151,20,True,True,True,True,False
+260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,visible-plus-suppressed,2,44,46,48,50,20,True,True,True,True,False
+260920069-772859000,260920069,Klinikum Passau,visible-plus-suppressed,6,34,40,46,52,20,True,True,True,True,False
+260930608-771402000,260930608,Universitätsklinikum Regensburg,visible-plus-suppressed,1,227,228,229,230,20,True,True,True,True,False
+260940029-771420000,260940029,Sozialstiftung Bamberg Klinikum Bamberg,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+260940109-772810000,260940109,Klinikum Bayreuth GmbH,suppression-only,3,0,3,6,9,20,False,False,False,False,False
+260950099-771374000,260950099,Klinikum Nürnberg Nord,visible-plus-suppressed,4,31,35,39,43,20,True,True,True,True,False
+260950567-771175000,260950567,Universitätsklinikum Erlangen,visible-plus-suppressed,2,47,49,51,53,20,True,True,True,True,False
+260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,visible-plus-suppressed,2,65,67,69,71,20,True,True,True,True,False
+261000386-771261000,261000386,Universitätsklinikum des Saarlandes,visible-plus-suppressed,7,59,66,73,80,20,True,True,True,True,False
+261000934-773075000,261000934,CaritasKlinikum Saarbrücken,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261100025-773370000,261100025,Evangelische Elisabeth Klinik,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261100070-773109000,261100070,DRK Kliniken Berlin Mitte,visible-plus-suppressed,4,30,34,38,42,20,True,True,True,True,False
+261100456-771653000,261100456,Krankenhaus Waldfriede e.V.,visible-only,0,10,10,10,10,20,False,False,False,False,False
+261100855-771917000,261100855,St.Joseph Krankenhaus,suppression-only,4,0,4,8,12,20,False,False,False,False,False
+261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,visible-plus-suppressed,7,218,225,232,239,20,True,True,True,True,False
+261101311-772832000,261101311,DRK Kliniken Berlin Köpenick,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,visible-only,0,24,24,24,24,20,True,True,True,True,False
+261101527-773403000,261101527,Sana Klinikum Lichtenberg,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261101561-773065000,261101561,DRK Kliniken Berlin Westend,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261101754-771923000,261101754,BG Klinikum Unfallkrankenhaus Berlin gGmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261101878-773179000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,1,16,17,18,19,20,False,False,False,False,False
+261101878-773181000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-only,0,5,5,5,5,20,False,False,False,False,False
+261101878-773184000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,1,10,11,12,13,20,False,False,False,False,False
+261101878-773186000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-only,0,9,9,9,9,20,False,False,False,False,False
+261101878-773187000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+261110083-772955000,261110083,HELIOS Klinikum Emil von Behring GmbH,suppression-only,4,0,4,8,12,20,False,False,False,False,False
+261200220-772760000,261200220,Klinikum Ernst von Bergmann gemeinnützige GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261200322-771508000,261200322,GLG Werner Forßmann Klinikum Eberswalde GmbH,visible-only,0,13,13,13,13,20,False,False,False,False,False
+261200457-772221000,261200457,Universitätsklinikum Brandenburg an der Havel GmbH,suppression-only,4,0,4,8,12,20,False,False,False,False,False
+261200538-772643000,261200538,"Havelland Kliniken GmbH, Klinik Nauen",suppression-only,1,0,1,2,3,20,False,False,False,False,False
+261201061-771632000,261201061,Klinikum Frankfurt (Oder) GmbH,suppression-only,5,0,5,10,15,20,False,False,False,False,False
+261201356-771839000,261201356,HELIOS Klinikum Bad Saarow,visible-plus-suppressed,3,4,7,10,13,20,False,False,False,False,False
+261201414-772821000,261201414,Klinikum Dahme Spreewald GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261300118-771003000,261300118,Klinikum Südstadt Rostock,visible-plus-suppressed,2,59,61,63,65,20,True,True,True,True,False
+261300152-773589000,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,visible-plus-suppressed,2,6,8,10,12,20,False,False,False,False,False
+261300185-772916000,261300185,Helios Kliniken Schwerin,visible-plus-suppressed,1,24,25,26,27,20,True,True,True,True,False
+261300276-772987000,261300276,KMG Klinikum Güstrow,visible-only,0,10,10,10,10,20,False,False,False,False,False
+261300312-772096000,261300312,Sana-Krankenhaus Rügen GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,visible-plus-suppressed,7,56,63,70,77,20,True,True,True,True,False
+261400530-772884000,261400530,Klinikum St. Georg gGmbH,visible-plus-suppressed,6,45,51,57,63,20,True,True,True,True,False
+261400847-771139000,261400847,Helios Park-Klinikum Leipzig,visible-plus-suppressed,8,67,75,83,91,20,True,True,True,True,False
+261400949-772842000,261400949,Städtisches Klinikum Dresden,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",visible-plus-suppressed,5,113,118,123,128,20,True,True,True,True,False
+261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,visible-plus-suppressed,5,43,48,53,58,20,True,True,True,True,False
+261401416-772794000,261401416,Klinikum Chemnitz gGmbH,visible-plus-suppressed,3,29,32,35,38,20,True,True,True,True,False
+261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,visible-plus-suppressed,15,63,78,93,108,20,True,True,True,True,False
+261500677-772512000,261500677,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH,visible-only,0,12,12,12,12,20,False,False,False,False,False
+261500702-773513000,261500702,Universitätsklinikum Halle (Saale),visible-plus-suppressed,7,43,50,57,64,20,True,True,True,True,False
+261500757-771701000,261500757,Städtisches Klinikum Dessau,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261600521-771235000,261600521,Hufeland Klinikum GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+261600736-772874000,261600736,Universitätsklinikum Jena,visible-plus-suppressed,5,121,126,131,136,20,True,True,True,True,False
+261600872-771725000,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,suppression-only,2,0,2,4,6,20,False,False,False,False,False
+261601021-771835000,261601021,HELIOS Klinikum Erfurt,visible-plus-suppressed,2,8,10,12,14,20,False,False,False,False,False
+261601123-772308000,261601123,St. Georg Klinikum Eisenach gemeinnützige GmbH,suppression-only,1,0,1,2,3,20,False,False,False,False,False
+260200079-772901000,260200079,Asklepios Klinikum Harburg,visible-plus-suppressed,3,44,47,50,53,50,False,False,True,True,True
+260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,visible-plus-suppressed,10,37,47,57,67,50,False,False,True,True,True
+260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,visible-plus-suppressed,6,36,42,48,54,50,False,False,False,True,True
+260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,visible-plus-suppressed,9,34,43,52,61,50,False,False,True,True,True
+260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",visible-plus-suppressed,3,41,44,47,50,50,False,False,False,True,True
+260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,visible-plus-suppressed,2,44,46,48,50,50,False,False,False,True,True
+260920069-772859000,260920069,Klinikum Passau,visible-plus-suppressed,6,34,40,46,52,50,False,False,False,True,True
+260950567-771175000,260950567,Universitätsklinikum Erlangen,visible-plus-suppressed,2,47,49,51,53,50,False,False,True,True,True
+261400530-772884000,261400530,Klinikum St. Georg gGmbH,visible-plus-suppressed,6,45,51,57,63,50,False,True,True,True,True
+261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,visible-plus-suppressed,5,43,48,53,58,50,False,False,True,True,True
+261500702-773513000,261500702,Universitätsklinikum Halle (Saale),visible-plus-suppressed,7,43,50,57,64,50,False,True,True,True,True
+260100034-771320000,260100034,Malteser Krankenhaus St. Franziskus-Hospital,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260100476-772465000,260100476,Klinikum Nordfriesland gGmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260101193-772660000,260101193,Krankenhaus Reinbek St. Adolf-Stift GmbH,visible-plus-suppressed,1,10,11,12,13,50,False,False,False,False,False
+260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,visible-plus-suppressed,1,35,36,37,38,50,False,False,False,False,False
+260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,visible-only,0,88,88,88,88,50,True,True,True,True,False
+260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,visible-plus-suppressed,3,118,121,124,127,50,True,True,True,True,False
+260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,visible-plus-suppressed,5,19,24,29,34,50,False,False,False,False,False
+260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,visible-plus-suppressed,6,201,207,213,219,50,True,True,True,True,False
+260200035-772584000,260200035,Asklepios Klinik Barmbek,visible-plus-suppressed,1,43,44,45,46,50,False,False,False,False,False
+260200046-772530000,260200046,Schön Klinik Hamburg Eilbek,visible-plus-suppressed,1,10,11,12,13,50,False,False,False,False,False
+260200284-773032000,260200284,Israelitisches Krankenhaus in Hamburg,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260200400-772533000,260200400,Kath. Marienkrankenhaus gGmbH,visible-plus-suppressed,1,14,15,16,17,50,False,False,False,False,False
+260310209-772363000,260310209,Städtisches Klinikum Braunschweig gGmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260310378-772918000,260310378,Universitätsmedizin Göttingen,visible-plus-suppressed,3,81,84,87,90,50,True,True,True,True,False
+260310447-772684000,260310447,Evangelisches Krankenhaus Göttingen-Weende gGmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260310766-771722000,260310766,Klinikum Wolfsburg,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260320597-771519000,260320597,Medizinische Hochschule Hannover,visible-plus-suppressed,6,92,98,104,110,50,True,True,True,True,False
+260320622-772333000,260320622,St. Bernward Krankenhaus GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260321781-772721000,260321781,KRH Klinikum Siloah,visible-plus-suppressed,1,6,7,8,9,50,False,False,False,False,False
+260330167-772803000,260330167,Helios Klinik Cuxhaven GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260330361-772578000,260330361,Städtisches Klinikum Lüneburg gemeinnützige GmbH,visible-only,0,13,13,13,13,50,False,False,False,False,False
+260340740-771936000,260340740,Klinikum Oldenburg AöR,visible-plus-suppressed,1,16,17,18,19,50,False,False,False,False,False
+260340886-772441000,260340886,Christliches Krankenhaus Quakenbrück GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260341444-772466000,260341444,Ammerland-Klinik Westerstede,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260500481-772088000,260500481,AGAPLESION Klinikum Hagen gem. GmbH,visible-only,0,4,4,4,4,50,False,False,False,False,False
+260510018-773410000,260510018,Universitätsklinikum Düsseldorf,visible-plus-suppressed,2,269,271,273,275,50,True,True,True,True,False
+260510132-773140000,260510132,Evangelisches Krankenhaus Düsseldorf,visible-only,0,9,9,9,9,50,False,False,False,False,False
+260510256-771548000,260510256,Helios St. Johannes Klinik,visible-plus-suppressed,3,8,11,14,17,50,False,False,False,False,False
+260510381-771967000,260510381,Universitätsklinikum Essen (AöR),visible-plus-suppressed,6,69,75,81,87,50,True,True,True,True,False
+260510461-771980000,260510461,Elisabeth-Krankenhaus Essen,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260510575-772782000,260510575,Helios Klinikum Krefeld,visible-plus-suppressed,3,9,12,15,18,50,False,False,False,False,False
+260510611-771123000,260510611,Alexianer Krefeld GmbH - Krankenhaus Maria-Hilf,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260510746-771889000,260510746,Evangelisches Krankenhaus Mülheim an der Ruhr GmbH,visible-plus-suppressed,3,4,7,10,13,50,False,False,False,False,False
+260510826-771259000,260510826,Sana-Klinikum Remscheid GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260510906-772692000,260510906,Helios Universitätsklinikum Wuppertal - Campus Elberfeld,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,visible-plus-suppressed,3,24,27,30,33,50,False,False,False,False,False
+260511462-771827000,260511462,St. Vinzenz Hospital,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260511781-772188000,260511781,Rheinland Klinikum  Lukaskrankenhaus Neuss,visible-plus-suppressed,7,4,11,18,25,50,False,False,False,False,False
+260512032-771585000,260512032,Helios Klinikum Niederberg,visible-plus-suppressed,1,8,9,10,11,50,False,False,False,False,False
+260530012-771450000,260530012,Uniklinik RWTH Aachen,visible-plus-suppressed,2,20,22,24,26,50,False,False,False,False,False
+260530056-772078000,260530056,Luisenhospital Aachen,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260530103-772247000,260530103,Universitätsklinikum Bonn,visible-plus-suppressed,12,306,318,330,342,50,True,True,True,True,False
+260530283-773491000,260530283,Universitätsklinikum Köln,visible-plus-suppressed,2,75,77,79,81,50,True,True,True,True,False
+260530396-772936000,260530396,Cellitinnen-Krankenhaus Heilig Geist,suppression-only,9,0,9,18,27,50,False,False,False,False,False
+260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,visible-plus-suppressed,2,201,203,205,207,50,True,True,True,True,False
+260530886-771698000,260530886,Marien-Hospital,visible-plus-suppressed,1,4,5,6,7,50,False,False,False,False,False
+260531661-772113000,260531661,Rhein-Maas Klinikum GmbH,visible-only,0,12,12,12,12,50,False,False,False,False,False
+260550131-772432000,260550131,Universitätsklinikum Münster,visible-plus-suppressed,9,154,163,172,181,50,True,True,True,True,False
+260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,visible-plus-suppressed,4,26,30,34,38,50,False,False,False,False,False
+260550905-773430000,260550905,Klinikum Rheine,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260551154-772550000,260551154,Knappschaft Kliniken Gelsenkirchen -Buer GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260551165-772472000,260551165,"Knappschaft Kliniken Vest GmbH, Paracelsus Marl",suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260551165-772473000,260551165,"Knappschaft Kliniken Vest GmbH, Recklinghausen",suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260551381-773391000,260551381,Klinikum Ibbenbüren,visible-plus-suppressed,4,16,20,24,28,50,False,False,False,False,False
+260551416-772191000,260551416,St. Franziskus-Hospital GmbH Münster,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260570044-771239000,260570044,Evangelisches Klinikum Bethel gGmbH,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260570044-773641000,260570044,Evangelisches Klinikum Bethel gGmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,visible-plus-suppressed,6,18,24,30,36,50,False,False,False,False,False
+260570692-772283000,260570692,Johannes Wesling Klinikum Minden,visible-plus-suppressed,2,23,25,27,29,50,False,False,False,False,False
+260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,visible-plus-suppressed,5,27,32,37,42,50,False,False,False,False,False
+260590037-773238000,260590037,Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil gGmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260590071-772744000,260590071,Katholisches Klinikum Bochum,visible-plus-suppressed,7,4,11,18,25,50,False,False,False,False,False
+260590139-773659000,260590139,Klinikzentrum Mitte,visible-only,0,37,37,37,37,50,False,False,False,False,False
+260590402-773164000,260590402,HAMM,suppression-only,5,0,5,10,15,50,False,False,False,False,False
+260590505-772000000,260590505,Ev. Krankenhaus Herne gGmbH,visible-plus-suppressed,3,11,14,17,20,50,False,False,False,False,False
+260590696-773218000,260590696,Städt. Krankenhaus Maria-Hilf Brilon gGmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260591506-771395000,260591506,KLW St. Paulus GmbH St. Marien Hospital Lünen,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260591608-772932000,260591608,Knappschaft Kliniken Universitätsklinikum Bochum GmbH,visible-plus-suppressed,2,13,15,17,19,50,False,False,False,False,False
+260592084-772561000,260592084,St. Barbara-Klinik Hamm GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260593600-772597000,260593600,Alexianer Klinikum Hochsauerland | Standort Karolinen-Hospital Hüsten,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260610019-771807000,260610019,Klinikum Darmstadt GmbH,visible-plus-suppressed,4,6,10,14,18,50,False,False,False,False,False
+260610359-772356000,260610359,Sana Klinikum Offenbach GmbH,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260610360-771398000,260610360,Ketteler Krankenhaus,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260610393-773371000,260610393,Helios Dr. Horst-Schmidt Kliniken Wiesbaden GmbH,visible-plus-suppressed,3,9,12,15,18,50,False,False,False,False,False
+260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,visible-plus-suppressed,5,19,24,29,34,50,False,False,False,False,False
+260611236-771648000,260611236,Klinikum Hanau GmbH,visible-plus-suppressed,2,18,20,22,24,50,False,False,False,False,False
+260612124-772858000,260612124,Universitätsklinikum Frankfurt,visible-plus-suppressed,3,95,98,101,104,50,True,True,True,True,False
+260620011-772565000,260620011,Klinikum Kassel GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260620157-772145000,260620157,Klinikum Fulda gAG,suppression-only,5,0,5,10,15,50,False,False,False,False,False
+260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,visible-plus-suppressed,3,28,31,34,37,50,False,False,False,False,False
+260641243-772737000,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260700109-773518000,260700109,Gemeinschaftsklinikum Mittelrhein gGmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260710087-771220000,260710087,Krankenhaus Maria Hilf,suppression-only,4,0,4,8,12,50,False,False,False,False,False
+260720034-771463000,260720034,Klinikum Mutterhaus der Borromäerinnen,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,visible-plus-suppressed,2,20,22,24,26,50,False,False,False,False,False
+260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,visible-plus-suppressed,6,112,118,124,130,50,True,True,True,True,False
+260730478-772427000,260730478,Nardini Klinikum St. Elisabeth Zweibrücken,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260810146-773033000,260810146,Diakonie-Klinikum Stuttgart,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260810191-772796000,260810191,Marienhospital Stuttgart,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260810271-772311000,260810271,Robert Bosch Krankenhaus,visible-plus-suppressed,4,51,55,59,63,50,True,True,True,True,False
+260810453-771315000,260810453,Krankenhaus Leonberg,visible-plus-suppressed,1,20,21,22,23,50,False,False,False,False,False
+260810475-771511000,260810475,Klinikum Esslingen GmbH,visible-plus-suppressed,4,8,12,16,20,50,False,False,False,False,False
+260810589-772384000,260810589,ALB FILS KLINIKUM GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260810647-772121000,260810647,Klinikum Ludwigsburg,visible-plus-suppressed,6,124,130,136,142,50,True,True,True,True,False
+260810794-772048000,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260811192-772437000,260811192,Diak Klinikum Landkreis Schwäbisch Hall gGmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260811579-771470000,260811579,Stauferklinikum Schwäbisch Gmünd,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,visible-plus-suppressed,3,117,120,123,126,50,True,True,True,True,False
+260812525-771314000,260812525,Klinikum Sindelfingen-Böblingen,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260820284-772071000,260820284,Fürst-Stirum-Klinik Bruchsal,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260820433-772905000,260820433,Klinikum Mittelbaden Rastatt,visible-plus-suppressed,3,4,7,10,13,50,False,False,False,False,False
+260820466-771700000,260820466,Universitätsklinikum Heidelberg,visible-plus-suppressed,6,137,143,149,155,50,True,True,True,True,False
+260820503-771242000,260820503,Krankenhaus Salem derEvang. Stadtmission Heidelberg gGmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,visible-plus-suppressed,3,35,38,41,44,50,False,False,False,False,False
+260830048-771473000,260830048,St Josefskrankenhaus,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260831481-772585000,260831481,Klinikum Konstanz,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260832299-773657000,260832299,Universitätsklinikum Freiburg,visible-only,0,137,137,137,137,50,True,True,True,True,False
+260833520-771962000,260833520,Ortenau Klinikum Lahr,visible-plus-suppressed,2,7,9,11,13,50,False,False,False,False,False
+260840108-772041000,260840108,Universitätsklinikum Tübingen,visible-plus-suppressed,9,53,62,71,80,50,True,True,True,True,False
+260840200-773713000,260840200,Universitätsklinikum Ulm,visible-plus-suppressed,3,38,41,44,47,50,False,False,False,False,False
+260841928-771415000,260841928,Bundeswehrkrankenhaus Ulm,visible-plus-suppressed,2,4,6,8,10,50,False,False,False,False,False
+260910090-772207000,260910090,Helios Klinikum München West,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260910136-772835000,260910136,TUM Klinikum Deutsches Herzzentrum,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,visible-plus-suppressed,4,19,23,27,31,50,False,False,False,False,False
+260910637-772849000,260910637,RoMed Klinikum Rosenheim,suppression-only,4,0,4,8,12,50,False,False,False,False,False
+260911295-772387000,260911295,Klinikum Fürstenfeldbruck,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260911320-773597000,260911320,Klinikum Garmisch-Partenkirchen Standort Murnau,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260911320-773617000,260911320,Klinikum Garmisch-Partenkirchen - Haupthaus,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260911386-773259000,260911386,Berufsgenossenschaftliche Unfallklinik Murnau gGmbH,suppression-only,5,0,5,10,15,50,False,False,False,False,False
+260912434-772274000,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,visible-plus-suppressed,3,7,10,13,16,50,False,False,False,False,False
+260913037-773586000,260913037,Klinikum Ingolstadt GmbH,visible-plus-suppressed,2,9,11,13,15,50,False,False,False,False,False
+260913195-772053000,260913195,TUM Klinikum Rechts der Isar,visible-plus-suppressed,1,71,72,73,74,50,True,True,True,True,False
+260914050-771734000,260914050,LMU Klinikum,suppression-only,6,0,6,12,18,50,False,False,False,False,False
+260914050-771736000,260914050,LMU Klinikum,visible-plus-suppressed,11,118,129,140,151,50,True,True,True,True,False
+260930050-771597000,260930050,Krankenhaus Barmherzige Brüder Regensburg,visible-plus-suppressed,5,12,17,22,27,50,False,False,False,False,False
+260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,visible-plus-suppressed,4,16,20,24,28,50,False,False,False,False,False
+260930608-771402000,260930608,Universitätsklinikum Regensburg,visible-plus-suppressed,1,227,228,229,230,50,True,True,True,True,False
+260940029-771420000,260940029,Sozialstiftung Bamberg Klinikum Bamberg,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+260940109-772810000,260940109,Klinikum Bayreuth GmbH,suppression-only,3,0,3,6,9,50,False,False,False,False,False
+260940198-771124000,260940198,Sana Klinikum Hof,visible-plus-suppressed,4,13,17,21,25,50,False,False,False,False,False
+260950099-771374000,260950099,Klinikum Nürnberg Nord,visible-plus-suppressed,4,31,35,39,43,50,False,False,False,False,False
+260960079-773642000,260960079,Universitätsklinikum Würzburg,visible-plus-suppressed,2,18,20,22,24,50,False,False,False,False,False
+260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,visible-plus-suppressed,2,65,67,69,71,50,True,True,True,True,False
+261000013-771100000,261000013,Klinikum Saarbrücken,visible-plus-suppressed,4,16,20,24,28,50,False,False,False,False,False
+261000386-771261000,261000386,Universitätsklinikum des Saarlandes,visible-plus-suppressed,7,59,66,73,80,50,True,True,True,True,False
+261000934-773075000,261000934,CaritasKlinikum Saarbrücken,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261100025-773370000,261100025,Evangelische Elisabeth Klinik,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261100070-773109000,261100070,DRK Kliniken Berlin Mitte,visible-plus-suppressed,4,30,34,38,42,50,False,False,False,False,False
+261100456-771653000,261100456,Krankenhaus Waldfriede e.V.,visible-only,0,10,10,10,10,50,False,False,False,False,False
+261100855-771917000,261100855,St.Joseph Krankenhaus,suppression-only,4,0,4,8,12,50,False,False,False,False,False
+261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,visible-plus-suppressed,7,218,225,232,239,50,True,True,True,True,False
+261101300-773608000,261101300,Helios Klinikum Berlin-Buch,visible-plus-suppressed,4,15,19,23,27,50,False,False,False,False,False
+261101311-772832000,261101311,DRK Kliniken Berlin Köpenick,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,visible-only,0,24,24,24,24,50,False,False,False,False,False
+261101527-773403000,261101527,Sana Klinikum Lichtenberg,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261101561-773065000,261101561,DRK Kliniken Berlin Westend,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261101754-771923000,261101754,BG Klinikum Unfallkrankenhaus Berlin gGmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261101878-773179000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,1,16,17,18,19,50,False,False,False,False,False
+261101878-773181000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-only,0,5,5,5,5,50,False,False,False,False,False
+261101878-773183000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,2,16,18,20,22,50,False,False,False,False,False
+261101878-773184000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,1,10,11,12,13,50,False,False,False,False,False
+261101878-773186000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-only,0,9,9,9,9,50,False,False,False,False,False
+261101878-773187000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261110083-772955000,261110083,HELIOS Klinikum Emil von Behring GmbH,suppression-only,4,0,4,8,12,50,False,False,False,False,False
+261200220-772760000,261200220,Klinikum Ernst von Bergmann gemeinnützige GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261200322-771508000,261200322,GLG Werner Forßmann Klinikum Eberswalde GmbH,visible-only,0,13,13,13,13,50,False,False,False,False,False
+261200457-772221000,261200457,Universitätsklinikum Brandenburg an der Havel GmbH,suppression-only,4,0,4,8,12,50,False,False,False,False,False
+261200538-772643000,261200538,"Havelland Kliniken GmbH, Klinik Nauen",suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261200721-773088000,261200721,Medizinische Universität Lausitz - Carl Thiem,visible-plus-suppressed,3,11,14,17,20,50,False,False,False,False,False
+261201061-771632000,261201061,Klinikum Frankfurt (Oder) GmbH,suppression-only,5,0,5,10,15,50,False,False,False,False,False
+261201356-771839000,261201356,HELIOS Klinikum Bad Saarow,visible-plus-suppressed,3,4,7,10,13,50,False,False,False,False,False
+261201414-772821000,261201414,Klinikum Dahme Spreewald GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261300118-771003000,261300118,Klinikum Südstadt Rostock,visible-plus-suppressed,2,59,61,63,65,50,True,True,True,True,False
+261300152-773589000,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,visible-plus-suppressed,2,6,8,10,12,50,False,False,False,False,False
+261300185-772916000,261300185,Helios Kliniken Schwerin,visible-plus-suppressed,1,24,25,26,27,50,False,False,False,False,False
+261300276-772987000,261300276,KMG Klinikum Güstrow,visible-only,0,10,10,10,10,50,False,False,False,False,False
+261300312-772096000,261300312,Sana-Krankenhaus Rügen GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,visible-plus-suppressed,7,56,63,70,77,50,True,True,True,True,False
+261400847-771139000,261400847,Helios Park-Klinikum Leipzig,visible-plus-suppressed,8,67,75,83,91,50,True,True,True,True,False
+261400949-772842000,261400949,Städtisches Klinikum Dresden,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",visible-plus-suppressed,5,113,118,123,128,50,True,True,True,True,False
+261401416-772794000,261401416,Klinikum Chemnitz gGmbH,visible-plus-suppressed,3,29,32,35,38,50,False,False,False,False,False
+261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,visible-plus-suppressed,15,63,78,93,108,50,True,True,True,True,False
+261500677-772512000,261500677,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH,visible-only,0,12,12,12,12,50,False,False,False,False,False
+261500757-771701000,261500757,Städtisches Klinikum Dessau,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261600521-771235000,261600521,Hufeland Klinikum GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261600634-771973000,261600634,Zentralklinik Bad Berka GmbH,visible-plus-suppressed,2,14,16,18,20,50,False,False,False,False,False
+261600736-772874000,261600736,Universitätsklinikum Jena,visible-plus-suppressed,5,121,126,131,136,50,True,True,True,True,False
+261600872-771725000,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,suppression-only,2,0,2,4,6,50,False,False,False,False,False
+261601021-771835000,261601021,HELIOS Klinikum Erfurt,visible-plus-suppressed,2,8,10,12,14,50,False,False,False,False,False
+261601123-772308000,261601123,St. Georg Klinikum Eisenach gemeinnützige GmbH,suppression-only,1,0,1,2,3,50,False,False,False,False,False
+261601145-773338000,261601145,KMG Klinikum Sömmerda,visible-plus-suppressed,4,12,16,20,24,50,False,False,False,False,False
+260320597-771519000,260320597,Medizinische Hochschule Hannover,visible-plus-suppressed,6,92,98,104,110,100,False,False,True,True,True
+260612124-772858000,260612124,Universitätsklinikum Frankfurt,visible-plus-suppressed,3,95,98,101,104,100,False,False,True,True,True
+261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,visible-plus-suppressed,15,63,78,93,108,100,False,False,False,True,True
+260100034-771320000,260100034,Malteser Krankenhaus St. Franziskus-Hospital,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260100476-772465000,260100476,Klinikum Nordfriesland gGmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260101193-772660000,260101193,Krankenhaus Reinbek St. Adolf-Stift GmbH,visible-plus-suppressed,1,10,11,12,13,100,False,False,False,False,False
+260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,visible-plus-suppressed,1,35,36,37,38,100,False,False,False,False,False
+260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,visible-only,0,88,88,88,88,100,False,False,False,False,False
+260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,visible-plus-suppressed,3,118,121,124,127,100,True,True,True,True,False
+260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,visible-plus-suppressed,5,19,24,29,34,100,False,False,False,False,False
+260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,visible-plus-suppressed,6,201,207,213,219,100,True,True,True,True,False
+260200035-772584000,260200035,Asklepios Klinik Barmbek,visible-plus-suppressed,1,43,44,45,46,100,False,False,False,False,False
+260200046-772530000,260200046,Schön Klinik Hamburg Eilbek,visible-plus-suppressed,1,10,11,12,13,100,False,False,False,False,False
+260200079-772901000,260200079,Asklepios Klinikum Harburg,visible-plus-suppressed,3,44,47,50,53,100,False,False,False,False,False
+260200284-773032000,260200284,Israelitisches Krankenhaus in Hamburg,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260200400-772533000,260200400,Kath. Marienkrankenhaus gGmbH,visible-plus-suppressed,1,14,15,16,17,100,False,False,False,False,False
+260310209-772363000,260310209,Städtisches Klinikum Braunschweig gGmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260310378-772918000,260310378,Universitätsmedizin Göttingen,visible-plus-suppressed,3,81,84,87,90,100,False,False,False,False,False
+260310447-772684000,260310447,Evangelisches Krankenhaus Göttingen-Weende gGmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260310766-771722000,260310766,Klinikum Wolfsburg,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260320622-772333000,260320622,St. Bernward Krankenhaus GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260321781-772721000,260321781,KRH Klinikum Siloah,visible-plus-suppressed,1,6,7,8,9,100,False,False,False,False,False
+260330167-772803000,260330167,Helios Klinik Cuxhaven GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260330361-772578000,260330361,Städtisches Klinikum Lüneburg gemeinnützige GmbH,visible-only,0,13,13,13,13,100,False,False,False,False,False
+260340740-771936000,260340740,Klinikum Oldenburg AöR,visible-plus-suppressed,1,16,17,18,19,100,False,False,False,False,False
+260340886-772441000,260340886,Christliches Krankenhaus Quakenbrück GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260341444-772466000,260341444,Ammerland-Klinik Westerstede,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260500481-772088000,260500481,AGAPLESION Klinikum Hagen gem. GmbH,visible-only,0,4,4,4,4,100,False,False,False,False,False
+260510018-773410000,260510018,Universitätsklinikum Düsseldorf,visible-plus-suppressed,2,269,271,273,275,100,True,True,True,True,False
+260510132-773140000,260510132,Evangelisches Krankenhaus Düsseldorf,visible-only,0,9,9,9,9,100,False,False,False,False,False
+260510256-771548000,260510256,Helios St. Johannes Klinik,visible-plus-suppressed,3,8,11,14,17,100,False,False,False,False,False
+260510381-771967000,260510381,Universitätsklinikum Essen (AöR),visible-plus-suppressed,6,69,75,81,87,100,False,False,False,False,False
+260510461-771980000,260510461,Elisabeth-Krankenhaus Essen,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260510575-772782000,260510575,Helios Klinikum Krefeld,visible-plus-suppressed,3,9,12,15,18,100,False,False,False,False,False
+260510611-771123000,260510611,Alexianer Krefeld GmbH - Krankenhaus Maria-Hilf,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260510746-771889000,260510746,Evangelisches Krankenhaus Mülheim an der Ruhr GmbH,visible-plus-suppressed,3,4,7,10,13,100,False,False,False,False,False
+260510826-771259000,260510826,Sana-Klinikum Remscheid GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260510906-772692000,260510906,Helios Universitätsklinikum Wuppertal - Campus Elberfeld,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,visible-plus-suppressed,3,24,27,30,33,100,False,False,False,False,False
+260511462-771827000,260511462,St. Vinzenz Hospital,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260511781-772188000,260511781,Rheinland Klinikum  Lukaskrankenhaus Neuss,visible-plus-suppressed,7,4,11,18,25,100,False,False,False,False,False
+260512032-771585000,260512032,Helios Klinikum Niederberg,visible-plus-suppressed,1,8,9,10,11,100,False,False,False,False,False
+260530012-771450000,260530012,Uniklinik RWTH Aachen,visible-plus-suppressed,2,20,22,24,26,100,False,False,False,False,False
+260530056-772078000,260530056,Luisenhospital Aachen,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260530103-772247000,260530103,Universitätsklinikum Bonn,visible-plus-suppressed,12,306,318,330,342,100,True,True,True,True,False
+260530283-773491000,260530283,Universitätsklinikum Köln,visible-plus-suppressed,2,75,77,79,81,100,False,False,False,False,False
+260530396-772936000,260530396,Cellitinnen-Krankenhaus Heilig Geist,suppression-only,9,0,9,18,27,100,False,False,False,False,False
+260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,visible-plus-suppressed,2,201,203,205,207,100,True,True,True,True,False
+260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,visible-plus-suppressed,10,37,47,57,67,100,False,False,False,False,False
+260530886-771698000,260530886,Marien-Hospital,visible-plus-suppressed,1,4,5,6,7,100,False,False,False,False,False
+260531661-772113000,260531661,Rhein-Maas Klinikum GmbH,visible-only,0,12,12,12,12,100,False,False,False,False,False
+260550131-772432000,260550131,Universitätsklinikum Münster,visible-plus-suppressed,9,154,163,172,181,100,True,True,True,True,False
+260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,visible-plus-suppressed,6,36,42,48,54,100,False,False,False,False,False
+260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,visible-plus-suppressed,4,26,30,34,38,100,False,False,False,False,False
+260550905-773430000,260550905,Klinikum Rheine,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260551154-772550000,260551154,Knappschaft Kliniken Gelsenkirchen -Buer GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260551165-772472000,260551165,"Knappschaft Kliniken Vest GmbH, Paracelsus Marl",suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260551165-772473000,260551165,"Knappschaft Kliniken Vest GmbH, Recklinghausen",suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260551381-773391000,260551381,Klinikum Ibbenbüren,visible-plus-suppressed,4,16,20,24,28,100,False,False,False,False,False
+260551416-772191000,260551416,St. Franziskus-Hospital GmbH Münster,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260570044-771239000,260570044,Evangelisches Klinikum Bethel gGmbH,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260570044-773641000,260570044,Evangelisches Klinikum Bethel gGmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,visible-plus-suppressed,6,18,24,30,36,100,False,False,False,False,False
+260570692-772283000,260570692,Johannes Wesling Klinikum Minden,visible-plus-suppressed,2,23,25,27,29,100,False,False,False,False,False
+260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,visible-plus-suppressed,5,27,32,37,42,100,False,False,False,False,False
+260590037-773238000,260590037,Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil gGmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260590071-772744000,260590071,Katholisches Klinikum Bochum,visible-plus-suppressed,7,4,11,18,25,100,False,False,False,False,False
+260590139-773659000,260590139,Klinikzentrum Mitte,visible-only,0,37,37,37,37,100,False,False,False,False,False
+260590402-773164000,260590402,HAMM,suppression-only,5,0,5,10,15,100,False,False,False,False,False
+260590505-772000000,260590505,Ev. Krankenhaus Herne gGmbH,visible-plus-suppressed,3,11,14,17,20,100,False,False,False,False,False
+260590696-773218000,260590696,Städt. Krankenhaus Maria-Hilf Brilon gGmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260591506-771395000,260591506,KLW St. Paulus GmbH St. Marien Hospital Lünen,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260591608-772932000,260591608,Knappschaft Kliniken Universitätsklinikum Bochum GmbH,visible-plus-suppressed,2,13,15,17,19,100,False,False,False,False,False
+260592084-772561000,260592084,St. Barbara-Klinik Hamm GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260593600-772597000,260593600,Alexianer Klinikum Hochsauerland | Standort Karolinen-Hospital Hüsten,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260610019-771807000,260610019,Klinikum Darmstadt GmbH,visible-plus-suppressed,4,6,10,14,18,100,False,False,False,False,False
+260610359-772356000,260610359,Sana Klinikum Offenbach GmbH,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260610360-771398000,260610360,Ketteler Krankenhaus,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260610393-773371000,260610393,Helios Dr. Horst-Schmidt Kliniken Wiesbaden GmbH,visible-plus-suppressed,3,9,12,15,18,100,False,False,False,False,False
+260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,visible-plus-suppressed,5,19,24,29,34,100,False,False,False,False,False
+260611236-771648000,260611236,Klinikum Hanau GmbH,visible-plus-suppressed,2,18,20,22,24,100,False,False,False,False,False
+260620011-772565000,260620011,Klinikum Kassel GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260620157-772145000,260620157,Klinikum Fulda gAG,suppression-only,5,0,5,10,15,100,False,False,False,False,False
+260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,visible-plus-suppressed,3,28,31,34,37,100,False,False,False,False,False
+260641243-772737000,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260700109-773518000,260700109,Gemeinschaftsklinikum Mittelrhein gGmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260710087-771220000,260710087,Krankenhaus Maria Hilf,suppression-only,4,0,4,8,12,100,False,False,False,False,False
+260720034-771463000,260720034,Klinikum Mutterhaus der Borromäerinnen,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,visible-plus-suppressed,2,20,22,24,26,100,False,False,False,False,False
+260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,visible-plus-suppressed,6,112,118,124,130,100,True,True,True,True,False
+260730478-772427000,260730478,Nardini Klinikum St. Elisabeth Zweibrücken,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260810146-773033000,260810146,Diakonie-Klinikum Stuttgart,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260810191-772796000,260810191,Marienhospital Stuttgart,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260810271-772311000,260810271,Robert Bosch Krankenhaus,visible-plus-suppressed,4,51,55,59,63,100,False,False,False,False,False
+260810453-771315000,260810453,Krankenhaus Leonberg,visible-plus-suppressed,1,20,21,22,23,100,False,False,False,False,False
+260810475-771511000,260810475,Klinikum Esslingen GmbH,visible-plus-suppressed,4,8,12,16,20,100,False,False,False,False,False
+260810589-772384000,260810589,ALB FILS KLINIKUM GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260810647-772121000,260810647,Klinikum Ludwigsburg,visible-plus-suppressed,6,124,130,136,142,100,True,True,True,True,False
+260810794-772048000,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260811192-772437000,260811192,Diak Klinikum Landkreis Schwäbisch Hall gGmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260811579-771470000,260811579,Stauferklinikum Schwäbisch Gmünd,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,visible-plus-suppressed,3,117,120,123,126,100,True,True,True,True,False
+260812525-771314000,260812525,Klinikum Sindelfingen-Böblingen,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,visible-plus-suppressed,9,34,43,52,61,100,False,False,False,False,False
+260820284-772071000,260820284,Fürst-Stirum-Klinik Bruchsal,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260820433-772905000,260820433,Klinikum Mittelbaden Rastatt,visible-plus-suppressed,3,4,7,10,13,100,False,False,False,False,False
+260820466-771700000,260820466,Universitätsklinikum Heidelberg,visible-plus-suppressed,6,137,143,149,155,100,True,True,True,True,False
+260820503-771242000,260820503,Krankenhaus Salem derEvang. Stadtmission Heidelberg gGmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,visible-plus-suppressed,3,35,38,41,44,100,False,False,False,False,False
+260830048-771473000,260830048,St Josefskrankenhaus,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260831481-772585000,260831481,Klinikum Konstanz,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260832299-773657000,260832299,Universitätsklinikum Freiburg,visible-only,0,137,137,137,137,100,True,True,True,True,False
+260833520-771962000,260833520,Ortenau Klinikum Lahr,visible-plus-suppressed,2,7,9,11,13,100,False,False,False,False,False
+260840108-772041000,260840108,Universitätsklinikum Tübingen,visible-plus-suppressed,9,53,62,71,80,100,False,False,False,False,False
+260840200-773713000,260840200,Universitätsklinikum Ulm,visible-plus-suppressed,3,38,41,44,47,100,False,False,False,False,False
+260841928-771415000,260841928,Bundeswehrkrankenhaus Ulm,visible-plus-suppressed,2,4,6,8,10,100,False,False,False,False,False
+260910090-772207000,260910090,Helios Klinikum München West,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260910136-772835000,260910136,TUM Klinikum Deutsches Herzzentrum,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,visible-plus-suppressed,4,19,23,27,31,100,False,False,False,False,False
+260910637-772849000,260910637,RoMed Klinikum Rosenheim,suppression-only,4,0,4,8,12,100,False,False,False,False,False
+260911295-772387000,260911295,Klinikum Fürstenfeldbruck,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260911320-773597000,260911320,Klinikum Garmisch-Partenkirchen Standort Murnau,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260911320-773617000,260911320,Klinikum Garmisch-Partenkirchen - Haupthaus,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260911386-773259000,260911386,Berufsgenossenschaftliche Unfallklinik Murnau gGmbH,suppression-only,5,0,5,10,15,100,False,False,False,False,False
+260912434-772274000,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,visible-plus-suppressed,3,7,10,13,16,100,False,False,False,False,False
+260913037-773586000,260913037,Klinikum Ingolstadt GmbH,visible-plus-suppressed,2,9,11,13,15,100,False,False,False,False,False
+260913195-772053000,260913195,TUM Klinikum Rechts der Isar,visible-plus-suppressed,1,71,72,73,74,100,False,False,False,False,False
+260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",visible-plus-suppressed,3,41,44,47,50,100,False,False,False,False,False
+260914050-771734000,260914050,LMU Klinikum,suppression-only,6,0,6,12,18,100,False,False,False,False,False
+260914050-771736000,260914050,LMU Klinikum,visible-plus-suppressed,11,118,129,140,151,100,True,True,True,True,False
+260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,visible-plus-suppressed,2,44,46,48,50,100,False,False,False,False,False
+260920069-772859000,260920069,Klinikum Passau,visible-plus-suppressed,6,34,40,46,52,100,False,False,False,False,False
+260930050-771597000,260930050,Krankenhaus Barmherzige Brüder Regensburg,visible-plus-suppressed,5,12,17,22,27,100,False,False,False,False,False
+260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,visible-plus-suppressed,4,16,20,24,28,100,False,False,False,False,False
+260930608-771402000,260930608,Universitätsklinikum Regensburg,visible-plus-suppressed,1,227,228,229,230,100,True,True,True,True,False
+260940029-771420000,260940029,Sozialstiftung Bamberg Klinikum Bamberg,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+260940109-772810000,260940109,Klinikum Bayreuth GmbH,suppression-only,3,0,3,6,9,100,False,False,False,False,False
+260940198-771124000,260940198,Sana Klinikum Hof,visible-plus-suppressed,4,13,17,21,25,100,False,False,False,False,False
+260950099-771374000,260950099,Klinikum Nürnberg Nord,visible-plus-suppressed,4,31,35,39,43,100,False,False,False,False,False
+260950567-771175000,260950567,Universitätsklinikum Erlangen,visible-plus-suppressed,2,47,49,51,53,100,False,False,False,False,False
+260960079-773642000,260960079,Universitätsklinikum Würzburg,visible-plus-suppressed,2,18,20,22,24,100,False,False,False,False,False
+260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,visible-plus-suppressed,2,65,67,69,71,100,False,False,False,False,False
+261000013-771100000,261000013,Klinikum Saarbrücken,visible-plus-suppressed,4,16,20,24,28,100,False,False,False,False,False
+261000386-771261000,261000386,Universitätsklinikum des Saarlandes,visible-plus-suppressed,7,59,66,73,80,100,False,False,False,False,False
+261000934-773075000,261000934,CaritasKlinikum Saarbrücken,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261100025-773370000,261100025,Evangelische Elisabeth Klinik,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261100070-773109000,261100070,DRK Kliniken Berlin Mitte,visible-plus-suppressed,4,30,34,38,42,100,False,False,False,False,False
+261100456-771653000,261100456,Krankenhaus Waldfriede e.V.,visible-only,0,10,10,10,10,100,False,False,False,False,False
+261100855-771917000,261100855,St.Joseph Krankenhaus,suppression-only,4,0,4,8,12,100,False,False,False,False,False
+261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,visible-plus-suppressed,7,218,225,232,239,100,True,True,True,True,False
+261101300-773608000,261101300,Helios Klinikum Berlin-Buch,visible-plus-suppressed,4,15,19,23,27,100,False,False,False,False,False
+261101311-772832000,261101311,DRK Kliniken Berlin Köpenick,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,visible-only,0,24,24,24,24,100,False,False,False,False,False
+261101527-773403000,261101527,Sana Klinikum Lichtenberg,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261101561-773065000,261101561,DRK Kliniken Berlin Westend,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261101754-771923000,261101754,BG Klinikum Unfallkrankenhaus Berlin gGmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261101878-773179000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,1,16,17,18,19,100,False,False,False,False,False
+261101878-773181000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-only,0,5,5,5,5,100,False,False,False,False,False
+261101878-773183000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,2,16,18,20,22,100,False,False,False,False,False
+261101878-773184000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-plus-suppressed,1,10,11,12,13,100,False,False,False,False,False
+261101878-773186000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,visible-only,0,9,9,9,9,100,False,False,False,False,False
+261101878-773187000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261110083-772955000,261110083,HELIOS Klinikum Emil von Behring GmbH,suppression-only,4,0,4,8,12,100,False,False,False,False,False
+261200220-772760000,261200220,Klinikum Ernst von Bergmann gemeinnützige GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261200322-771508000,261200322,GLG Werner Forßmann Klinikum Eberswalde GmbH,visible-only,0,13,13,13,13,100,False,False,False,False,False
+261200457-772221000,261200457,Universitätsklinikum Brandenburg an der Havel GmbH,suppression-only,4,0,4,8,12,100,False,False,False,False,False
+261200538-772643000,261200538,"Havelland Kliniken GmbH, Klinik Nauen",suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261200721-773088000,261200721,Medizinische Universität Lausitz - Carl Thiem,visible-plus-suppressed,3,11,14,17,20,100,False,False,False,False,False
+261201061-771632000,261201061,Klinikum Frankfurt (Oder) GmbH,suppression-only,5,0,5,10,15,100,False,False,False,False,False
+261201356-771839000,261201356,HELIOS Klinikum Bad Saarow,visible-plus-suppressed,3,4,7,10,13,100,False,False,False,False,False
+261201414-772821000,261201414,Klinikum Dahme Spreewald GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261300118-771003000,261300118,Klinikum Südstadt Rostock,visible-plus-suppressed,2,59,61,63,65,100,False,False,False,False,False
+261300152-773589000,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,visible-plus-suppressed,2,6,8,10,12,100,False,False,False,False,False
+261300185-772916000,261300185,Helios Kliniken Schwerin,visible-plus-suppressed,1,24,25,26,27,100,False,False,False,False,False
+261300276-772987000,261300276,KMG Klinikum Güstrow,visible-only,0,10,10,10,10,100,False,False,False,False,False
+261300312-772096000,261300312,Sana-Krankenhaus Rügen GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,visible-plus-suppressed,7,56,63,70,77,100,False,False,False,False,False
+261400530-772884000,261400530,Klinikum St. Georg gGmbH,visible-plus-suppressed,6,45,51,57,63,100,False,False,False,False,False
+261400847-771139000,261400847,Helios Park-Klinikum Leipzig,visible-plus-suppressed,8,67,75,83,91,100,False,False,False,False,False
+261400949-772842000,261400949,Städtisches Klinikum Dresden,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",visible-plus-suppressed,5,113,118,123,128,100,True,True,True,True,False
+261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,visible-plus-suppressed,5,43,48,53,58,100,False,False,False,False,False
+261401416-772794000,261401416,Klinikum Chemnitz gGmbH,visible-plus-suppressed,3,29,32,35,38,100,False,False,False,False,False
+261500677-772512000,261500677,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH,visible-only,0,12,12,12,12,100,False,False,False,False,False
+261500702-773513000,261500702,Universitätsklinikum Halle (Saale),visible-plus-suppressed,7,43,50,57,64,100,False,False,False,False,False
+261500757-771701000,261500757,Städtisches Klinikum Dessau,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261600521-771235000,261600521,Hufeland Klinikum GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261600634-771973000,261600634,Zentralklinik Bad Berka GmbH,visible-plus-suppressed,2,14,16,18,20,100,False,False,False,False,False
+261600736-772874000,261600736,Universitätsklinikum Jena,visible-plus-suppressed,5,121,126,131,136,100,True,True,True,True,False
+261600872-771725000,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,suppression-only,2,0,2,4,6,100,False,False,False,False,False
+261601021-771835000,261601021,HELIOS Klinikum Erfurt,visible-plus-suppressed,2,8,10,12,14,100,False,False,False,False,False
+261601123-772308000,261601123,St. Georg Klinikum Eisenach gemeinnützige GmbH,suppression-only,1,0,1,2,3,100,False,False,False,False,False
+261601145-773338000,261601145,KMG Klinikum Sömmerda,visible-plus-suppressed,4,12,16,20,24,100,False,False,False,False,False

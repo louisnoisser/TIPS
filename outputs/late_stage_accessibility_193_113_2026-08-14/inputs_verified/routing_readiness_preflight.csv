@@ -1,0 +1,6 @@
+gate,observed,expected,status
+full network routing-ready,193,193,PASS
+openly numeric routing-ready,113,113,PASS
+precision A/B,193,193,PASS
+precision C/D,0,0,PASS
+coordinate-evidence invariant violations,0,0,PASS

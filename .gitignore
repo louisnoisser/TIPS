@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+outputs/
+data/cache/isochrones/
+data/cache/geocode/
+data/cache/population/
+data/cache/postal_codes/
+data/derived/
+data/geocoded/
+spatial/GHS_POP*.tif

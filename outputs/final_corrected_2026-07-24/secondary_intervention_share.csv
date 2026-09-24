@@ -1,0 +1,16 @@
+reporting_year,classification_basis,analytical_group,visible_activity,percentage_total_visible,suppressed_entries,lower_activity,midpoint_activity,upper_activity,officially_verified,interpretation_status
+2008,operational repository mapping only,secondary_intervention,403,28.340365682137833,86,489,575,661,False,operational diagnostic only; not officially verified and not manuscript-valid
+2010,operational repository mapping only,secondary_intervention,463,32.62861169837914,113,576,689,802,False,operational diagnostic only; not officially verified and not manuscript-valid
+2012,operational repository mapping only,secondary_intervention,856,40.56872037914692,166,1022,1188,1354,False,operational diagnostic only; not officially verified and not manuscript-valid
+2013,operational repository mapping only,secondary_intervention,961,45.24482109227872,198,1159,1357,1555,False,operational diagnostic only; not officially verified and not manuscript-valid
+2014,operational repository mapping only,secondary_intervention,1105,44.00637196336121,238,1343,1581,1819,False,operational diagnostic only; not officially verified and not manuscript-valid
+2015,operational repository mapping only,secondary_intervention,1132,44.46190102120974,253,1385,1638,1891,False,operational diagnostic only; not officially verified and not manuscript-valid
+2016,operational repository mapping only,secondary_intervention,1181,43.499079189686924,246,1427,1673,1919,False,operational diagnostic only; not officially verified and not manuscript-valid
+2017,operational repository mapping only,secondary_intervention,1262,45.05533737950732,239,1501,1740,1979,False,operational diagnostic only; not officially verified and not manuscript-valid
+2018,operational repository mapping only,secondary_intervention,1374,46.15384615384615,240,1614,1854,2094,False,operational diagnostic only; not officially verified and not manuscript-valid
+2019,operational repository mapping only,secondary_intervention,1362,45.82772543741588,267,1629,1896,2163,False,operational diagnostic only; not officially verified and not manuscript-valid
+2020,operational repository mapping only,secondary_intervention,1475,45.95015576323988,277,1752,2029,2306,False,operational diagnostic only; not officially verified and not manuscript-valid
+2021,operational repository mapping only,secondary_intervention,1899,46.407624633431084,302,2201,2503,2805,False,operational diagnostic only; not officially verified and not manuscript-valid
+2022,operational repository mapping only,secondary_intervention,2142,48.48347668628339,302,2444,2746,3048,False,operational diagnostic only; not officially verified and not manuscript-valid
+2023,operational repository mapping only,secondary_intervention,2586,51.93814018879293,298,2884,3182,3480,False,operational diagnostic only; not officially verified and not manuscript-valid
+2024,operational repository mapping only,secondary_intervention,2619,49.914236706689536,309,2928,3237,3546,False,operational diagnostic only; not officially verified and not manuscript-valid

@@ -1,0 +1,7 @@
+check,observed,expected,status
+identifiable active records,193,193,PASS
+openly numeric records,113,113,PASS
+suppressed-only records,80,80,PASS
+openly numeric <20 records,53,53,PASS
+nested hierarchy 193>113>60>31>16,193>113>60>31>16,193>113>60>31>16,PASS
+standalone 113 identity and coordinates,113 exact,113 exact,PASS

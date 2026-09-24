@@ -1,0 +1,83 @@
+Tracked working-tree diff summary at snapshot time
+
+ .gitignore                                         |     1 +
+ outputs/indications/tips_8-839-8/SUMMARY.md        |   208 -
+ .../tips_8-839-8/figures/01_yearly_trends.png      |   Bin 220537 -> 0 bytes
+ .../figures/02_threshold_counts_latest_year.png    |   Bin 35310 -> 0 bytes
+ .../figures/03_top_centers_latest_year.png         |   Bin 146414 -> 0 bytes
+ .../figures/04_case_distribution_latest_year.png   |   Bin 93297 -> 0 bytes
+ .../figures/05_state_summary_ge_10.png             |   Bin 76984 -> 0 bytes
+ .../figures/06_urban_rural_centers.png             |   Bin 37493 -> 0 bytes
+ .../tips_8-839-8/figures/07_centers_map_ge_10.png  |   Bin 240839 -> 0 bytes
+ .../tips_8-839-8/figures/08_centers_map_ge_25.png  |   Bin 224655 -> 0 bytes
+ .../figures/09_isochrone_map_ge_10.png             |   Bin 1059330 -> 0 bytes
+ .../figures/09_isochrone_map_ge_25.png             |   Bin 928527 -> 0 bytes
+ .../figures/10_isochrone_coverage_ge_10.png        |   Bin 91014 -> 0 bytes
+ .../figures/10_isochrone_coverage_ge_25.png        |   Bin 85882 -> 0 bytes
+ .../figures/11_concentration_trends.png            |   Bin 256974 -> 0 bytes
+ .../figures/12_threshold_churn_by_ik.png           |   Bin 119553 -> 0 bytes
+ .../13_coverage_tradeoff_ge_10_vs_ge_25.png        |   Bin 93374 -> 0 bytes
+ .../tips_8-839-8/figures/14_top_ik_all_years.png   |   Bin 131139 -> 0 bytes
+ .../15_population_coverage_ge_10_vs_ge_25.png      |   Bin 101987 -> 0 bytes
+ .../figures/16_state_case_rates_per_million.png    |   Bin 80858 -> 0 bytes
+ .../figures/17_isochrone_multipanel_thresholds.png |   Bin 2125113 -> 0 bytes
+ .../figures/18_state_county_access_context.png     |   Bin 266535 -> 0 bytes
+ .../19_county_population_coverage_multipanel.png   |   Bin 2328136 -> 0 bytes
+ .../geo/isochrones_ge_10_centers.geojson           |   187 -
+ .../tips_8-839-8/geo/isochrones_ge_10_meta.json    |    12 -
+ .../geo/isochrones_ge_10_unions.geojson            |     9 -
+ .../geo/isochrones_ge_25_centers.geojson           |   113 -
+ .../tips_8-839-8/geo/isochrones_ge_25_meta.json    |    12 -
+ .../geo/isochrones_ge_25_unions.geojson            |     9 -
+ .../indications/tips_8-839-8/report_summary.json   |    90 -
+ .../tips_8-839-8/tables/county_access_context.csv  |   401 -
+ .../tables/county_population_coverage_ge_10.csv    |   801 -
+ .../tables/county_population_coverage_ge_25.csv    |   801 -
+ .../tables/coverage_tradeoff_ge_10_vs_ge_25.csv    |     7 -
+ .../tips_8-839-8/tables/hospital_year.csv          | 35446 -------------------
+ .../indications/tips_8-839-8/tables/ik_year.csv    | 25771 --------------
+ .../isochrone_coverage_urban_rural_ge_10.csv       |     7 -
+ .../isochrone_coverage_urban_rural_ge_25.csv       |     7 -
+ .../tables/isochrone_population_coverage_ge_10.csv |     3 -
+ .../tables/isochrone_population_coverage_ge_25.csv |     3 -
+ .../tables/latest_year_centers_ge_1.csv            |   114 -
+ .../tables/latest_year_centers_ge_10.csv           |    91 -
+ .../latest_year_centers_ge_1_with_counties.csv     |   114 -
+ .../tables/latest_year_centers_ge_25.csv           |    54 -
+ .../tables/latest_year_centers_ge_5.csv            |   106 -
+ .../tables/latest_year_county_provider_rates.csv   |  1601 -
+ .../tables/latest_year_geocoded_all_centers.csv    |   114 -
+ .../tables/latest_year_hospital_code_totals.csv    |   114 -
+ .../tables/latest_year_matched_subcodes.csv        |    13 -
+ .../tables/latest_year_state_population_rates.csv  |    64 -
+ .../tables/latest_year_state_provider_rates.csv    |    65 -
+ .../tables/latest_year_state_summary.csv           |    64 -
+ .../tables/latest_year_threshold_summary.csv       |     5 -
+ .../tables/latest_year_urban_summary.csv           |     8 -
+ .../tables/population_tradeoff_ge_10_vs_ge_25.csv  |     3 -
+ .../tips_8-839-8/tables/schema_check.csv           |    16 -
+ .../tips_8-839-8/tables/state_access_context.csv   |    17 -
+ .../tables/state_population_coverage_ge_10.csv     |    33 -
+ .../tables/state_population_coverage_ge_25.csv     |    33 -
+ .../tips_8-839-8/tables/threshold_churn_by_ik.csv  |    29 -
+ .../gba_longitudinal_hospital_year.csv             | 35446 -------------------
+ .../gba_longitudinal_schema_check.csv              |    16 -
+ .../tmp_longitudinal/gba_longitudinal_sources.json |    31 -
+ .../gba_longitudinal_yearly_summary.csv            |    16 -
+ .../tips_8-839-8/tables/top_centers_all_years.csv  | 10617 ------
+ .../tips_8-839-8/tables/top_ik_all_years.csv       |   175 -
+ .../tables/yearly_concentration_summary.csv        |    16 -
+ .../tips_8-839-8/tables/yearly_summary.csv         |    16 -
+ .../tables/yearly_threshold_sensitivity.csv        |    61 -
+ scripts/build_indication_report.py                 |    32 +-
+ scripts/build_indication_supplement.py             |     7 +-
+ scripts/write_indication_notebook.py               |     2 +-
+ src/gba_ops_reanalysis/config.py                   |    42 +
+ src/gba_ops_reanalysis/geocoding.py                |    28 +-
+ src/gba_ops_reanalysis/indication_report.py        |   196 +-
+ src/gba_ops_reanalysis/indication_supplement.py    |   228 +-
+ src/gba_ops_reanalysis/isochrones.py               |    89 +-
+ src/gba_ops_reanalysis/longitudinal.py             |    21 +-
+ src/gba_ops_reanalysis/webapp.py                   |    41 +-
+ webapp/tips-ops-8-839-8/data.js                    |     2 +-
+ 80 files changed, 593 insertions(+), 113035 deletions(-)

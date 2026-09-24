@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-08-14T15:35:42.778583+00:00",
+  "outputs": [
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/figure3_finalisation/Figure3B_final_selected_legend_wording.pdf",
+      "size_bytes": 14717,
+      "sha256": "bd3fdde5702047cae35640eeed3baa4f0e20d851d72cb617b2c7887be476a938"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/figure3_finalisation/Figure3B_final_selected_legend_wording.png",
+      "size_bytes": 248235,
+      "sha256": "91dc44063f1302e2101b78e0b72c1bd53b4857537548fd06a81380bbbd7d9aff"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/final_run_report.md",
+      "size_bytes": 13805,
+      "sha256": "f8f8a8b8949dc90519ddea13367367cb5406613e2539c8b40c028841f546b028"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/additional_133_site_validation.csv",
+      "size_bytes": 192399,
+      "sha256": "ff00191ec9ea4ff79bcd36b46eebdd6c3def834132b4c914cb5db0f4a0cfaa1a"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/decision_required/decision_required_dossier.html",
+      "size_bytes": 1081,
+      "sha256": "115c7fd037c9bde649ee093bb8a421ad6b9f84e16fdb27626cba5c741edb9282"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/decision_required/decision_required_records.csv",
+      "size_bytes": 1160,
+      "sha256": "5da9f7fd8fdd43a736a55165d7d6a13aefdd59c4510e5f29e3e6d377975a5554"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/evidence/evidence_source_inventory.csv",
+      "size_bytes": 74386,
+      "sha256": "888f568a353e0d17cde79a58e6dc307e738991ad7037a41c33db37174e0ea545"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/evidence/nominatim_exact_address_corrections.csv",
+      "size_bytes": 6660,
+      "sha256": "dfc2067c8897b97f86dd11a497be372054df407f043ae04d855fdc08456015b6"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/evidence/nominatim_reverse_coordinate_evidence.csv",
+      "size_bytes": 157091,
+      "sha256": "b70508b76329ab03c1a5cce9fe52a9fc26d9bf39d262995727b0229c12939cb8"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/evidence/official_source_coordinate_adjudications.csv",
+      "size_bytes": 3515,
+      "sha256": "cbc4bd1d5c00e9ce94c5eb380f59f400713c4bffe7efd3d7b3d22b5611d5a418"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/proposed_corrections.csv",
+      "size_bytes": 4708,
+      "sha256": "8d065d7f53d4b4f87d1ac34028f275fa5912838c91eaa15ac9a015d7736c0a16"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/proposed_full_identifiable_network_review_master.csv",
+      "size_bytes": 214142,
+      "sha256": "dd26689f63106b8551b325916806b1cede28e9a15a89d47d37593e6dc2b347d4"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/proposed_openly_numeric_network_review_master.csv",
+      "size_bytes": 136412,
+      "sha256": "1df3af1e8f4a8248160ace0472d0ffe3ccdbd211d7d2d11e76994d7eae68c79f"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/review_dossier/full_133_site_validation_dossier.html",
+      "size_bytes": 233079,
+      "sha256": "65601f905bd1e7e62b1c280f81da1debae7212416828fb9e49a10f06d65380a2"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/routing_readiness_all_193.csv",
+      "size_bytes": 87442,
+      "sha256": "d3f9fda1257986f384b812dc4f9bcfe4c878cf9f6ea207c8525a5dca60599715"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/geo_validation/set_integrity_report.md",
+      "size_bytes": 1367,
+      "sha256": "acc02fd19e8c2f240e79e767c0d5f56917a9795afe2c8d04c18ec8c1ba628ba1"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/qa/Figure3B_finalisation_QA.csv",
+      "size_bytes": 311,
+      "sha256": "fe9fbdd813e763f09e75ce1bb9d7306244624e4605e59d4e80cbdc1fe8b2ff0f"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/qa/geographic_validation_programmatic_QA.csv",
+      "size_bytes": 690,
+      "sha256": "cc472e47fc1e7b117682ee7ed63a6d86b555b11c919fcf251311210bfef10b43"
+    },
+    {
+      "path": "outputs/late_stage_geo_validation_2026-08-14/qa/precision_routing_summary.csv",
+      "size_bytes": 263,
+      "sha256": "7c97c01635308aeb70448482b8e588059c1929479dff4ac8c7436469ec659d47"
+    },
+    {
+      "path": "scripts/run_late_stage_geo_validation_2026_08_14.py",
+      "size_bytes": 58548,
+      "sha256": "e6e893da239687ca2b6fcb45522fcf827f1b9dab9d8cefa6794ce2b9211a5564"
+    }
+  ]
+}

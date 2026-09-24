@@ -1,0 +1,11 @@
+metric,observed,expected,status
+visible_selected_code_activity,2548,2548,PASS
+selected_code_identifiable,176,176,PASS
+selected_code_openly_numeric,106,106,PASS
+selected_code_suppressed_only,70,70,PASS
+selected_code_ge20_membership_only,44,44,PASS
+selected_code_ge50_membership_only,14,14,PASS
+selected_code_ge100_membership_only,4,4,PASS
+selected_code_ge200_membership_only,0,0,PASS
+inclusive_identifiable_without_selected_code_activity,17,17,PASS
+inclusive_openly_numeric_without_numeric_selected_code_activity,7,7,PASS

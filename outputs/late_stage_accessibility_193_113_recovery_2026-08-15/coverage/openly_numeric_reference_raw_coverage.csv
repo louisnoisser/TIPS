@@ -1,0 +1,9 @@
+network,site_count,data_provenance,settlement_class,time_minutes,covered_population_raw_float,covered_population,population_denominator,percentage_unrounded,percentage_manuscript_1dp
+openly_numeric_reference,113,newly_computed,national,30,46315905.071749836,46315905,83194667,55.67172352525914,55.7
+openly_numeric_reference,113,newly_computed,urban,30,40979520.14141758,40979520,60644251,67.5736270532882,67.6
+openly_numeric_reference,113,newly_computed,rural,30,5336378.880162679,5336379,22550346,23.664288787409294,23.7
+openly_numeric_reference,113,newly_computed,other,30,6.050169587756197,6,69,8.695652173913043,8.7
+openly_numeric_reference,113,newly_computed,national,60,74994577.95195812,74994578,83194667,90.14349201013088,90.1
+openly_numeric_reference,113,newly_computed,urban,60,56999047.06312275,56999047,60644251,93.98920105386412,94.0
+openly_numeric_reference,113,newly_computed,rural,60,17995500.231493138,17995500,22550346,79.80143630612142,79.8
+openly_numeric_reference,113,newly_computed,other,60,30.657342313827634,31,69,44.927536231884055,44.9

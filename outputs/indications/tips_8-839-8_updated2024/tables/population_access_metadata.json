@@ -1,0 +1,20 @@
+{
+  "denominator_source": "GHS-POP raster cells within Germany boundary",
+  "ghs_epoch": "2025",
+  "ghs_release": "R2023A",
+  "main_threshold": 50,
+  "outputs": [
+    "tables/isochrone_population_coverage_ge_50.csv",
+    "tables/isochrone_population_coverage_ge_100.csv",
+    "tables/population_tradeoff_ge_50_vs_ge_100.csv"
+  ],
+  "population_total": 83194667,
+  "raster_name": "GHS_POP_E2025_GLOBE_R2023A_4326_3ss_V1_0.tif",
+  "raster_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/spatial/GHS_POP_E2025_GLOBE_R2023A_4326_3ss_V1_0.tif",
+  "status": "complete",
+  "strict_threshold": 100,
+  "time_bins": [
+    30,
+    60
+  ]
+}

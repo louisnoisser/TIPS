@@ -1,0 +1,65 @@
+{
+  "base_xml_dir": "data/xml",
+  "year_dirs": [
+    "xml_2008",
+    "xml_2010",
+    "xml_2012",
+    "xml_2013",
+    "xml_2014",
+    "xml_2015",
+    "xml_2016",
+    "xml_2017",
+    "xml_2018",
+    "xml_2019",
+    "xml_2020",
+    "xml_2021",
+    "xml_2022",
+    "xml_2023",
+    "xml_2024"
+  ],
+  "files_scanned": 35163,
+  "files_with_tips_text_parsed": 2668,
+  "parse_errors": 0,
+  "tips_entries": 11158,
+  "suppressed_entries": 7976,
+  "excluded_privacy_entries_outside_pipeline_scope": 7,
+  "excluded_privacy_entries_by_year_and_element": {
+    "2012:Ambulante_Operation": 1,
+    "2020:Ambulante_Operation": 2,
+    "2021:Ambulante_Operation": 2,
+    "2024:Ambulante_Operation": 2
+  },
+  "scenarios": {
+    "visible-only": "visible_count",
+    "lower-bound": "lower_count",
+    "midpoint": "midpoint_count",
+    "upper-bound": "upper_count"
+  },
+  "thresholds": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "regression": {
+    "status": "passed",
+    "expected": {
+      "active_centers": 113,
+      "cases_total": 5247,
+      "centers_ge_20": 60,
+      "centers_lt_20": 53,
+      "cases_lt_20": 568
+    },
+    "actual": {
+      "active_centers": 113,
+      "cases_total": 5247,
+      "centers_ge_20": 60,
+      "centers_lt_20": 53,
+      "cases_lt_20": 568
+    },
+    "reference": "outputs/indications/tips_8-839-8_updated2024/tables/latest_year_hospital_code_totals.csv"
+  },
+  "reference_report_dir": "outputs/indications/tips_8-839-8_updated2024",
+  "isochrones_recalculated": false,
+  "population_coverage_recalculated": false
+}

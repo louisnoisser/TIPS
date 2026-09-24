@@ -1,0 +1,5 @@
+larger_network,smaller_network,time_minutes,non_contained_area_m2,relative_non_contained_pct,tolerance_m2,tolerance_fraction_of_smaller,status
+inclusive_identifiable,selected_code_identifiable,30,38.303458278093885,3.7843857595296524e-08,1012.1446573367955,1e-08,PASS
+inclusive_identifiable,selected_code_identifiable,60,61.65120581608551,2.0871988591356164e-08,2953.7772860616396,1e-08,PASS
+inclusive_openly_numeric,selected_code_openly_numeric,30,17.370224243079512,2.4530018805229106e-08,708.1211140114035,1e-08,PASS
+inclusive_openly_numeric,selected_code_openly_numeric,60,33.53876147520753,1.3163544437320202e-08,2547.851882515866,1e-08,PASS

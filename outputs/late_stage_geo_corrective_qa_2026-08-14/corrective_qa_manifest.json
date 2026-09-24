@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-08-14T16:35:16.755209+00:00",
+  "immutable_source_manifest": {
+    "path": "outputs/late_stage_geo_validation_2026-08-14/validation_manifest.json",
+    "sha256": "3bfd848380c0023377c48006f32fcf8c9931a18d0d276a72686e82e5998ccd50"
+  },
+  "outputs": [
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/corrective_qa_report.md",
+      "size_bytes": 4580,
+      "timestamp_utc": "2026-08-14T16:35:16.755153+00:00",
+      "sha256": "bb87194564c0d11f1ccaf3ee938f9469a822ecca15cba96e2d9ecbcb4928e503"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/evidence/authoritative_coordinate_adjudications_updated.csv",
+      "size_bytes": 4918,
+      "timestamp_utc": "2026-08-14T16:35:16.746335+00:00",
+      "sha256": "6327fabcfa7d6d54b3b7c65d836c9497f6d4569fc039e8bd02c0818a9754079f"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/proposed_full_identifiable_network_review_master_corrective_qa.csv",
+      "size_bytes": 250857,
+      "timestamp_utc": "2026-08-14T16:35:16.753831+00:00",
+      "sha256": "58ea359aa31f93a7597771298aac0f19124a41ead80aaf35b14c089a83880793"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/qa/preservation_crosscheck.csv",
+      "size_bytes": 8010,
+      "timestamp_utc": "2026-08-14T16:35:16.754150+00:00",
+      "sha256": "6cf7ee7c97e90e978049b0354e21f496b3f768b32f53f73eb43874a6ad6d93c5"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/qa/programmatic_qa.csv",
+      "size_bytes": 3265,
+      "timestamp_utc": "2026-08-14T16:35:16.754418+00:00",
+      "sha256": "1730b90be8bfc2d287437bb5cda54ebd63de7f4dc1cae33301285fb04363e032"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/qa/reverse_false_records_qa.csv",
+      "size_bytes": 5949,
+      "timestamp_utc": "2026-08-14T16:35:16.748013+00:00",
+      "sha256": "8c73cd6a39ec02ba82a5dcd5900e41e44e672f5756228c365626ce39b881d149"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/qa/routing_readiness_invariant_all_193.csv",
+      "size_bytes": 66855,
+      "timestamp_utc": "2026-08-14T16:35:16.747703+00:00",
+      "sha256": "1182eca18ca0c89380ae57fa0d74661f40844d337641ecf8d0d2597dbd91a096"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/routing_readiness_all_193_corrective_qa.csv",
+      "size_bytes": 116746,
+      "timestamp_utc": "2026-08-14T16:35:16.749885+00:00",
+      "sha256": "5b23e962ddc0288d82e94b7ddb36f4d493699e287b7de278e12b872af81c7a31"
+    },
+    {
+      "path": "outputs/late_stage_geo_corrective_qa_2026-08-14/westerstede_corrected_adjudicated_record.csv",
+      "size_bytes": 3614,
+      "timestamp_utc": "2026-08-14T16:35:16.745922+00:00",
+      "sha256": "8139d1c3362d77b80fa77c2dddf6aefce3d57943bb6ec81f8556a53d3838a165"
+    },
+    {
+      "path": "scripts/run_late_stage_geo_corrective_qa_2026_08_14.py",
+      "size_bytes": 25041,
+      "timestamp_utc": "2026-08-14T16:35:12.971578+00:00",
+      "sha256": "fe3d32cc2911baa39f1a2a036f7949dfc065167c4a3a393fc957a5abe16e3116"
+    }
+  ]
+}

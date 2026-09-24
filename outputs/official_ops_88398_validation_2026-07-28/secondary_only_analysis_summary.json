@@ -1,0 +1,78 @@
+{
+  "generation_timestamp": "2026-07-28T11:48:33+00:00",
+  "git_commit_hash": "e162c991af5d699d169240b903a1c35cbb4df5f9",
+  "analysis_version": "official-ops-88398-v1-approved-secondary-v1",
+  "manual_review_status": "approved_by_explicit_user_instruction",
+  "scope": {
+    "first_year": 2013,
+    "last_year": 2024
+  },
+  "site_longitudinal_counts": {
+    "ever_primary": 501,
+    "never_primary_visible_secondary_only": 2,
+    "never_primary_unresolved": 108,
+    "suppressed_only_unclassifiable_sites": 15
+  },
+  "institution_longitudinal_counts": {
+    "ever_primary": 262,
+    "never_primary_visible_secondary_only": 1,
+    "never_primary_unresolved": 84,
+    "suppressed_only_unclassifiable_institutions": 11
+  },
+  "site_visibility_accounting": {
+    "sites_with_any_visible_numeric_activity": 314,
+    "sites_exclusively_suppressed": 297,
+    "site_years_with_any_visible_numeric_activity": 1092,
+    "site_years_exclusively_suppressed": 965,
+    "sites_longitudinally_unresolved": 108,
+    "sites_suppressed_only_unclassifiable": 15
+  },
+  "institution_visibility_accounting": {
+    "sites_with_any_visible_numeric_activity": 170,
+    "sites_exclusively_suppressed": 177,
+    "site_years_with_any_visible_numeric_activity": 1043,
+    "site_years_exclusively_suppressed": 874,
+    "sites_longitudinally_unresolved": 84,
+    "sites_suppressed_only_unclassifiable": 11
+  },
+  "definitely_secondary_only_site_years": {
+    "count": 196,
+    "maximum_annual_visible_activity": 8,
+    "threshold_counts": {
+      "20": 0,
+      "50": 0,
+      "100": 0,
+      "200": 0
+    }
+  },
+  "expansion_and_concentration_sensitivity": {
+    "all_active_provider_expansion_2013_to_2024": 51,
+    "expansion_excluding_secondary_only_2013_to_2024": 52,
+    "maximum_annual_provider_count_difference": 2,
+    "maximum_annual_visible_activity_difference": 11,
+    "maximum_absolute_hhi_difference": 2.853999999999985,
+    "plausibly_explained_by_secondary_only_providers": false,
+    "interpretation": "The observed provider expansion and concentration findings are not plausibly explained by definitely secondary-only providers."
+  },
+  "legacy_2013_883980": {
+    "status": "invalid_hospital_reported_legacy_code",
+    "remapped": false,
+    "discarded": false,
+    "used_as_sole_primary_evidence": false,
+    "affected_site_years_have_valid_2013_primary_code": true
+  },
+  "source_catalogue_hashes": {
+    "2013": "0e965ba2497d176e0a3feb4aa65adf61ba942a48a02963ce0efe858d53a712ee",
+    "2014": "90b1a4676aed409da0db313bd735a07be49fc79080ae88459bff9eca676359cc",
+    "2015": "e8858a5373ee105f4c6aa26cf8718e7c6a8c1c1e30a6bd3381bd6601bcbcaec8",
+    "2016": "390830d8021d5bf6024b9a2d4a59099b18aeb7960df58d93f8ff35bb4c63876d",
+    "2017": "1a01defe650df9c98091bc8046754ca4e5d02bffbc61fe81d5071641683b0ac5",
+    "2018": "ea7f93017c3c519c884d4f8da306f14f75f98e6ca7b15ec10a866b891556c8e2",
+    "2019": "edc9c958b9e59e38307736053e3215438a234708e594cc59ee777af3e430c58f",
+    "2020": "91983d4e30e184b9c299fabb9c6d0783efc925cda344c3f83922bfd272bd4879",
+    "2021": "8f0e9950f5873a93c52ae614c11130aad032f5159bdadb70eb80e2f3d544acc0",
+    "2022": "31fd2f6863cbf368dfa202bfb71936ee4404a4097253c047cf4c9e5a142c1481",
+    "2023": "ecea2866934b97a9294a9d677bc30e0eac4d0a9ec322f51a0e7cd9b546f74705",
+    "2024": "0baf9c97efdfe1dc5c66ac50fb35b3d6fb1144614cde44515ff2eb829d694110"
+  }
+}

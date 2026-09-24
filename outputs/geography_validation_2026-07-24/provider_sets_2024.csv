@@ -1,0 +1,194 @@
+reporting_year,ik,site_identifier,hospital_name,visible_activity,suppressed_only,exclusive_volume_category,threshold_ge20,threshold_ge50,threshold_ge100,threshold_ge200
+2024,260530103,260530103-772247000,Universitätsklinikum Bonn,306,False,≥200,True,True,True,True
+2024,260510018,260510018-773410000,Universitätsklinikum Düsseldorf,269,False,≥200,True,True,True,True
+2024,260930608,260930608-771402000,Universitätsklinikum Regensburg,227,False,≥200,True,True,True,True
+2024,261101015,261101015-772563000,Charité - Universitätsmedizin Berlin,218,False,≥200,True,True,True,True
+2024,260200013,260200013-773675000,Universitätsklinikum Hamburg-Eppendorf,201,False,≥200,True,True,True,True
+2024,260530443,260530443-771696000,Cellitinnen-Krankenhaus St. Vinzenz,201,False,≥200,True,True,True,True
+2024,260550131,260550131-772432000,Universitätsklinikum Münster,154,False,100–199,True,True,True,False
+2024,260820466,260820466-771700000,Universitätsklinikum Heidelberg,137,False,100–199,True,True,True,False
+2024,260832299,260832299-773657000,Universitätsklinikum Freiburg,137,False,100–199,True,True,True,False
+2024,260810647,260810647-772121000,Klinikum Ludwigsburg,124,False,100–199,True,True,True,False
+2024,261600736,261600736-772874000,Universitätsklinikum Jena,121,False,100–199,True,True,True,False
+2024,260102343,260102343-773448000,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,118,False,100–199,True,True,True,False
+2024,260914050,260914050-771736000,LMU Klinikum,118,False,100–199,True,True,True,False
+2024,260812364,260812364-772783000,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,117,False,100–199,True,True,True,False
+2024,261401030,261401030-773444000,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",113,False,100–199,True,True,True,False
+2024,260730161,260730161-771621000,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,112,False,100–199,True,True,True,False
+2024,260612124,260612124-772858000,Universitätsklinikum Frankfurt,95,False,50–99,True,True,False,False
+2024,260320597,260320597-771519000,Medizinische Hochschule Hannover,92,False,50–99,True,True,False,False
+2024,260102343,260102343-773447000,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,88,False,50–99,True,True,False,False
+2024,260310378,260310378-772918000,Universitätsmedizin Göttingen,81,False,50–99,True,True,False,False
+2024,260530283,260530283-773491000,Universitätsklinikum Köln,75,False,50–99,True,True,False,False
+2024,260913195,260913195-772053000,TUM Klinikum Rechts der Isar,71,False,50–99,True,True,False,False
+2024,260510381,260510381-771967000,Universitätsklinikum Essen (AöR),69,False,50–99,True,True,False,False
+2024,261400847,261400847-771139000,Helios Park-Klinikum Leipzig,67,False,50–99,True,True,False,False
+2024,260970015,260970015-772997000,Universitätsklinikum Augsburg A.ö.R.,65,False,50–99,True,True,False,False
+2024,261500289,261500289-773667000,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,63,False,50–99,True,True,False,False
+2024,261000386,261000386-771261000,Universitätsklinikum des Saarlandes,59,False,50–99,True,True,False,False
+2024,261300118,261300118-771003000,Klinikum Südstadt Rostock,59,False,50–99,True,True,False,False
+2024,261300425,261300425-773084000,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,56,False,50–99,True,True,False,False
+2024,260840108,260840108-772041000,Universitätsklinikum Tübingen,53,False,50–99,True,True,False,False
+2024,260810271,260810271-772311000,Robert Bosch Krankenhaus,51,False,50–99,True,True,False,False
+2024,260950567,260950567-771175000,Universitätsklinikum Erlangen,47,False,20–49,True,False,False,False
+2024,261400530,261400530-772884000,Klinikum St. Georg gGmbH,45,False,20–49,True,False,False,False
+2024,260200079,260200079-772901000,Asklepios Klinikum Harburg,44,False,20–49,True,False,False,False
+2024,260920014,260920014-773514000,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,44,False,20–49,True,False,False,False
+2024,260200035,260200035-772584000,Asklepios Klinik Barmbek,43,False,20–49,True,False,False,False
+2024,261401052,261401052-771392000,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,43,False,20–49,True,False,False,False
+2024,261500702,261500702-773513000,Universitätsklinikum Halle (Saale),43,False,20–49,True,False,False,False
+2024,260913480,260913480-771080000,"München Klinik Bogenhausen, München Klinik gGmbH",41,False,20–49,True,False,False,False
+2024,260840200,260840200-773713000,Universitätsklinikum Ulm,38,False,20–49,True,False,False,False
+2024,260530465,260530465-772075000,Cellitinnen-Krankenhaus St. Franziskus,37,False,20–49,True,False,False,False
+2024,260590139,260590139-773659000,Klinikzentrum Mitte,37,False,20–49,True,False,False,False
+2024,260550460,260550460-771191000,Christophorus Kliniken Coesfeld Dülmen Nottuln,36,False,20–49,True,False,False,False
+2024,260101488,260101488-772073000,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,35,False,20–49,True,False,False,False
+2024,260820569,260820569-772389000,Universitätsklinikum Mannheim GmbH,35,False,20–49,True,False,False,False
+2024,260820115,260820115-772143000,Städtisches Klinikum Karlsruhe gGmbH,34,False,20–49,True,False,False,False
+2024,260920069,260920069-772859000,Klinikum Passau,34,False,20–49,True,False,False,False
+2024,260950099,260950099-771374000,Klinikum Nürnberg Nord,31,False,20–49,True,False,False,False
+2024,261100070,261100070-773109000,DRK Kliniken Berlin Mitte,30,False,20–49,True,False,False,False
+2024,261401416,261401416-772794000,Klinikum Chemnitz gGmbH,29,False,20–49,True,False,False,False
+2024,260620431,260620431-773132000,Universitätsklinikum Gießen und Marburg GmbH,28,False,20–49,True,False,False,False
+2024,260571421,260571421-773289000,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,27,False,20–49,True,False,False,False
+2024,260550701,260550701-772358000,Stiftungsklinikum PROSELIS gGmbH,26,False,20–49,True,False,False,False
+2024,260510939,260510939-771562000,Klinikverbund St. Antonius und St. Josef GmbH,24,False,20–49,True,False,False,False
+2024,261101479,261101479-773680000,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,24,False,20–49,True,False,False,False
+2024,261300185,261300185-772916000,Helios Kliniken Schwerin,24,False,20–49,True,False,False,False
+2024,260570692,260570692-772283000,Johannes Wesling Klinikum Minden,23,False,20–49,True,False,False,False
+2024,260530012,260530012-771450000,Uniklinik RWTH Aachen,20,False,20–49,True,False,False,False
+2024,260730025,260730025-772988000,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,20,False,20–49,True,False,False,False
+2024,260810453,260810453-771315000,Krankenhaus Leonberg,20,False,20–49,True,False,False,False
+2024,260102423,260102423-772498000,Sana Kliniken Lübeck GmbH,19,False,4–19,False,False,False,False
+2024,260610439,260610439-772176000,St. Josefs-Hospital Wiesbaden GmbH,19,False,4–19,False,False,False,False
+2024,260910205,260910205-771703000,Barmherzige Brüder Krankenhaus München,19,False,4–19,False,False,False,False
+2024,260570306,260570306-773235000,Kreiskliniken Herford-Bünde AöR,18,False,4–19,False,False,False,False
+2024,260611236,260611236-771648000,Klinikum Hanau GmbH,18,False,4–19,False,False,False,False
+2024,260960079,260960079-773642000,Universitätsklinikum Würzburg,18,False,4–19,False,False,False,False
+2024,260340740,260340740-771936000,Klinikum Oldenburg AöR,16,False,4–19,False,False,False,False
+2024,260551381,260551381-773391000,Klinikum Ibbenbüren,16,False,4–19,False,False,False,False
+2024,260930129,260930129-771930000,Kliniken Nordoberpfalz AG - Weiden,16,False,4–19,False,False,False,False
+2024,261000013,261000013-771100000,Klinikum Saarbrücken,16,False,4–19,False,False,False,False
+2024,261101878,261101878-773179000,Vivantes - Netzwerk für Gesundheit GmbH,16,False,4–19,False,False,False,False
+2024,261101878,261101878-773183000,Vivantes - Netzwerk für Gesundheit GmbH,16,False,4–19,False,False,False,False
+2024,261101300,261101300-773608000,Helios Klinikum Berlin-Buch,15,False,4–19,False,False,False,False
+2024,260200400,260200400-772533000,Kath. Marienkrankenhaus gGmbH,14,False,4–19,False,False,False,False
+2024,261600634,261600634-771973000,Zentralklinik Bad Berka GmbH,14,False,4–19,False,False,False,False
+2024,260330361,260330361-772578000,Städtisches Klinikum Lüneburg gemeinnützige GmbH,13,False,4–19,False,False,False,False
+2024,260591608,260591608-772932000,Knappschaft Kliniken Universitätsklinikum Bochum GmbH,13,False,4–19,False,False,False,False
+2024,260940198,260940198-771124000,Sana Klinikum Hof,13,False,4–19,False,False,False,False
+2024,261200322,261200322-771508000,GLG Werner Forßmann Klinikum Eberswalde GmbH,13,False,4–19,False,False,False,False
+2024,260531661,260531661-772113000,Rhein-Maas Klinikum GmbH,12,False,4–19,False,False,False,False
+2024,260930050,260930050-771597000,Krankenhaus Barmherzige Brüder Regensburg,12,False,4–19,False,False,False,False
+2024,261500677,261500677-772512000,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH,12,False,4–19,False,False,False,False
+2024,261601145,261601145-773338000,KMG Klinikum Sömmerda,12,False,4–19,False,False,False,False
+2024,260590505,260590505-772000000,Ev. Krankenhaus Herne gGmbH,11,False,4–19,False,False,False,False
+2024,261200721,261200721-773088000,Medizinische Universität Lausitz - Carl Thiem,11,False,4–19,False,False,False,False
+2024,260101193,260101193-772660000,Krankenhaus Reinbek St. Adolf-Stift GmbH,10,False,4–19,False,False,False,False
+2024,260200046,260200046-772530000,Schön Klinik Hamburg Eilbek,10,False,4–19,False,False,False,False
+2024,261100456,261100456-771653000,Krankenhaus Waldfriede e.V.,10,False,4–19,False,False,False,False
+2024,261101878,261101878-773184000,Vivantes - Netzwerk für Gesundheit GmbH,10,False,4–19,False,False,False,False
+2024,261300276,261300276-772987000,KMG Klinikum Güstrow,10,False,4–19,False,False,False,False
+2024,260510132,260510132-773140000,Evangelisches Krankenhaus Düsseldorf,9,False,4–19,False,False,False,False
+2024,260510575,260510575-772782000,Helios Klinikum Krefeld,9,False,4–19,False,False,False,False
+2024,260610393,260610393-773371000,Helios Dr. Horst-Schmidt Kliniken Wiesbaden GmbH,9,False,4–19,False,False,False,False
+2024,260913037,260913037-773586000,Klinikum Ingolstadt GmbH,9,False,4–19,False,False,False,False
+2024,261101878,261101878-773186000,Vivantes - Netzwerk für Gesundheit GmbH,9,False,4–19,False,False,False,False
+2024,260510256,260510256-771548000,Helios St. Johannes Klinik,8,False,4–19,False,False,False,False
+2024,260512032,260512032-771585000,Helios Klinikum Niederberg,8,False,4–19,False,False,False,False
+2024,260810475,260810475-771511000,Klinikum Esslingen GmbH,8,False,4–19,False,False,False,False
+2024,261601021,261601021-771835000,HELIOS Klinikum Erfurt,8,False,4–19,False,False,False,False
+2024,260833520,260833520-771962000,Ortenau Klinikum Lahr,7,False,4–19,False,False,False,False
+2024,260912434,260912434-772274000,Klinikum Traunstein mit der Außenstelle Ruhpolding,7,False,4–19,False,False,False,False
+2024,260321781,260321781-772721000,KRH Klinikum Siloah,6,False,4–19,False,False,False,False
+2024,260610019,260610019-771807000,Klinikum Darmstadt GmbH,6,False,4–19,False,False,False,False
+2024,261300152,261300152-773589000,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,6,False,4–19,False,False,False,False
+2024,261101878,261101878-773181000,Vivantes - Netzwerk für Gesundheit GmbH,5,False,4–19,False,False,False,False
+2024,260500481,260500481-772088000,AGAPLESION Klinikum Hagen gem. GmbH,4,False,4–19,False,False,False,False
+2024,260510746,260510746-771889000,Evangelisches Krankenhaus Mülheim an der Ruhr GmbH,4,False,4–19,False,False,False,False
+2024,260511781,260511781-772188000,Rheinland Klinikum  Lukaskrankenhaus Neuss,4,False,4–19,False,False,False,False
+2024,260530886,260530886-771698000,Marien-Hospital,4,False,4–19,False,False,False,False
+2024,260590071,260590071-772744000,Katholisches Klinikum Bochum,4,False,4–19,False,False,False,False
+2024,260820433,260820433-772905000,Klinikum Mittelbaden Rastatt,4,False,4–19,False,False,False,False
+2024,260841928,260841928-771415000,Bundeswehrkrankenhaus Ulm,4,False,4–19,False,False,False,False
+2024,261201356,261201356-771839000,HELIOS Klinikum Bad Saarow,4,False,4–19,False,False,False,False
+2024,260100034,260100034-771320000,Malteser Krankenhaus St. Franziskus-Hospital,0,True,suppressed-only,False,False,False,False
+2024,260100476,260100476-772465000,Klinikum Nordfriesland gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260200284,260200284-773032000,Israelitisches Krankenhaus in Hamburg,0,True,suppressed-only,False,False,False,False
+2024,260310209,260310209-772363000,Städtisches Klinikum Braunschweig gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260310447,260310447-772684000,Evangelisches Krankenhaus Göttingen-Weende gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260310766,260310766-771722000,Klinikum Wolfsburg,0,True,suppressed-only,False,False,False,False
+2024,260320622,260320622-772333000,St. Bernward Krankenhaus GmbH,0,True,suppressed-only,False,False,False,False
+2024,260330167,260330167-772803000,Helios Klinik Cuxhaven GmbH,0,True,suppressed-only,False,False,False,False
+2024,260340886,260340886-772441000,Christliches Krankenhaus Quakenbrück GmbH,0,True,suppressed-only,False,False,False,False
+2024,260341444,260341444-772466000,Ammerland-Klinik Westerstede,0,True,suppressed-only,False,False,False,False
+2024,260510461,260510461-771980000,Elisabeth-Krankenhaus Essen,0,True,suppressed-only,False,False,False,False
+2024,260510611,260510611-771123000,Alexianer Krefeld GmbH - Krankenhaus Maria-Hilf,0,True,suppressed-only,False,False,False,False
+2024,260510826,260510826-771259000,Sana-Klinikum Remscheid GmbH,0,True,suppressed-only,False,False,False,False
+2024,260510906,260510906-772692000,Helios Universitätsklinikum Wuppertal - Campus Elberfeld,0,True,suppressed-only,False,False,False,False
+2024,260511462,260511462-771827000,St. Vinzenz Hospital,0,True,suppressed-only,False,False,False,False
+2024,260530056,260530056-772078000,Luisenhospital Aachen,0,True,suppressed-only,False,False,False,False
+2024,260530396,260530396-772936000,Cellitinnen-Krankenhaus Heilig Geist,0,True,suppressed-only,False,False,False,False
+2024,260550905,260550905-773430000,Klinikum Rheine,0,True,suppressed-only,False,False,False,False
+2024,260551154,260551154-772550000,Knappschaft Kliniken Gelsenkirchen -Buer GmbH,0,True,suppressed-only,False,False,False,False
+2024,260551165,260551165-772472000,"Knappschaft Kliniken Vest GmbH, Paracelsus Marl",0,True,suppressed-only,False,False,False,False
+2024,260551165,260551165-772473000,"Knappschaft Kliniken Vest GmbH, Recklinghausen",0,True,suppressed-only,False,False,False,False
+2024,260551416,260551416-772191000,St. Franziskus-Hospital GmbH Münster,0,True,suppressed-only,False,False,False,False
+2024,260570044,260570044-771239000,Evangelisches Klinikum Bethel gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260570044,260570044-773641000,Evangelisches Klinikum Bethel gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260590037,260590037-773238000,Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260590402,260590402-773164000,HAMM,0,True,suppressed-only,False,False,False,False
+2024,260590696,260590696-773218000,Städt. Krankenhaus Maria-Hilf Brilon gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260591506,260591506-771395000,KLW St. Paulus GmbH St. Marien Hospital Lünen,0,True,suppressed-only,False,False,False,False
+2024,260592084,260592084-772561000,St. Barbara-Klinik Hamm GmbH,0,True,suppressed-only,False,False,False,False
+2024,260593600,260593600-772597000,Alexianer Klinikum Hochsauerland | Standort Karolinen-Hospital Hüsten,0,True,suppressed-only,False,False,False,False
+2024,260610359,260610359-772356000,Sana Klinikum Offenbach GmbH,0,True,suppressed-only,False,False,False,False
+2024,260610360,260610360-771398000,Ketteler Krankenhaus,0,True,suppressed-only,False,False,False,False
+2024,260620011,260620011-772565000,Klinikum Kassel GmbH,0,True,suppressed-only,False,False,False,False
+2024,260620157,260620157-772145000,Klinikum Fulda gAG,0,True,suppressed-only,False,False,False,False
+2024,260641243,260641243-772737000,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260700109,260700109-773518000,Gemeinschaftsklinikum Mittelrhein gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260710087,260710087-771220000,Krankenhaus Maria Hilf,0,True,suppressed-only,False,False,False,False
+2024,260720034,260720034-771463000,Klinikum Mutterhaus der Borromäerinnen,0,True,suppressed-only,False,False,False,False
+2024,260730478,260730478-772427000,Nardini Klinikum St. Elisabeth Zweibrücken,0,True,suppressed-only,False,False,False,False
+2024,260810146,260810146-773033000,Diakonie-Klinikum Stuttgart,0,True,suppressed-only,False,False,False,False
+2024,260810191,260810191-772796000,Marienhospital Stuttgart,0,True,suppressed-only,False,False,False,False
+2024,260810589,260810589-772384000,ALB FILS KLINIKUM GmbH,0,True,suppressed-only,False,False,False,False
+2024,260810794,260810794-772048000,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,0,True,suppressed-only,False,False,False,False
+2024,260811192,260811192-772437000,Diak Klinikum Landkreis Schwäbisch Hall gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260811579,260811579-771470000,Stauferklinikum Schwäbisch Gmünd,0,True,suppressed-only,False,False,False,False
+2024,260812525,260812525-771314000,Klinikum Sindelfingen-Böblingen,0,True,suppressed-only,False,False,False,False
+2024,260820284,260820284-772071000,Fürst-Stirum-Klinik Bruchsal,0,True,suppressed-only,False,False,False,False
+2024,260820503,260820503-771242000,Krankenhaus Salem derEvang. Stadtmission Heidelberg gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260830048,260830048-771473000,St Josefskrankenhaus,0,True,suppressed-only,False,False,False,False
+2024,260831481,260831481-772585000,Klinikum Konstanz,0,True,suppressed-only,False,False,False,False
+2024,260910090,260910090-772207000,Helios Klinikum München West,0,True,suppressed-only,False,False,False,False
+2024,260910136,260910136-772835000,TUM Klinikum Deutsches Herzzentrum,0,True,suppressed-only,False,False,False,False
+2024,260910637,260910637-772849000,RoMed Klinikum Rosenheim,0,True,suppressed-only,False,False,False,False
+2024,260911295,260911295-772387000,Klinikum Fürstenfeldbruck,0,True,suppressed-only,False,False,False,False
+2024,260911320,260911320-773597000,Klinikum Garmisch-Partenkirchen Standort Murnau,0,True,suppressed-only,False,False,False,False
+2024,260911320,260911320-773617000,Klinikum Garmisch-Partenkirchen - Haupthaus,0,True,suppressed-only,False,False,False,False
+2024,260911386,260911386-773259000,Berufsgenossenschaftliche Unfallklinik Murnau gGmbH,0,True,suppressed-only,False,False,False,False
+2024,260914050,260914050-771734000,LMU Klinikum,0,True,suppressed-only,False,False,False,False
+2024,260940029,260940029-771420000,Sozialstiftung Bamberg Klinikum Bamberg,0,True,suppressed-only,False,False,False,False
+2024,260940109,260940109-772810000,Klinikum Bayreuth GmbH,0,True,suppressed-only,False,False,False,False
+2024,261000934,261000934-773075000,CaritasKlinikum Saarbrücken,0,True,suppressed-only,False,False,False,False
+2024,261100025,261100025-773370000,Evangelische Elisabeth Klinik,0,True,suppressed-only,False,False,False,False
+2024,261100855,261100855-771917000,St.Joseph Krankenhaus,0,True,suppressed-only,False,False,False,False
+2024,261101311,261101311-772832000,DRK Kliniken Berlin Köpenick,0,True,suppressed-only,False,False,False,False
+2024,261101527,261101527-773403000,Sana Klinikum Lichtenberg,0,True,suppressed-only,False,False,False,False
+2024,261101561,261101561-773065000,DRK Kliniken Berlin Westend,0,True,suppressed-only,False,False,False,False
+2024,261101754,261101754-771923000,BG Klinikum Unfallkrankenhaus Berlin gGmbH,0,True,suppressed-only,False,False,False,False
+2024,261101878,261101878-773187000,Vivantes - Netzwerk für Gesundheit GmbH,0,True,suppressed-only,False,False,False,False
+2024,261110083,261110083-772955000,HELIOS Klinikum Emil von Behring GmbH,0,True,suppressed-only,False,False,False,False
+2024,261200220,261200220-772760000,Klinikum Ernst von Bergmann gemeinnützige GmbH,0,True,suppressed-only,False,False,False,False
+2024,261200457,261200457-772221000,Universitätsklinikum Brandenburg an der Havel GmbH,0,True,suppressed-only,False,False,False,False
+2024,261200538,261200538-772643000,"Havelland Kliniken GmbH, Klinik Nauen",0,True,suppressed-only,False,False,False,False
+2024,261201061,261201061-771632000,Klinikum Frankfurt (Oder) GmbH,0,True,suppressed-only,False,False,False,False
+2024,261201414,261201414-772821000,Klinikum Dahme Spreewald GmbH,0,True,suppressed-only,False,False,False,False
+2024,261300312,261300312-772096000,Sana-Krankenhaus Rügen GmbH,0,True,suppressed-only,False,False,False,False
+2024,261400949,261400949-772842000,Städtisches Klinikum Dresden,0,True,suppressed-only,False,False,False,False
+2024,261500757,261500757-771701000,Städtisches Klinikum Dessau,0,True,suppressed-only,False,False,False,False
+2024,261600521,261600521-771235000,Hufeland Klinikum GmbH,0,True,suppressed-only,False,False,False,False
+2024,261600872,261600872-771725000,MEDINOS Kliniken des Landkreises Sonneberg GmbH,0,True,suppressed-only,False,False,False,False
+2024,261601123,261601123-772308000,St. Georg Klinikum Eisenach gemeinnützige GmbH,0,True,suppressed-only,False,False,False,False

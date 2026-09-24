@@ -1,0 +1,123 @@
+Source repository status captured before snapshot creation
+Source basis: e162c991af5d699d169240b903a1c35cbb4df5f9
+Remote observation: origin/main=7946f4d0c78d9ce58bb72544dec596fea1e74c46 (33 commits ahead, not incorporated)
+
+## main...origin/main [behind 33]
+ M .gitignore
+ D outputs/indications/tips_8-839-8/SUMMARY.md
+ D outputs/indications/tips_8-839-8/figures/01_yearly_trends.png
+ D outputs/indications/tips_8-839-8/figures/02_threshold_counts_latest_year.png
+ D outputs/indications/tips_8-839-8/figures/03_top_centers_latest_year.png
+ D outputs/indications/tips_8-839-8/figures/04_case_distribution_latest_year.png
+ D outputs/indications/tips_8-839-8/figures/05_state_summary_ge_10.png
+ D outputs/indications/tips_8-839-8/figures/06_urban_rural_centers.png
+ D outputs/indications/tips_8-839-8/figures/07_centers_map_ge_10.png
+ D outputs/indications/tips_8-839-8/figures/08_centers_map_ge_25.png
+ D outputs/indications/tips_8-839-8/figures/09_isochrone_map_ge_10.png
+ D outputs/indications/tips_8-839-8/figures/09_isochrone_map_ge_25.png
+ D outputs/indications/tips_8-839-8/figures/10_isochrone_coverage_ge_10.png
+ D outputs/indications/tips_8-839-8/figures/10_isochrone_coverage_ge_25.png
+ D outputs/indications/tips_8-839-8/figures/11_concentration_trends.png
+ D outputs/indications/tips_8-839-8/figures/12_threshold_churn_by_ik.png
+ D outputs/indications/tips_8-839-8/figures/13_coverage_tradeoff_ge_10_vs_ge_25.png
+ D outputs/indications/tips_8-839-8/figures/14_top_ik_all_years.png
+ D outputs/indications/tips_8-839-8/figures/15_population_coverage_ge_10_vs_ge_25.png
+ D outputs/indications/tips_8-839-8/figures/16_state_case_rates_per_million.png
+ D outputs/indications/tips_8-839-8/figures/17_isochrone_multipanel_thresholds.png
+ D outputs/indications/tips_8-839-8/figures/18_state_county_access_context.png
+ D outputs/indications/tips_8-839-8/figures/19_county_population_coverage_multipanel.png
+ D outputs/indications/tips_8-839-8/geo/isochrones_ge_10_centers.geojson
+ D outputs/indications/tips_8-839-8/geo/isochrones_ge_10_meta.json
+ D outputs/indications/tips_8-839-8/geo/isochrones_ge_10_unions.geojson
+ D outputs/indications/tips_8-839-8/geo/isochrones_ge_25_centers.geojson
+ D outputs/indications/tips_8-839-8/geo/isochrones_ge_25_meta.json
+ D outputs/indications/tips_8-839-8/geo/isochrones_ge_25_unions.geojson
+ D outputs/indications/tips_8-839-8/report_summary.json
+ D outputs/indications/tips_8-839-8/tables/county_access_context.csv
+ D outputs/indications/tips_8-839-8/tables/county_population_coverage_ge_10.csv
+ D outputs/indications/tips_8-839-8/tables/county_population_coverage_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/coverage_tradeoff_ge_10_vs_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/hospital_year.csv
+ D outputs/indications/tips_8-839-8/tables/ik_year.csv
+ D outputs/indications/tips_8-839-8/tables/isochrone_coverage_urban_rural_ge_10.csv
+ D outputs/indications/tips_8-839-8/tables/isochrone_coverage_urban_rural_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/isochrone_population_coverage_ge_10.csv
+ D outputs/indications/tips_8-839-8/tables/isochrone_population_coverage_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_centers_ge_1.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_centers_ge_10.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_centers_ge_1_with_counties.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_centers_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_centers_ge_5.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_county_provider_rates.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_geocoded_all_centers.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_hospital_code_totals.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_matched_subcodes.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_state_population_rates.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_state_provider_rates.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_state_summary.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_threshold_summary.csv
+ D outputs/indications/tips_8-839-8/tables/latest_year_urban_summary.csv
+ D outputs/indications/tips_8-839-8/tables/population_tradeoff_ge_10_vs_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/schema_check.csv
+ D outputs/indications/tips_8-839-8/tables/state_access_context.csv
+ D outputs/indications/tips_8-839-8/tables/state_population_coverage_ge_10.csv
+ D outputs/indications/tips_8-839-8/tables/state_population_coverage_ge_25.csv
+ D outputs/indications/tips_8-839-8/tables/threshold_churn_by_ik.csv
+ D outputs/indications/tips_8-839-8/tables/tmp_longitudinal/gba_longitudinal_hospital_year.csv
+ D outputs/indications/tips_8-839-8/tables/tmp_longitudinal/gba_longitudinal_schema_check.csv
+ D outputs/indications/tips_8-839-8/tables/tmp_longitudinal/gba_longitudinal_sources.json
+ D outputs/indications/tips_8-839-8/tables/tmp_longitudinal/gba_longitudinal_yearly_summary.csv
+ D outputs/indications/tips_8-839-8/tables/top_centers_all_years.csv
+ D outputs/indications/tips_8-839-8/tables/top_ik_all_years.csv
+ D outputs/indications/tips_8-839-8/tables/yearly_concentration_summary.csv
+ D outputs/indications/tips_8-839-8/tables/yearly_summary.csv
+ D outputs/indications/tips_8-839-8/tables/yearly_threshold_sensitivity.csv
+ M scripts/build_indication_report.py
+ M scripts/build_indication_supplement.py
+ M scripts/write_indication_notebook.py
+ M src/gba_ops_reanalysis/config.py
+ M src/gba_ops_reanalysis/geocoding.py
+ M src/gba_ops_reanalysis/indication_report.py
+ M src/gba_ops_reanalysis/indication_supplement.py
+ M src/gba_ops_reanalysis/isochrones.py
+ M src/gba_ops_reanalysis/longitudinal.py
+ M src/gba_ops_reanalysis/webapp.py
+ M webapp/tips-ops-8-839-8/data.js
+?? CHANGELOG.md
+?? "Install Certificates.command"
+?? audits/
+?? ops_bfarm_2013_2024/
+?? ors-docker/
+?? results/
+?? scripts/build_de_novo_vs_inclusive_comparison.py
+?? scripts/build_late_stage_revision_2026_08_14.py
+?? scripts/build_longitudinal_figure3.py
+?? scripts/build_tips_final_submission_assets.py
+?? scripts/complete_ge100_manual_review.py
+?? scripts/complete_ge20_manual_review.py
+?? scripts/complete_ge50_manual_review.py
+?? scripts/investigate_unmatched_2013_883980.py
+?? scripts/prepare_table_s10_revision.py
+?? scripts/run_approved_ops_88398_secondary_analysis.py
+?? scripts/run_de_novo_accessibility_sensitivity_2026_08_16.py
+?? scripts/run_late_stage_accessibility_193_113_2026_08_14.py
+?? scripts/run_late_stage_accessibility_193_113_recovery_2026_08_15.py
+?? scripts/run_late_stage_geo_corrective_qa_2026_08_14.py
+?? scripts/run_late_stage_geo_validation_2026_08_14.py
+?? scripts/run_official_ops_88398_validation.py
+?? scripts/run_tips_codeset_analysis.py
+?? scripts/run_tips_de_novo_sensitivity.py
+?? scripts/run_tips_final_corrected.py
+?? scripts/run_tips_ge100_accessibility.py
+?? scripts/run_tips_ge50_ge100_accessibility.py
+?? scripts/run_tips_geographic_suppression_sensitivity_2026_09_23.py
+?? scripts/run_tips_geography_validation.py
+?? scripts/run_tips_site_resolution_validation.py
+?? scripts/run_tips_suppression_sensitivity.py
+?? scripts/verify_primary_vs_secondary.py
+?? src/gba_ops_reanalysis/final_corrected.py
+?? src/gba_ops_reanalysis/geography_validation.py
+?? src/gba_ops_reanalysis/official_ops_88398.py
+?? src/gba_ops_reanalysis/site_resolution_validation.py
+?? src/gba_ops_reanalysis/suppression_sensitivity.py
+?? tests/

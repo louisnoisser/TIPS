@@ -1,0 +1,171 @@
+{
+  "checked_at": "2026-08-15T17:28:52.817868Z",
+  "status": {
+    "languages": [
+      "cs",
+      "cs-cz",
+      "da",
+      "da-dk",
+      "de",
+      "de-de",
+      "en",
+      "en-us",
+      "eo",
+      "eo-eo",
+      "es",
+      "es-es",
+      "eu",
+      "eu-es",
+      "fi",
+      "fi-fi",
+      "fr",
+      "fr-fr",
+      "gr",
+      "gr-gr",
+      "he",
+      "he-il",
+      "hu",
+      "hu-hu",
+      "id",
+      "id-id",
+      "it",
+      "it-it",
+      "ja",
+      "ja-jp",
+      "lt",
+      "lt-lt",
+      "lv",
+      "lv-lv",
+      "nb",
+      "nb-no",
+      "ne",
+      "ne-np",
+      "nl",
+      "nl-nl",
+      "pl",
+      "pl-pl",
+      "pt",
+      "pt-pt",
+      "ro",
+      "ro-ro",
+      "ru",
+      "ru-ru",
+      "tr",
+      "tr-tr",
+      "ua",
+      "ua-ua",
+      "vi",
+      "vi-vn",
+      "zh",
+      "zh-cn"
+    ],
+    "engine": {
+      "build_date": "2026-03-30T12:22:34Z",
+      "graph_version": "4",
+      "graph_date": "2026-04-01T12:04:19Z",
+      "osm_date": "2026-03-29T20:20:46Z",
+      "version": "9.8.0"
+    },
+    "profiles": {
+      "driving-car": {
+        "storages": {
+          "Tollways": {
+            "enabled": true
+          },
+          "WayCategory": {},
+          "HeavyVehicle": {},
+          "WaySurfaceType": {},
+          "RoadAccessRestrictions": {
+            "useForWarnings": true,
+            "enabled": true
+          }
+        },
+        "encoder_name": "driving-car",
+        "encoded_values": [
+          "bus_access",
+          "way_surface",
+          "road_environment",
+          "ford",
+          "hgv_access",
+          "agricultural_access",
+          "delivery_access",
+          "forestry_access",
+          "goods_access",
+          "way_type",
+          "highway",
+          "hazmat_access",
+          "car_ors_fastest_with_turn_costs_subnetwork",
+          "car_ors_fastest_subnetwork",
+          "car_ors_shortest_with_turn_costs_subnetwork",
+          "car_ors_shortest_subnetwork",
+          "car_ors_recommended_with_turn_costs_subnetwork",
+          "car_ors_recommended_subnetwork",
+          "roundabout",
+          "road_class",
+          "road_class_link",
+          "max_speed",
+          "road_access",
+          "car_ors$access",
+          "car_ors$average_speed",
+          "car_ors$dynamic_data",
+          "car_ors$turn_cost"
+        ],
+        "graph_build_date": "2026-04-01T12:04:19Z",
+        "osm_date": "2026-03-29T20:20:46Z",
+        "limits": {
+          "maximum_distance": 100000,
+          "maximum_waypoints": 50,
+          "maximum_distance_dynamic_weights": 100000,
+          "maximum_distance_avoid_areas": 100000
+        }
+      }
+    },
+    "services": [
+      "routing",
+      "isochrones",
+      "matrix",
+      "snap",
+      "export",
+      "match"
+    ]
+  },
+  "checks": {
+    "container_id_unchanged": true,
+    "image_id": true,
+    "image_digest": true,
+    "ors_version": true,
+    "graph_date": true,
+    "osm_date": true,
+    "profile": true,
+    "java_heap_xmx6g": true,
+    "graph_rebuild_disabled": true
+  },
+  "container_id": "1e9d159ca5566acaa6f279fc36cefe12046958d33a5847eb1027b614d665b1a5",
+  "container_image_tag": "openrouteservice/openrouteservice:latest",
+  "image_id": "sha256:2ee0dcf4aeccd7852f443dfbae03a0ea96537753360e42e682a32cb9e72f929b",
+  "repo_tags": [
+    "openrouteservice/openrouteservice:latest"
+  ],
+  "repo_digests": [
+    "openrouteservice/openrouteservice@sha256:2ee0dcf4aeccd7852f443dfbae03a0ea96537753360e42e682a32cb9e72f929b"
+  ],
+  "environment": {
+    "ors.engine.profile_default.build.source_file": "files/germany-latest.osm.pbf",
+    "XMS": "2g",
+    "XMX": "6g",
+    "BUILD_GRAPHS": "True",
+    "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/default-jvm/bin",
+    "LANG": "en_US",
+    "JAVA_HOME": "/usr/lib/jvm/default-jvm",
+    "LANGUAGE": "en_US",
+    "LC_ALL": "en_US",
+    "ORS_HOME": "/home/ors",
+    "REBUILD_GRAPHS": "False"
+  },
+  "container_health": "healthy",
+  "docker_desktop_documented_memory_before_gb": 7.9,
+  "docker_desktop_documented_memory_after_gb": 11.0,
+  "docker_desktop_documented_swap_before_gb": 1.0,
+  "docker_desktop_documented_swap_after_gb": 1.5,
+  "docker_desktop_cpus": 8
+}

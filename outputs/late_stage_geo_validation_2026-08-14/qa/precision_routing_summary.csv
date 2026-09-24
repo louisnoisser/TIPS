@@ -1,0 +1,6 @@
+group,records,precision_A,precision_B,precision_C,precision_D,routing_ready_yes,routing_ready_no
+locked_ge20,60,60,0,0,0,60,0
+numeric_lt20,53,6,47,0,0,53,0
+suppressed_only,80,18,62,0,0,80,0
+new_review_scope,133,24,109,0,0,133,0
+all_canonical,193,84,109,0,0,193,0

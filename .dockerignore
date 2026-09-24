@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+*.pyc
+data/xml
+data/cache
+output
+outputs
+webapp

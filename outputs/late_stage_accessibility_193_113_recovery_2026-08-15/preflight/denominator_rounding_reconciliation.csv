@@ -1,0 +1,2 @@
+national_raw,urban_raw,rural_raw,other_raw,class_raw_sum,class_raw_minus_national,national_rounded,urban_rounded,rural_rounded,other_rounded,rounded_class_sum,rounded_class_sum_minus_national,classification,locked_denominators_retained
+83194666.82777423,60644251.4457971,22550345.888311617,69.49366551530291,83194666.82777423,0.0,83194667,60644251,22550346,69,83194666,-1,benign_independent_rounding_artefact,True

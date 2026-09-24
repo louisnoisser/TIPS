@@ -1,0 +1,16 @@
+OPS_code,official_description,evidence_source,evidence_file_path,verification_status,assigned_analytical_group
+8-839.8,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,unresolved,parent_code
+8-839.80,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,de_novo_creation
+8-839.81,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,secondary_intervention
+8-839.82,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,secondary_intervention
+8-839.83,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,secondary_intervention
+8-839.84,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,secondary_intervention
+8-839.85,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,secondary_intervention
+8-839.86,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,secondary_intervention
+8-839.87,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,de_novo_creation
+8-839.88,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,de_novo_creation
+8-839.89,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,de_novo_creation
+8-839.8A,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,de_novo_creation
+8-839.8a,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,operational repository mapping only,de_novo_creation
+8-839.8X,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,unresolved,unresolved
+8-839.8x,,repository configuration/audit only,src/gba_ops_reanalysis/config.py; outputs/audit/tips_code_level_audit.csv,unresolved,unresolved

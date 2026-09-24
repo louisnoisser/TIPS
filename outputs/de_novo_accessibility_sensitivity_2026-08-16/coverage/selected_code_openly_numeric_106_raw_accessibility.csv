@@ -1,0 +1,9 @@
+network,network_label,site_count,data_provenance,settlement_class,time_minutes,covered_population_raw_float,covered_population,population_denominator,percentage_unrounded,percentage_manuscript_1dp
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,national,30,45435762.00775338,45435762,83194667,54.61379153065184,54.6
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,urban,30,40367399.281990916,40367399,60644251,66.56426344518626,66.6
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,rural,30,5068361.68733233,5068362,22550346,22.47576156924599,22.5
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,other,30,1.038430134041442,1,69,1.4492753623188406,1.4
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,national,60,74298090.93885502,74298091,83194667,89.30631455018626,89.3
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,urban,60,56647537.5133322,56647538,60644251,93.40957644938182,93.4
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,rural,60,17650530.11893743,17650530,22550346,78.27165933507185,78.3
+selected_code_openly_numeric,Specific de novo-code openly numeric network,106,selected-code subset of existing site geometries,other,60,23.30658545069552,23,69,33.333333333333336,33.3

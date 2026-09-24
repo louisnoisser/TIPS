@@ -1,0 +1,1192 @@
+{
+  "execution_timestamp_utc": "2026-08-04T10:50:22.382588+00:00",
+  "git_initial": {
+    "branch": "main",
+    "head": "e162c991af5d699d169240b903a1c35cbb4df5f9",
+    "dirty_working_tree": true,
+    "dirty_working_tree_entry_count": 108,
+    "staged_file_count": 0,
+    "remotes": [
+      "origin\thttps://github.com/MasanneckLab/GBA_OPS_Reanalysis.git (fetch)",
+      "origin\thttps://github.com/MasanneckLab/GBA_OPS_Reanalysis.git (push)"
+    ]
+  },
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "executable": "/opt/anaconda3/bin/python",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "pandas": "2.2.2",
+    "numpy": "1.26.4"
+  },
+  "inputs": [
+    {
+      "path": "outputs/ops_code_audit_2013_2024/ops_code_reconciliation_site_year.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/ops_code_audit_2013_2024/ops_code_reconciliation_site_year.csv",
+      "size_bytes": 1807229,
+      "modification_timestamp_utc": "2026-08-03T09:47:32.326756+00:00",
+      "sha256": "294b0e5cfb44f4091322f2de25373a3c1d26754cf4bea2dbdee9f3d0bae7ba8d"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.csv",
+      "size_bytes": 148869,
+      "modification_timestamp_utc": "2026-08-04T07:55:24.098746+00:00",
+      "sha256": "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2"
+    },
+    {
+      "path": "outputs/ops_code_audit_2013_2024/ops_code_summary_2013_2024.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/ops_code_audit_2013_2024/ops_code_summary_2013_2024.csv",
+      "size_bytes": 7826,
+      "modification_timestamp_utc": "2026-08-04T07:55:24.099264+00:00",
+      "sha256": "366bfeb8b70553dc6948cc41ffc3ae90294ee9f733e6e3fa0b4d42128c7473b6"
+    },
+    {
+      "path": "outputs/audit/tips_code_level_audit.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/audit/tips_code_level_audit.csv",
+      "size_bytes": 2049916,
+      "modification_timestamp_utc": "2026-07-17T13:12:29.987277+00:00",
+      "sha256": "beb19fe8e3af74ae0d6a45ab069409b5e63704c04c7170053f18dce7c845e51d"
+    },
+    {
+      "path": "outputs/site_resolution_validation/resolved_site_level_data.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/site_resolution_validation/resolved_site_level_data.csv",
+      "size_bytes": 1033428,
+      "modification_timestamp_utc": "2026-07-23T16:51:51.379397+00:00",
+      "sha256": "ffada120e835a159efa1adc6e4a15e85be90ba809165b937e5d192c0ba68dc07"
+    },
+    {
+      "path": "outputs/final_corrected_2026-07-24/suppression_final_metrics.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/final_corrected_2026-07-24/suppression_final_metrics.csv",
+      "size_bytes": 13530,
+      "modification_timestamp_utc": "2026-07-24T13:09:57.277992+00:00",
+      "sha256": "d0a52a5d8ea8a250b7d4729a91bae7174272a22752ff772142c8543b7f99cf88"
+    },
+    {
+      "path": "src/gba_ops_reanalysis/site_resolution_validation.py",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/src/gba_ops_reanalysis/site_resolution_validation.py",
+      "size_bytes": 31048,
+      "modification_timestamp_utc": "2026-07-23T16:48:08.016935+00:00",
+      "sha256": "217294d3bdeb6cb272e192f7e3706e110dc1b2e1379639d1bc375795f3e983b0"
+    },
+    {
+      "path": "src/gba_ops_reanalysis/final_corrected.py",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/src/gba_ops_reanalysis/final_corrected.py",
+      "size_bytes": 10311,
+      "modification_timestamp_utc": "2026-07-24T13:04:29.831887+00:00",
+      "sha256": "054b8429cc7d3fa4e1a1dd53a190b2878bf930359d3ff6cf625b90ec581cc3b8"
+    },
+    {
+      "path": "src/gba_ops_reanalysis/suppression_sensitivity.py",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/src/gba_ops_reanalysis/suppression_sensitivity.py",
+      "size_bytes": 28767,
+      "modification_timestamp_utc": "2026-07-11T22:44:08.200747+00:00",
+      "sha256": "8ac5f0ea7c98673f4fe550f68324aa4af3221ced99e960feaa63a6317009336c"
+    },
+    {
+      "path": "data/xml/xml_2013/260100023-00-2013-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2013/260100023-00-2013-xml.xml",
+      "size_bytes": 1077210,
+      "modification_timestamp_utc": "2026-04-01T09:31:05.508826+00:00",
+      "sha256": "4be60a63e7bc252811b7ee2302852865abe35321bdb280c951c67a358ba36bcd"
+    },
+    {
+      "path": "data/xml/xml_2013/260101488-00-2013-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2013/260101488-00-2013-xml.xml",
+      "size_bytes": 1193526,
+      "modification_timestamp_utc": "2026-04-01T09:31:05.715420+00:00",
+      "sha256": "d5e9d88a138cba74d562bdc0bc6dbee0f1b0f59aa148313042cebb6f347ed425"
+    },
+    {
+      "path": "data/xml/xml_2013/260200400-00-2013-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2013/260200400-00-2013-xml.xml",
+      "size_bytes": 1277067,
+      "modification_timestamp_utc": "2026-04-01T09:31:05.788951+00:00",
+      "sha256": "75d80cb61fb5a7c8230f72c487b62ae4565f0d37c66adadba92454ddc43dc094"
+    },
+    {
+      "path": "data/xml/xml_2013/260810647-00-2013-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2013/260810647-00-2013-xml.xml",
+      "size_bytes": 1400997,
+      "modification_timestamp_utc": "2026-04-01T09:31:07.248507+00:00",
+      "sha256": "606a7e880194af75f4448613ccf39daa5e5566c5e6b3ce67d48f58c4eff1c9d3"
+    },
+    {
+      "path": "data/xml/xml_2016/260100023-01-2016-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2016/260100023-01-2016-xml.xml",
+      "size_bytes": 1149079,
+      "modification_timestamp_utc": "2026-04-01T09:31:17.559446+00:00",
+      "sha256": "03da770b8fe50e2b7e8cff18d320bc9597d53b789d86cf61a20875a6e05b3d79"
+    },
+    {
+      "path": "data/xml/xml_2016/260101488-00-2016-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2016/260101488-00-2016-xml.xml",
+      "size_bytes": 1516995,
+      "modification_timestamp_utc": "2026-04-01T09:31:17.763853+00:00",
+      "sha256": "a6f202484f36161d89c6a1f5b1dc1e53629993a52697b98ecd7a182323712168"
+    },
+    {
+      "path": "data/xml/xml_2016/260310447-00-2016-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2016/260310447-00-2016-xml.xml",
+      "size_bytes": 1385030,
+      "modification_timestamp_utc": "2026-04-01T09:31:18.004360+00:00",
+      "sha256": "1dd3f981e1b0c5abe8e3ee6da2de27c8b53439b8d2e289628d50ef49b8730c7b"
+    },
+    {
+      "path": "data/xml/xml_2016/260810647-00-2016-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2016/260810647-00-2016-xml.xml",
+      "size_bytes": 2291364,
+      "modification_timestamp_utc": "2026-04-01T09:31:20.250534+00:00",
+      "sha256": "69eef57d064f32330ebd2cbec939ee5a28c894a6f815e047419f821ac59cbb43"
+    },
+    {
+      "path": "data/xml/xml_2024/260100034-771320000-2024-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2024/260100034-771320000-2024-xml.xml",
+      "size_bytes": 1047217,
+      "modification_timestamp_utc": "2026-04-01T09:31:57.099731+00:00",
+      "sha256": "ec0836480014faba592c7cf6f78f0a648d8d9add220af19d3ca7b11ea4d771d6"
+    },
+    {
+      "path": "data/xml/xml_2024/260101193-772660000-2024-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2024/260101193-772660000-2024-xml.xml",
+      "size_bytes": 1789459,
+      "modification_timestamp_utc": "2026-04-01T09:31:57.173995+00:00",
+      "sha256": "56a0f8fb7454a289fd88809b33baab3c139e6cce8248190f9b2892f1a7eb25e3"
+    },
+    {
+      "path": "data/xml/xml_2024/260101488-772073000-2024-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2024/260101488-772073000-2024-xml.xml",
+      "size_bytes": 1804154,
+      "modification_timestamp_utc": "2026-04-01T09:31:57.183998+00:00",
+      "sha256": "238a708468038bb1221f7d4f7a22788d49952a032aa5cf98b93827977d049b6a"
+    },
+    {
+      "path": "data/xml/xml_2024/260530103-772247000-2024-xml.xml",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/data/xml/xml_2024/260530103-772247000-2024-xml.xml",
+      "size_bytes": 4866935,
+      "modification_timestamp_utc": "2026-04-01T09:31:58.048476+00:00",
+      "sha256": "2e317b6b64444e09266fb403b1b9e8b79898912c3f5b62f4cb89b6a9e55f7cc3"
+    }
+  ],
+  "input_verification": {
+    "expected_hashes_matched": true,
+    "reconciliation_properties": {
+      "rows": 2057,
+      "unique_physical_site_years": 2057,
+      "unique_institution_years": 1917,
+      "duplicate_physical_site_years": 0,
+      "mismatches": 0,
+      "unresolved": 0,
+      "manual_review": 0
+    },
+    "historical_code_set_matched_audit": true,
+    "site_and_institution_levels_separate": true
+  },
+  "analysis_script": {
+    "path": "scripts/run_tips_de_novo_sensitivity.py",
+    "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/scripts/run_tips_de_novo_sensitivity.py",
+    "size_bytes": 54077,
+    "modification_timestamp_utc": "2026-08-04T10:50:14.090014+00:00",
+    "sha256": "b1394b1e83cf120b8cd4eec65dc80aa148d156bc2253506b1dc3d4428f5e6e65"
+  },
+  "comparison_reproducibility_script": {
+    "path": "scripts/build_de_novo_vs_inclusive_comparison.py",
+    "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/scripts/build_de_novo_vs_inclusive_comparison.py",
+    "size_bytes": 15178,
+    "modification_timestamp_utc": "2026-08-04T11:14:25.245833+00:00",
+    "sha256": "ce6fce9cbd4c05d659a1d7d1686365b22f538d6227f6687c069a3270c20ad1af"
+  },
+  "de_novo_vs_inclusive_comparison_audit": {
+    "provider_definition": "physical_site",
+    "suppression_scenario": "visible",
+    "de_novo_source": {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_annual_metrics_2013_2024.csv",
+      "sha256": "b5dddd1107e8653396c9c5c4b369f33ecfb3ad26e5a71530fe37f5fbf3ee2d67"
+    },
+    "inclusive_source": {
+      "path": "outputs/final_corrected_2026-07-24/suppression_final_metrics.csv",
+      "sha256": "d0a52a5d8ea8a250b7d4729a91bae7174272a22752ff772142c8543b7f99cf88",
+      "filters": "reporting_year=2013..2024; provider_definition=physical_site; suppression_scenario=visible",
+      "copied_columns": [
+        "visible_national_activity",
+        "active_numeric_providers",
+        "top5_share_pct",
+        "top10_share_pct",
+        "top20_share_pct",
+        "hhi_10000",
+        "effective_center_count",
+        "gini"
+      ]
+    },
+    "forbidden_selected_code_site_year_source_used_for_inclusive_metrics": false,
+    "difference_convention": "signed de novo minus inclusive; relative differences use inclusive as denominator",
+    "verification_rows": 276,
+    "all_verification_checks_passed": true,
+    "prior_manifest_sha256": "63a97945465c5d01eaadba23c8530d1eb8e8f8196e92ac44781c9bd812f9bbd8"
+  },
+  "production_functions_reused": [
+    "gba_ops_reanalysis.site_resolution_validation.resolve_component_precedence",
+    "gba_ops_reanalysis.site_resolution_validation.structural_metrics",
+    "gba_ops_reanalysis.site_resolution_validation.gini (via structural_metrics)",
+    "gba_ops_reanalysis.final_corrected.scenario_metrics",
+    "gba_ops_reanalysis.suppression_sensitivity.iter_tips_entries (raw XML spot checks)"
+  ],
+  "selected_codes_by_year": {
+    "2013": [
+      "8-839.87",
+      "8-839.88"
+    ],
+    "2014": [
+      "8-839.87",
+      "8-839.88"
+    ],
+    "2015": [
+      "8-839.87",
+      "8-839.88"
+    ],
+    "2016": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2017": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2018": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2019": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2020": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2021": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2022": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2023": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ],
+    "2024": [
+      "8-839.87",
+      "8-839.88",
+      "8-839.89",
+      "8-839.8a"
+    ]
+  },
+  "suppression_scenarios": {
+    "visible": "visible activity only; suppressed entry adds 0",
+    "lower": "each suppressed entry adds 1",
+    "midpoint": "each suppressed entry adds 2",
+    "upper": "each suppressed entry adds 3"
+  },
+  "row_counts": {
+    "active_physical_site_years": 1827,
+    "route_comparison_rows": 1827,
+    "annual_rows": 12,
+    "code_contribution_rows": 48,
+    "concentration_rows": 48,
+    "spot_check_rows": 12
+  },
+  "route_agreement": {
+    "all_rows_and_fields_exact": true,
+    "failed_rows": 0
+  },
+  "plausibility_gates": [
+    {
+      "scope": "physical_site_year",
+      "check": "de_novo_visible_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "mandatory site-year gate"
+    },
+    {
+      "scope": "physical_site_year",
+      "check": "selected_suppression_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "mandatory site-year gate"
+    },
+    {
+      "scope": "physical_site_year",
+      "check": "route_a_route_b_visible",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "mandatory site-year gate"
+    },
+    {
+      "scope": "physical_site_year",
+      "check": "route_a_route_b_suppression",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "mandatory site-year gate"
+    },
+    {
+      "scope": "physical_site_year",
+      "check": "no_duplicate_site_years",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "physical_site_year",
+      "check": "code_visible_sum_equals_total",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "physical_site_year",
+      "check": "code_suppressed_sum_equals_total",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "record",
+      "check": "only_year_applicable_exact_codes",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "parent, secondary, residual, other 8-839.8*, and 8-842.* excluded"
+    },
+    {
+      "scope": "record",
+      "check": "8_839_8a_literal_preserved",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "exact string check"
+    },
+    {
+      "scope": "dual_route",
+      "check": "all_fields_exact",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "identifiers, selected codes, code values, and totals"
+    },
+    {
+      "scope": "year_2013",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2013",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2013",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2013",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2013",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2013",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2014",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2014",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2014",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2014",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2014",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2014",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2015",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2015",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2015",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2015",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2015",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2015",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2016",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2016",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2016",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2016",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2016",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2016",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2017",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2017",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2017",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2017",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2017",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2017",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2018",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2018",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2018",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2018",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2018",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2018",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2019",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2019",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2019",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2019",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2019",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2019",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2020",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2020",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2020",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2020",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2020",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2020",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2021",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2021",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2021",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2021",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2021",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2021",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2022",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2022",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2022",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2022",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2022",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2022",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2023",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2023",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2023",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2023",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2023",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2023",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2024",
+      "check": "national_selected_le_inclusive",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2024",
+      "check": "code_contributions_equal_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2024",
+      "check": "numeric_plus_suppressed_only_equal_identifiable",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2024",
+      "check": "visible_categories_sum_to_numeric",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2024",
+      "check": "site_sum_equals_national",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year_2024",
+      "check": "thresholds_monotone",
+      "passed": true,
+      "failed_count": 0,
+      "detail": ""
+    },
+    {
+      "scope": "year",
+      "check": "89_and_8a_not_applicable_before_2016",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "not represented as observed zero"
+    },
+    {
+      "scope": "raw_source_spot_check",
+      "check": "all_available_spot_checks_pass",
+      "passed": true,
+      "failed_count": 0,
+      "detail": "12 passed; 0 not available"
+    }
+  ],
+  "raw_source_spot_checks": [
+    {
+      "reporting_year": 2013,
+      "spot_check_type": "openly_numeric_single_code",
+      "physical_site_id": "260200400-00",
+      "institution_id": "260200400",
+      "source_files": "data/xml/xml_2013/260200400-00-2013-xml.xml",
+      "selected_codes": "8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 2, \"visible\": 4}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 2, \"visible\": 4}}",
+      "calculated_site_year_visible": 4,
+      "calculated_site_year_suppressed_entries": 2,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2013,
+      "spot_check_type": "openly_numeric_multi_code",
+      "physical_site_id": "260101488-00",
+      "institution_id": "260101488",
+      "source_files": "data/xml/xml_2013/260101488-00-2013-xml.xml",
+      "selected_codes": "8-839.87|8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 5}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 5}}",
+      "calculated_site_year_visible": 5,
+      "calculated_site_year_suppressed_entries": 2,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2013,
+      "spot_check_type": "selected_suppressed_entry",
+      "physical_site_id": "260100023-00",
+      "institution_id": "260100023",
+      "source_files": "data/xml/xml_2013/260100023-00-2013-xml.xml",
+      "selected_codes": "8-839.87|8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 0}}",
+      "calculated_site_year_visible": 0,
+      "calculated_site_year_suppressed_entries": 2,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2013,
+      "spot_check_type": "high_volume",
+      "physical_site_id": "260810647-00",
+      "institution_id": "260810647",
+      "source_files": "data/xml/xml_2013/260810647-00-2013-xml.xml",
+      "selected_codes": "8-839.87|8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 2, \"visible\": 35}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 62}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 2, \"visible\": 35}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 62}}",
+      "calculated_site_year_visible": 97,
+      "calculated_site_year_suppressed_entries": 3,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2016,
+      "spot_check_type": "openly_numeric_single_code",
+      "physical_site_id": "260310447-00",
+      "institution_id": "260310447",
+      "source_files": "data/xml/xml_2016/260310447-00-2016-xml.xml",
+      "selected_codes": "8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 4}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 4}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "calculated_site_year_visible": 4,
+      "calculated_site_year_suppressed_entries": 0,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2016,
+      "spot_check_type": "openly_numeric_multi_code",
+      "physical_site_id": "260101488-00",
+      "institution_id": "260101488",
+      "source_files": "data/xml/xml_2016/260101488-00-2016-xml.xml",
+      "selected_codes": "8-839.87|8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 6}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 6}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "calculated_site_year_visible": 6,
+      "calculated_site_year_suppressed_entries": 1,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2016,
+      "spot_check_type": "selected_suppressed_entry",
+      "physical_site_id": "260100023-01",
+      "institution_id": "260100023",
+      "source_files": "data/xml/xml_2016/260100023-01-2016-xml.xml",
+      "selected_codes": "8-839.87",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 2, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 2, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "calculated_site_year_visible": 0,
+      "calculated_site_year_suppressed_entries": 2,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2016,
+      "spot_check_type": "high_volume",
+      "physical_site_id": "260810647-00",
+      "institution_id": "260810647",
+      "source_files": "data/xml/xml_2016/260810647-00-2016-xml.xml",
+      "selected_codes": "8-839.87|8-839.88|8-839.8a",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 20}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 88}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 2, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 20}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 88}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 2, \"visible\": 0}}",
+      "calculated_site_year_visible": 108,
+      "calculated_site_year_suppressed_entries": 3,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2024,
+      "spot_check_type": "openly_numeric_single_code",
+      "physical_site_id": "260101193-772660000",
+      "institution_id": "260101193",
+      "source_files": "data/xml/xml_2024/260101193-772660000-2024-xml.xml",
+      "selected_codes": "8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 5}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 1, \"visible\": 5}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "calculated_site_year_visible": 5,
+      "calculated_site_year_suppressed_entries": 1,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2024,
+      "spot_check_type": "openly_numeric_multi_code",
+      "physical_site_id": "260101488-772073000",
+      "institution_id": "260101488",
+      "source_files": "data/xml/xml_2024/260101488-772073000-2024-xml.xml",
+      "selected_codes": "8-839.87|8-839.88",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 15}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 20}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 15}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 20}, \"8-839.89\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "calculated_site_year_visible": 35,
+      "calculated_site_year_suppressed_entries": 1,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2024,
+      "spot_check_type": "selected_suppressed_entry",
+      "physical_site_id": "260100034-771320000",
+      "institution_id": "260100034",
+      "source_files": "data/xml/xml_2024/260100034-771320000-2024-xml.xml",
+      "selected_codes": "8-839.89",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.89\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 0, \"visible\": 0}, \"8-839.89\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 0}}",
+      "calculated_site_year_visible": 0,
+      "calculated_site_year_suppressed_entries": 1,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    },
+    {
+      "reporting_year": 2024,
+      "spot_check_type": "high_volume",
+      "physical_site_id": "260530103-772247000",
+      "institution_id": "260530103",
+      "source_files": "data/xml/xml_2024/260530103-772247000-2024-xml.xml",
+      "selected_codes": "8-839.87|8-839.88|8-839.89|8-839.8a",
+      "canonical_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 2, \"visible\": 118}, \"8-839.89\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 13}}",
+      "raw_xml_code_values": "{\"8-839.87\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.88\": {\"suppressed\": 2, \"visible\": 118}, \"8-839.89\": {\"suppressed\": 1, \"visible\": 0}, \"8-839.8a\": {\"suppressed\": 0, \"visible\": 13}}",
+      "calculated_site_year_visible": 131,
+      "calculated_site_year_suppressed_entries": 4,
+      "validation_status": "passed",
+      "validation_notes": "raw XML aggregation equals retained canonical code records"
+    }
+  ],
+  "warnings": [
+    "The endpoint is code-occurrence activity, not patients, admissions, cases, or unique procedures.",
+    "Suppressed-entry scenario values are assumptions, not observed counts.",
+    "The 2015–2016 code-set transition limits direct comparability."
+  ],
+  "unresolved_issues": [],
+  "production_files_modified": false,
+  "manuscript_or_supplement_modified": false,
+  "established_inclusive_outputs_overwritten": false,
+  "commit_or_push_performed": false,
+  "branch_or_remote_changed": false,
+  "outputs": [
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_2015_2016_bridge.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_2015_2016_bridge.csv",
+      "size_bytes": 2654,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.078883+00:00",
+      "sha256": "d01d7d24999d47b6da7fcda8006ec0d414caa7a034e0690c7788b6bb0e40c1e3"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_annual_metrics_2013_2024.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_annual_metrics_2013_2024.csv",
+      "size_bytes": 2490,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.049781+00:00",
+      "sha256": "b5dddd1107e8653396c9c5c4b369f33ecfb3ad26e5a71530fe37f5fbf3ee2d67"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_code_contribution_by_year.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_code_contribution_by_year.csv",
+      "size_bytes": 3719,
+      "modification_timestamp_utc": "2026-08-04T10:50:29.985033+00:00",
+      "sha256": "4ecf6000cc8bc4a06ad64919bd53252153031d14ea5795f84e49a0335c79f24e"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_concentration_by_year_and_scenario.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_concentration_by_year_and_scenario.csv",
+      "size_bytes": 5052,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.030148+00:00",
+      "sha256": "6e65b471a50188921d93953055c1d2553e05df487b739b8c0ba7b4f820cacbab"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_dual_route_validation.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_dual_route_validation.csv",
+      "size_bytes": 305650,
+      "modification_timestamp_utc": "2026-08-04T10:50:29.893545+00:00",
+      "sha256": "9c36c6670b6cd6b4c4fedbbc75fa2ae9773b83b3ff1ab1fad3db9e6bfd7b9404"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_input_provenance.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_input_provenance.csv",
+      "size_bytes": 5588,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.490381+00:00",
+      "sha256": "a5295a2898b145b794ea43c4a8b4b3fbd1a5b7ea2c93d0ccd4959a9cb87c4591"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_raw_source_spot_checks.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_raw_source_spot_checks.csv",
+      "size_bytes": 6644,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.474169+00:00",
+      "sha256": "eb3db7f7c6c42038a59ccf47ee6ea27312943033d783342092df72b2076b35ec"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_sensitivity_2013_2024.md",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_sensitivity_2013_2024.md",
+      "size_bytes": 38177,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.531138+00:00",
+      "sha256": "8a2b226c90f06eea97d2fda44c8c71f8d99e65527fe351fff6a7f82594271921"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_site_year_2013_2024.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_site_year_2013_2024.csv",
+      "size_bytes": 475138,
+      "modification_timestamp_utc": "2026-08-04T10:50:29.953938+00:00",
+      "sha256": "4d087f907c4208e3047f6e3cd9df731af27e34f1078d1cd975f7eb3dc8068b73"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_validation_checks.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_validation_checks.csv",
+      "size_bytes": 4560,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.512244+00:00",
+      "sha256": "d13390e41433d61130d2554acec218258648831c813bae0b60cf434fc5526036"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_vs_inclusive_concentration_by_year.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_vs_inclusive_concentration_by_year.csv",
+      "size_bytes": 3452,
+      "modification_timestamp_utc": "2026-08-04T11:14:30.146411+00:00",
+      "sha256": "00ab93eeb744df3cca08d2a4b5f852ca03cfa5f9126bc9ef417f3adaba2ae92c"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/de_novo_vs_inclusive_verification.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/de_novo_vs_inclusive_verification.csv",
+      "size_bytes": 110229,
+      "modification_timestamp_utc": "2026-08-04T11:14:30.148099+00:00",
+      "sha256": "1a38a1d1253e5812da1b3db152a98aef90a5f182366df0ce938f7044e2346144"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/table_s10_de_novo_sensitivity_draft.csv",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/table_s10_de_novo_sensitivity_draft.csv",
+      "size_bytes": 1910,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.512871+00:00",
+      "sha256": "b02af4643010e5a9f62b2c86e81f4980e5aaa116b1863df87b9462d7e4acee80"
+    },
+    {
+      "path": "outputs/de_novo_sensitivity_2013_2024/table_s10_de_novo_sensitivity_draft.md",
+      "absolute_path": "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis/outputs/de_novo_sensitivity_2013_2024/table_s10_de_novo_sensitivity_draft.md",
+      "size_bytes": 2911,
+      "modification_timestamp_utc": "2026-08-04T10:50:30.515456+00:00",
+      "sha256": "35629d202a30609f99dca962a5d4453dd3e145872e2488ed0fe9229925e6867a"
+    }
+  ],
+  "manifest_self_hash_note": "The manifest excludes its own SHA-256 to avoid self-reference.",
+  "status": "De-novo sensitivity analysis completed and internally validated; ready for independent scientific review."
+}

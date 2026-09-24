@@ -1,0 +1,498 @@
+reporting_year,volume_threshold,suppression_scenario,suppressed_value_per_entry,site_id,ik,site_name,federal_state,visible_activity,relevant_suppressed_entries,scenario_volume,ghs_smod_code,derived_settlement_category,settlement_classification_missing,added_vs_visible_same_threshold
+2024,20,lower,1,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,318,30,urban,False,False
+2024,20,lower,1,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,271,30,urban,False,False
+2024,20,lower,1,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,228,30,urban,False,False
+2024,20,lower,1,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,225,30,urban,False,False
+2024,20,lower,1,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,207,30,urban,False,False
+2024,20,lower,1,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,203,30,urban,False,False
+2024,20,lower,1,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,163,30,urban,False,False
+2024,20,lower,1,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,143,30,urban,False,False
+2024,20,lower,1,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,20,lower,1,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,130,30,urban,False,False
+2024,20,lower,1,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,129,30,urban,False,False
+2024,20,lower,1,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,126,30,urban,False,False
+2024,20,lower,1,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,121,30,urban,False,False
+2024,20,lower,1,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,120,30,urban,False,False
+2024,20,lower,1,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,118,30,urban,False,False
+2024,20,lower,1,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,118,30,urban,False,False
+2024,20,lower,1,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,98,30,urban,False,False
+2024,20,lower,1,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,98,30,urban,False,False
+2024,20,lower,1,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,20,lower,1,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,84,30,urban,False,False
+2024,20,lower,1,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,78,30,urban,False,False
+2024,20,lower,1,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,77,30,urban,False,False
+2024,20,lower,1,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,75,30,urban,False,False
+2024,20,lower,1,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,75,30,urban,False,False
+2024,20,lower,1,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,72,30,urban,False,False
+2024,20,lower,1,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,67,30,urban,False,False
+2024,20,lower,1,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,66,21,urban,False,False
+2024,20,lower,1,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,63,30,urban,False,False
+2024,20,lower,1,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,62,30,urban,False,False
+2024,20,lower,1,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,61,30,urban,False,False
+2024,20,lower,1,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,55,30,urban,False,False
+2024,20,lower,1,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,51,30,urban,False,False
+2024,20,lower,1,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,50,30,urban,False,False
+2024,20,lower,1,260950567-771175000,260950567,Universitätsklinikum Erlangen,Bayern,47,2,49,30,urban,False,False
+2024,20,lower,1,261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Sachsen,43,5,48,30,urban,False,False
+2024,20,lower,1,260200079-772901000,260200079,Asklepios Klinikum Harburg,Hamburg,44,3,47,30,urban,False,False
+2024,20,lower,1,260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,Nordrhein-Westfalen,37,10,47,30,urban,False,False
+2024,20,lower,1,260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,Bayern,44,2,46,30,urban,False,False
+2024,20,lower,1,260200035-772584000,260200035,Asklepios Klinik Barmbek,Hamburg,43,1,44,30,urban,False,False
+2024,20,lower,1,260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",Bayern,41,3,44,30,urban,False,False
+2024,20,lower,1,260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,Baden-Württemberg,34,9,43,30,urban,False,False
+2024,20,lower,1,260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,Nordrhein-Westfalen,36,6,42,23,urban,False,False
+2024,20,lower,1,260840200-773713000,260840200,Universitätsklinikum Ulm,Baden-Württemberg,38,3,41,30,urban,False,False
+2024,20,lower,1,260920069-772859000,260920069,Klinikum Passau,Bayern,34,6,40,23,urban,False,False
+2024,20,lower,1,260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,Baden-Württemberg,35,3,38,30,urban,False,False
+2024,20,lower,1,260590139-773659000,260590139,Klinikzentrum Mitte,Nordrhein-Westfalen,37,0,37,30,urban,False,False
+2024,20,lower,1,260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,Schleswig-Holstein,35,1,36,30,urban,False,False
+2024,20,lower,1,260950099-771374000,260950099,Klinikum Nürnberg Nord,Bayern,31,4,35,30,urban,False,False
+2024,20,lower,1,261100070-773109000,261100070,DRK Kliniken Berlin Mitte,Berlin,30,4,34,30,urban,False,False
+2024,20,lower,1,260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,Nordrhein-Westfalen,27,5,32,30,urban,False,False
+2024,20,lower,1,261401416-772794000,261401416,Klinikum Chemnitz gGmbH,Sachsen,29,3,32,30,urban,False,False
+2024,20,lower,1,260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,Hessen,28,3,31,21,urban,False,False
+2024,20,lower,1,260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,Nordrhein-Westfalen,26,4,30,30,urban,False,False
+2024,20,lower,1,260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,Nordrhein-Westfalen,24,3,27,30,urban,False,False
+2024,20,lower,1,260570692-772283000,260570692,Johannes Wesling Klinikum Minden,Nordrhein-Westfalen,23,2,25,21,urban,False,False
+2024,20,lower,1,261300185-772916000,261300185,Helios Kliniken Schwerin,Mecklenburg-Vorpommern,24,1,25,21,urban,False,False
+2024,20,lower,1,261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,Berlin,24,0,24,30,urban,False,False
+2024,20,lower,1,260530012-771450000,260530012,Uniklinik RWTH Aachen,Nordrhein-Westfalen,20,2,22,30,urban,False,False
+2024,20,lower,1,260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,Rheinland-Pfalz,20,2,22,30,urban,False,False
+2024,20,lower,1,260810453-771315000,260810453,Krankenhaus Leonberg,Baden-Württemberg,20,1,21,23,urban,False,False
+2024,20,lower,1,260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,,19,5,24,30,urban,False,True
+2024,20,lower,1,260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,,18,6,24,23,urban,False,True
+2024,20,lower,1,260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,,19,5,24,30,urban,False,True
+2024,20,lower,1,260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,,19,4,23,30,urban,False,True
+2024,20,lower,1,260551381-773391000,260551381,Klinikum Ibbenbüren,,16,4,20,23,urban,False,True
+2024,20,lower,1,260611236-771648000,260611236,Klinikum Hanau GmbH,,18,2,20,30,urban,False,True
+2024,20,lower,1,260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,,16,4,20,21,urban,False,True
+2024,20,lower,1,260960079-773642000,260960079,Universitätsklinikum Würzburg,,18,2,20,30,urban,False,True
+2024,20,lower,1,261000013-771100000,261000013,Klinikum Saarbrücken,,16,4,20,30,urban,False,True
+2024,20,midpoint,2,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,330,30,urban,False,False
+2024,20,midpoint,2,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,273,30,urban,False,False
+2024,20,midpoint,2,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,232,30,urban,False,False
+2024,20,midpoint,2,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,229,30,urban,False,False
+2024,20,midpoint,2,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,213,30,urban,False,False
+2024,20,midpoint,2,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,205,30,urban,False,False
+2024,20,midpoint,2,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,172,30,urban,False,False
+2024,20,midpoint,2,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,149,30,urban,False,False
+2024,20,midpoint,2,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,140,30,urban,False,False
+2024,20,midpoint,2,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,20,midpoint,2,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,136,30,urban,False,False
+2024,20,midpoint,2,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,131,30,urban,False,False
+2024,20,midpoint,2,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,124,30,urban,False,False
+2024,20,midpoint,2,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,124,30,urban,False,False
+2024,20,midpoint,2,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,123,30,urban,False,False
+2024,20,midpoint,2,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,123,30,urban,False,False
+2024,20,midpoint,2,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,104,30,urban,False,False
+2024,20,midpoint,2,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,101,30,urban,False,False
+2024,20,midpoint,2,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,93,30,urban,False,False
+2024,20,midpoint,2,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,20,midpoint,2,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,87,30,urban,False,False
+2024,20,midpoint,2,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,83,30,urban,False,False
+2024,20,midpoint,2,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,81,30,urban,False,False
+2024,20,midpoint,2,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,79,30,urban,False,False
+2024,20,midpoint,2,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,73,30,urban,False,False
+2024,20,midpoint,2,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,73,21,urban,False,False
+2024,20,midpoint,2,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,71,30,urban,False,False
+2024,20,midpoint,2,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,70,30,urban,False,False
+2024,20,midpoint,2,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,69,30,urban,False,False
+2024,20,midpoint,2,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,63,30,urban,False,False
+2024,20,midpoint,2,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,59,30,urban,False,False
+2024,20,midpoint,2,260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,Nordrhein-Westfalen,37,10,57,30,urban,False,False
+2024,20,midpoint,2,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,57,30,urban,False,False
+2024,20,midpoint,2,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,57,30,urban,False,False
+2024,20,midpoint,2,261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Sachsen,43,5,53,30,urban,False,False
+2024,20,midpoint,2,260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,Baden-Württemberg,34,9,52,30,urban,False,False
+2024,20,midpoint,2,260950567-771175000,260950567,Universitätsklinikum Erlangen,Bayern,47,2,51,30,urban,False,False
+2024,20,midpoint,2,260200079-772901000,260200079,Asklepios Klinikum Harburg,Hamburg,44,3,50,30,urban,False,False
+2024,20,midpoint,2,260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,Nordrhein-Westfalen,36,6,48,23,urban,False,False
+2024,20,midpoint,2,260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,Bayern,44,2,48,30,urban,False,False
+2024,20,midpoint,2,260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",Bayern,41,3,47,30,urban,False,False
+2024,20,midpoint,2,260920069-772859000,260920069,Klinikum Passau,Bayern,34,6,46,23,urban,False,False
+2024,20,midpoint,2,260200035-772584000,260200035,Asklepios Klinik Barmbek,Hamburg,43,1,45,30,urban,False,False
+2024,20,midpoint,2,260840200-773713000,260840200,Universitätsklinikum Ulm,Baden-Württemberg,38,3,44,30,urban,False,False
+2024,20,midpoint,2,260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,Baden-Württemberg,35,3,41,30,urban,False,False
+2024,20,midpoint,2,260950099-771374000,260950099,Klinikum Nürnberg Nord,Bayern,31,4,39,30,urban,False,False
+2024,20,midpoint,2,261100070-773109000,261100070,DRK Kliniken Berlin Mitte,Berlin,30,4,38,30,urban,False,False
+2024,20,midpoint,2,260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,Schleswig-Holstein,35,1,37,30,urban,False,False
+2024,20,midpoint,2,260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,Nordrhein-Westfalen,27,5,37,30,urban,False,False
+2024,20,midpoint,2,260590139-773659000,260590139,Klinikzentrum Mitte,Nordrhein-Westfalen,37,0,37,30,urban,False,False
+2024,20,midpoint,2,261401416-772794000,261401416,Klinikum Chemnitz gGmbH,Sachsen,29,3,35,30,urban,False,False
+2024,20,midpoint,2,260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,Nordrhein-Westfalen,26,4,34,30,urban,False,False
+2024,20,midpoint,2,260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,Hessen,28,3,34,21,urban,False,False
+2024,20,midpoint,2,260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,Nordrhein-Westfalen,24,3,30,30,urban,False,False
+2024,20,midpoint,2,260570692-772283000,260570692,Johannes Wesling Klinikum Minden,Nordrhein-Westfalen,23,2,27,21,urban,False,False
+2024,20,midpoint,2,261300185-772916000,261300185,Helios Kliniken Schwerin,Mecklenburg-Vorpommern,24,1,26,21,urban,False,False
+2024,20,midpoint,2,260530012-771450000,260530012,Uniklinik RWTH Aachen,Nordrhein-Westfalen,20,2,24,30,urban,False,False
+2024,20,midpoint,2,260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,Rheinland-Pfalz,20,2,24,30,urban,False,False
+2024,20,midpoint,2,261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,Berlin,24,0,24,30,urban,False,False
+2024,20,midpoint,2,260810453-771315000,260810453,Krankenhaus Leonberg,Baden-Württemberg,20,1,22,23,urban,False,False
+2024,20,midpoint,2,260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,,18,6,30,23,urban,False,True
+2024,20,midpoint,2,260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,,19,5,29,30,urban,False,True
+2024,20,midpoint,2,260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,,19,5,29,30,urban,False,True
+2024,20,midpoint,2,260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,,19,4,27,30,urban,False,True
+2024,20,midpoint,2,260551381-773391000,260551381,Klinikum Ibbenbüren,,16,4,24,23,urban,False,True
+2024,20,midpoint,2,260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,,16,4,24,21,urban,False,True
+2024,20,midpoint,2,261000013-771100000,261000013,Klinikum Saarbrücken,,16,4,24,30,urban,False,True
+2024,20,midpoint,2,261101300-773608000,261101300,Helios Klinikum Berlin-Buch,,15,4,23,30,urban,False,True
+2024,20,midpoint,2,260611236-771648000,260611236,Klinikum Hanau GmbH,,18,2,22,30,urban,False,True
+2024,20,midpoint,2,260930050-771597000,260930050,Krankenhaus Barmherzige Brüder Regensburg,,12,5,22,30,urban,False,True
+2024,20,midpoint,2,260960079-773642000,260960079,Universitätsklinikum Würzburg,,18,2,22,30,urban,False,True
+2024,20,midpoint,2,260940198-771124000,260940198,Sana Klinikum Hof,,13,4,21,23,urban,False,True
+2024,20,midpoint,2,261101878-773183000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,,16,2,20,30,urban,False,True
+2024,20,midpoint,2,261601145-773338000,261601145,KMG Klinikum Sömmerda,,12,4,20,23,urban,False,True
+2024,20,upper,3,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,342,30,urban,False,False
+2024,20,upper,3,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,275,30,urban,False,False
+2024,20,upper,3,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,239,30,urban,False,False
+2024,20,upper,3,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,230,30,urban,False,False
+2024,20,upper,3,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,219,30,urban,False,False
+2024,20,upper,3,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,207,30,urban,False,False
+2024,20,upper,3,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,181,30,urban,False,False
+2024,20,upper,3,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,155,30,urban,False,False
+2024,20,upper,3,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,151,30,urban,False,False
+2024,20,upper,3,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,142,30,urban,False,False
+2024,20,upper,3,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,20,upper,3,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,136,30,urban,False,False
+2024,20,upper,3,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,130,30,urban,False,False
+2024,20,upper,3,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,128,30,urban,False,False
+2024,20,upper,3,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,127,30,urban,False,False
+2024,20,upper,3,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,126,30,urban,False,False
+2024,20,upper,3,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,110,30,urban,False,False
+2024,20,upper,3,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,108,30,urban,False,False
+2024,20,upper,3,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,104,30,urban,False,False
+2024,20,upper,3,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,91,30,urban,False,False
+2024,20,upper,3,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,90,30,urban,False,False
+2024,20,upper,3,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,20,upper,3,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,87,30,urban,False,False
+2024,20,upper,3,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,81,30,urban,False,False
+2024,20,upper,3,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,80,30,urban,False,False
+2024,20,upper,3,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,80,21,urban,False,False
+2024,20,upper,3,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,77,30,urban,False,False
+2024,20,upper,3,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,74,30,urban,False,False
+2024,20,upper,3,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,71,30,urban,False,False
+2024,20,upper,3,260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,Nordrhein-Westfalen,37,10,67,30,urban,False,False
+2024,20,upper,3,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,65,30,urban,False,False
+2024,20,upper,3,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,64,30,urban,False,False
+2024,20,upper,3,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,63,30,urban,False,False
+2024,20,upper,3,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,63,30,urban,False,False
+2024,20,upper,3,260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,Baden-Württemberg,34,9,61,30,urban,False,False
+2024,20,upper,3,261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Sachsen,43,5,58,30,urban,False,False
+2024,20,upper,3,260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,Nordrhein-Westfalen,36,6,54,23,urban,False,False
+2024,20,upper,3,260200079-772901000,260200079,Asklepios Klinikum Harburg,Hamburg,44,3,53,30,urban,False,False
+2024,20,upper,3,260950567-771175000,260950567,Universitätsklinikum Erlangen,Bayern,47,2,53,30,urban,False,False
+2024,20,upper,3,260920069-772859000,260920069,Klinikum Passau,Bayern,34,6,52,23,urban,False,False
+2024,20,upper,3,260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",Bayern,41,3,50,30,urban,False,False
+2024,20,upper,3,260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,Bayern,44,2,50,30,urban,False,False
+2024,20,upper,3,260840200-773713000,260840200,Universitätsklinikum Ulm,Baden-Württemberg,38,3,47,30,urban,False,False
+2024,20,upper,3,260200035-772584000,260200035,Asklepios Klinik Barmbek,Hamburg,43,1,46,30,urban,False,False
+2024,20,upper,3,260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,Baden-Württemberg,35,3,44,30,urban,False,False
+2024,20,upper,3,260950099-771374000,260950099,Klinikum Nürnberg Nord,Bayern,31,4,43,30,urban,False,False
+2024,20,upper,3,260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,Nordrhein-Westfalen,27,5,42,30,urban,False,False
+2024,20,upper,3,261100070-773109000,261100070,DRK Kliniken Berlin Mitte,Berlin,30,4,42,30,urban,False,False
+2024,20,upper,3,260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,Schleswig-Holstein,35,1,38,30,urban,False,False
+2024,20,upper,3,260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,Nordrhein-Westfalen,26,4,38,30,urban,False,False
+2024,20,upper,3,261401416-772794000,261401416,Klinikum Chemnitz gGmbH,Sachsen,29,3,38,30,urban,False,False
+2024,20,upper,3,260590139-773659000,260590139,Klinikzentrum Mitte,Nordrhein-Westfalen,37,0,37,30,urban,False,False
+2024,20,upper,3,260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,Hessen,28,3,37,21,urban,False,False
+2024,20,upper,3,260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,Nordrhein-Westfalen,24,3,33,30,urban,False,False
+2024,20,upper,3,260570692-772283000,260570692,Johannes Wesling Klinikum Minden,Nordrhein-Westfalen,23,2,29,21,urban,False,False
+2024,20,upper,3,261300185-772916000,261300185,Helios Kliniken Schwerin,Mecklenburg-Vorpommern,24,1,27,21,urban,False,False
+2024,20,upper,3,260530012-771450000,260530012,Uniklinik RWTH Aachen,Nordrhein-Westfalen,20,2,26,30,urban,False,False
+2024,20,upper,3,260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,Rheinland-Pfalz,20,2,26,30,urban,False,False
+2024,20,upper,3,261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,Berlin,24,0,24,30,urban,False,False
+2024,20,upper,3,260810453-771315000,260810453,Krankenhaus Leonberg,Baden-Württemberg,20,1,23,23,urban,False,False
+2024,20,upper,3,260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,,18,6,36,23,urban,False,True
+2024,20,upper,3,260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,,19,5,34,30,urban,False,True
+2024,20,upper,3,260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,,19,5,34,30,urban,False,True
+2024,20,upper,3,260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,,19,4,31,30,urban,False,True
+2024,20,upper,3,260551381-773391000,260551381,Klinikum Ibbenbüren,,16,4,28,23,urban,False,True
+2024,20,upper,3,260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,,16,4,28,21,urban,False,True
+2024,20,upper,3,261000013-771100000,261000013,Klinikum Saarbrücken,,16,4,28,30,urban,False,True
+2024,20,upper,3,260530396-772936000,260530396,Cellitinnen-Krankenhaus Heilig Geist,,0,9,27,30,urban,False,True
+2024,20,upper,3,260930050-771597000,260930050,Krankenhaus Barmherzige Brüder Regensburg,,12,5,27,30,urban,False,True
+2024,20,upper,3,261101300-773608000,261101300,Helios Klinikum Berlin-Buch,,15,4,27,30,urban,False,True
+2024,20,upper,3,260511781-772188000,260511781,Rheinland Klinikum  Lukaskrankenhaus Neuss,,4,7,25,30,urban,False,True
+2024,20,upper,3,260590071-772744000,260590071,Katholisches Klinikum Bochum,,4,7,25,30,urban,False,True
+2024,20,upper,3,260940198-771124000,260940198,Sana Klinikum Hof,,13,4,25,23,urban,False,True
+2024,20,upper,3,260611236-771648000,260611236,Klinikum Hanau GmbH,,18,2,24,30,urban,False,True
+2024,20,upper,3,260960079-773642000,260960079,Universitätsklinikum Würzburg,,18,2,24,30,urban,False,True
+2024,20,upper,3,261601145-773338000,261601145,KMG Klinikum Sömmerda,,12,4,24,23,urban,False,True
+2024,20,upper,3,261101878-773183000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,,16,2,22,30,urban,False,True
+2024,20,upper,3,260590505-772000000,260590505,Ev. Krankenhaus Herne gGmbH,,11,3,20,30,urban,False,True
+2024,20,upper,3,260810475-771511000,260810475,Klinikum Esslingen GmbH,,8,4,20,30,urban,False,True
+2024,20,upper,3,261200721-773088000,261200721,Medizinische Universität Lausitz - Carl Thiem,,11,3,20,30,urban,False,True
+2024,20,upper,3,261600634-771973000,261600634,Zentralklinik Bad Berka GmbH,,14,2,20,13,rural,False,True
+2024,20,visible,0,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,306,30,urban,False,False
+2024,20,visible,0,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,269,30,urban,False,False
+2024,20,visible,0,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,227,30,urban,False,False
+2024,20,visible,0,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,218,30,urban,False,False
+2024,20,visible,0,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,201,30,urban,False,False
+2024,20,visible,0,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,201,30,urban,False,False
+2024,20,visible,0,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,154,30,urban,False,False
+2024,20,visible,0,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,137,30,urban,False,False
+2024,20,visible,0,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,20,visible,0,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,124,30,urban,False,False
+2024,20,visible,0,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,121,30,urban,False,False
+2024,20,visible,0,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,118,30,urban,False,False
+2024,20,visible,0,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,118,30,urban,False,False
+2024,20,visible,0,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,117,30,urban,False,False
+2024,20,visible,0,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,113,30,urban,False,False
+2024,20,visible,0,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,112,30,urban,False,False
+2024,20,visible,0,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,95,30,urban,False,False
+2024,20,visible,0,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,92,30,urban,False,False
+2024,20,visible,0,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,20,visible,0,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,81,30,urban,False,False
+2024,20,visible,0,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,75,30,urban,False,False
+2024,20,visible,0,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,71,30,urban,False,False
+2024,20,visible,0,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,69,30,urban,False,False
+2024,20,visible,0,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,67,30,urban,False,False
+2024,20,visible,0,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,65,30,urban,False,False
+2024,20,visible,0,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,63,30,urban,False,False
+2024,20,visible,0,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,59,21,urban,False,False
+2024,20,visible,0,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,59,30,urban,False,False
+2024,20,visible,0,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,56,30,urban,False,False
+2024,20,visible,0,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,53,30,urban,False,False
+2024,20,visible,0,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,51,30,urban,False,False
+2024,20,visible,0,260950567-771175000,260950567,Universitätsklinikum Erlangen,Bayern,47,2,47,30,urban,False,False
+2024,20,visible,0,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,45,30,urban,False,False
+2024,20,visible,0,260200079-772901000,260200079,Asklepios Klinikum Harburg,Hamburg,44,3,44,30,urban,False,False
+2024,20,visible,0,260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,Bayern,44,2,44,30,urban,False,False
+2024,20,visible,0,260200035-772584000,260200035,Asklepios Klinik Barmbek,Hamburg,43,1,43,30,urban,False,False
+2024,20,visible,0,261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Sachsen,43,5,43,30,urban,False,False
+2024,20,visible,0,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,43,30,urban,False,False
+2024,20,visible,0,260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",Bayern,41,3,41,30,urban,False,False
+2024,20,visible,0,260840200-773713000,260840200,Universitätsklinikum Ulm,Baden-Württemberg,38,3,38,30,urban,False,False
+2024,20,visible,0,260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,Nordrhein-Westfalen,37,10,37,30,urban,False,False
+2024,20,visible,0,260590139-773659000,260590139,Klinikzentrum Mitte,Nordrhein-Westfalen,37,0,37,30,urban,False,False
+2024,20,visible,0,260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,Nordrhein-Westfalen,36,6,36,23,urban,False,False
+2024,20,visible,0,260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,Schleswig-Holstein,35,1,35,30,urban,False,False
+2024,20,visible,0,260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,Baden-Württemberg,35,3,35,30,urban,False,False
+2024,20,visible,0,260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,Baden-Württemberg,34,9,34,30,urban,False,False
+2024,20,visible,0,260920069-772859000,260920069,Klinikum Passau,Bayern,34,6,34,23,urban,False,False
+2024,20,visible,0,260950099-771374000,260950099,Klinikum Nürnberg Nord,Bayern,31,4,31,30,urban,False,False
+2024,20,visible,0,261100070-773109000,261100070,DRK Kliniken Berlin Mitte,Berlin,30,4,30,30,urban,False,False
+2024,20,visible,0,261401416-772794000,261401416,Klinikum Chemnitz gGmbH,Sachsen,29,3,29,30,urban,False,False
+2024,20,visible,0,260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,Hessen,28,3,28,21,urban,False,False
+2024,20,visible,0,260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,Nordrhein-Westfalen,27,5,27,30,urban,False,False
+2024,20,visible,0,260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,Nordrhein-Westfalen,26,4,26,30,urban,False,False
+2024,20,visible,0,260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,Nordrhein-Westfalen,24,3,24,30,urban,False,False
+2024,20,visible,0,261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,Berlin,24,0,24,30,urban,False,False
+2024,20,visible,0,261300185-772916000,261300185,Helios Kliniken Schwerin,Mecklenburg-Vorpommern,24,1,24,21,urban,False,False
+2024,20,visible,0,260570692-772283000,260570692,Johannes Wesling Klinikum Minden,Nordrhein-Westfalen,23,2,23,21,urban,False,False
+2024,20,visible,0,260530012-771450000,260530012,Uniklinik RWTH Aachen,Nordrhein-Westfalen,20,2,20,30,urban,False,False
+2024,20,visible,0,260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,Rheinland-Pfalz,20,2,20,30,urban,False,False
+2024,20,visible,0,260810453-771315000,260810453,Krankenhaus Leonberg,Baden-Württemberg,20,1,20,23,urban,False,False
+2024,50,lower,1,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,318,30,urban,False,False
+2024,50,lower,1,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,271,30,urban,False,False
+2024,50,lower,1,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,228,30,urban,False,False
+2024,50,lower,1,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,225,30,urban,False,False
+2024,50,lower,1,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,207,30,urban,False,False
+2024,50,lower,1,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,203,30,urban,False,False
+2024,50,lower,1,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,163,30,urban,False,False
+2024,50,lower,1,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,143,30,urban,False,False
+2024,50,lower,1,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,50,lower,1,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,130,30,urban,False,False
+2024,50,lower,1,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,129,30,urban,False,False
+2024,50,lower,1,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,126,30,urban,False,False
+2024,50,lower,1,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,121,30,urban,False,False
+2024,50,lower,1,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,120,30,urban,False,False
+2024,50,lower,1,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,118,30,urban,False,False
+2024,50,lower,1,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,118,30,urban,False,False
+2024,50,lower,1,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,98,30,urban,False,False
+2024,50,lower,1,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,98,30,urban,False,False
+2024,50,lower,1,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,50,lower,1,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,84,30,urban,False,False
+2024,50,lower,1,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,78,30,urban,False,False
+2024,50,lower,1,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,77,30,urban,False,False
+2024,50,lower,1,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,75,30,urban,False,False
+2024,50,lower,1,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,75,30,urban,False,False
+2024,50,lower,1,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,72,30,urban,False,False
+2024,50,lower,1,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,67,30,urban,False,False
+2024,50,lower,1,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,66,21,urban,False,False
+2024,50,lower,1,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,63,30,urban,False,False
+2024,50,lower,1,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,62,30,urban,False,False
+2024,50,lower,1,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,61,30,urban,False,False
+2024,50,lower,1,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,55,30,urban,False,False
+2024,50,lower,1,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,51,30,urban,False,True
+2024,50,lower,1,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,50,30,urban,False,True
+2024,50,midpoint,2,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,330,30,urban,False,False
+2024,50,midpoint,2,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,273,30,urban,False,False
+2024,50,midpoint,2,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,232,30,urban,False,False
+2024,50,midpoint,2,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,229,30,urban,False,False
+2024,50,midpoint,2,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,213,30,urban,False,False
+2024,50,midpoint,2,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,205,30,urban,False,False
+2024,50,midpoint,2,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,172,30,urban,False,False
+2024,50,midpoint,2,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,149,30,urban,False,False
+2024,50,midpoint,2,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,140,30,urban,False,False
+2024,50,midpoint,2,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,50,midpoint,2,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,136,30,urban,False,False
+2024,50,midpoint,2,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,131,30,urban,False,False
+2024,50,midpoint,2,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,124,30,urban,False,False
+2024,50,midpoint,2,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,124,30,urban,False,False
+2024,50,midpoint,2,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,123,30,urban,False,False
+2024,50,midpoint,2,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,123,30,urban,False,False
+2024,50,midpoint,2,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,104,30,urban,False,False
+2024,50,midpoint,2,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,101,30,urban,False,False
+2024,50,midpoint,2,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,93,30,urban,False,False
+2024,50,midpoint,2,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,50,midpoint,2,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,87,30,urban,False,False
+2024,50,midpoint,2,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,83,30,urban,False,False
+2024,50,midpoint,2,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,81,30,urban,False,False
+2024,50,midpoint,2,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,79,30,urban,False,False
+2024,50,midpoint,2,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,73,30,urban,False,False
+2024,50,midpoint,2,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,73,21,urban,False,False
+2024,50,midpoint,2,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,71,30,urban,False,False
+2024,50,midpoint,2,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,70,30,urban,False,False
+2024,50,midpoint,2,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,69,30,urban,False,False
+2024,50,midpoint,2,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,63,30,urban,False,False
+2024,50,midpoint,2,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,59,30,urban,False,False
+2024,50,midpoint,2,260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,Nordrhein-Westfalen,37,10,57,30,urban,False,True
+2024,50,midpoint,2,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,57,30,urban,False,True
+2024,50,midpoint,2,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,57,30,urban,False,True
+2024,50,midpoint,2,261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Sachsen,43,5,53,30,urban,False,True
+2024,50,midpoint,2,260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,Baden-Württemberg,34,9,52,30,urban,False,True
+2024,50,midpoint,2,260950567-771175000,260950567,Universitätsklinikum Erlangen,Bayern,47,2,51,30,urban,False,True
+2024,50,midpoint,2,260200079-772901000,260200079,Asklepios Klinikum Harburg,Hamburg,44,3,50,30,urban,False,True
+2024,50,upper,3,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,342,30,urban,False,False
+2024,50,upper,3,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,275,30,urban,False,False
+2024,50,upper,3,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,239,30,urban,False,False
+2024,50,upper,3,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,230,30,urban,False,False
+2024,50,upper,3,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,219,30,urban,False,False
+2024,50,upper,3,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,207,30,urban,False,False
+2024,50,upper,3,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,181,30,urban,False,False
+2024,50,upper,3,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,155,30,urban,False,False
+2024,50,upper,3,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,151,30,urban,False,False
+2024,50,upper,3,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,142,30,urban,False,False
+2024,50,upper,3,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,50,upper,3,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,136,30,urban,False,False
+2024,50,upper,3,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,130,30,urban,False,False
+2024,50,upper,3,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,128,30,urban,False,False
+2024,50,upper,3,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,127,30,urban,False,False
+2024,50,upper,3,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,126,30,urban,False,False
+2024,50,upper,3,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,110,30,urban,False,False
+2024,50,upper,3,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,108,30,urban,False,False
+2024,50,upper,3,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,104,30,urban,False,False
+2024,50,upper,3,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,91,30,urban,False,False
+2024,50,upper,3,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,90,30,urban,False,False
+2024,50,upper,3,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,50,upper,3,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,87,30,urban,False,False
+2024,50,upper,3,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,81,30,urban,False,False
+2024,50,upper,3,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,80,30,urban,False,False
+2024,50,upper,3,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,80,21,urban,False,False
+2024,50,upper,3,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,77,30,urban,False,False
+2024,50,upper,3,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,74,30,urban,False,False
+2024,50,upper,3,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,71,30,urban,False,False
+2024,50,upper,3,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,65,30,urban,False,False
+2024,50,upper,3,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,63,30,urban,False,False
+2024,50,upper,3,260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,Nordrhein-Westfalen,37,10,67,30,urban,False,True
+2024,50,upper,3,261500702-773513000,261500702,Universitätsklinikum Halle (Saale),Sachsen-Anhalt,43,7,64,30,urban,False,True
+2024,50,upper,3,261400530-772884000,261400530,Klinikum St. Georg gGmbH,Sachsen,45,6,63,30,urban,False,True
+2024,50,upper,3,260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,Baden-Württemberg,34,9,61,30,urban,False,True
+2024,50,upper,3,261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Sachsen,43,5,58,30,urban,False,True
+2024,50,upper,3,260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,Nordrhein-Westfalen,36,6,54,23,urban,False,True
+2024,50,upper,3,260200079-772901000,260200079,Asklepios Klinikum Harburg,Hamburg,44,3,53,30,urban,False,True
+2024,50,upper,3,260950567-771175000,260950567,Universitätsklinikum Erlangen,Bayern,47,2,53,30,urban,False,True
+2024,50,upper,3,260920069-772859000,260920069,Klinikum Passau,Bayern,34,6,52,23,urban,False,True
+2024,50,upper,3,260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",Bayern,41,3,50,30,urban,False,True
+2024,50,upper,3,260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,Bayern,44,2,50,30,urban,False,True
+2024,50,visible,0,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,306,30,urban,False,False
+2024,50,visible,0,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,269,30,urban,False,False
+2024,50,visible,0,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,227,30,urban,False,False
+2024,50,visible,0,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,218,30,urban,False,False
+2024,50,visible,0,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,201,30,urban,False,False
+2024,50,visible,0,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,201,30,urban,False,False
+2024,50,visible,0,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,154,30,urban,False,False
+2024,50,visible,0,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,137,30,urban,False,False
+2024,50,visible,0,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,50,visible,0,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,124,30,urban,False,False
+2024,50,visible,0,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,121,30,urban,False,False
+2024,50,visible,0,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,118,30,urban,False,False
+2024,50,visible,0,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,118,30,urban,False,False
+2024,50,visible,0,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,117,30,urban,False,False
+2024,50,visible,0,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,113,30,urban,False,False
+2024,50,visible,0,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,112,30,urban,False,False
+2024,50,visible,0,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,95,30,urban,False,False
+2024,50,visible,0,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,92,30,urban,False,False
+2024,50,visible,0,260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,88,0,88,30,urban,False,False
+2024,50,visible,0,260310378-772918000,260310378,Universitätsmedizin Göttingen,Niedersachsen,81,3,81,30,urban,False,False
+2024,50,visible,0,260530283-773491000,260530283,Universitätsklinikum Köln,Nordrhein-Westfalen,75,2,75,30,urban,False,False
+2024,50,visible,0,260913195-772053000,260913195,TUM Klinikum Rechts der Isar,Bayern,71,1,71,30,urban,False,False
+2024,50,visible,0,260510381-771967000,260510381,Universitätsklinikum Essen (AöR),Nordrhein-Westfalen,69,6,69,30,urban,False,False
+2024,50,visible,0,261400847-771139000,261400847,Helios Park-Klinikum Leipzig,Sachsen,67,8,67,30,urban,False,False
+2024,50,visible,0,260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,Bayern,65,2,65,30,urban,False,False
+2024,50,visible,0,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,63,30,urban,False,False
+2024,50,visible,0,261000386-771261000,261000386,Universitätsklinikum des Saarlandes,Saarland,59,7,59,21,urban,False,False
+2024,50,visible,0,261300118-771003000,261300118,Klinikum Südstadt Rostock,Mecklenburg-Vorpommern,59,2,59,30,urban,False,False
+2024,50,visible,0,261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Mecklenburg-Vorpommern,56,7,56,30,urban,False,False
+2024,50,visible,0,260840108-772041000,260840108,Universitätsklinikum Tübingen,Baden-Württemberg,53,9,53,30,urban,False,False
+2024,50,visible,0,260810271-772311000,260810271,Robert Bosch Krankenhaus,Baden-Württemberg,51,4,51,30,urban,False,False
+2024,100,lower,1,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,318,30,urban,False,False
+2024,100,lower,1,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,271,30,urban,False,False
+2024,100,lower,1,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,228,30,urban,False,False
+2024,100,lower,1,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,225,30,urban,False,False
+2024,100,lower,1,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,207,30,urban,False,False
+2024,100,lower,1,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,203,30,urban,False,False
+2024,100,lower,1,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,163,30,urban,False,False
+2024,100,lower,1,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,143,30,urban,False,False
+2024,100,lower,1,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,100,lower,1,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,130,30,urban,False,False
+2024,100,lower,1,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,129,30,urban,False,False
+2024,100,lower,1,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,126,30,urban,False,False
+2024,100,lower,1,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,121,30,urban,False,False
+2024,100,lower,1,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,120,30,urban,False,False
+2024,100,lower,1,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,118,30,urban,False,False
+2024,100,lower,1,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,118,30,urban,False,False
+2024,100,midpoint,2,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,330,30,urban,False,False
+2024,100,midpoint,2,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,273,30,urban,False,False
+2024,100,midpoint,2,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,232,30,urban,False,False
+2024,100,midpoint,2,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,229,30,urban,False,False
+2024,100,midpoint,2,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,213,30,urban,False,False
+2024,100,midpoint,2,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,205,30,urban,False,False
+2024,100,midpoint,2,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,172,30,urban,False,False
+2024,100,midpoint,2,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,149,30,urban,False,False
+2024,100,midpoint,2,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,140,30,urban,False,False
+2024,100,midpoint,2,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,100,midpoint,2,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,136,30,urban,False,False
+2024,100,midpoint,2,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,131,30,urban,False,False
+2024,100,midpoint,2,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,124,30,urban,False,False
+2024,100,midpoint,2,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,124,30,urban,False,False
+2024,100,midpoint,2,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,123,30,urban,False,False
+2024,100,midpoint,2,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,123,30,urban,False,False
+2024,100,midpoint,2,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,104,30,urban,False,True
+2024,100,midpoint,2,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,101,30,urban,False,True
+2024,100,upper,3,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,342,30,urban,False,False
+2024,100,upper,3,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,275,30,urban,False,False
+2024,100,upper,3,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,239,30,urban,False,False
+2024,100,upper,3,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,230,30,urban,False,False
+2024,100,upper,3,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,219,30,urban,False,False
+2024,100,upper,3,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,207,30,urban,False,False
+2024,100,upper,3,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,181,30,urban,False,False
+2024,100,upper,3,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,155,30,urban,False,False
+2024,100,upper,3,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,151,30,urban,False,False
+2024,100,upper,3,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,142,30,urban,False,False
+2024,100,upper,3,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,100,upper,3,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,136,30,urban,False,False
+2024,100,upper,3,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,130,30,urban,False,False
+2024,100,upper,3,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,128,30,urban,False,False
+2024,100,upper,3,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,127,30,urban,False,False
+2024,100,upper,3,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,126,30,urban,False,False
+2024,100,upper,3,260320597-771519000,260320597,Medizinische Hochschule Hannover,Niedersachsen,92,6,110,30,urban,False,True
+2024,100,upper,3,261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Sachsen-Anhalt,63,15,108,30,urban,False,True
+2024,100,upper,3,260612124-772858000,260612124,Universitätsklinikum Frankfurt,Hessen,95,3,104,30,urban,False,True
+2024,100,visible,0,260530103-772247000,260530103,Universitätsklinikum Bonn,Nordrhein-Westfalen,306,12,306,30,urban,False,False
+2024,100,visible,0,260510018-773410000,260510018,Universitätsklinikum Düsseldorf,Nordrhein-Westfalen,269,2,269,30,urban,False,False
+2024,100,visible,0,260930608-771402000,260930608,Universitätsklinikum Regensburg,Bayern,227,1,227,30,urban,False,False
+2024,100,visible,0,261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,Berlin,218,7,218,30,urban,False,False
+2024,100,visible,0,260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,201,6,201,30,urban,False,False
+2024,100,visible,0,260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,Nordrhein-Westfalen,201,2,201,30,urban,False,False
+2024,100,visible,0,260550131-772432000,260550131,Universitätsklinikum Münster,Nordrhein-Westfalen,154,9,154,30,urban,False,False
+2024,100,visible,0,260820466-771700000,260820466,Universitätsklinikum Heidelberg,Baden-Württemberg,137,6,137,30,urban,False,False
+2024,100,visible,0,260832299-773657000,260832299,Universitätsklinikum Freiburg,Baden-Württemberg,137,0,137,30,urban,False,False
+2024,100,visible,0,260810647-772121000,260810647,Klinikum Ludwigsburg,Baden-Württemberg,124,6,124,30,urban,False,False
+2024,100,visible,0,261600736-772874000,261600736,Universitätsklinikum Jena,Thüringen,121,5,121,30,urban,False,False
+2024,100,visible,0,260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Schleswig-Holstein,118,3,118,30,urban,False,False
+2024,100,visible,0,260914050-771736000,260914050,LMU Klinikum,Bayern,118,11,118,30,urban,False,False
+2024,100,visible,0,260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Baden-Württemberg,117,3,117,30,urban,False,False
+2024,100,visible,0,261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Sachsen,113,5,113,30,urban,False,False
+2024,100,visible,0,260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Rheinland-Pfalz,112,6,112,30,urban,False,False

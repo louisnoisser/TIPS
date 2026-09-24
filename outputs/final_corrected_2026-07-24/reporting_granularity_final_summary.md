@@ -1,0 +1,3 @@
+# Reporting granularity robustness
+
+Simultaneous institution/site reporting occurred in 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019; annual overlapping-institution counts were 2012:16, 2013:18, 2014:26, 2015:35, 2016:40, 2017:43, 2018:46, 2019:52. No overlap occurred in 2008 or 2024. Numeric active providers increased from 28 to 113 at physical-site level and 27 to 108 at IK level. Expansion therefore remains after accounting for reporting granularity; no causal fraction is assigned to reporting changes. Mean/median component sites per multi-site institution were 3.0/3.0 in 2008 and 2.7/2.0 in 2024.

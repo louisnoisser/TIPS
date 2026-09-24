@@ -1,0 +1,9 @@
+network,network_label,site_count,data_provenance,settlement_class,time_minutes,covered_population_raw_float,covered_population,population_denominator,percentage_unrounded,percentage_manuscript_1dp
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,national,30,53393876.97085063,53393877,83194667,64.17944674266201,64.2
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,urban,30,45874153.048899986,45874153,60644251,75.64468559435255,75.6
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,rural,30,7519715.2918521585,7519715,22550346,33.34633978565118,33.3
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,other,30,8.630098516018027,9,69,13.043478260869565,13.0
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,national,60,78519585.93012923,78519586,83194667,94.38055206110748,94.4
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,urban,60,58561687.21774436,58561687,60644251,96.56593334791124,96.6
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,rural,60,19957864.27298496,19957864,22550346,88.50358216233134,88.5
+selected_code_identifiable,Specific de novo-code identifiable network,176,selected-code subset of existing site geometries,other,60,34.43939997011329,34,69,49.27536231884058,49.3

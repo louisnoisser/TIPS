@@ -1,0 +1,13 @@
+reporting_year,code_set_regime,bridge_focus_year,visible_8_839_87,suppressed_entries_8_839_87,visible_8_839_88,suppressed_entries_8_839_88,visible_8_839_89,suppressed_entries_8_839_89,visible_8_839_8a,suppressed_entries_8_839_8a,visible_8_839_87_plus_8_839_88,suppressed_8_839_87_plus_8_839_88,visible_8_839_89_plus_8_839_8a,suppressed_8_839_89_plus_8_839_8a,historically_valid_visible_total,historically_valid_suppressed_entries,stable_two_code_visible_total,stable_two_code_suppressed_entries,historically_valid_absolute_change_2015_2016,historically_valid_relative_change_2015_2016_pct,stable_two_code_absolute_change_2015_2016,stable_two_code_relative_change_2015_2016_pct,transition_interpretation
+2013,two-code (2013–2015),False,354,72,688,76,,,,,1042,148,,,1042,148,1042,148,,,,,
+2014,two-code (2013–2015),False,364,72,927,81,,,,,1291,153,,,1291,153,1291,153,,,,,
+2015,two-code (2013–2015),True,291,74,1017,119,,,,,1308,193,,,1308,193,1308,193,119.0,9.097859327217126,75.0,5.73394495412844,"Comparability across 2015 and 2016 may be affected by the introduction of additional specific de-novo subcodes in 2016. The activity reported under 8-839.89 and 8-839.8a quantifies their contribution to the observed 2016 coded total, but does not identify the magnitude of a coding artefact or distinguish coding change from real procedural change."
+2016,four-code (2016–2024),True,201,69,1182,88,33,23,11,27,1383,157,44,50,1427,207,1383,157,119.0,9.097859327217126,75.0,5.73394495412844,"Comparability across 2015 and 2016 may be affected by the introduction of additional specific de-novo subcodes in 2016. The activity reported under 8-839.89 and 8-839.8a quantifies their contribution to the observed 2016 coded total, but does not identify the magnitude of a coding artefact or distinguish coding change from real procedural change."
+2017,four-code (2016–2024),False,172,67,1213,98,18,20,33,30,1385,165,51,50,1436,215,1385,165,,,,,
+2018,four-code (2016–2024),False,156,61,1259,108,40,26,20,30,1415,169,60,56,1475,225,1415,169,,,,,
+2019,four-code (2016–2024),False,134,86,1298,122,27,20,23,31,1432,208,50,51,1482,259,1432,208,,,,,
+2020,four-code (2016–2024),False,104,61,1472,120,24,23,21,39,1576,181,45,62,1621,243,1576,181,,,,,
+2021,four-code (2016–2024),False,123,85,1822,114,27,28,60,31,1945,199,87,59,2032,258,1945,199,,,,,
+2022,four-code (2016–2024),False,175,51,1868,134,20,27,56,33,2043,185,76,60,2119,245,2043,185,,,,,
+2023,four-code (2016–2024),False,146,68,1997,125,26,18,92,48,2143,193,118,66,2261,259,2143,193,,,,,
+2024,four-code (2016–2024),False,145,53,2295,120,8,24,100,24,2440,173,108,48,2548,221,2440,173,,,,,

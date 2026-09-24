@@ -1,0 +1,3 @@
+time_minutes,covered_population_ge_50,population_total,pct_population_covered_ge_50,population_uncovered_ge_50,covered_population_ge_100,pct_population_covered_ge_100,population_uncovered_ge_100,coverage_gap_pct_points,population_retained_pct
+30,25266547,83194667,30.37,57928120,15905376,19.12,67289291,11.25,62.96
+60,59933667,83194667,72.04,23261000,48586975,58.4,34607692,13.64,81.07
