@@ -50,11 +50,27 @@ def discover_year_dirs(base_dir: Path) -> list[Path]:
 
 
 def report_files(xml_dir: Path, pattern: str = "*-xml.xml") -> list[Path]:
-    return sorted(
-        path
-        for path in xml_dir.glob(pattern)
-        if path.is_file() and path.suffix.lower() == ".xml" and REPORT_RE.search(path.name)
-    )
+    """Match report globs case-insensitively; reject divergent case collisions.
+
+    The report suffix guard remains in force for custom globs. Deduplication is
+    restricted to names that differ only in case within this year directory.
+    """
+    import fnmatch
+    import hashlib
+    groups: dict[str, list[Path]] = {}
+    for path in sorted(xml_dir.iterdir()):
+        if (path.is_file() and fnmatch.fnmatchcase(path.name.casefold(), pattern.casefold())
+                and path.suffix.lower() == ".xml" and REPORT_RE.search(path.name)):
+            groups.setdefault(path.name.casefold(), []).append(path)
+    selected = []
+    for name, paths in sorted(groups.items()):
+        if len(paths) > 1:
+            hashes = {hashlib.sha256(path.read_bytes()).hexdigest() for path in paths}
+            if len(hashes) != 1:
+                raise ValueError(f"Conflicting case-normalized reports in {xml_dir}: {paths}")
+        # Prefer the historical lower-case spelling, then deterministic order.
+        selected.append(min(paths, key=lambda path: (path.name != name, path.name)))
+    return sorted(selected)
 
 
 def safe_find_text(element: ET.Element | None, xpath: str, default: str = "") -> str:

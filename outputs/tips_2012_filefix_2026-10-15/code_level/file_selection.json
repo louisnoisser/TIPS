@@ -1,0 +1,145 @@
+[
+  {
+    "year": 2008,
+    "legacy_files": 1922,
+    "corrected_files": 1922,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2010,
+    "legacy_files": 1841,
+    "corrected_files": 1872,
+    "additional": [
+      "260100717-00-2010-xml.XML",
+      "260101079-00-2010-xml.XML",
+      "260320278-01-2010-xml.XML",
+      "260340294-00-2010-xml.XML",
+      "260610725-00-2010-xml.XML",
+      "260620636-00-2010-xml.XML",
+      "260621216-00-2010-xml.XML",
+      "260650201-01-2010-xml.XML",
+      "260810135-00-2010-xml.XML",
+      "260811739-01-2010-xml.XML",
+      "260812002-01-2010-XML.xml",
+      "260821332-00-2010-XML.XML",
+      "260830618-01-2010-XML.XML",
+      "260840335-00-2010-xml.XML",
+      "260914083-01-2010-XML.XML",
+      "260914664-01-2010-XML.XML",
+      "260940449-00-2010-xml.XML",
+      "260940688-01-2010-xml.XML",
+      "260970366-00-2010-xml.XML",
+      "260970388-00-2010-xml.XML",
+      "260970402-00-2010-xml.XML",
+      "261100252-01-2010-xml.XML",
+      "261100456-00-2010-xml.XML",
+      "261101583-01-2010-xml.XML",
+      "261101765-01-2010-xml.XML",
+      "261201221-00-2010-XML.xml",
+      "261300130-01-2010-xml.XML",
+      "261300210-00-2010-xml.XML",
+      "261401369-00-2010-xml.XML",
+      "261601203-01-2010-xml.XML",
+      "261601203-02-2010-xml.XML"
+    ],
+    "removed": []
+  },
+  {
+    "year": 2012,
+    "legacy_files": 2196,
+    "corrected_files": 2201,
+    "additional": [
+      "260820785-00-2012-XML.xml",
+      "261102323-00-2012-XML.xml",
+      "261102367-00-2012-XML.xml",
+      "261200060-00-2012-XML.xml",
+      "261200220-00-2012-XML.xml"
+    ],
+    "removed": []
+  },
+  {
+    "year": 2013,
+    "legacy_files": 2193,
+    "corrected_files": 2193,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2014,
+    "legacy_files": 2263,
+    "corrected_files": 2263,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2015,
+    "legacy_files": 2492,
+    "corrected_files": 2492,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2016,
+    "legacy_files": 2570,
+    "corrected_files": 2570,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2017,
+    "legacy_files": 2599,
+    "corrected_files": 2599,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2018,
+    "legacy_files": 2602,
+    "corrected_files": 2602,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2019,
+    "legacy_files": 2603,
+    "corrected_files": 2603,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2020,
+    "legacy_files": 2490,
+    "corrected_files": 2490,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2021,
+    "legacy_files": 2479,
+    "corrected_files": 2479,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2022,
+    "legacy_files": 2384,
+    "corrected_files": 2384,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2023,
+    "legacy_files": 2309,
+    "corrected_files": 2309,
+    "additional": [],
+    "removed": []
+  },
+  {
+    "year": 2024,
+    "legacy_files": 2220,
+    "corrected_files": 2220,
+    "additional": [],
+    "removed": []
+  }
+]

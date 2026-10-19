@@ -1,0 +1,16 @@
+reporting_year,unique_institutions,identifiable_component_sites,institutions_99_only,proportion_99_only,institutions_component_only,institutions_both,unresolved_99_providers_retained,mean_component_sites_per_multisite_institution,median_component_sites_per_multisite_institution,maximum_component_sites_per_institution,component_sites_numeric_activity,component_sites_suppressed_only_activity
+2008,84,88,0,0.0,84,0,0,3.0,3.0,4,28,60
+2010,106,107,5,0.04716981132075472,101,0,5,7.0,7.0,7,36,71
+2012,126,136,0,0.0,110,16,0,3.0,2.0,7,67,69
+2013,121,128,0,0.0,103,18,0,4.5,4.5,7,62,66
+2014,135,147,0,0.0,109,26,0,3.4,2.0,8,72,75
+2015,149,159,0,0.0,114,35,0,3.5,2.0,8,69,90
+2016,146,159,0,0.0,106,40,0,3.1666666666666665,2.0,9,76,83
+2017,160,172,0,0.0,117,43,0,3.4,2.0,9,90,82
+2018,152,168,0,0.0,106,46,0,2.6,2.0,8,87,81
+2019,167,178,0,0.0,115,52,0,3.2,2.0,8,92,86
+2020,171,183,0,0.0,171,0,0,3.0,2.0,8,99,84
+2021,183,197,0,0.0,183,0,0,2.75,2.0,7,112,85
+2022,174,184,0,0.0,174,0,0,3.0,2.0,7,110,74
+2023,176,189,0,0.0,176,0,0,2.625,2.0,7,110,79
+2024,183,193,0,0.0,183,0,0,2.6666666666666665,2.0,6,113,80

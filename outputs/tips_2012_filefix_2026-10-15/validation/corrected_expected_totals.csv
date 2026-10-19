@@ -1,0 +1,16 @@
+reporting_year,expected_visible_activity,observed_visible_activity,difference,exact_match
+2008,1422,1422,0,True
+2010,1419,1419,0,True
+2012,2120,2120,0,True
+2013,2124,2124,0,True
+2014,2511,2511,0,True
+2015,2546,2546,0,True
+2016,2715,2715,0,True
+2017,2801,2801,0,True
+2018,2977,2977,0,True
+2019,2972,2972,0,True
+2020,3210,3210,0,True
+2021,4092,4092,0,True
+2022,4418,4418,0,True
+2023,4979,4979,0,True
+2024,5247,5247,0,True

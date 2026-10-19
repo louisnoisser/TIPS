@@ -1,0 +1,91 @@
+table,file,column,calculation
+S1,tables/TableS1_corrected_annual_site_metrics.csv,reporting_year,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,provider_definition,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,visible_national_activity,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,active_numeric_providers,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,all_identifiable_active_providers,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,median_provider_volume,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,minimum_provider_volume,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,maximum_provider_volume,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,top5_share_pct,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,top10_share_pct,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,top20_share_pct,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,hhi_10000,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,effective_center_count,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,gini,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,providers_ge_20,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,providers_ge_50,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,providers_ge_100,"structural_metrics(site, physical_site)"
+S1,tables/TableS1_corrected_annual_site_metrics.csv,providers_ge_200,"structural_metrics(site, physical_site)"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,reporting_year,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,provider_definition,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,visible_national_activity,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,active_numeric_providers,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,all_identifiable_active_providers,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,median_provider_volume,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,minimum_provider_volume,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,maximum_provider_volume,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,top5_share_pct,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,top10_share_pct,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,top20_share_pct,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,hhi_10000,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,effective_center_count,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,gini,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,providers_ge_20,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,providers_ge_50,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,providers_ge_100,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,providers_ge_200,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S2,tables/TableS2_suppression_and_gini_sensitivity.csv,suppression_scenario,"scenario_metrics(site, physical_site): visible/lower/midpoint/upper"
+S6,tables/Supplement_site_vs_institution_robustness.csv,reporting_year,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,provider_definition,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,visible_national_activity,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,active_numeric_providers,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,all_identifiable_active_providers,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,median_provider_volume,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,minimum_provider_volume,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,maximum_provider_volume,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,top5_share_pct,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,top10_share_pct,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,top20_share_pct,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,hhi_10000,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,effective_center_count,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,gini,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,providers_ge_20,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,providers_ge_50,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,providers_ge_100,structural_metrics(site/institution)
+S6,tables/Supplement_site_vs_institution_robustness.csv,providers_ge_200,structural_metrics(site/institution)
+S7,tables/Supplement_reporting_granularity_robustness.csv,reporting_year,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,unique_institutions,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,identifiable_component_sites,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,institutions_99_only,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,proportion_99_only,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,institutions_component_only,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,institutions_both,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,unresolved_99_providers_retained,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,mean_component_sites_per_multisite_institution,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,median_component_sites_per_multisite_institution,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,maximum_component_sites_per_institution,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,component_sites_numeric_activity,reporting_granularity(corrected annotated records)
+S7,tables/Supplement_reporting_granularity_robustness.csv,component_sites_suppressed_only_activity,reporting_granularity(corrected annotated records)
+S8,tables/Supplement_parent_subcode_sensitivity.csv,reporting_year,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,scenario,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,affected_records,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,activity_removed,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,visible_national_activity,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_national_activity,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,providers_ge_20,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,providers_ge_50,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,providers_ge_100,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,providers_ge_200,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_providers_ge_20,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_providers_ge_50,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_providers_ge_100,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_providers_ge_200,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,top5_share_pct,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,top10_share_pct,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,top20_share_pct,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,hhi_10000,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_top5_share_pct,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_top10_share_pct,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_top20_share_pct,"parent_sensitivity(site, parent_subcode_diagnostic)"
+S8,tables/Supplement_parent_subcode_sensitivity.csv,change_hhi_10000,"parent_sensitivity(site, parent_subcode_diagnostic)"

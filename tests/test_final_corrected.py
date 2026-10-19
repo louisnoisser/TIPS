@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import unittest
+import os
 
 import pandas as pd
 
@@ -16,7 +17,7 @@ class FinalCorrectedTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         root = Path(__file__).resolve().parents[1]
-        cls.site = pd.read_csv(root / "outputs/site_resolution_validation/resolved_site_level_data.csv")
+        cls.site = pd.read_csv(Path(os.environ.get("GBA_OPS_SITE_DATA", str(root / "outputs/site_resolution_validation/resolved_site_level_data.csv"))))
 
     def test_corrected_totals(self):
         result = validate_expected_totals(self.site)

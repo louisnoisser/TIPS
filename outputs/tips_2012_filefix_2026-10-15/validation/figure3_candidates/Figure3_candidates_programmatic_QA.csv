@@ -1,0 +1,10 @@
+check,passed
+locked_hashes_match,True
+exact_year_sequence,True
+numeric_segments_unchanged,True
+numeric_stack_matches_physical_site_visible,True
+candidate_b_totals_match_identifiable_active,True
+all_counts_non_negative_integers,True
+2008_numeric_total_28,True
+2024_numeric_segments_53_29_15_10_6,True
+2024_identifiable_total_193,True

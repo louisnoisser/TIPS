@@ -1,0 +1,37 @@
+[
+  {
+    "department_index": 2,
+    "department_name": "Klinik für Kardiologie und Angiologie, Herz-Thorax-Gefäßzentrum",
+    "OPS_code": "8-839.80",
+    "numeric_count": null,
+    "suppressed": true
+  },
+  {
+    "department_index": 8,
+    "department_name": "Zentrum für Anaesthesie, Intensivtherapie und OP-Management",
+    "OPS_code": "8-839.80",
+    "numeric_count": "5",
+    "suppressed": false
+  },
+  {
+    "department_index": 9,
+    "department_name": "Klinik für Allgemein- und Visceralchirurgie, Zentrum für Chirurgie",
+    "OPS_code": "8-839.80",
+    "numeric_count": null,
+    "suppressed": true
+  },
+  {
+    "department_index": 23,
+    "department_name": "Klinik für Gastroenterologie und Infektiologie, Zentrum für Innere Medizin",
+    "OPS_code": "8-839.80",
+    "numeric_count": "5",
+    "suppressed": false
+  },
+  {
+    "department_index": 24,
+    "department_name": "Klinik für Nephrologie und Endokrinologie/ Diabetologie, Zentrum für Innere Medizin",
+    "OPS_code": "8-839.80",
+    "numeric_count": null,
+    "suppressed": true
+  }
+]

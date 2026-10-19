@@ -90,3 +90,49 @@ personal-repository configuration, README, ignore rules, and earlier commits
 are retained. No raw XML, routing payloads, raster data, archives, or additional
 analysis products are included. The separate 2012 correction has not been
 applied by this update.
+
+
+## Validated 2012 analysis correction — 2026-10-19
+
+This update imports the explicitly selected code and evidence from the separate
+validated correction working copy dated 15 October 2026
+(`GBA_OPS_Reanalysis_fix2012_2026-10-15`). The original analysis repository and
+its working files are not modified.
+
+Report-file selection now also recognizes the upper-case `-XML.xml` suffix.
+The additional source report for Potsdam, `261200220-00`, contributes ten visible
+procedure occurrences in 2012. The annual visible total changes from 2110 to
+2120; all other reporting years remain unchanged, including 2024. Procedure
+records are not deduplicated or imputed. Case-normalized filename collisions
+are accepted only for identical file contents; divergent contents raise an error.
+
+The update contains ten explicitly selected source/test files and 33 small
+validation-evidence files under `outputs/tips_2012_filefix_2026-10-15/`.
+It includes the report-selection regression tests and corrected-total checks,
+plus the selected existing export/input parametrization needed to reuse the
+validated analysis code. No archive, raw XML dataset, manuscript, or new routing
+or geocoding product is included.
+
+The following one-off validation scripts are deliberately not imported:
+
+- `scripts/inspect_fix2012_documents.py`: local manuscript/spreadsheet inspection,
+  outside the reusable analysis code.
+- `scripts/check_fix2012_visuals.py`: local comparison of old/new publication
+  images and document extracts.
+- `scripts/finalize_fix2012_report.py`: environment-specific report/manifest
+  assembly for the complete correction working copy.
+- `scripts/check_fix2012_geography.py`: separate geographic-percentage audit
+  relying on local document extracts; selected aggregate evidence is retained.
+- `scripts/run_fix2012_production.py`: one-off production driver with correction-
+  workspace assumptions and source-writing behavior, not a portable entry point.
+- `tests/test_fix2012_production.py`: integration checks requiring the full
+  correction-output directory rather than this deliberately reduced selection.
+
+`config.py` is deliberately not imported: the existing personal-repository
+configuration and its portability adjustment remain unchanged.
+
+The full validation manifest from the correction working copy describes the
+larger original validation package, not this smaller 33-file evidence selection.
+It is not imported and must not be treated as a manifest of this snapshot.
+The retained historical test reports document the complete validation run of
+15 October 2026, including checks whose one-off scripts are intentionally absent.

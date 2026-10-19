@@ -229,8 +229,8 @@ def route_a(code_path: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     selected["suppressed_value"] = pd.to_numeric(selected.suppressed_value).astype(int)
     selected["source_file"] = selected.source_file.astype(str)
     selected["source_path_matches_site_year"] = selected.apply(
-        lambda row: Path(row.source_file).name
-        == f"{row.site_identifier}-{int(row.reporting_year)}-xml.xml",
+        lambda row: Path(row.source_file).name.casefold()
+        == f"{row.site_identifier}-{int(row.reporting_year)}-xml.xml".casefold(),
         axis=1,
     )
     selected["source_file_exists"] = selected.source_file.map(
@@ -266,8 +266,8 @@ def route_b(reconciliation_path: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
                     "visible_value": int(match.group("visible")),
                     "suppressed_value": int(match.group("suppressed")),
                     "source_file": source,
-                    "source_path_matches_site_year": Path(source).name
-                    == f"{parent.physical_site_identifier}-{year}-xml.xml",
+                    "source_path_matches_site_year": Path(source).name.casefold()
+                    == f"{parent.physical_site_identifier}-{year}-xml.xml".casefold(),
                     "source_file_exists": (ROOT / source).is_file(),
                 }
             )

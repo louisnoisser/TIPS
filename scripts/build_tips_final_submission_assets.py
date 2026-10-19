@@ -25,6 +25,13 @@ COLOURS = ["#2166ac", "#d6604d", "#1b7837", "#762a83"]
 YEARS = [2008, 2010, *range(2012, 2025)]
 
 
+def configure_paths(source_dir: Path, output_dir: Path) -> None:
+    """Select an isolated build destination before invoking export helpers."""
+    global SOURCE, OUT, GEO, FIGURES, TABLES
+    SOURCE, OUT = Path(source_dir), Path(output_dir)
+    GEO, FIGURES, TABLES = OUT / "geography", OUT / "figures", OUT / "tables"
+
+
 def markdown_table(frame: pd.DataFrame) -> str:
     clean = frame.fillna("").astype(str).apply(
         lambda col: col.str.replace("|", r"\|", regex=False)

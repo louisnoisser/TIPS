@@ -125,7 +125,25 @@ def plot_figure3(data: pd.DataFrame, *, include_suppressed: bool, stem: str) -> 
     return save(fig, F3, stem, tight=False)
 
 
-def build_figure3() -> list[Path]:
+def build_figure3(*, metrics_path: Path | None = None,
+                  locked_data_path: Path | None = None,
+                  output_dir: Path | None = None, qa_dir: Path | None = None,
+                  expected_input_hashes: dict[Path, str] | None = None,
+                  render_candidates: bool = True) -> list[Path]:
+    global METRICS, LOCKED_F3_DATA, F3, QA
+    for path in (metrics_path, locked_data_path):
+        if path is not None:
+            if expected_input_hashes is None or Path(path) not in expected_input_hashes:
+                raise ValueError("Corrected Figure3 inputs require explicit validated hashes")
+            EXPECTED[Path(path)] = expected_input_hashes[Path(path)]
+    if metrics_path is not None:
+        METRICS = Path(metrics_path)
+    if locked_data_path is not None:
+        LOCKED_F3_DATA = Path(locked_data_path)
+    if output_dir is not None:
+        F3 = Path(output_dir)
+    if qa_dir is not None:
+        QA = Path(qa_dir)
     for path, expected in EXPECTED.items():
         actual = sha256(path)
         if actual != expected:
@@ -158,8 +176,9 @@ def build_figure3() -> list[Path]:
     F3.mkdir(parents=True, exist_ok=True)
     candidate_b.to_csv(data_path, index=False)
     paths = [data_path]
-    paths += plot_figure3(locked, include_suppressed=False, stem="Figure3_candidate_A_numeric_only")
-    paths += plot_figure3(candidate_b, include_suppressed=True, stem="Figure3_candidate_B_identifiable_network")
+    if render_candidates:
+        paths += plot_figure3(locked, include_suppressed=False, stem="Figure3_candidate_A_numeric_only")
+        paths += plot_figure3(candidate_b, include_suppressed=True, stem="Figure3_candidate_B_identifiable_network")
     checks = [
         ("locked_hashes_match", True),
         ("exact_year_sequence", locked.reporting_year.tolist() == YEARS),

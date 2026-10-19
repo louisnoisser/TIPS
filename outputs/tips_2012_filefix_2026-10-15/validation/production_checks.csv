@@ -1,0 +1,14 @@
+check,passed
+physical_site old full metric reproduction,True
+institution_ik old full metric reproduction,True
+Supplement_site_vs_institution_robustness.csv old reproduced; other years unchanged,True
+Supplement_reporting_granularity_robustness.csv old reproduced; other years unchanged,True
+Supplement_parent_subcode_sensitivity.csv old reproduced; other years unchanged,True
+S3 calculated values unchanged,True
+2024 site and institution data unchanged: S4/S9/Dataset S1,True
+2013–2024 code-level rows unchanged: S10 A/B inputs,True
+S1/S2 old data fully reproduced; all non-2012 metrics unchanged,True
+Figure1_corrected_activity_and_provider_counts old design pixel reproduction,True
+Figure2_concentration old design pixel reproduction,True
+Existing candidate-B builder with preserved hash/suppressed-only gates agrees with independently derived stacks,True
+Figure3B old design pixel reproduction,True

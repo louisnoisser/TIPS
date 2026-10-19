@@ -1,0 +1,27 @@
+[
+  {
+    "path": "data/xml/xml_2012/261200220-00-2012-XML.xml",
+    "matched_code_rows": 1,
+    "records": [
+      {
+        "reporting_year": "2012",
+        "site_identifier": "261200220-00",
+        "ik": "261200220",
+        "OPS_code": "8-839.80",
+        "hospital_name": "Klinikum Ernst von Bergmann  - gemeinnützige GmbH",
+        "numeric_count": "10",
+        "current_parser_numeric_count": "10",
+        "suppressed_flag": "True",
+        "source_file": "data/xml/xml_2012/261200220-00-2012-XML.xml",
+        "inpatient_or_ambulatory": "inpatient_department_procedure (B-X.7)",
+        "code_description": "Perkutanes Anlegen [historical de novo TIPS creation]",
+        "raw_record_count": "5",
+        "visible_record_count": "2",
+        "suppressed_record_count": "3",
+        "aggregate_report_count_wrapper_flag": "False",
+        "n_suppressed_component_reports": "0",
+        "site_report_type": "component_or_single_site"
+      }
+    ]
+  }
+]

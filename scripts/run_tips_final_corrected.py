@@ -56,19 +56,53 @@ def dataframe_markdown(df: pd.DataFrame) -> str:
     return "\n".join([header, rule, *rows])
 
 
+def export_figures_1_2(site_scenarios: pd.DataFrame, figures: Path) -> None:
+    # Existing Figure1/2 design retained verbatim.
+    visible_site = site_scenarios[site_scenarios.suppression_scenario == "visible"]
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
+    axes[0].plot(visible_site.reporting_year, visible_site.visible_national_activity, marker="o")
+    axes[0].set(title="A  National TIPS-related procedural activity", xlabel="Reporting year", ylabel="Visible activity")
+    for threshold in (20, 50, 100, 200):
+        axes[1].plot(visible_site.reporting_year, visible_site[f"providers_ge_{threshold}"], marker="o", label=f"≥{threshold}")
+    axes[1].set(title="B  Providers meeting cumulative thresholds", xlabel="Reporting year", ylabel="Physical sites")
+    axes[1].legend()
+    save_figure(fig, figures / "Figure1_corrected_activity_and_provider_counts")
+
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
+    for n in (5, 10, 20):
+        axes[0].plot(visible_site.reporting_year, visible_site[f"top{n}_share_pct"], marker="o", label=f"Top {n}")
+    axes[0].set(title="A  Largest-provider shares", xlabel="Reporting year", ylabel="National activity (%)")
+    axes[0].legend()
+    hhi_line = axes[1].plot(
+        visible_site.reporting_year, visible_site.hhi_10000, marker="o", label="HHI (0–10,000)"
+    )
+    ax2 = axes[1].twinx()
+    effective_line = ax2.plot(
+        visible_site.reporting_year, visible_site.effective_center_count,
+        marker="s", color="tab:orange", label="Effective centre count",
+    )
+    axes[1].set(title="B  Concentration and effective provider count", xlabel="Reporting year", ylabel="HHI")
+    ax2.set_ylabel("Effective centre count")
+    axes[1].legend(hhi_line + effective_line, [line.get_label() for line in hhi_line + effective_line])
+    save_figure(fig, figures / "Figure2_concentration")
+
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--output-dir", type=Path,
         default=ROOT / "outputs/final_corrected_2026-07-24",
     )
+    parser.add_argument("--validation-dir", type=Path, default=ROOT / "outputs/site_resolution_validation")
+    parser.add_argument("--audit-dir", type=Path, default=ROOT / "outputs/audit")
     args = parser.parse_args()
     out = args.output_dir
     tables, figures, supplement = out / "tables", out / "figures", out / "supplement"
     for directory in (out, tables, figures, supplement):
         directory.mkdir(parents=True, exist_ok=True)
-    validation = ROOT / "outputs/site_resolution_validation"
-    audit_dir = ROOT / "outputs/audit"
+    validation = args.validation_dir
+    audit_dir = args.audit_dir
 
     site = pd.read_csv(validation / "resolved_site_level_data.csv", dtype={"ik": str})
     institution = pd.read_csv(validation / "resolved_institution_level_data.csv", dtype={"ik": str})
@@ -311,34 +345,7 @@ these files were not used for final geographic conclusions.""",
     }.items():
         frame.to_csv(tables / f"{name}.csv", index=False)
 
-    # Figures 1–3.
-    visible_site = site_scenarios[site_scenarios.suppression_scenario == "visible"]
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
-    axes[0].plot(visible_site.reporting_year, visible_site.visible_national_activity, marker="o")
-    axes[0].set(title="A  National TIPS-related procedural activity", xlabel="Reporting year", ylabel="Visible activity")
-    for threshold in (20, 50, 100, 200):
-        axes[1].plot(visible_site.reporting_year, visible_site[f"providers_ge_{threshold}"], marker="o", label=f"≥{threshold}")
-    axes[1].set(title="B  Providers meeting cumulative thresholds", xlabel="Reporting year", ylabel="Physical sites")
-    axes[1].legend()
-    save_figure(fig, figures / "Figure1_corrected_activity_and_provider_counts")
-
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
-    for n in (5, 10, 20):
-        axes[0].plot(visible_site.reporting_year, visible_site[f"top{n}_share_pct"], marker="o", label=f"Top {n}")
-    axes[0].set(title="A  Largest-provider shares", xlabel="Reporting year", ylabel="National activity (%)")
-    axes[0].legend()
-    hhi_line = axes[1].plot(
-        visible_site.reporting_year, visible_site.hhi_10000, marker="o", label="HHI (0–10,000)"
-    )
-    ax2 = axes[1].twinx()
-    effective_line = ax2.plot(
-        visible_site.reporting_year, visible_site.effective_center_count,
-        marker="s", color="tab:orange", label="Effective centre count",
-    )
-    axes[1].set(title="B  Concentration and effective provider count", xlabel="Reporting year", ylabel="HHI")
-    ax2.set_ylabel("Effective centre count")
-    axes[1].legend(hhi_line + effective_line, [line.get_label() for line in hhi_line + effective_line])
-    save_figure(fig, figures / "Figure2_concentration")
+    export_figures_1_2(site_scenarios, figures)
 
     fig, ax = plt.subplots(figsize=(8, 5))
     ax.bar(landscape.volume_category, landscape.provider_sites)

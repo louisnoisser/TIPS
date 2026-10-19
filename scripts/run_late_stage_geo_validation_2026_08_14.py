@@ -223,7 +223,19 @@ def parse_report(path: Path) -> dict[str, object]:
     }
 
 
-def build_figure3() -> list[Path]:
+def build_figure3(*, data_path: Path | None = None, figure_dir: Path | None = None,
+                  qa_dir: Path | None = None, expected_sha256: str | None = None) -> list[Path]:
+    # Override only the affected input hash; all layout and validation stays intact.
+    global FIG3_DATA, FIG3, QA
+    if data_path is not None:
+        if expected_sha256 is None:
+            raise ValueError("Corrected Figure3 input requires an explicit validated hash")
+        FIG3_DATA = Path(data_path)
+        EXPECTED[FIG3_DATA] = expected_sha256
+    if figure_dir is not None:
+        FIG3 = Path(figure_dir)
+    if qa_dir is not None:
+        QA = Path(qa_dir)
     data = pd.read_csv(FIG3_DATA).sort_values("reporting_year").reset_index(drop=True)
     if data.reporting_year.astype(int).tolist() != YEARS:
         raise RuntimeError("Figure 3 year sequence failed")

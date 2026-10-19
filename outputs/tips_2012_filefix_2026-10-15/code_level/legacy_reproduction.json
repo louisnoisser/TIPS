@@ -1,0 +1,10 @@
+{
+  "legacy_existing_rows": 8328,
+  "legacy_rebuilt_rows": 8328,
+  "exact_all_columns_multiset_match": true,
+  "normalizations": [
+    "CSV parsing removes only record order/line-ending/quoting differences; all field strings, empty fields and duplicate multiplicities compared exactly."
+  ],
+  "missing": [],
+  "unexpected": []
+}

@@ -1,0 +1,6 @@
+check,passed
+original all 1371 existing outputs unchanged,True
+copy all 1371 existing outputs unchanged,True
+original Python source/config hashes unchanged,True
+original Git status unchanged,True
+Dataset S1 all 193 site rows: five numeric fields and four interval classifications agree with unchanged 2024 data,True
