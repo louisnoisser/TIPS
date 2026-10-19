@@ -69,3 +69,24 @@ individual and union geometries, figures, Word files, source XML, official
 catalogue files, ORS configuration and runtime data, OSM/elevation assets,
 population rasters, archives, and other bulky generated outputs. No source
 repository Git metadata or history was copied.
+
+
+## September 2026 analysis update — 2026-10-19
+
+This update copies the current working-tree versions from
+`GBA_OPS_Reanalysis` at source HEAD
+`e162c991af5d699d169240b903a1c35cbb4df5f9`:
+
+- `scripts/run_tips_geographic_suppression_sensitivity_2026_09_23.py`;
+- the nine non-archive files in
+  `outputs/tips_geographic_suppression_sensitivity_2026-09-23/`;
+- `scripts/build_late_stage_revision_2026_08_14.py`, including the
+  source's 5 September revision;
+- `outputs/late_stage_accessibility_193_113_recovery_2026-08-15/sha256_manifest.csv`,
+  including the source's 5 September manifest revision.
+
+The source repository and its working files are unchanged. The existing
+personal-repository configuration, README, ignore rules, and earlier commits
+are retained. No raw XML, routing payloads, raster data, archives, or additional
+analysis products are included. The separate 2012 correction has not been
+applied by this update.

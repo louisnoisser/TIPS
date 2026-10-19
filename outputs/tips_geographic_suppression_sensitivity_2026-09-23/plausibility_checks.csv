@@ -1,0 +1,143 @@
+check,details,status,network,time_minutes,population_group
+stable site ID uniqueness,193 rows and 193 unique IDs,PASS,,,
+geometry mapping duplicates,[],PASS,,,
+established suppression count,observed=60; expected=60,PASS,visible_ge20,,
+established suppression count,observed=31; expected=31,PASS,visible_ge50,,
+established suppression count,observed=16; expected=16,PASS,visible_ge100,,
+threshold nesting,ge100 subset ge50 subset ge20,PASS,visible,,
+established suppression count,observed=69; expected=69,PASS,lower_ge20,,
+established suppression count,observed=33; expected=33,PASS,lower_ge50,,
+established suppression count,observed=16; expected=16,PASS,lower_ge100,,
+threshold nesting,ge100 subset ge50 subset ge20,PASS,lower,,
+established suppression count,observed=74; expected=74,PASS,midpoint_ge20,,
+established suppression count,observed=38; expected=38,PASS,midpoint_ge50,,
+established suppression count,observed=18; expected=18,PASS,midpoint_ge100,,
+threshold nesting,ge100 subset ge50 subset ge20,PASS,midpoint,,
+established suppression count,observed=81; expected=81,PASS,upper_ge20,,
+established suppression count,observed=42; expected=42,PASS,upper_ge50,,
+established suppression count,observed=19; expected=19,PASS,upper_ge100,,
+threshold nesting,ge100 subset ge50 subset ge20,PASS,upper,,
+scenario nesting,visible subset lower subset midpoint subset upper,PASS,ge20,,
+scenario nesting,visible subset lower subset midpoint subset upper,PASS,ge50,,
+scenario nesting,visible subset lower subset midpoint subset upper,PASS,ge100,,
+visible reference reproduction,observed=37484973; canonical=37484973,PASS,visible_ge20,30.0,national
+visible reference reproduction,observed=34149823; canonical=34149823,PASS,visible_ge20,30.0,urban
+visible reference reproduction,observed=3335149; canonical=3335149,PASS,visible_ge20,30.0,rural
+visible reference reproduction,observed=1; canonical=1,PASS,visible_ge20,30.0,other
+visible reference reproduction,observed=68977523; canonical=68977523,PASS,visible_ge20,60.0,national
+visible reference reproduction,observed=53945428; canonical=53945428,PASS,visible_ge20,60.0,urban
+visible reference reproduction,observed=15032074; canonical=15032074,PASS,visible_ge20,60.0,rural
+visible reference reproduction,observed=21; canonical=21,PASS,visible_ge20,60.0,other
+visible reference reproduction,observed=25708947; canonical=25708947,PASS,visible_ge50,30.0,national
+visible reference reproduction,observed=24006466; canonical=24006466,PASS,visible_ge50,30.0,urban
+visible reference reproduction,observed=1702480; canonical=1702480,PASS,visible_ge50,30.0,rural
+visible reference reproduction,observed=1; canonical=1,PASS,visible_ge50,30.0,other
+visible reference reproduction,observed=60465819; canonical=60465819,PASS,visible_ge50,60.0,national
+visible reference reproduction,observed=48700252; canonical=48700252,PASS,visible_ge50,60.0,urban
+visible reference reproduction,observed=11765549; canonical=11765549,PASS,visible_ge50,60.0,rural
+visible reference reproduction,observed=18; canonical=18,PASS,visible_ge50,60.0,other
+visible reference reproduction,observed=16035551; canonical=16035551,PASS,visible_ge100,30.0,national
+visible reference reproduction,observed=15204838; canonical=15204838,PASS,visible_ge100,30.0,urban
+visible reference reproduction,observed=830713; canonical=830713,PASS,visible_ge100,30.0,rural
+visible reference reproduction,observed=0; canonical=0,PASS,visible_ge100,30.0,other
+visible reference reproduction,observed=48597532; canonical=48597532,PASS,visible_ge100,60.0,national
+visible reference reproduction,observed=41008054; canonical=41008054,PASS,visible_ge100,60.0,urban
+visible reference reproduction,observed=7589467; canonical=7589467,PASS,visible_ge100,60.0,rural
+visible reference reproduction,observed=11; canonical=11,PASS,visible_ge100,60.0,other
+60-minute coverage not below 30-minute,60=79233460.9494396; 30=54607075.52909072,PASS,full_identifiable,,national
+60-minute coverage not below 30-minute,60=58927968.50935533; 30=46703474.8349568,PASS,full_identifiable,,urban
+60-minute coverage not below 30-minute,60=20305457.67104825; 30=7903590.70075653,PASS,full_identifiable,,rural
+60-minute coverage not below 30-minute,60=34.769036058892695; 30=9.993377401803931,PASS,full_identifiable,,other
+60-minute coverage not below 30-minute,60=74994577.95195812; 30=46315905.071749836,PASS,openly_numeric,,national
+60-minute coverage not below 30-minute,60=56999047.06312275; 30=40979520.14141758,PASS,openly_numeric,,urban
+60-minute coverage not below 30-minute,60=17995500.231493138; 30=5336378.880162679,PASS,openly_numeric,,rural
+60-minute coverage not below 30-minute,60=30.657342313827634; 30=6.050169587756197,PASS,openly_numeric,,other
+60-minute coverage not below 30-minute,60=70814634.70117277; 30=39622731.482449055,PASS,lower_ge20,,national
+60-minute coverage not below 30-minute,60=54700185.96136307; 30=35677963.84746789,PASS,lower_ge20,,urban
+60-minute coverage not below 30-minute,60=16114427.993422046; 30=3944766.6867641746,PASS,lower_ge20,,rural
+60-minute coverage not below 30-minute,60=20.746387687563484; 30=0.9482169950173962,PASS,lower_ge20,,other
+60-minute coverage not below 30-minute,60=71364534.74466045; 30=40946137.885790296,PASS,midpoint_ge20,,national
+60-minute coverage not below 30-minute,60=54871066.140962765; 30=36761981.46421422,PASS,midpoint_ge20,,urban
+60-minute coverage not below 30-minute,60=16493447.804325769; 30=4184155.4733590838,PASS,midpoint_ge20,,rural
+60-minute coverage not below 30-minute,60=20.799371955450628; 30=0.9482169950173962,PASS,midpoint_ge20,,other
+60-minute coverage not below 30-minute,60=71811195.0559673; 30=42338148.1346939,PASS,upper_ge20,,national
+60-minute coverage not below 30-minute,60=55133897.77287495; 30=37967110.61576805,PASS,upper_ge20,,urban
+60-minute coverage not below 30-minute,60=16677274.594031375; 30=4371036.527213056,PASS,upper_ge20,,rural
+60-minute coverage not below 30-minute,60=22.689061009622595; 30=0.9917127949496112,PASS,upper_ge20,,other
+60-minute coverage not below 30-minute,60=68977523.13778135; 30=37484972.72798359,PASS,visible_ge20,,national
+60-minute coverage not below 30-minute,60=53945428.04690789; 30=34149822.539001405,PASS,visible_ge20,,urban
+60-minute coverage not below 30-minute,60=15032074.344485803; 30=3335149.2407651935,PASS,visible_ge20,,rural
+60-minute coverage not below 30-minute,60=20.746387687563484; 30=0.9482169950173962,PASS,visible_ge20,,other
+60-minute coverage not below 30-minute,60=60706383.38222176; 30=26248103.139874946,PASS,lower_ge50,,national
+60-minute coverage not below 30-minute,60=48826568.757358335; 30=24427884.031694997,PASS,lower_ge50,,urban
+60-minute coverage not below 30-minute,60=11879796.691764642; 30=1820218.181103146,PASS,lower_ge50,,rural
+60-minute coverage not below 30-minute,60=17.933098802705196; 30=0.9270768130405083,PASS,lower_ge50,,other
+60-minute coverage not below 30-minute,60=63810503.48239194; 30=28408456.93915988,PASS,midpoint_ge50,,national
+60-minute coverage not below 30-minute,60=50917992.75985715; 30=26380447.549350377,PASS,midpoint_ge50,,urban
+60-minute coverage not below 30-minute,60=12892492.73876989; 30=2028008.4627327018,PASS,midpoint_ge50,,rural
+60-minute coverage not below 30-minute,60=17.983764909776966; 30=0.9270768130405083,PASS,midpoint_ge50,,other
+60-minute coverage not below 30-minute,60=64408878.04436166; 30=29086806.571336523,PASS,upper_ge50,,national
+60-minute coverage not below 30-minute,60=51123417.55905769; 30=26723661.125678606,PASS,upper_ge50,,urban
+60-minute coverage not below 30-minute,60=13285442.501539053; 30=2363144.5185811114,PASS,upper_ge50,,rural
+60-minute coverage not below 30-minute,60=17.983764909776966; 30=0.9270768130405083,PASS,upper_ge50,,other
+60-minute coverage not below 30-minute,60=60465818.716251165; 30=25708947.459763262,PASS,visible_ge50,,national
+60-minute coverage not below 30-minute,60=48700251.591893494; 30=24006466.305655543,PASS,visible_ge50,,urban
+60-minute coverage not below 30-minute,60=11765549.28195597; 30=1702480.2270309117,PASS,visible_ge50,,rural
+60-minute coverage not below 30-minute,60=17.84240171952277; 30=0.9270768130405083,PASS,visible_ge50,,other
+60-minute coverage not below 30-minute,60=48597531.795954905; 30=16035550.543951657,PASS,lower_ge100,,national
+60-minute coverage not below 30-minute,60=41008053.89484736; 30=15204837.767053153,PASS,lower_ge100,,urban
+60-minute coverage not below 30-minute,60=7589466.924651096; 30=830712.776898509,PASS,lower_ge100,,rural
+60-minute coverage not below 30-minute,60=10.976456446883581; 30=0.0,PASS,lower_ge100,,other
+60-minute coverage not below 30-minute,60=52461321.85645561; 30=19018703.64325496,PASS,midpoint_ge100,,national
+60-minute coverage not below 30-minute,60=43749712.223973885; 30=18073631.033863705,PASS,midpoint_ge100,,urban
+60-minute coverage not below 30-minute,60=8711595.850295834; 30=945072.6093912598,PASS,midpoint_ge100,,rural
+60-minute coverage not below 30-minute,60=13.782185895885862; 30=0.0,PASS,midpoint_ge100,,other
+60-minute coverage not below 30-minute,60=53614298.13504096; 30=19414806.012423657,PASS,upper_ge100,,national
+60-minute coverage not below 30-minute,60=44468187.7294347; 30=18366974.684975285,PASS,upper_ge100,,urban
+60-minute coverage not below 30-minute,60=9146096.60091392; 30=1047831.3274483747,PASS,upper_ge100,,rural
+60-minute coverage not below 30-minute,60=13.80469235312194; 30=0.0,PASS,upper_ge100,,other
+60-minute coverage not below 30-minute,60=48597531.795954905; 30=16035550.543951657,PASS,visible_ge100,,national
+60-minute coverage not below 30-minute,60=41008053.89484736; 30=15204837.767053153,PASS,visible_ge100,,urban
+60-minute coverage not below 30-minute,60=7589466.924651096; 30=830712.776898509,PASS,visible_ge100,,rural
+60-minute coverage not below 30-minute,60=10.976456446883581; 30=0.0,PASS,visible_ge100,,other
+coverage monotonic across scenario expansion,37484972.72798359 <= 39622731.482449055 <= 40946137.885790296 <= 42338148.1346939,PASS,ge20,30.0,national
+coverage monotonic across scenario expansion,34149822.539001405 <= 35677963.84746789 <= 36761981.46421422 <= 37967110.61576805,PASS,ge20,30.0,urban
+coverage monotonic across scenario expansion,3335149.2407651935 <= 3944766.6867641746 <= 4184155.4733590838 <= 4371036.527213056,PASS,ge20,30.0,rural
+coverage monotonic across scenario expansion,0.9482169950173962 <= 0.9482169950173962 <= 0.9482169950173962 <= 0.9917127949496112,PASS,ge20,30.0,other
+coverage monotonic across scenario expansion,68977523.13778135 <= 70814634.70117277 <= 71364534.74466045 <= 71811195.0559673,PASS,ge20,60.0,national
+coverage monotonic across scenario expansion,53945428.04690789 <= 54700185.96136307 <= 54871066.140962765 <= 55133897.77287495,PASS,ge20,60.0,urban
+coverage monotonic across scenario expansion,15032074.344485803 <= 16114427.993422046 <= 16493447.804325769 <= 16677274.594031375,PASS,ge20,60.0,rural
+coverage monotonic across scenario expansion,20.746387687563484 <= 20.746387687563484 <= 20.799371955450628 <= 22.689061009622595,PASS,ge20,60.0,other
+coverage monotonic across scenario expansion,25708947.459763262 <= 26248103.139874946 <= 28408456.93915988 <= 29086806.571336523,PASS,ge50,30.0,national
+coverage monotonic across scenario expansion,24006466.305655543 <= 24427884.031694997 <= 26380447.549350377 <= 26723661.125678606,PASS,ge50,30.0,urban
+coverage monotonic across scenario expansion,1702480.2270309117 <= 1820218.181103146 <= 2028008.4627327018 <= 2363144.5185811114,PASS,ge50,30.0,rural
+coverage monotonic across scenario expansion,0.9270768130405083 <= 0.9270768130405083 <= 0.9270768130405083 <= 0.9270768130405083,PASS,ge50,30.0,other
+coverage monotonic across scenario expansion,60465818.716251165 <= 60706383.38222176 <= 63810503.48239194 <= 64408878.04436166,PASS,ge50,60.0,national
+coverage monotonic across scenario expansion,48700251.591893494 <= 48826568.757358335 <= 50917992.75985715 <= 51123417.55905769,PASS,ge50,60.0,urban
+coverage monotonic across scenario expansion,11765549.28195597 <= 11879796.691764642 <= 12892492.73876989 <= 13285442.501539053,PASS,ge50,60.0,rural
+coverage monotonic across scenario expansion,17.84240171952277 <= 17.933098802705196 <= 17.983764909776966 <= 17.983764909776966,PASS,ge50,60.0,other
+coverage monotonic across scenario expansion,16035550.543951657 <= 16035550.543951657 <= 19018703.64325496 <= 19414806.012423657,PASS,ge100,30.0,national
+coverage monotonic across scenario expansion,15204837.767053153 <= 15204837.767053153 <= 18073631.033863705 <= 18366974.684975285,PASS,ge100,30.0,urban
+coverage monotonic across scenario expansion,830712.776898509 <= 830712.776898509 <= 945072.6093912598 <= 1047831.3274483747,PASS,ge100,30.0,rural
+coverage monotonic across scenario expansion,0.0 <= 0.0 <= 0.0 <= 0.0,PASS,ge100,30.0,other
+coverage monotonic across scenario expansion,48597531.795954905 <= 48597531.795954905 <= 52461321.85645561 <= 53614298.13504096,PASS,ge100,60.0,national
+coverage monotonic across scenario expansion,41008053.89484736 <= 41008053.89484736 <= 43749712.223973885 <= 44468187.7294347,PASS,ge100,60.0,urban
+coverage monotonic across scenario expansion,7589466.924651096 <= 7589466.924651096 <= 8711595.850295834 <= 9146096.60091392,PASS,ge100,60.0,rural
+coverage monotonic across scenario expansion,10.976456446883581 <= 10.976456446883581 <= 13.782185895885862 <= 13.80469235312194,PASS,ge100,60.0,other
+constant denominator,[83194667],PASS,,,national
+constant denominator,[60644251],PASS,,,urban
+constant denominator,[22550346],PASS,,,rural
+constant denominator,[69],PASS,,,other
+site settlement counts sum to network,classes=69; sites=69,PASS,lower_ge20,,
+site settlement counts sum to network,classes=74; sites=74,PASS,midpoint_ge20,,
+site settlement counts sum to network,classes=81; sites=81,PASS,upper_ge20,,
+site settlement counts sum to network,classes=60; sites=60,PASS,visible_ge20,,
+site settlement counts sum to network,classes=33; sites=33,PASS,lower_ge50,,
+site settlement counts sum to network,classes=38; sites=38,PASS,midpoint_ge50,,
+site settlement counts sum to network,classes=42; sites=42,PASS,upper_ge50,,
+site settlement counts sum to network,classes=31; sites=31,PASS,visible_ge50,,
+site settlement counts sum to network,classes=16; sites=16,PASS,lower_ge100,,
+site settlement counts sum to network,classes=18; sites=18,PASS,midpoint_ge100,,
+site settlement counts sum to network,classes=19; sites=19,PASS,upper_ge100,,
+site settlement counts sum to network,classes=16; sites=16,PASS,visible_ge100,,
+control: all visible ge20 sites urban,urban=60; total=60,PASS,visible_ge20,,

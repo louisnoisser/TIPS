@@ -322,23 +322,24 @@ def coordinate_flags(candidate: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows, columns=["site_id", "ik", "provider_name", "city", "panel_a_group", "flag_type", "flag_detail"])
 
 
-def short_label(name: str, city: str) -> str:
-    replacements = {
-        "Universitätsklinikum": "UK ", "Universitätsmedizin": "UM ",
-        "UNIVERSITÄTSKLINIKUM": "UK ", "Charité - Universitätsmedizin Berlin": "Charité Berlin",
-        "Medizinische Hochschule Hannover": "MHH",
-        "TUM Klinikum Rechts der Isar": "TUM MRI",
-        "Cellitinnen-Krankenhaus St. Vinzenz": "St. Vinzenz Köln",
-    }
-    result = str(name)
-    for old, new in replacements.items():
-        result = result.replace(old, new)
-    result = result.split(" - ")[0].strip()
-    if "Schleswig-Holstein" in result:
-        result = "UKSH Kiel"
-    if len(result) > 24:
-        result = str(city)
-    return result
+PANEL_D_SHORT_LABELS = {
+    "260530103-772247000": "UK Bonn",
+    "260510018-773410000": "UK Düsseldorf",
+    "260930608-771402000": "UK Regensburg",
+    "261101015-772563000": "Charité Berlin",
+    "260200013-773675000": "UKE Hamburg",
+    "260530443-771696000": "St. Vinzenz Köln",
+    "260550131-772432000": "UK Münster",
+    "260820466-771700000": "UK Heidelberg",
+    "260832299-773657000": "UK Freiburg",
+    "260810647-772121000": "Klinikum Ludwigsburg",
+    "261600736-772874000": "UK Jena",
+    "260102343-773448000": "UKSH Kiel",
+    "260914050-771736000": "LMU München",
+    "260812364-772783000": "Klinikum Stuttgart",
+    "261401030-773444000": "UK Dresden",
+    "260730161-771621000": "UM Mainz",
+}
 
 
 def marker_area(activity: pd.Series) -> pd.Series:
@@ -393,10 +394,10 @@ def plot_panel(ax, germany, bounds, sites, title, *, unions=None, threshold=None
 
 def build_labels(master: pd.DataFrame) -> tuple[pd.DataFrame, Path]:
     labels = master.loc[master.threshold_ge100].copy().sort_values(["visible_activity", "site_id"], ascending=[False, True])
-    labels["displayed_short_label"] = [short_label(n, c) for n, c in zip(labels.provider_name, labels.city, strict=True)]
-    duplicates = labels.displayed_short_label.duplicated(keep=False)
-    labels.loc[duplicates, "displayed_short_label"] = labels.loc[duplicates].apply(lambda r: f"{r.displayed_short_label} ({r.city})", axis=1)
-    if len(labels) != 16 or labels.displayed_short_label.nunique() != 16:
+    if set(labels.site_id.astype(str)) != set(PANEL_D_SHORT_LABELS):
+        raise RuntimeError("Panel D site identities do not match the validated short-label mapping")
+    labels["displayed_short_label"] = labels.site_id.astype(str).map(PANEL_D_SHORT_LABELS)
+    if len(labels) != 16 or labels.displayed_short_label.nunique() != 16 or labels.displayed_short_label.isna().any():
         raise RuntimeError("Panel D label mapping failed")
     path = GEO / "panel_D_ge100_label_mapping.csv"
     labels[["site_id", "provider_name", "city", "visible_activity", "displayed_short_label"]].to_csv(path, index=False)
