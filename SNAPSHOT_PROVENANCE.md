@@ -143,8 +143,7 @@ The retained historical test reports document the complete validation run of
 The release adds the locked derived CSV inputs and saved geometries needed for
 manuscript figures and tables, the corrected site-resolution inputs from the
 validated 15 October correction, the checked Figure S1 labels, and a single offline
-rendering entrypoint. Both recorded Figure 4 variants remain available; no final
-choice is inferred. An authoritative release checksum inventory is provided in
+rendering entrypoint. C193 is the manuscript Figure 4 (see v1.0.1-submission); C113 is an earlier, unused alternative. An authoritative release checksum inventory is provided in
 reproducibility/locked_outputs_sha256.csv. Earlier manifests remain historical.
 
 Workflow-attribution metadata was standardized in the current distributed files;
