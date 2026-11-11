@@ -1,0 +1,7 @@
+reporting_year,denominator_type,category,count,denominator,percentage,scenario
+2024,all_identifiable_active_providers,definitely_below_20,112,193,58.03108808290155,interval_classification
+2024,all_identifiable_active_providers,uncertain_at_20,12,193,6.217616580310881,interval_classification
+2024,all_identifiable_active_providers,definitely_at_or_above_20,69,193,35.751295336787564,interval_classification
+2024,all_identifiable_active_providers,below_20,124,193,64.24870466321244,lower
+2024,all_identifiable_active_providers,below_20,119,193,61.6580310880829,midpoint
+2024,all_identifiable_active_providers,below_20,112,193,58.031088082901555,upper

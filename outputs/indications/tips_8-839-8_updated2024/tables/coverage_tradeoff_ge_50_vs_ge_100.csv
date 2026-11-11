@@ -1,0 +1,7 @@
+time_minutes,urban_rural,covered_points_ge_50,class_points_total_ge_50,pct_of_class_covered_ge_50,pct_of_all_covered_points_ge_50,covered_points_total_ge_50,all_grid_points_total_ge_50,covered_points_ge_100,class_points_total_ge_100,pct_of_class_covered_ge_100,pct_of_all_covered_points_ge_100,covered_points_total_ge_100,all_grid_points_total_ge_100,coverage_gap_pct_points,coverage_retained_pct
+30,other,0,74,0.0,0.0,1278,18368,0,74,0.0,0.0,687,18368,0.0,0.0
+30,rural,814,16546,4.92,63.69,1278,18368,418,16546,2.53,60.84,687,18368,2.39,51.42
+30,urban,464,1748,26.54,36.31,1278,18368,269,1748,15.39,39.16,687,18368,11.15,57.99
+60,other,14,74,18.92,0.18,7995,18368,9,74,12.16,0.17,5270,18368,6.76,64.27
+60,rural,6702,16546,40.51,83.83,7995,18368,4230,16546,25.57,80.27,5270,18368,14.94,63.12
+60,urban,1279,1748,73.17,16.0,7995,18368,1031,1748,58.98,19.56,5270,18368,14.19,80.61

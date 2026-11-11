@@ -41,7 +41,7 @@ EXPECTED_HASHES = {
     "outputs/ops_code_audit_2013_2024/ops_code_audit_2013_2024.csv":
         "f51487d4339f6fac5f9dac5fa5420a26b27ea7331301d9abd225bbbb387e31a2",
     "outputs/ops_code_audit_2013_2024/ops_code_summary_2013_2024.csv":
-        "366bfeb8b70553dc6948cc41ffc3ae90294ee9f733e6e3fa0b4d42128c7473b6",
+        "e6d498f12add2c1c3ac9465dd641b33eb2f7e15191ec526cf021a9f8cfecf056",
 }
 INPUT_PATHS = (
     "outputs/ops_code_audit_2013_2024/ops_code_reconciliation_site_year.csv",

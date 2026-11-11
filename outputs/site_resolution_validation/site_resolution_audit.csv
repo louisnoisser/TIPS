@@ -1,0 +1,784 @@
+reporting_year,ik,institution_name,OPS_code,aggregate_site_identifiers,aggregate_numeric_source_value,aggregate_production_visible_value,aggregate_suppressed,component_site_count,component_visible_sum,suppressed_component_entries,visible_residual_source_aggregate_minus_components,component_total_lower,component_total_midpoint,component_total_upper,aggregate_value_assessable,aggregate_within_suppression_interval,exact_visible_equality,nonzero_difference_compatible_with_suppression,retained_records,resolution,removed_legacy_visible_count
+2012,260101865,Westküstenkliniken Brunsbüttel und Heide gGmbH,8-839.8x,260101865-99,0,0,True,1,0,1,0,1,2,3,False,,,,260101865-02,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260571421,Katholische Hospital Vereinigung Ostwestfalen gem. GmbH,8-839.80,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-01|260571421-03,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260571421,Katholische Hospital Vereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-01|260571421-03,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260591334,Dreifaltigkeits-Hospital gem. GmbH,8-839.86,260591334-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591334-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260591619,"Knappschaftskrankenhaus Dortmund, Klinikum Westfalen GmbH",8-839.80,260591619-99,6,6,True,1,6,1,0,7,8,9,True,False,True,False,260591619-01,retain all components; exclude aggregate; residual diagnostic only,6
+2012,260591619,"Knappschaftskrankenhaus Dortmund, Klinikum Westfalen GmbH",8-839.86,260591619-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591619-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260711669,Stiftungsklinikum Mittelrhein GmbH,8-839.80,260711669-99,0,0,True,1,0,1,0,1,2,3,False,,,,260711669-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260711669,Stiftungsklinikum Mittelrhein GmbH,8-839.81,260711669-99,0,0,True,1,0,1,0,1,2,3,False,,,,260711669-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260720307,Marienhaus Klinikum Eifel Standort Bitburg,8-839.80,260720307-99,0,0,True,1,0,1,0,1,2,3,False,,,,260720307-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260720307,Marienhaus Klinikum Eifel,8-839.85,260720307-99,0,0,True,1,0,1,0,1,2,3,False,,,,260720307-02,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260810589,ALB FILS KLINIKEN,8-839.80,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260810589,ALB FILS KLINIKEN,8-839.81,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260810794,SLK - Kliniken Heilbronn GmbH,8-839.80,260810794-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,260810794-01,retain all components; exclude aggregate; residual diagnostic only,4
+2012,260810794,SLK - Kliniken Heilbronn GmbH,8-839.81,260810794-99,0,0,True,1,0,2,0,2,4,6,False,,,,260810794-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260810794,SLK - Kliniken Heilbronn GmbH,8-839.8x,260810794-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810794-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260812364,Klinikum Stuttgart,8-839.80,260812364-99,27,27,False,1,27,0,0,27,27,27,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,27
+2012,260812364,Klinikum Stuttgart,8-839.81,260812364-99,25,25,False,1,25,0,0,25,25,25,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,25
+2012,260812364,Klinikum Stuttgart,8-839.82,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260812364,Klinikum Stuttgart,8-839.86,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.80,260930129-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,5
+2012,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.81,260930129-99,0,0,True,1,0,2,0,2,4,6,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.82,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.86,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.8x,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.80,261101878-99,6,0,True,7,40,7,-34,47,54,61,True,False,False,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,5,5,True,3,24,2,-19,26,28,30,True,False,False,False,261101878-01|261101878-02|261101878-03,retain all components; exclude aggregate; residual diagnostic only,5
+2012,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,0,0,True,1,19,1,-19,20,21,22,False,,,,261101878-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,0,0,True,3,4,3,-4,7,10,13,False,,,,261101878-01|261101878-04|261101878-09,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.80,261300152-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,5
+2012,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,5
+2012,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.85,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.8x,261300152-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,4
+2012,261300185,HELIOS Kliniken Schwerin,8-839.80,261300185-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300185-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261401416,Klinikum Chemnitz gGmbH,8-839.80,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.8x,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2012,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.80,261600918-99,11,11,False,1,11,0,0,11,11,11,True,True,True,False,261600918-01,retain all components; exclude aggregate; residual diagnostic only,11
+2012,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.81,261600918-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600918-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260510212,Klinikum Wedau,8-839.81,260510212-99,0,0,True,1,0,2,0,2,4,6,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260510212,Klinikum Wedau,8-839.87,260510212-99,0,0,True,1,0,2,0,2,4,6,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.87,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.8x,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.87,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260593085,Diakonie Klinikum GmbH,8-839.81,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260810589,ALB FILS KLINIKEN,8-839.81,260810589-99,0,0,True,2,0,2,0,2,4,6,False,,,,260810589-01|260810589-02,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260810589,ALB FILS KLINIKEN,8-839.88,260810589-99,0,0,True,2,0,2,0,2,4,6,False,,,,260810589-01|260810589-02,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260810794,SLK-Kliniken Heilbronn GmbH,8-839.81,260810794-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810794-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260811089,SLK-Kliniken Heilbronn GmbH,8-839.81,260811089-99,0,0,True,1,0,1,0,1,2,3,False,,,,260811089-03,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260812364,Klinikum Stuttgart,8-839.81,260812364-99,17,17,False,1,17,0,0,17,17,17,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,17
+2013,260812364,Klinikum Stuttgart,8-839.82,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260812364,Klinikum Stuttgart,8-839.83,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260812364,Klinikum Stuttgart,8-839.86,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260812364,Klinikum Stuttgart,8-839.87,260812364-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,5
+2013,260812364,Klinikum Stuttgart,8-839.88,260812364-99,20,20,False,1,20,0,0,20,20,20,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,20
+2013,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.81,260930129-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,4
+2013,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.82,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.88,260930129-99,9,9,True,1,9,1,0,10,11,12,True,False,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,9
+2013,260950099,Klinikum Nürnberg,8-839.81,260950099-99,8,8,False,1,8,0,0,8,8,8,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,8
+2013,260950099,Klinikum Nürnberg,8-839.82,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260950099,Klinikum Nürnberg,8-839.83,260950099-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,4
+2013,260950099,Klinikum Nürnberg,8-839.86,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260950099,Klinikum Nürnberg,8-839.88,260950099-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,4
+2013,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.81,260970015-99,0,0,True,1,0,2,0,2,4,6,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.86,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.87,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.88,260970015-99,0,0,True,1,0,2,0,2,4,6,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,43,43,True,7,43,5,0,48,53,58,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,43
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.82,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.83,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,2,0,2,0,2,4,6,False,,,,261101878-04|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,17,17,False,1,17,0,0,17,17,17,True,True,True,False,261101878-01,retain all components; exclude aggregate; residual diagnostic only,17
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,4,4,True,2,4,1,0,5,6,7,True,False,True,False,261101878-01|261101878-06,retain all components; exclude aggregate; residual diagnostic only,4
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,35,35,True,6,35,7,0,42,49,56,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06,retain all components; exclude aggregate; residual diagnostic only,35
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,27,27,True,4,27,7,0,34,41,48,True,False,True,False,261101878-01|261101878-02|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,27
+2013,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8x,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-04,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,5,5,True,1,5,2,0,7,9,11,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,5
+2013,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.84,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.8x,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261300185,HELIOS Kliniken Schwerin,8-839.81,261300185-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300185-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261300185,HELIOS Kliniken Schwerin,8-839.88,261300185-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300185-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261400379,Heinrich-Braun-Klinikum gemeinnützige GmbH,8-839.84,261400379-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400379-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261401416,Klinikum Chemnitz gGmbH,8-839.81,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261401416,Klinikum Chemnitz gGmbH,8-839.87,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.88,261600872-99,0,0,True,1,0,2,0,2,4,6,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2013,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.81,261600918-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,261600918-01,retain all components; exclude aggregate; residual diagnostic only,4
+2013,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.88,261600918-99,0,0,True,1,0,2,0,2,4,6,False,,,,261600918-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260100023,Diakonissenkrankenhaus Flensburg,8-839.81,260100023-99,0,0,True,1,0,2,0,2,4,6,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260100023,Diakonissenkrankenhaus Flensburg,8-839.87,260100023-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510212,Wedau Kliniken,8-839.81,260510212-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510212,Wedau Kliniken,8-839.87,260510212-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510212,Wedau Kliniken,8-839.8x,260510212-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510461,Elisabeth-Krankenhaus Essen GmbH,8-839.88,260510461-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510461-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510575,HELIOS Klinikum Krefeld,8-839.88,260510575-99,0,0,True,1,0,2,0,2,4,6,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510939,Klinikverbund St. Antonius und St. Josef,8-839.81,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510939,Klinikverbund St. Antonius und St. Josef,8-839.86,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260510939,Klinikverbund St. Antonius und St. Josef,8-839.87,260510939-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,7
+2014,260510939,Klinikverbund St. Antonius und St. Josef,8-839.8x,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260550938,Marienhospital Steinfurt,8-839.81,260550938-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550938-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260550938,Marienhospital Steinfurt,8-839.83,260550938-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550938-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260570044,Ev. Krankenhaus Bielefeld gGmbH,8-839.87,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260570044,Ev. Krankenhaus Bielefeld gGmbH,8-839.88,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-01|260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.82,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.83,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.84,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.85,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-01|260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.87,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-01|260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260590071,Katholisches Klinikum Bochum,8-839.87,260590071-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590071-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260592084,St. Barbara-Klinik Hamm GmbH,8-839.81,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260592084,St. Barbara-Klinik Hamm GmbH,8-839.88,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260730183,"Katholisches Klinikum Mainz, Standort: St. Vincenz und Elisabeth Hospital",8-839.81,260730183-99,0,0,True,1,0,1,0,1,2,3,False,,,,260730183-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260730183,"Katholisches Klinikum Mainz, Standort: St. Hildegardis Krankenhaus",8-839.84,260730183-99,0,0,True,1,0,1,0,1,2,3,False,,,,260730183-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260730183,"Katholisches Klinikum Mainz, Standort: St. Vincenz und Elisabeth Hospital",8-839.87,260730183-99,0,0,True,1,0,1,0,1,2,3,False,,,,260730183-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260810589,ALB FILS KLINIKEN,8-839.81,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260810589,ALB FILS KLINIKEN,8-839.88,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.81,260812364-99,57,57,False,3,57,0,0,57,57,57,True,True,True,False,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,57
+2014,260812364,Klinikum Stuttgart,8-839.82,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.83,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.84,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.85,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.86,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.87,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812364,Klinikum Stuttgart,8-839.88,260812364-99,51,51,False,3,51,0,0,51,51,51,True,True,True,False,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,51
+2014,260812364,Klinikum Stuttgart,8-839.8x,260812364-99,0,0,True,3,0,3,0,3,6,9,False,,,,260812364-01|260812364-02|260812364-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812525,Klinikum Sindelfingen-Böblingen,8-839.82,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260812525,Klinikum Sindelfingen-Böblingen,8-839.83,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260831312,Schwarzwald-Baar Klinikum Villingen-Schwenningen GmbH,8-839.82,260831312-99,0,0,True,1,0,1,0,1,2,3,False,,,,260831312-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.81,260930129-99,7,7,True,1,7,1,0,8,9,10,True,False,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,7
+2014,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.82,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.86,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.88,260930129-99,13,13,False,1,13,0,0,13,13,13,True,True,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,13
+2014,260950099,Klinikum Nürnberg,8-839.81,260950099-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,7
+2014,260950099,Klinikum Nürnberg,8-839.84,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260950099,Klinikum Nürnberg,8-839.86,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,260950099,Klinikum Nürnberg,8-839.88,260950099-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,7
+2014,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.81,260970015-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,4
+2014,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.88,260970015-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,4
+2014,261000331,Marienhaus Klinikum Saarlouis - Dillingen,8-839.81,261000331-99,0,0,True,1,0,1,0,1,2,3,False,,,,261000331-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,37,37,True,8,37,12,0,49,61,73,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,37
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.83,261101878-99,0,0,True,2,0,2,0,2,4,6,False,,,,261101878-01|261101878-03,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,7,7,True,1,7,1,0,8,9,10,True,False,True,False,261101878-01,retain all components; exclude aggregate; residual diagnostic only,7
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,14,14,True,5,14,6,0,20,26,32,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-05|261101878-06,retain all components; exclude aggregate; residual diagnostic only,14
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,33,33,True,7,33,11,0,44,55,66,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,33
+2014,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,19,19,True,7,19,7,0,26,33,40,True,False,True,False,261101878-01|261101878-02|261101878-04|261101878-05|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,19
+2014,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,4
+2014,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.84,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.85,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.87,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.88,261300152-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,5
+2014,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.8x,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261300185,HELIOS Kliniken Schwerin,8-839.82,261300185-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300185-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261401416,Klinikum Chemnitz gGmbH,8-839.81,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261401416,Klinikum Chemnitz gGmbH,8-839.87,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261470034,Kreiskrankenhaus Delitzsch GmbH,8-839.8x,261470034-99,0,0,True,1,0,2,0,2,4,6,False,,,,261470034-02,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.88,261600872-99,0,0,True,1,0,2,0,2,4,6,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.81,261600918-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600918-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.88,261600918-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600918-01,retain all components; exclude aggregate; residual diagnostic only,0
+2014,261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,8-839.8x,261600918-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600918-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260100023,Diakonissenkrankenhaus Flensburg,8-839.81,260100023-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,260100023-01,retain all components; exclude aggregate; residual diagnostic only,4
+2015,260100023,Diakonissenkrankenhaus Flensburg,8-839.83,260100023-99,0,0,True,1,0,2,0,2,4,6,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260100023,Diakonissenkrankenhaus Flensburg,8-839.87,260100023-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,260100023-01,retain all components; exclude aggregate; residual diagnostic only,4
+2015,260510212,Sana Kliniken Duisburg - Wedau Kliniken,8-839.87,260510212-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260510461,Elisabeth- Krankenhaus Essen Gmbh,8-839.86,260510461-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510461-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260510575,HELIOS Klinikum Krefeld,8-839.81,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260510575,HELIOS Klinikum Krefeld,8-839.88,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.81,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.86,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.87,260510939-99,12,12,False,1,12,0,0,12,12,12,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,12
+2015,260512021,Katholisches Klinikum Essen,8-839.88,260512021-99,0,0,True,1,0,1,0,1,2,3,False,,,,260512021-03,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.8x,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260551165,Klinikum Vest GmbH,8-839.82,260551165-99,0,0,True,1,0,1,0,1,2,3,False,,,,260551165-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260551165,Klinikum Vest GmbH,8-839.88,260551165-99,0,0,True,1,0,2,0,2,4,6,False,,,,260551165-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260570044,Evangelisches Krankenhaus Bielefeld gGmbH,8-839.81,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260570044,Evangelisches Krankenhaus Bielefeld gGmbH,8-839.82,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260570044,Evangelisches Krankenhaus Bielefeld gGmbH,8-839.87,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260570044,Evangelisches Krankenhaus Bielefeld gGmbH,8-839.88,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260570044,Evangelisches Krankenhaus Bielefeld gGmbH,8-839.8x,260570044-99,0,0,True,2,0,3,0,3,6,9,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.83,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.85,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.87,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260590139,Klinikum Dortmund gGmbH,8-839.81,260590139-99,0,0,True,1,0,2,0,2,4,6,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260590139,Klinikum Dortmund gGmbH,8-839.88,260590139-99,0,0,True,1,0,2,0,2,4,6,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260592084,St. Barbara-Klinik Hamm GmbH,8-839.88,260592084-99,0,0,True,1,0,2,0,2,4,6,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260592084,St. Barbara-Klinik Hamm GmbH,8-839.8x,260592084-99,0,0,True,1,0,2,0,2,4,6,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260610393,HELIOS Dr. Horst Schmidt Kliniken Wiesbaden,8-839.88,260610393-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,260610393-01,retain all components; exclude aggregate; residual diagnostic only,4
+2015,260610393,HELIOS Dr. Horst Schmidt Kliniken Wiesbaden,8-839.8x,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,8-839.88,260641243-99,0,0,True,1,0,1,0,1,2,3,False,,,,260641243-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260641722,Hochwaldkrankenhaus Bad Nauheim,8-839.88,260641722-99,0,0,True,1,0,1,0,1,2,3,False,,,,260641722-03,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260710087,Krankenhaus Maria Hilf,8-839.81,260710087-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260710087-01,retain all components; exclude aggregate; residual diagnostic only,5
+2015,260710087,Krankenhaus Maria Hilf,8-839.83,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260710087,Krankenhaus Maria Hilf,8-839.88,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260730183,"Katholisches Klinikum Mainz, Standort: St. Vincenz und Elisabeth Hospital",8-839.81,260730183-99,0,0,True,1,0,3,0,3,6,9,False,,,,260730183-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260730183,"Katholisches Klinikum Mainz, Standort: St. Vincenz und Elisabeth Hospital",8-839.87,260730183-99,0,0,True,1,0,2,0,2,4,6,False,,,,260730183-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260730183,"Katholisches Klinikum Mainz, Standort: St. Vincenz und Elisabeth Hospital",8-839.88,260730183-99,0,0,True,1,0,2,0,2,4,6,False,,,,260730183-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,8-839.81,260810794-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260810794-01,retain all components; exclude aggregate; residual diagnostic only,5
+2015,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,8-839.87,260810794-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810794-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,8-839.8x,260810794-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810794-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260812364,Klinikum Stuttgart,8-839.81,260812364-99,16,16,False,1,16,0,0,16,16,16,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,16
+2015,260812364,Klinikum Stuttgart,8-839.86,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260812364,Klinikum Stuttgart,8-839.87,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260812364,Klinikum Stuttgart,8-839.88,260812364-99,17,17,False,1,17,0,0,17,17,17,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,17
+2015,260812525,Klinikum Sindelfingen-Böblingen,8-839.84,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-04,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260812525,Klinikum Sindelfingen-Böblingen,8-839.88,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-04,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.81,260820592-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.87,260820592-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.88,260820592-99,0,0,True,1,0,2,0,2,4,6,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.81,260930129-99,0,0,True,1,0,2,0,2,4,6,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.88,260930129-99,4,4,True,1,4,1,0,5,6,7,True,False,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,4
+2015,260950099,Klinikum Nürnberg,8-839.81,260950099-99,15,15,False,1,15,0,0,15,15,15,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,15
+2015,260950099,Klinikum Nürnberg,8-839.84,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260950099,Klinikum Nürnberg,8-839.86,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260950099,Klinikum Nürnberg,8-839.88,260950099-99,14,14,False,1,14,0,0,14,14,14,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,14
+2015,260950099,Klinikum Nürnberg,8-839.8x,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.81,260970015-99,11,11,False,1,11,0,0,11,11,11,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,11
+2015,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.86,260970015-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,4
+2015,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.88,260970015-99,8,8,False,1,8,0,0,8,8,8,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,8
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,32,32,True,7,32,13,0,45,58,71,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-09|261101878-10,retain all components; exclude aggregate; residual diagnostic only,32
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.82,261101878-99,0,0,True,2,0,2,0,2,4,6,False,,,,261101878-02|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.83,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-03,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,4,4,True,2,4,1,0,5,6,7,True,False,True,False,261101878-01|261101878-03,retain all components; exclude aggregate; residual diagnostic only,4
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,11,11,True,5,11,6,0,17,23,29,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-10,retain all components; exclude aggregate; residual diagnostic only,11
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,14,14,True,8,14,11,0,25,36,47,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-09|261101878-10,retain all components; exclude aggregate; residual diagnostic only,14
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,15,15,True,6,15,9,0,24,33,42,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,15
+2015,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8x,261101878-99,0,0,True,2,0,2,0,2,4,6,False,,,,261101878-05|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261201414,Klinikum Dahme Spreewald GmbH,8-839.81,261201414-99,4,4,True,2,4,1,0,5,6,7,True,False,True,False,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,4
+2015,261201414,Klinikum Dahme Spreewald GmbH,8-839.82,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261201414,Klinikum Dahme Spreewald GmbH,8-839.83,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261201414,Klinikum Dahme Spreewald GmbH,8-839.87,261201414-99,5,5,True,2,5,1,0,6,7,8,True,False,True,False,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,5
+2015,261201414,Klinikum Dahme Spreewald GmbH,8-839.88,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,7
+2015,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.86,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.87,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.88,261300152-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,6
+2015,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.81,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.86,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.88,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.81,261300425-99,17,17,True,1,17,1,0,18,19,20,True,False,True,False,261300425-06,retain all components; exclude aggregate; residual diagnostic only,17
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.82,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-06,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.83,261300425-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300425-06,retain all components; exclude aggregate; residual diagnostic only,4
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.84,261300425-99,4,4,True,1,4,2,0,6,8,10,True,False,True,False,261300425-06,retain all components; exclude aggregate; residual diagnostic only,4
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.85,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-06,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.86,261300425-99,10,10,False,1,10,0,0,10,10,10,True,True,True,False,261300425-06,retain all components; exclude aggregate; residual diagnostic only,10
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.87,261300425-99,19,19,True,1,19,4,0,23,27,31,True,False,True,False,261300425-06,retain all components; exclude aggregate; residual diagnostic only,19
+2015,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.88,261300425-99,16,16,True,1,16,3,0,19,22,25,True,False,True,False,261300425-06,retain all components; exclude aggregate; residual diagnostic only,16
+2015,261400040,Diakonissenkrankenhaus Dresden & Krankenhaus Emmaus Niesky,8-839.88,261400040-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400040-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261400379,Heinrich-Braun-Klinikum gemeinnützige GmbH,8-839.81,261400379-99,0,0,True,1,0,2,0,2,4,6,False,,,,261400379-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261400379,Heinrich-Braun-Klinikum gemeinnützige GmbH,8-839.84,261400379-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400379-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261400379,Heinrich-Braun-Klinikum gemeinnützige GmbH,8-839.88,261400379-99,0,0,True,1,0,2,0,2,4,6,False,,,,261400379-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261401416,Klinikum Chemnitz gGmbH,8-839.81,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261401416,Klinikum Chemnitz gGmbH,8-839.87,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261500290,Altmark-Klinikum gGbmH - Krankenhaus Salzwedel,8-839.8x,261500290-99,0,0,True,1,0,1,0,1,2,3,False,,,,261500290-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261600521,Hufeland Klinikum GmbH,8-839.87,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261600521,Hufeland Klinikum GmbH,8-839.88,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.86,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2015,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.88,261600872-99,0,0,True,1,0,2,0,2,4,6,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260100023,Diakonissenkrankenhaus Flensburg,8-839.81,260100023-99,0,0,True,1,0,2,0,2,4,6,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260100023,Diakonissenkrankenhaus Flensburg,8-839.87,260100023-99,0,0,True,1,0,2,0,2,4,6,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260100432,Johanniter-Krankenhaus Geesthacht (KH),8-839.83,260100432-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100432-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260100626,Sana Kliniken Ostholstein GmbH,8-839.81,260100626-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100626-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260200865,Asklepios Klinik Nord,8-839.8x,260200865-99,0,0,True,1,0,1,0,1,2,3,False,,,,260200865-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260510212,Sana Kliniken Duisburg - Wedau Kliniken,8-839.81,260510212-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260510461,Elisabeth- Krankenhaus Essen GmbH,8-839.88,260510461-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510461-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260510575,HELIOS Klinikum Krefeld,8-839.81,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260510575,HELIOS Klinikum Krefeld,8-839.88,260510575-99,14,14,True,1,14,2,0,16,18,20,True,False,True,False,260510575-01,retain all components; exclude aggregate; residual diagnostic only,14
+2016,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.86,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.87,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.8x,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.81,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.84,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.88,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.8x,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260551165,Klinikum Vest GmbH,8-839.81,260551165-99,0,0,True,1,0,1,0,1,2,3,False,,,,260551165-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260551165,Klinikum Vest GmbH,8-839.88,260551165-99,0,0,True,2,0,2,0,2,4,6,False,,,,260551165-01|260551165-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260570022,Klinikum Bielefeld gem. GmbH,8-839.81,260570022-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570022-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260570044,Evangelisches Krankenhaus Bielefeld gGmbH,8-839.81,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260570044,Evangelische Kranken Bielefeld gGmbH,8-839.83,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260570044,Evangelische Kranken Bielefeld gGmbH,8-839.87,260570044-99,0,0,True,2,0,2,0,2,4,6,False,,,,260570044-01|260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260570044,Evangelische Kranken Bielefeld gGmbH,8-839.88,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-02|260571421-03,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.82,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.83,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.84,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.85,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.87,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-03,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260590139,Klinikzentrum Mitte,8-839.81,260590139-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,260590139-01,retain all components; exclude aggregate; residual diagnostic only,7
+2016,260590139,Klinikzentrum Mitte,8-839.88,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260590139,Klinikzentrum Mitte,8-839.89,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260590139,Klinikzentrum Mitte,8-839.8a,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260591619,Klinikum Westfalen GmbH,8-839.87,260591619-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591619-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260592084,St. Barbara-Klinik Hamm GmbH,8-839.81,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260592084,St. Barbara-Klinik Hamm GmbH,8-839.88,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260592084,St. Barbara-Klinik Hamm GmbH,8-839.8x,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260593085,Diakonie Klinikum GmbH,8-839.81,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260593085,Diakonie Klinikum GmbH,8-839.82,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260593085,Diakonie Klinikum GmbH,8-839.89,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260610393,HELIOS Dr. Horst Schmidt Kliniken Wiesbaden,8-839.81,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260610393,HELIOS Dr. Horst Schmidt Kliniken Wiesbaden,8-839.86,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260610393,HELIOS Dr. Horst Schmidt Kliniken Wiesbaden,8-839.88,260610393-99,0,0,True,1,0,2,0,2,4,6,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260610393,HELIOS Dr. Horst Schmidt Kliniken Wiesbaden,8-839.8x,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260641722,Gesundheitszentrum Wetterau gGmbH Bürgerhospital Friedberg,8-839.81,260641722-99,0,0,True,2,0,2,0,2,4,6,False,,,,260641722-01|260641722-03,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260641722,Gesundheitszentrum Wetterau gGmbH Bürgerhospital Friedberg,8-839.88,260641722-99,0,0,True,2,0,2,0,2,4,6,False,,,,260641722-01|260641722-03,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260710087,Krankenhaus Maria Hilf,8-839.81,260710087-99,8,8,False,1,8,0,0,8,8,8,True,True,True,False,260710087-01,retain all components; exclude aggregate; residual diagnostic only,8
+2016,260710087,Krankenhaus Maria Hilf,8-839.83,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260710087,Krankenhaus Maria Hilf,8-839.88,260710087-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,260710087-01,retain all components; exclude aggregate; residual diagnostic only,6
+2016,260710087,Krankenhaus Maria Hilf,8-839.89,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260710087,Krankenhaus Maria Hilf,8-839.8x,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260720034,Klinikum Mutterhaus der Borromäerinnen,8-839.81,260720034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260720034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260720034,Klinikum Mutterhaus der Borromäerinnen,8-839.88,260720034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260720034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260810589,ALB FILS KLINIKEN,8-839.81,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260810589,ALB FILS KLINIKEN,8-839.88,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260810794,Klinikum am Gesundbrunnen,8-839.81,260810794-99,6,6,True,1,6,1,0,7,8,9,True,False,True,False,260810794-01,retain all components; exclude aggregate; residual diagnostic only,6
+2016,260810794,Klinikum am Gesundbrunnen,8-839.87,260810794-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260810794-01,retain all components; exclude aggregate; residual diagnostic only,5
+2016,260812364,Klinikum Stuttgart,8-839.81,260812364-99,12,12,False,1,12,0,0,12,12,12,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,12
+2016,260812364,Klinikum Stuttgart,8-839.82,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260812364,Klinikum Stuttgart,8-839.86,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260812364,Klinikum Stuttgart,8-839.87,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260812364,Klinikum Stuttgart,8-839.88,260812364-99,9,9,False,1,9,0,0,9,9,9,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,9
+2016,260812525,Klinikum Sindelfingen-Böblingen,8-839.88,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-04,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260812525,Klinikum Sindelfingen-Böblingen,8-839.89,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-04,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.87,260820592-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.88,260820592-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.88,260833520-99,0,0,True,1,0,1,0,1,2,3,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260912434,Klinikum Traunstein mit der Au&szlig;enstelle Ruhpolding,8-839.81,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260912434,Klinikum Traunstein mit der Au&szlig;enstelle Ruhpolding,8-839.86,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260912434,Klinikum Traunstein mit der Au&szlig;enstelle Ruhpolding,8-839.87,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260912434,Klinikum Traunstein mit der Au&szlig;enstelle Ruhpolding,8-839.88,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrau&szlig;, Neustadt",8-839.81,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrau&szlig;, Neustadt",8-839.83,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrau&szlig;, Neustadt",8-839.88,260930129-99,0,0,True,1,0,2,0,2,4,6,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260950099,Klinikum Nürnberg,8-839.81,260950099-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,6
+2016,260950099,Klinikum Nürnberg,8-839.84,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260950099,Klinikum Nürnberg,8-839.86,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260950099,Klinikum Nürnberg,8-839.88,260950099-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,6
+2016,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.81,260970015-99,9,9,False,1,9,0,0,9,9,9,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,9
+2016,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.86,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.88,260970015-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,7
+2016,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.89,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,40,40,True,9,40,10,0,50,60,70,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-08|261101878-09|261101878-10,retain all components; exclude aggregate; residual diagnostic only,40
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.83,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-04,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,2,0,3,0,3,6,9,False,,,,261101878-01|261101878-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,0,0,True,1,0,2,0,2,4,6,False,,,,261101878-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,0,0,True,5,0,7,0,7,14,21,False,,,,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,5,5,True,6,5,7,0,12,19,26,True,False,True,False,261101878-01|261101878-03|261101878-04|261101878-05|261101878-06|261101878-10,retain all components; exclude aggregate; residual diagnostic only,5
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,45,45,True,6,45,5,0,50,55,60,True,False,True,False,261101878-01|261101878-02|261101878-04|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,45
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.89,261101878-99,0,0,True,3,0,3,0,3,6,9,False,,,,261101878-02|261101878-03|261101878-04,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8a,261101878-99,0,0,True,2,0,2,0,2,4,6,False,,,,261101878-04|261101878-09,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261201414,Klinikum Dahme Spreewald GmbH,8-839.81,261201414-99,0,0,True,2,0,2,0,2,4,6,False,,,,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261201414,Klinikum Dahme Spreewald GmbH,8-839.87,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261201414,Klinikum Dahme Spreewald GmbH,8-839.88,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,15,15,True,1,15,1,0,16,17,18,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,15
+2016,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.88,261300152-99,15,15,True,1,15,1,0,16,17,18,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,15
+2016,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.8x,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.81,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.86,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.88,261300356-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300356-01,retain all components; exclude aggregate; residual diagnostic only,4
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.81,261300425-99,10,0,True,1,10,2,0,12,14,16,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.82,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.83,261300425-99,8,8,False,1,8,0,0,8,8,8,True,True,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,8
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.84,261300425-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.86,261300425-99,15,0,True,1,15,2,0,17,19,21,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.87,261300425-99,7,0,True,1,7,2,0,9,11,13,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.88,261300425-99,43,0,True,1,43,2,0,45,47,49,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261400040,Diakonissenkrankenhaus Dresden,8-839.88,261400040-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400040-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261400379,"Heinrich-Braun-Klinikum gemeinnützige GmbH, Standort Zwickau",8-839.81,261400379-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400379-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261400379,"Heinrich-Braun-Klinikum gemeinnützige GmbH, Standort Zwickau",8-839.87,261400379-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400379-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261401416,Klinikum Chemnitz gGmbH,8-839.87,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2016,261600521,"Hufeland Klinikum GmbH, Standort Mühlhausen",8-839.87,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.89,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510256,Helios St. Johannes Klinik,8-839.81,260510256-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510256-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510256,Helios St. Johannes Klinik,8-839.87,260510256-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510256-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510461,Elisabeth-Krankenhaus Essen,8-839.88,260510461-99,0,0,True,1,0,2,0,2,4,6,False,,,,260510461-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510575,HELIOS Klinikum Krefeld,8-839.81,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510575,HELIOS Klinikum Krefeld,8-839.88,260510575-99,0,0,True,1,0,2,0,2,4,6,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510575,HELIOS Klinikum Krefeld,8-839.8x,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.86,260510939-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.87,260510939-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,6
+2017,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.88,260510939-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.8a,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260512021,Katholisches Klinikum Essen - St. Vincenz Krankenhaus,8-839.82,260512021-99,0,0,True,1,0,1,0,1,2,3,False,,,,260512021-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.81,260550460-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260550460-01,retain all components; exclude aggregate; residual diagnostic only,4
+2017,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.82,260550460-99,0,0,True,2,0,2,0,2,4,6,False,,,,260550460-01|260550460-03,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.88,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.8a,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.8x,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260551165,Klinikum Vest GmbH,8-839.88,260551165-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260551165-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.81,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.84,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.87,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590139,Klinikzentrum Mitte,8-839.81,260590139-99,7,7,True,1,7,2,0,9,11,13,True,False,True,False,260590139-01,retain all components; exclude aggregate; residual diagnostic only,7
+2017,260590139,Klinikzentrum Nord,8-839.82,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590139,Klinikzentrum Mitte,8-839.86,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590139,Klinikzentrum Mitte,8-839.87,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590139,Klinikzentrum Mitte,8-839.88,260590139-99,0,0,True,1,0,3,0,3,6,9,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590139,Klinikzentrum Mitte,8-839.8a,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590457,"Marien Hospital Herne, Klinikum der Ruhr-Universität Bochum",8-839.81,260590457-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590457-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260590457,"Marien Hospital Herne, Klinikum der Ruhr-Universität Bochum",8-839.89,260590457-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590457-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260591619,Klinikum Westfalen GmbH,8-839.81,260591619-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591619-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260591619,Klinikum Westfalen GmbH,8-839.88,260591619-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591619-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260592084,St. Barbara-Klinik Hamm GmbH,8-839.81,260592084-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260592084-01,retain all components; exclude aggregate; residual diagnostic only,4
+2017,260592084,St. Barbara-Klinik Hamm GmbH,8-839.88,260592084-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260592084-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,260593085,Diakonie Klinikum GmbH,8-839.81,260593085-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260593085-02,retain all components; exclude aggregate; residual diagnostic only,4
+2017,260593085,Diakonie Klinikum GmbH,8-839.86,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260593085,Diakonie Klinikum GmbH,8-839.87,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.81,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.86,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.88,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260620271,Klinikum Bad Hersfeld GmbH,8-839.81,260620271-99,0,0,True,1,0,1,0,1,2,3,False,,,,260620271-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,8-839.8x,260641243-99,0,0,True,1,0,1,0,1,2,3,False,,,,260641243-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260641722,Gesundheitszentrum Wetterau gGmbH Hochwaldkrankenhaus Bad Nauheim,8-839.81,260641722-99,0,0,True,1,0,1,0,1,2,3,False,,,,260641722-03,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260641722,Gesundheitszentrum Wetterau gGmbH Hochwaldkrankenhaus Bad Nauheim,8-839.88,260641722-99,0,0,True,1,0,1,0,1,2,3,False,,,,260641722-03,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260710087,Krankenhaus Maria Hilf,8-839.81,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260710087,Krankenhaus Maria Hilf,8-839.88,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260810589,ALB FILS KLINIKEN,8-839.88,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260812364,Klinikum Stuttgart,8-839.81,260812364-99,14,14,False,1,14,0,0,14,14,14,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,14
+2017,260812364,Klinikum Stuttgart,8-839.82,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260812364,Klinikum Stuttgart,8-839.83,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260812364,Klinikum Stuttgart,8-839.87,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260812364,Klinikum Stuttgart,8-839.88,260812364-99,9,9,False,1,9,0,0,9,9,9,True,True,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,9
+2017,260812525,Klinikum Sindelfingen-Böblingen,8-839.88,260812525-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812525-04,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.86,260820592-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260820592,Theresienkrankenhaus und St. Hedwig-Klinik GmbH,8-839.88,260820592-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820592-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.88,260833520-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260833520-01,retain all components; exclude aggregate; residual diagnostic only,4
+2017,260840164,Zollernalb Klinikum gGmbH,8-839.88,260840164-99,0,0,True,1,0,1,0,1,2,3,False,,,,260840164-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260910637,RoMed Klinikum Rosenheim,8-839.81,260910637-99,11,11,True,1,11,1,0,12,13,14,True,False,True,False,260910637-01,retain all components; exclude aggregate; residual diagnostic only,11
+2017,260910637,RoMed Klinikum Rosenheim,8-839.86,260910637-99,0,0,True,1,0,1,0,1,2,3,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260910637,RoMed Klinikum Rosenheim,8-839.87,260910637-99,9,9,True,1,9,1,0,10,11,12,True,False,True,False,260910637-01,retain all components; exclude aggregate; residual diagnostic only,9
+2017,260920025,Krankenhaus Landshut-Achdorf,8-839.81,260920025-99,0,0,True,1,0,1,0,1,2,3,False,,,,260920025-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260920025,Krankenhaus Landshut-Achdorf,8-839.89,260920025-99,0,0,True,1,0,1,0,1,2,3,False,,,,260920025-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.81,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.88,260930129-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,260950099,Klinikum Nürnberg,8-839.81,260950099-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,6
+2017,260950099,Klinikum Nürnberg,8-839.84,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260950099,Klinikum Nürnberg,8-839.88,260950099-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,7
+2017,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.81,260970015-99,15,15,False,1,15,0,0,15,15,15,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,15
+2017,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.84,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.86,260970015-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.88,260970015-99,11,11,False,1,11,0,0,11,11,11,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,11
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,26,26,True,7,26,11,0,37,48,59,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,26
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.83,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-04,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,0,0,True,6,0,7,0,7,14,21,False,,,,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-10,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,6,6,True,7,6,11,0,17,28,39,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,6
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,19,19,True,7,19,8,0,27,35,43,True,False,True,False,261101878-01|261101878-02|261101878-04|261101878-05|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,19
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.89,261101878-99,0,0,True,2,0,2,0,2,4,6,False,,,,261101878-04|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8a,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8x,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261200538,"Havelland Kliniken GmbH, Klinik Nauen",8-839.81,261200538-99,0,0,True,1,0,1,0,1,2,3,False,,,,261200538-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261201312,Elbe-Elster Klinikum GmbH,8-839.8a,261201312-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201312-03,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261201414,Klinikum Dahme Spreewald GmbH,8-839.81,261201414-99,4,4,True,2,4,1,0,5,6,7,True,False,True,False,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,4
+2017,261201414,Klinikum Dahme Spreewald GmbH,8-839.87,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261201414,Klinikum Dahme Spreewald GmbH,8-839.88,261201414-99,0,0,True,2,0,2,0,2,4,6,False,,,,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,13,13,True,1,13,2,0,15,17,19,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,13
+2017,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.83,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.84,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.86,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.87,261300152-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.88,261300152-99,9,9,True,1,9,2,0,11,13,15,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,9
+2017,261300185,Helios Kliniken Schwerin,8-839.81,261300185-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,261300185-01,retain all components; exclude aggregate; residual diagnostic only,7
+2017,261300185,Helios Kliniken Schwerin,8-839.88,261300185-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300185-01,retain all components; exclude aggregate; residual diagnostic only,4
+2017,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.81,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.88,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300367,Helios Hanseklinikum Stralsund,8-839.81,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300367,Helios Hanseklinikum Stralsund,8-839.87,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300367,Helios Hanseklinikum Stralsund,8-839.88,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300367,Helios Hanseklinikum Stralsund,8-839.8a,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.81,261300425-99,4,0,True,1,4,1,0,5,6,7,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.83,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.84,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.86,261300425-99,12,0,True,1,12,1,0,13,14,15,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.87,261300425-99,11,0,True,1,11,2,0,13,15,17,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.88,261300425-99,33,0,True,1,33,4,0,37,41,45,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261400949,Städtisches Klinikum Dresden - Standort Friedrichstadt,8-839.81,261400949-99,0,0,True,1,0,1,0,1,2,3,False,,,,261400949-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261400949,Städtisches Klinikum Dresden - Standort Friedrichstadt,8-839.88,261400949-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,261400949-01,retain all components; exclude aggregate; residual diagnostic only,5
+2017,261401416,Klinikum Chemnitz gGmbH,8-839.81,261401416-99,8,8,True,1,8,1,0,9,10,11,True,False,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,8
+2017,261401416,Klinikum Chemnitz gGmbH,8-839.88,261401416-99,8,8,True,1,8,1,0,9,10,11,True,False,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,8
+2017,261401416,Klinikum Chemnitz gGmbH,8-839.8x,261401416-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,4
+2017,261600521,Hufeland Klinikum GmbH,8-839.88,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261600521,Hufeland Klinikum GmbH,8-839.8x,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-01,retain all components; exclude aggregate; residual diagnostic only,0
+2017,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.88,261600872-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,261600872-01,retain all components; exclude aggregate; residual diagnostic only,6
+2018,260100023,Diakonissenkrankenhaus Flensburg,8-839.81,260100023-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260100023-01,retain all components; exclude aggregate; residual diagnostic only,4
+2018,260100023,Diakonissenkrankenhaus Flensburg,8-839.87,260100023-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100023,Diakonissenkrankenhaus Flensburg,8-839.88,260100023-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100023,Diakonissenkrankenhaus Flensburg,8-839.89,260100023-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.81,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.84,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.87,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.88,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.89,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.81,260102343-99,53,53,True,2,53,1,0,54,55,56,True,False,True,False,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,53
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.82,260102343-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102343-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.83,260102343-99,0,0,True,2,0,2,0,2,4,6,False,,,,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.86,260102343-99,22,22,True,2,22,1,0,23,24,25,True,False,True,False,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,22
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.87,260102343-99,45,45,True,2,45,2,0,47,49,51,True,False,True,False,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,45
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.88,260102343-99,21,21,False,2,21,0,0,21,21,21,True,True,True,False,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,21
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.89,260102343-99,16,16,True,1,16,2,0,18,20,22,True,False,True,False,260102343-01,retain all components; exclude aggregate; residual diagnostic only,16
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.8a,260102343-99,0,0,True,2,0,2,0,2,4,6,False,,,,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.8x,260102343-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102343-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260200865,Asklepios Klinik Nord,8-839.88,260200865-99,0,0,True,1,0,1,0,1,2,3,False,,,,260200865-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510256,Helios St. Johannes Klinik,8-839.87,260510256-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260510256-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,260510575,Helios Klinikum Krefeld,8-839.81,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510575,Helios Klinikum Krefeld,8-839.84,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510575,Helios Klinikum Krefeld,8-839.86,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510575,Helios Klinikum Krefeld,8-839.88,260510575-99,10,10,True,1,10,1,0,11,12,13,True,False,True,False,260510575-01,retain all components; exclude aggregate; residual diagnostic only,10
+2018,260510575,Helios Klinikum Krefeld,8-839.8x,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510906,HELIOS Universitätsklinikum Wuppertal GmbH,8-839.82,260510906-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510906-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.87,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.88,260510939-99,11,11,False,1,11,0,0,11,11,11,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,11
+2018,260531661,Rhein-Maas Klinikum GmbH,8-839.81,260531661-99,0,0,True,1,0,1,0,1,2,3,False,,,,260531661-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260531661,Rhein-Maas Klinikum GmbH,8-839.88,260531661-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260531661-01,retain all components; exclude aggregate; residual diagnostic only,4
+2018,260550142,Ludgerus-Kliniken Münster GmbH,8-839.81,260550142-99,0,0,True,2,0,2,0,2,4,6,False,,,,260550142-01|260550142-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260550142,Ludgerus-Kliniken Münster GmbH,8-839.88,260550142-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550142-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.81,260550460-99,5,5,True,2,5,1,0,6,7,8,True,False,True,False,260550460-01|260550460-03,retain all components; exclude aggregate; residual diagnostic only,5
+2018,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.88,260550460-99,0,0,True,2,0,2,0,2,4,6,False,,,,260550460-01|260550460-03,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.8a,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260551165,Klinikum Vest GmbH,8-839.88,260551165-99,0,0,True,1,0,1,0,1,2,3,False,,,,260551165-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.81,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.83,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.86,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.87,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.88,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260570044,Evangelisches Klinikum Bethel gGmbH,8-839.8x,260570044-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570044-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.82,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.83,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.84,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.85,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260590139,Klinikzentrum Mitte,8-839.81,260590139-99,14,14,False,1,14,0,0,14,14,14,True,True,True,False,260590139-01,retain all components; exclude aggregate; residual diagnostic only,14
+2018,260590139,Klinikzentrum Mitte,8-839.86,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260590139,Klinikzentrum Mitte,8-839.87,260590139-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590139-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260590139,Klinikzentrum Mitte,8-839.88,260590139-99,13,13,False,1,13,0,0,13,13,13,True,True,True,False,260590139-01,retain all components; exclude aggregate; residual diagnostic only,13
+2018,260590457,"Marien Hospital Herne, Klinikum der Ruhr-Universität Bochum",8-839.81,260590457-99,0,0,True,1,0,1,0,1,2,3,False,,,,260590457-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.81,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.88,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260592084,St. Barbara-Klinik Hamm GmbH,8-839.81,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260592084,St. Barbara-Klinik Hamm GmbH,8-839.88,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260592084,St. Barbara-Klinik Hamm GmbH,8-839.8a,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260593085,Diakonie Klinikum GmbH,8-839.81,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260593085,Diakonie Klinikum GmbH,8-839.87,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260593085,Diakonie Klinikum GmbH,8-839.88,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.81,260610393-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260610393-01,retain all components; exclude aggregate; residual diagnostic only,4
+2018,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.84,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.86,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.87,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.88,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.89,260610393-99,0,0,True,1,0,1,0,1,2,3,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260710087,Krankenhaus Maria Hilf,8-839.81,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260710087,Krankenhaus Maria Hilf,8-839.82,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260710087,Krankenhaus Maria Hilf,8-839.88,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260710087,Krankenhaus Maria Hilf,8-839.8a,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260720034,Klinikum Mutterhaus der Borromäerinnen,8-839.81,260720034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260720034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260720034,Klinikum Mutterhaus der Borromäerinnen,8-839.88,260720034-99,0,0,True,1,0,2,0,2,4,6,False,,,,260720034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260810271,Robert-Bosch-Krankenhaus,8-839.88,260810271-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810271-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260810589,ALB FILS KLINIKEN,8-839.88,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.81,260812364-99,40,40,False,2,40,0,0,40,40,40,True,True,True,False,260812364-01|260812364-02,retain all components; exclude aggregate; residual diagnostic only,40
+2018,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.86,260812364-99,0,0,True,2,0,2,0,2,4,6,False,,,,260812364-01|260812364-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.88,260812364-99,27,27,False,2,27,0,0,27,27,27,True,True,True,False,260812364-01|260812364-02,retain all components; exclude aggregate; residual diagnostic only,27
+2018,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.8a,260812364-99,0,0,True,2,0,2,0,2,4,6,False,,,,260812364-01|260812364-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.81,260833520-99,0,0,True,1,0,1,0,1,2,3,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.88,260833520-99,0,0,True,1,0,1,0,1,2,3,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260910637,RoMed Klinikum Rosenheim,8-839.81,260910637-99,5,5,True,2,5,3,0,8,11,14,True,False,True,False,260910637-01|260910637-02,retain all components; exclude aggregate; residual diagnostic only,5
+2018,260910637,RoMed Klinikum Rosenheim,8-839.82,260910637-99,0,0,True,1,0,1,0,1,2,3,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260910637,RoMed Klinikum Rosenheim,8-839.86,260910637-99,0,0,True,1,0,1,0,1,2,3,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260910637,RoMed Klinikum Rosenheim,8-839.87,260910637-99,0,0,True,2,0,2,0,2,4,6,False,,,,260910637-01|260910637-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260910637,RoMed Klinikum Rosenheim,8-839.89,260910637-99,0,0,True,1,0,1,0,1,2,3,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.81,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.85,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.86,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.88,260912434-99,0,0,True,2,0,2,0,2,4,6,False,,,,260912434-01|260912434-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260920069,Klinikum Passau,8-839.81,260920069-99,11,11,False,1,11,0,0,11,11,11,True,True,True,False,260920069-01,retain all components; exclude aggregate; residual diagnostic only,11
+2018,260920069,Klinikum Passau,8-839.88,260920069-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260920069-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,260920069,Klinikum Passau,8-839.8x,260920069-99,6,6,True,1,6,1,0,7,8,9,True,False,True,False,260920069-01,retain all components; exclude aggregate; residual diagnostic only,6
+2018,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.81,260930129-99,0,0,True,1,0,2,0,2,4,6,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.87,260930129-99,0,0,True,1,0,1,0,1,2,3,False,,,,260930129-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260930129,"Kliniken Nordoberpfalz AG - Weiden, Vohenstrauß, Neustadt",8-839.88,260930129-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260930129-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,260950099,Klinikum Nürnberg,8-839.81,260950099-99,17,17,False,1,17,0,0,17,17,17,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,17
+2018,260950099,Klinikum Nürnberg,8-839.83,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260950099,Klinikum Nürnberg,8-839.84,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260950099,Klinikum Nürnberg,8-839.86,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260950099,Klinikum Nürnberg,8-839.87,260950099-99,0,0,True,1,0,1,0,1,2,3,False,,,,260950099-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260950099,Klinikum Nürnberg,8-839.88,260950099-99,14,14,False,1,14,0,0,14,14,14,True,True,True,False,260950099-01,retain all components; exclude aggregate; residual diagnostic only,14
+2018,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.81,260970015-99,14,14,False,1,14,0,0,14,14,14,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,14
+2018,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.86,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.87,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,260970015,Kommunalunternehmen Klinikum Augsburg,8-839.88,260970015-99,10,10,False,1,10,0,0,10,10,10,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,10
+2018,260970709,Klinikverbund Kempten-Oberallgäu gGmbH,8-839.82,260970709-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970709-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,22,22,True,7,22,6,0,28,34,40,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,22
+2018,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,0,0,True,3,0,3,0,3,6,9,False,,,,261101878-01|261101878-03|261101878-04,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,5,5,True,7,5,6,0,11,17,23,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,5
+2018,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,22,22,True,8,22,7,0,29,36,43,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,22
+2018,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8a,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261200538,"Havelland Kliniken GmbH, Klinik Nauen",8-839.81,261200538-99,0,0,True,2,0,2,0,2,4,6,False,,,,261200538-01|261200538-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261200538,"Havelland Kliniken GmbH, Klinik Nauen",8-839.87,261200538-99,0,0,True,2,0,4,0,4,8,12,False,,,,261200538-01|261200538-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.81,261201061-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,261201061-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.87,261201061-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261201061-01,retain all components; exclude aggregate; residual diagnostic only,4
+2018,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.88,261201061-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201061-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261201414,Klinikum Dahme Spreewald GmbH,8-839.81,261201414-99,5,5,True,2,5,1,0,6,7,8,True,False,True,False,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,5
+2018,261201414,Klinikum Dahme Spreewald GmbH,8-839.87,261201414-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261201414-02,retain all components; exclude aggregate; residual diagnostic only,4
+2018,261201414,Klinikum Dahme Spreewald GmbH,8-839.88,261201414-99,0,0,True,2,0,2,0,2,4,6,False,,,,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,14,14,True,1,14,2,0,16,18,20,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,14
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.82,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.83,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.84,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.86,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.87,261300152-99,6,6,True,1,6,2,0,8,10,12,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,6
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.88,261300152-99,7,7,True,1,7,2,0,9,11,13,True,False,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,7
+2018,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.8x,261300152-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300152-01,retain all components; exclude aggregate; residual diagnostic only,4
+2018,261300185,Helios Kliniken Schwerin,8-839.81,261300185-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300185-01,retain all components; exclude aggregate; residual diagnostic only,4
+2018,261300185,Helios Kliniken Schwerin,8-839.88,261300185-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,261300185-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,261300356,Sana HANSE-Klinikum Wismar GmbH,8-839.81,261300356-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300356-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300367,Helios Hanseklinikum Stralsund,8-839.81,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300367,Helios Hanseklinikum Stralsund,8-839.88,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300367,Helios Hanseklinikum Stralsund,8-839.8x,261300367-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300367-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.81,261300425-99,9,0,True,1,9,3,0,12,15,18,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.83,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.84,261300425-99,0,0,True,1,0,3,0,3,6,9,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.86,261300425-99,10,0,True,1,10,2,0,12,14,16,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.87,261300425-99,16,0,True,1,16,2,0,18,20,22,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.88,261300425-99,32,0,True,1,32,1,0,33,34,35,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.89,261300425-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261400949,Städtisches Klinikum Dresden,8-839.81,261400949-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,261400949-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,261400949,Städtisches Klinikum Dresden,8-839.88,261400949-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,261400949-01,retain all components; exclude aggregate; residual diagnostic only,5
+2018,261401416,Klinikum Chemnitz gGmbH,8-839.81,261401416-99,9,9,True,1,9,2,0,11,13,15,True,False,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,9
+2018,261401416,Klinikum Chemnitz gGmbH,8-839.82,261401416-99,7,7,True,1,7,1,0,8,9,10,True,False,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,7
+2018,261401416,Klinikum Chemnitz gGmbH,8-839.88,261401416-99,8,8,True,1,8,2,0,10,12,14,True,False,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,8
+2018,261401416,Klinikum Chemnitz gGmbH,8-839.89,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261401416,Klinikum Chemnitz gGmbH,8-839.8x,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261600521,Hufeland Klinikum GmbH,8-839.88,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.81,261600872-99,0,0,True,2,0,2,0,2,4,6,False,,,,261600872-01|261600872-02,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.86,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2018,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.88,261600872-99,4,0,True,2,4,1,0,5,6,7,True,False,True,False,261600872-01|261600872-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260100023,Diakonissenkrankenhaus Flensburg,8-839.81,260100023-99,0,0,True,1,0,2,0,2,4,6,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260100023,Diakonissenkrankenhaus Flensburg,8-839.86,260100023-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100023-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.81,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.86,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260100034,Malteser Krankenhaus St. Franziskus-Hospital,8-839.87,260100034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260100034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.81,260102343-99,26,26,False,2,26,0,0,26,26,26,True,True,True,False,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,26
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.84,260102343-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102343-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.86,260102343-99,29,29,False,1,29,0,0,29,29,29,True,True,True,False,260102343-01,retain all components; exclude aggregate; residual diagnostic only,29
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.87,260102343-99,37,37,False,1,37,0,0,37,37,37,True,True,True,False,260102343-01,retain all components; exclude aggregate; residual diagnostic only,37
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.88,260102343-99,9,9,False,2,9,0,0,9,9,9,True,True,True,False,260102343-01|260102343-02,retain all components; exclude aggregate; residual diagnostic only,9
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.89,260102343-99,23,23,False,1,23,0,0,23,23,23,True,True,True,False,260102343-01,retain all components; exclude aggregate; residual diagnostic only,23
+2019,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,8-839.8x,260102343-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102343-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260102423,Sana Kliniken Lübeck GmbH,8-839.81,260102423-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102423-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260102423,Sana Kliniken Lübeck GmbH,8-839.86,260102423-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102423-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260102423,Sana Kliniken Lübeck GmbH,8-839.87,260102423-99,0,0,True,1,0,1,0,1,2,3,False,,,,260102423-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260200091,Asklepios  Westklinikum Hamburg GmbH,8-839.87,260200091-99,0,0,True,1,0,1,0,1,2,3,False,,,,260200091-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510212,Sana Kliniken Duisburg - Wedau Kliniken,8-839.87,260510212-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510212-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510256,Helios St. Johannes Klinik,8-839.81,260510256-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510256-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510256,Helios St. Johannes Klinik,8-839.86,260510256-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510256-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510256,Helios St. Johannes Klinik,8-839.87,260510256-99,11,11,True,1,11,1,0,12,13,14,True,False,True,False,260510256-01,retain all components; exclude aggregate; residual diagnostic only,11
+2019,260510575,Helios Klinikum Krefeld,8-839.81,260510575-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510575-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510575,Helios Klinikum Krefeld,8-839.88,260510575-99,6,6,False,1,6,0,0,6,6,6,True,True,True,False,260510575-01,retain all components; exclude aggregate; residual diagnostic only,6
+2019,260510906,HELIOS Universitätsklinikum Wuppertal GmbH,8-839.82,260510906-99,0,0,True,1,0,2,0,2,4,6,False,,,,260510906-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.81,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.86,260510939-99,0,0,True,1,0,1,0,1,2,3,False,,,,260510939-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260510939,Klinikverbund St. Antonius und St. Josef GmbH,8-839.88,260510939-99,12,12,False,1,12,0,0,12,12,12,True,True,True,False,260510939-01,retain all components; exclude aggregate; residual diagnostic only,12
+2019,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.81,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260550460,Christophorus-Kliniken Coesfeld Dülmen Nottuln,8-839.88,260550460-99,0,0,True,1,0,1,0,1,2,3,False,,,,260550460-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260551165,Klinikum Vest GmbH,8-839.88,260551165-99,0,0,True,2,0,2,0,2,4,6,False,,,,260551165-01|260551165-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260551381,Klinikum Ibbenbüren,8-839.81,260551381-99,0,0,True,1,0,1,0,1,2,3,False,,,,260551381-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260551381,Klinikum Ibbenbüren,8-839.87,260551381-99,0,0,True,1,0,1,0,1,2,3,False,,,,260551381-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260551381,Klinikum Ibbenbüren,8-839.88,260551381-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260551381-02,retain all components; exclude aggregate; residual diagnostic only,4
+2019,260570486,Klinikum Lippe GmbH,8-839.88,260570486-99,0,0,True,1,0,1,0,1,2,3,False,,,,260570486-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.81,260571421-99,4,4,True,2,4,3,0,7,10,13,True,False,True,False,260571421-01|260571421-02,retain all components; exclude aggregate; residual diagnostic only,4
+2019,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.82,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.83,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.84,260571421-99,0,0,True,1,0,1,0,1,2,3,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.85,260571421-99,0,0,True,1,0,2,0,2,4,6,False,,,,260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,8-839.87,260571421-99,0,0,True,2,0,2,0,2,4,6,False,,,,260571421-01|260571421-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260590139,Klinikzentrum Mitte,8-839.81,260590139-99,14,14,True,1,14,2,0,16,18,20,True,False,True,False,260590139-01,retain all components; exclude aggregate; residual diagnostic only,14
+2019,260590139,Klinikzentrum Mitte,8-839.88,260590139-99,14,14,True,1,14,2,0,16,18,20,True,False,True,False,260590139-01,retain all components; exclude aggregate; residual diagnostic only,14
+2019,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.81,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.84,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.86,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.87,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260591506,Katholisches Klinikum Lünen/Werne GmbH,8-839.88,260591506-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591506-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260591619,Klinikum Westfalen GmbH,8-839.88,260591619-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,260591619-01,retain all components; exclude aggregate; residual diagnostic only,4
+2019,260591619,Klinikum Westfalen GmbH,8-839.8x,260591619-99,0,0,True,1,0,1,0,1,2,3,False,,,,260591619-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260592084,St. Barbara-Klinik Hamm GmbH,8-839.81,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260592084,St. Barbara-Klinik Hamm GmbH,8-839.88,260592084-99,0,0,True,1,0,1,0,1,2,3,False,,,,260592084-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260593085,Diakonie Klinikum GmbH,8-839.81,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260593085,Diakonie Klinikum GmbH,8-839.84,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260593085,Diakonie Klinikum GmbH,8-839.87,260593085-99,0,0,True,1,0,1,0,1,2,3,False,,,,260593085-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260610393,Helios Dr. Horst Schmidt Kliniken Wiesbaden,8-839.88,260610393-99,0,0,True,1,0,2,0,2,4,6,False,,,,260610393-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,8-839.88,260641243-99,0,0,True,1,0,1,0,1,2,3,False,,,,260641243-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260700109,Gemeinschaftsklinikum Mittelrhein gGmbH,8-839.81,260700109-99,0,0,True,1,0,1,0,1,2,3,False,,,,260700109-04,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260710087,Krankenhaus Maria Hilf,8-839.81,260710087-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260710087-01,retain all components; exclude aggregate; residual diagnostic only,5
+2019,260710087,Krankenhaus Maria Hilf,8-839.87,260710087-99,0,0,True,1,0,1,0,1,2,3,False,,,,260710087-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260710087,Krankenhaus Maria Hilf,8-839.88,260710087-99,5,5,True,1,5,1,0,6,7,8,True,False,True,False,260710087-01,retain all components; exclude aggregate; residual diagnostic only,5
+2019,260711852,Katholisches Klinikum Koblenz·Montabaur,8-839.81,260711852-99,0,0,True,1,0,1,0,1,2,3,False,,,,260711852-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260711852,Katholisches Klinikum Koblenz·Montabaur,8-839.88,260711852-99,0,0,True,1,0,1,0,1,2,3,False,,,,260711852-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260720034,Klinikum Mutterhaus der Borromäerinnen,8-839.88,260720034-99,0,0,True,1,0,1,0,1,2,3,False,,,,260720034-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,8-839.81,260730025-99,0,0,True,1,0,1,0,1,2,3,False,,,,260730025-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,8-839.88,260730025-99,0,0,True,1,0,1,0,1,2,3,False,,,,260730025-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260730478,[2017-07-14 10:43:11] Nardini Klinikum St. Elisabeth Zweibrücken,8-839.87,260730478-99,0,0,True,1,0,1,0,1,2,3,False,,,,260730478-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260810271,Robert-Bosch-Krankenhaus,8-839.81,260810271-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810271-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260810271,Robert-Bosch-Krankenhaus,8-839.88,260810271-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810271-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260810271,Robert-Bosch-Krankenhaus,8-839.8a,260810271-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810271-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260810589,ALB FILS KLINIKEN,8-839.81,260810589-99,0,0,True,1,0,1,0,1,2,3,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260810589,ALB FILS KLINIKEN,8-839.88,260810589-99,0,0,True,1,0,2,0,2,4,6,False,,,,260810589-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.81,260812364-99,35,35,True,1,35,1,0,36,37,38,True,False,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,35
+2019,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.86,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.87,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.88,260812364-99,24,24,True,1,24,1,0,25,26,27,True,False,True,False,260812364-01,retain all components; exclude aggregate; residual diagnostic only,24
+2019,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.8a,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,8-839.8x,260812364-99,0,0,True,1,0,1,0,1,2,3,False,,,,260812364-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260812525,Klinikum Sindelfingen-Böblingen,8-839.88,260812525-99,0,0,True,1,0,2,0,2,4,6,False,,,,260812525-04,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260820284,Fürst-Stirum-Klinik Bruchsal,8-839.81,260820284-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820284-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260820284,Fürst-Stirum-Klinik Bruchsal,8-839.87,260820284-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820284-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260820433,Klinikum Mittelbaden Rastatt,8-839.81,260820433-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820433-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260820433,Klinikum Mittelbaden Rastatt,8-839.89,260820433-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820433-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260820433,Klinikum Mittelbaden Rastatt,8-839.8a,260820433-99,0,0,True,1,0,1,0,1,2,3,False,,,,260820433-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.81,260833520-99,0,0,True,1,0,1,0,1,2,3,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.82,260833520-99,0,0,True,1,0,1,0,1,2,3,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.84,260833520-99,0,0,True,1,0,1,0,1,2,3,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.88,260833520-99,5,5,False,1,5,0,0,5,5,5,True,True,True,False,260833520-01,retain all components; exclude aggregate; residual diagnostic only,5
+2019,260833520,Ortenau Klinikum Lahr-Ettenheim,8-839.89,260833520-99,0,0,True,1,0,2,0,2,4,6,False,,,,260833520-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260910637,RoMed Klinikum Rosenheim,8-839.81,260910637-99,0,0,True,1,0,2,0,2,4,6,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260910637,RoMed Klinikum Rosenheim,8-839.87,260910637-99,0,0,True,1,0,1,0,1,2,3,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260910637,RoMed Klinikum Rosenheim,8-839.89,260910637-99,0,0,True,1,0,1,0,1,2,3,False,,,,260910637-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.81,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.87,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,8-839.88,260912434-99,0,0,True,1,0,1,0,1,2,3,False,,,,260912434-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260920069,Klinikum Passau,8-839.81,260920069-99,11,11,True,1,11,1,0,12,13,14,True,False,True,False,260920069-01,retain all components; exclude aggregate; residual diagnostic only,11
+2019,260920069,Klinikum Passau,8-839.86,260920069-99,0,0,True,1,0,1,0,1,2,3,False,,,,260920069-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260920069,Klinikum Passau,8-839.88,260920069-99,11,11,True,1,11,1,0,12,13,14,True,False,True,False,260920069-01,retain all components; exclude aggregate; residual diagnostic only,11
+2019,260920069,Klinikum Passau,8-839.8x,260920069-99,9,9,True,1,9,1,0,10,11,12,True,False,True,False,260920069-01,retain all components; exclude aggregate; residual diagnostic only,9
+2019,260920127,DONAUISAR Klinikum Deggendorf-Landau,8-839.88,260920127-99,0,0,True,1,0,1,0,1,2,3,False,,,,260920127-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260940029,Sozialstiftung Bamberg Klinikum Bamberg,8-839.81,260940029-99,0,0,True,1,0,1,0,1,2,3,False,,,,260940029-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260940029,Sozialstiftung Bamberg Klinikum Bamberg,8-839.88,260940029-99,0,0,True,1,0,1,0,1,2,3,False,,,,260940029-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260970015,Universitätsklinikum Augsburg A.ö.R.,8-839.81,260970015-99,15,15,False,1,15,0,0,15,15,15,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,15
+2019,260970015,Universitätsklinikum Augsburg A.ö.R.,8-839.83,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260970015,Universitätsklinikum Augsburg A.ö.R.,8-839.84,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260970015,Universitätsklinikum Augsburg A.ö.R.,8-839.86,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260970015,Universitätsklinikum Augsburg A.ö.R.,8-839.87,260970015-99,0,0,True,1,0,1,0,1,2,3,False,,,,260970015-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,260970015,Universitätsklinikum Augsburg A.ö.R.,8-839.88,260970015-99,15,15,False,1,15,0,0,15,15,15,True,True,True,False,260970015-01,retain all components; exclude aggregate; residual diagnostic only,15
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.81,261101878-99,24,24,True,6,24,8,0,32,40,48,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,24
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.83,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-04,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.84,261101878-99,0,0,True,4,0,5,0,5,10,15,False,,,,261101878-01|261101878-02|261101878-04|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.85,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.86,261101878-99,0,0,True,4,0,5,0,5,10,15,False,,,,261101878-02|261101878-03|261101878-04|261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.87,261101878-99,0,0,True,5,0,8,0,8,16,24,False,,,,261101878-02|261101878-04|261101878-05|261101878-06|261101878-09,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.88,261101878-99,24,24,True,8,24,11,0,35,46,57,True,False,True,False,261101878-01|261101878-02|261101878-03|261101878-04|261101878-05|261101878-06|261101878-08|261101878-09,retain all components; exclude aggregate; residual diagnostic only,24
+2019,261101878,Vivantes Netzwerk für Gesundheit GmbH,8-839.8x,261101878-99,0,0,True,1,0,1,0,1,2,3,False,,,,261101878-06,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261200538,"Havelland Kliniken GmbH, Klinik Nauen",8-839.81,261200538-99,0,0,True,1,0,1,0,1,2,3,False,,,,261200538-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261200538,"Havelland Kliniken GmbH, Klinik Nauen",8-839.87,261200538-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261200538-01,retain all components; exclude aggregate; residual diagnostic only,4
+2019,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.81,261201061-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201061-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.87,261201061-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201061-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.88,261201061-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201061-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261201061,Klinikum Frankfurt (Oder) GmbH,8-839.8a,261201061-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201061-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261201414,Klinikum Dahme Spreewald GmbH,8-839.81,261201414-99,0,0,True,2,0,2,0,2,4,6,False,,,,261201414-01|261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261201414,Klinikum Dahme Spreewald GmbH,8-839.87,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261201414,Klinikum Dahme Spreewald GmbH,8-839.88,261201414-99,0,0,True,1,0,1,0,1,2,3,False,,,,261201414-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.81,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.83,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.87,261300152-99,0,0,True,1,0,1,0,1,2,3,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.88,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,8-839.8x,261300152-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300152-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300185,Helios Kliniken Schwerin,8-839.81,261300185-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300185-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300185,Helios Kliniken Schwerin,8-839.88,261300185-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300185-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.81,261300425-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,4
+2019,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.84,261300425-99,0,0,True,1,0,2,0,2,4,6,False,,,,261300425-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.86,261300425-99,4,4,True,1,4,3,0,7,10,13,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,4
+2019,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.87,261300425-99,11,11,True,1,11,1,0,12,13,14,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,11
+2019,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,8-839.88,261300425-99,24,24,True,1,24,1,0,25,26,27,True,False,True,False,261300425-01,retain all components; exclude aggregate; residual diagnostic only,24
+2019,261400949,Städtisches Klinikum Dresden,8-839.81,261400949-99,0,0,True,1,0,2,0,2,4,6,False,,,,261400949-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261400949,Städtisches Klinikum Dresden,8-839.88,261400949-99,0,0,True,1,0,2,0,2,4,6,False,,,,261400949-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261401416,Klinikum Chemnitz gGmbH,8-839.81,261401416-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,7
+2019,261401416,Klinikum Chemnitz gGmbH,8-839.88,261401416-99,7,7,False,1,7,0,0,7,7,7,True,True,True,False,261401416-01,retain all components; exclude aggregate; residual diagnostic only,7
+2019,261401416,Klinikum Chemnitz gGmbH,8-839.8x,261401416-99,0,0,True,1,0,1,0,1,2,3,False,,,,261401416-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600521,Hufeland Klinikum GmbH,8-839.81,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600521,Hufeland Klinikum GmbH,8-839.87,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600521,Hufeland Klinikum GmbH,8-839.88,261600521-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600521-02,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.81,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.82,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.83,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.86,261600872-99,0,0,True,1,0,1,0,1,2,3,False,,,,261600872-01,retain all components; exclude aggregate; residual diagnostic only,0
+2019,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,8-839.88,261600872-99,4,4,False,1,4,0,0,4,4,4,True,True,True,False,261600872-01,retain all components; exclude aggregate; residual diagnostic only,4

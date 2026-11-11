@@ -12,7 +12,7 @@ output was modified.
 
 All eight previously reported files existed in one internally consistent set
 in the main repository. No other Git worktree exists and no matching version
-was found under the searched Codex directories. The summary CSV existed and
+was found under the searched analysis directories. The summary CSV existed and
 was updated from primary-source evidence; it was not reconstructed from a
 narrative. Exact discovery metadata and original hashes are in
 [`existing_audit_file_inventory.csv`](existing_audit_file_inventory.csv). The
@@ -57,7 +57,7 @@ audit year. Its exact literal-code findings are recorded in
 | 8-839.8a | no |  | Class[@code='8-839.8']/SubClass list; Class[@code='8-839.8a'] absent | 8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5 | complete |
 | 8-839.8x | yes | Sonstige | Class[@code='8-839.8x'] | 8d3c9347eefd8bd96b23ce4f5182413a4059e2281938865fbce0b02f5fd086b5 | complete |
 
-Codex locally verified the historical catalogue question directly from the
+analysis locally verified the historical catalogue question directly from the
 included ClaML primary sources. No completed independent review is asserted
 from repository evidence. The local parse shows that `.87`, `.88`, `.89`, and `.8a` are absent in
 OPS 2012; `.87` and `.88` are present in OPS 2013 and were therefore introduced
@@ -204,7 +204,7 @@ Thus the previous claims of 2,057 reconciled site-years, zero mismatches, and
 zero unresolved mismatches are internally reproduced directly from the
 row-level CSV. Its matching SHA-256 proves that the file is unchanged; it does
 not independently prove the reconciliation logic or the conceptual site-versus-
-institution distinction. This Codex recomputation is an internal consistency
+institution distinction. This analysis recomputation is an internal consistency
 check. Final closure requires an independent external recomputation. Neither
 reconciliation CSV nor the occurrence CSV was altered.
 

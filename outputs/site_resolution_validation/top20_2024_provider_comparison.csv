@@ -1,0 +1,61 @@
+definition,rank,provider_identifier,hospital_name,ik,visible_activity,legacy_production_value_direct_match,absolute_difference_from_direct_legacy_match,difference_reason
+legacy_production,1,260530103-772247000,Universitätsklinikum Bonn,260530103,306,306,0,reference
+legacy_production,2,260510018-773410000,Universitätsklinikum Düsseldorf,260510018,269,269,0,reference
+legacy_production,3,260930608-771402000,Universitätsklinikum Regensburg,260930608,227,227,0,reference
+legacy_production,4,261101015-772563000,Charité - Universitätsmedizin Berlin,261101015,218,218,0,reference
+legacy_production,5,260200013-773675000,Universitätsklinikum Hamburg-Eppendorf,260200013,201,201,0,reference
+legacy_production,6,260530443-771696000,Cellitinnen-Krankenhaus St. Vinzenz,260530443,201,201,0,reference
+legacy_production,7,260550131-772432000,Universitätsklinikum Münster,260550131,154,154,0,reference
+legacy_production,8,260820466-771700000,Universitätsklinikum Heidelberg,260820466,137,137,0,reference
+legacy_production,9,260832299-773657000,Universitätsklinikum Freiburg,260832299,137,137,0,reference
+legacy_production,10,260810647-772121000,Klinikum Ludwigsburg,260810647,124,124,0,reference
+legacy_production,11,261600736-772874000,Universitätsklinikum Jena,261600736,121,121,0,reference
+legacy_production,12,260102343-773448000,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,260102343,118,118,0,reference
+legacy_production,13,260914050-771736000,LMU Klinikum,260914050,118,118,0,reference
+legacy_production,14,260812364-772783000,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,260812364,117,117,0,reference
+legacy_production,15,261401030-773444000,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",261401030,113,113,0,reference
+legacy_production,16,260730161-771621000,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,260730161,112,112,0,reference
+legacy_production,17,260612124-772858000,Universitätsklinikum Frankfurt,260612124,95,95,0,reference
+legacy_production,18,260320597-771519000,Medizinische Hochschule Hannover,260320597,92,92,0,reference
+legacy_production,19,260102343-773447000,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,260102343,88,88,0,reference
+legacy_production,20,260310378-772918000,Universitätsmedizin Göttingen,260310378,81,81,0,reference
+corrected_physical_site,1,260530103-772247000,Universitätsklinikum Bonn,260530103,306,306,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,2,260510018-773410000,Universitätsklinikum Düsseldorf,260510018,269,269,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,3,260930608-771402000,Universitätsklinikum Regensburg,260930608,227,227,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,4,261101015-772563000,Charité - Universitätsmedizin Berlin,261101015,218,218,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,5,260530443-771696000,Cellitinnen-Krankenhaus St. Vinzenz,260530443,201,201,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,6,260200013-773675000,Universitätsklinikum Hamburg-Eppendorf,260200013,201,201,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,7,260550131-772432000,Universitätsklinikum Münster,260550131,154,154,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,8,260820466-771700000,Universitätsklinikum Heidelberg,260820466,137,137,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,9,260832299-773657000,Universitätsklinikum Freiburg,260832299,137,137,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,10,260810647-772121000,Klinikum Ludwigsburg,260810647,124,124,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,11,261600736-772874000,Universitätsklinikum Jena,261600736,121,121,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,12,260102343-773448000,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,260102343,118,118,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,13,260914050-771736000,LMU Klinikum,260914050,118,118,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,14,260812364-772783000,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,260812364,117,117,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,15,261401030-773444000,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",261401030,113,113,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,16,260730161-771621000,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,260730161,112,112,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,17,260612124-772858000,Universitätsklinikum Frankfurt,260612124,95,95,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,18,260320597-771519000,Medizinische Hochschule Hannover,260320597,92,92,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,19,260102343-773447000,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,260102343,88,88,0,exact-code aggregate 99 removed where components coexist
+corrected_physical_site,20,260310378-772918000,Universitätsmedizin Göttingen,260310378,81,81,0,exact-code aggregate 99 removed where components coexist
+corrected_institution,1,260530103,Universitätsklinikum Bonn,260530103,306,306,0,resolved component sites aggregated once by IK
+corrected_institution,2,260510018,Universitätsklinikum Düsseldorf,260510018,269,269,0,resolved component sites aggregated once by IK
+corrected_institution,3,260930608,Universitätsklinikum Regensburg,260930608,227,227,0,resolved component sites aggregated once by IK
+corrected_institution,4,261101015,Charité - Universitätsmedizin Berlin,261101015,218,218,0,resolved component sites aggregated once by IK
+corrected_institution,5,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,260102343,206,206,0,resolved component sites aggregated once by IK
+corrected_institution,6,260200013,Universitätsklinikum Hamburg-Eppendorf,260200013,201,201,0,resolved component sites aggregated once by IK
+corrected_institution,7,260530443,Cellitinnen-Krankenhaus St. Vinzenz,260530443,201,201,0,resolved component sites aggregated once by IK
+corrected_institution,8,260550131,Universitätsklinikum Münster,260550131,154,154,0,resolved component sites aggregated once by IK
+corrected_institution,9,260820466,Universitätsklinikum Heidelberg,260820466,137,137,0,resolved component sites aggregated once by IK
+corrected_institution,10,260832299,Universitätsklinikum Freiburg,260832299,137,137,0,resolved component sites aggregated once by IK
+corrected_institution,11,260810647,Klinikum Ludwigsburg,260810647,124,124,0,resolved component sites aggregated once by IK
+corrected_institution,12,261600736,Universitätsklinikum Jena,261600736,121,121,0,resolved component sites aggregated once by IK
+corrected_institution,13,260914050,LMU Klinikum,260914050,118,118,0,resolved component sites aggregated once by IK
+corrected_institution,14,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,260812364,117,117,0,resolved component sites aggregated once by IK
+corrected_institution,15,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",261401030,113,113,0,resolved component sites aggregated once by IK
+corrected_institution,16,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,260730161,112,112,0,resolved component sites aggregated once by IK
+corrected_institution,17,260612124,Universitätsklinikum Frankfurt,260612124,95,95,0,resolved component sites aggregated once by IK
+corrected_institution,18,260320597,Medizinische Hochschule Hannover,260320597,92,92,0,resolved component sites aggregated once by IK
+corrected_institution,19,260310378,Universitätsmedizin Göttingen,260310378,81,81,0,resolved component sites aggregated once by IK
+corrected_institution,20,260530283,Universitätsklinikum Köln,260530283,75,75,0,resolved component sites aggregated once by IK

@@ -1,0 +1,6 @@
+threshold,hospitals,pct_of_hospitals_any,cases_in_threshold,pct_of_cases_total,median_cases,max_cases
+1,113,100.0,5247,100.0,23.0,306
+20,60,53.1,4679,89.17,52.0,306
+50,31,27.43,3717,70.84,112.0,306
+100,16,14.16,2673,50.94,137.0,306
+200,6,5.31,1422,27.1,222.5,306

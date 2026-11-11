@@ -1,0 +1,12 @@
+check,passed,detail
+exactly_15_bars,True,observed=15
+exact_year_sequence,True,"[2008, 2010, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]"
+no_2009,True,2009 absent
+no_2011,True,2011 absent
+all_stacks_equal_openly_numeric_sites,True,mismatches=0
+all_categories_non_negative_integers,True,minimum=0
+2008_total_equals_28,True,observed=28
+2024_total_equals_113,True,observed=113
+2024_segments_equal_53_29_15_10_6,True,"observed=[53, 29, 15, 10, 6]"
+legend_order_matches_stack_order,True,"['4–19', '20–49', '50–99', '100–199', '≥200']"
+independent_corrected_Table_S1_crosscheck,True,all 15 annual openly numeric and threshold counts match

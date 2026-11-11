@@ -68,3 +68,14 @@ outputs/ops_code_audit_2013_2024/manual_review_package/
 *.log
 tmp/
 temp/
+
+# Submission lock: derived tables and saved geometry only
+!outputs/**/
+!outputs/**/*.csv
+!outputs/**/*.geojson
+!outputs/late_stage_accessibility_193_113_2026-08-14/inputs_verified/routing_environment_metadata.json
+!outputs/late_stage_accessibility_193_113_2026-08-14/inputs_verified/population_settlement_metadata.json
+*.tif
+*.tiff
+ors-docker/
+!outputs/late_stage_revision_2026-08-14/figure3_comparison/Figure3_candidate_B_identifiable_network.png

@@ -1,0 +1,3 @@
+group,total_sites,coordinates_already_in_canonical_source,coordinates_reused_from_other_project_asset,automatically_preview_geocoded,still_unplottable,low_precision_or_administrative_flag_rows,duplicate_coordinate_flag_rows,outside_germany_polygon_flag_rows,all_additional_coordinates_manually_validated
+numeric_lt20,53,53,0,0,0,33,5,0,False
+suppressed_only,80,0,0,80,0,0,2,0,False

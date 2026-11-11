@@ -1,0 +1,175 @@
+ik,hospital_name,city,total_cases,years_active,first_year,last_year,max_single_year_cases
+260530103,Universitätsklinikum Bonn,Bonn,2996,15,2008,2024,306
+260200013,Universitätsklinikum Hamburg-Eppendorf,Hamburg,2669,15,2008,2024,240
+260832299,Universitätsklinikum Freiburg,Freiburg,2199,15,2008,2024,211
+260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,Lübeck,2175,15,2008,2024,314
+260930608,Universitätsklinikum Regensburg,Regensburg,2120,15,2008,2024,290
+260510018,Universitätsklinikum Düsseldorf,Düsseldorf,1978,15,2008,2024,269
+261101878,Vivantes - Netzwerk für Gesundheit GmbH,Berlin,1714,15,2008,2024,252
+261101015,Charité - Universitätsmedizin Berlin,Berlin,1655,15,2008,2024,218
+260820466,Universitätsklinikum Heidelberg,Heidelberg,1526,15,2008,2024,144
+260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Mainz,1443,15,2008,2024,219
+260810647,Klinikum Ludwigsburg,Ludwigsburg,1367,15,2008,2024,130
+260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,Stuttgart,1203,14,2010,2024,216
+260612124,Universitätsklinikum Frankfurt,Frankfurt am Main,1112,15,2008,2024,321
+260320597,Medizinische Hochschule Hannover,Hannover,1013,14,2010,2024,159
+260550131,Universitätsklinikum Münster,Münster,980,14,2010,2024,178
+261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,Rostock,962,14,2008,2024,140
+261600736,Universitätsklinikum Jena,Jena,818,12,2012,2024,138
+261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,Magdeburg,712,14,2010,2024,101
+261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Dresden,706,12,2013,2024,116
+260840108,EchTAZ,Reutlingen,664,15,2008,2024,78
+260914050,LMU Klinikum,München,615,15,2008,2024,118
+261400530,Verbund Gemeindenahe Psychiatrie - Demmeringstr. 47,Leipzig,586,14,2010,2024,62
+260310378,Universitätsmedizin Göttingen,Göttingen,584,15,2008,2024,120
+261000013,Klinikum Saarbrücken,Saarbrücken,551,15,2008,2024,62
+260510381,Universitätsklinikum Essen (AöR),Essen,545,14,2010,2024,69
+260530283,Universitätsklinikum Köln,Köln,506,13,2012,2024,75
+261400847,Helios Park-Klinikum Leipzig,Leipzig,487,13,2012,2024,67
+261500702,Universitätsklinikum Halle (Saale),Halle (Saale),484,15,2008,2024,58
+261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Leipzig,474,13,2008,2024,130
+260950099,Klinikum Nürnberg Süd,Nürnberg,467,14,2008,2024,62
+260970015,Universitätsklinikum Augsburg A.ö.R.,Augsburg,451,11,2014,2024,65
+261000386,Universitätsklinikum des Saarlandes,Homburg,445,14,2010,2024,59
+260950567,Universitätsklinikum Erlangen,Erlangen,435,14,2010,2024,56
+260840200,Universitätsklinikum Ulm,Ulm,417,13,2012,2024,89
+260920069,Klinikum Passau,Passau,391,15,2008,2024,62
+260913195,TUM Klinikum Rechts der Isar - Klinik und Poliklinik für Dermatologie und Allerg,München,354,11,2012,2024,73
+260530443,Cellitinnen-Krankenhaus St. Vinzenz,Köln,350,4,2021,2024,201
+260530012,Uniklinik RWTH Aachen,Aachen,344,14,2008,2024,45
+261200322,GLG Werner Forßmann Klinikum Eberswalde GmbH,Eberswalde,332,11,2012,2024,74
+260590139,Klinikzentrum Nord,Dortmund,326,10,2014,2024,56
+261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,Greifswald,324,13,2010,2024,62
+260610075,Klinikum Frankfurt Höchst GmbH,Frankfurt am Main,275,10,2008,2022,50
+261401416,Klinikum Chemnitz gGmbH,Chemnitz,268,8,2017,2024,48
+260510939,Klinikverbund St. Antonius und St. Josef GmbH,Wuppertal,236,10,2014,2024,34
+260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,Landshut,234,6,2019,2024,47
+261101300,Helios Klinikum Berlin-Buch,Berlin,232,10,2012,2024,34
+260620431,Universitätsklinikum Gießen und Marburg,Marburg,225,9,2014,2024,34
+261300118,Klinikum Südstadt Rostock,Rostock,224,8,2017,2024,59
+260820569,Universitätsklinikum Mannheim GmbH,Mannheim,216,11,2012,2024,35
+260913480,"München Klinik Bogenhausen, München Klinik gGmbH",München,196,10,2010,2024,41
+260610019,Klinikum Darmstadt GmbH,Darmstadt,188,8,2012,2024,40
+260200400,Kath. Marienkrankenhaus gGmbH,Hamburg,186,7,2013,2024,70
+260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,Coesfeld,176,7,2017,2024,46
+260510746,Evangelisches Krankenhaus Mülheim an der Ruhr GmbH,Mülheim an der Ruhr,170,14,2010,2024,26
+260930129,Kliniken Nordoberpfalz AG - Weiden,Weiden i. d. OPf.,159,11,2012,2024,40
+260340740,Klinikum Oldenburg AöR,Oldenburg,140,12,2012,2024,23
+261300185,Helios Kliniken Schwerin,Schwerin,140,7,2017,2024,29
+260550701,Stiftungsklinikum PROSELIS gGmbH,Recklinghausen,132,6,2019,2024,32
+260590037,Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil gGmbH,Bochum,130,11,2008,2022,30
+260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,Neumünster,130,10,2013,2024,35
+260511781,Rheinland Klinikum  Lukaskrankenhaus Neuss,Neuss,125,11,2013,2024,22
+260551381,Klinikum Ibbenbüren,Ibbenbüren,123,6,2019,2024,43
+261600634,Zentralklinik Bad Berka GmbH,Bad Berka,121,8,2014,2024,23
+260910637,RoMed Klinikum Rosenheim,Rosenheim,120,10,2012,2023,40
+260200079,Asklepios Klinikum Harburg,Hamburg,120,5,2020,2024,61
+260960079,Universitätsklinikum Würzburg,Würzburg,115,13,2012,2024,18
+260102423,Sana Kliniken Lübeck GmbH,Lübeck,109,5,2020,2024,26
+261100070,DRK Kliniken Berlin Mitte,Berlin,106,10,2013,2024,30
+260200035,Asklepios Klinik Barmbek,Hamburg,106,5,2020,2024,43
+260820115,Städtisches Klinikum Karlsruhe gGmbH,Karlsruhe,100,8,2017,2024,34
+260840493,Klinikum Friedrichshafen GmbH,Friedrichshafen,95,7,2013,2020,28
+260330361,Städtisches Klinikum Lüneburg gemeinnützige GmbH,Lüneburg,93,7,2017,2024,23
+260510575,Helios Klinikum Krefeld,Krefeld,92,7,2016,2024,28
+260810271,Robert Bosch Krankenhaus,Stuttgart,91,5,2020,2024,51
+260930050,Krankenhaus Barmherzige Brüder Regensburg,Regensburg,89,10,2010,2024,20
+261201414,Klinikum Dahme Spreewald GmbH,Lübben,83,7,2012,2023,21
+261601021,HELIOS Klinikum Erfurt,Erfurt,82,7,2013,2024,30
+260940198,Sana Klinikum Hof,Hof,79,6,2018,2024,19
+260710087,Krankenhaus Maria Hilf,Bad Neuenahr - Ahrweiler,75,5,2015,2023,28
+260310447,Evangelisches Krankenhaus Göttingen-Weende gGmbH,Göttingen,73,6,2016,2023,17
+260200990,Universitäres Herz- und Gefäßzentrum UKE Hamburg GmbH,Hamburg,71,2,2017,2018,39
+261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,Neuhaus/Rwg.,69,7,2017,2023,23
+260910205,Barmherzige Brüder Krankenhaus München,München,68,8,2014,2024,19
+260611236,Klinikum Hanau GmbH,Hanau,68,7,2014,2024,18
+260610439,St. Josefs-Hospital Wiesbaden GmbH,Wiesbaden,68,6,2019,2024,19
+261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,Berlin,68,3,2022,2024,27
+261600543,SRH Psychiatrische Tagesklinik Eisenberg,Eisenberg,67,9,2012,2023,18
+260531661,Rhein-Maas Klinikum GmbH,Würselen,67,6,2018,2024,15
+260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,Bielefeld,66,5,2019,2024,27
+260512032,Helios Klinikum Niederberg,Velbert,63,5,2019,2024,16
+260590572,Gemeinschaftskrankenhaus Herdecke - Tagesklink Witten  für Psychiatrie und Psychotherapie,Herdecke,63,3,2021,2023,27
+260810453,Krankenhaus Leonberg,Leonberg,59,6,2018,2024,20
+260912285,Klinikum Starnberg,Starnberg,59,1,2008,2008,59
+260610393,Helios Dr. Horst-Schmidt Kliniken Wiesbaden GmbH,Wiesbaden,58,7,2014,2024,10
+260510256,Helios Marien Klinik,Duisburg,57,7,2018,2024,22
+260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,Kaiserslautern,57,4,2020,2024,20
+260530465,Cellitinnen-Krankenhaus St. Franziskus,Köln Ehrenfeld,57,2,2023,2024,37
+260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,Heilbronn,54,6,2012,2021,22
+260321781,KRH Klinikum Siloah,Hannover,53,9,2015,2024,9
+260591608,Knappschaft Kliniken Universitätsklinikum Bochum GmbH,Bochum,53,4,2020,2024,18
+260570692,Krankenhaus Rahden,Rahden,52,4,2021,2024,23
+261400949,Städtisches Klinikum Dresden,Dresden,51,5,2016,2021,20
+261600941,SRH Zentralklinikum Suhl GmbH,Suhl,50,5,2010,2018,14
+260590402,HAMM,Hamm,49,5,2019,2023,15
+260102354,"UNIVERSITÄTSKLINIKUM Schleswig-Holstein, Campus Lübeck",Lübeck,48,5,2012,2017,12
+260310209,Städtisches Klinikum Braunschweig gGmbH,Braunschweig,48,3,2021,2023,21
+260200046,Schön Klinik Hamburg Eilbek,Hamburg,43,6,2015,2024,13
+260833520,Ortenau Klinikum Lahr,Lahr,42,6,2017,2024,10
+261201061,Klinikum Frankfurt (Oder) GmbH,Frankfurt (Oder),42,3,2015,2018,18
+260570306,Kreiskliniken Herford-Bünde AöR,Herford,40,4,2020,2024,18
+260510132,Evangelisches Krankenhaus Düsseldorf,Düsseldorf,39,4,2017,2024,11
+260551165,"Knappschaft Kliniken Vest GmbH, Recklinghausen",Recklinghausen,35,4,2017,2023,10
+260591619,"Knappschaftskrankenhaus Dortmund, Klinikum Westfalen GmbH",Dortmund,34,4,2012,2021,12
+260810475,Klinikum Esslingen GmbH,Esslingen am Neckar,33,4,2021,2024,9
+260610279,"Universitätsklinikum Gießen und Marburg, Standort Gießen",Gießen,32,5,2013,2021,8
+260950077,Klinikum Fürth,Fürth,31,4,2012,2021,15
+261600918,Henneberg-Kliniken-Betriebsgesellschaft mbH,Hildburghausen,30,2,2012,2013,22
+260101193,Krankenhaus Reinbek St. Adolf-Stift GmbH,Reinbek,29,3,2021,2024,15
+261100855,St.Joseph Krankenhaus,Berlin,29,3,2008,2023,13
+261100456,Krankenhaus Waldfriede e.V.,Berlin,28,3,2021,2024,10
+261500677,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH,Halle (Saale),28,3,2022,2024,12
+261601145,KMG Klinikum Sondershausen,Sondershausen,28,2,2023,2024,16
+260913037,Klinikum Ingolstadt GmbH,Ingolstadt,27,5,2019,2024,9
+260531967,HELIOS Klinikum Siegburg,Siegburg,27,3,2017,2021,12
+260100023,Diakonissenkrankenhaus Flensburg,Flensburg,24,2,2015,2018,16
+260590071,Katholisches Klinikum Bochum,Bochum,23,3,2021,2024,14
+260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,Frankfurt am Main,22,3,2021,2023,8
+260592084,St. Barbara-Klinik Hamm GmbH,Hamm,22,2,2017,2023,18
+260831481,Klinikum Konstanz,Konstanz,22,2,2015,2019,11
+260840916,St. Elisabethen-Klinikum,Ravensburg,22,2,2014,2018,13
+260570486,Klinikum Lippe GmbH,Detmold,21,2,2020,2021,12
+261101311,DRK Kliniken Berlin Köpenick,Berlin,21,2,2016,2019,11
+261200220,Klinikum Ernst von Bergmann gemeinnützige GmbH,Potsdam,20,4,2014,2021,8
+260620011,Klinikum Kassel GmbH,Kassel,19,2,2012,2019,10
+261200538,Havelland Kliniken GmbH,Nauen,17,2,2019,2021,9
+260550905,Klinikum Rheine,Rheine,17,1,2023,2023,17
+261200457,Universitätsklinikum Brandenburg an der Havel GmbH,Brandenburg an der Havel,16,3,2014,2022,8
+260400015,Klinikum Bremen-Mitte,Bremen,16,2,2012,2015,12
+260510815,Evangelisches Krankenhaus Oberhausen GmbH,Oberhausen,16,2,2019,2020,8
+261300356,Sana HANSE-Klinikum Wismar GmbH,Wismar,16,2,2014,2016,8
+260620157,Klinikum Fulda gAG,Fulda,15,3,2014,2023,5
+260200091,Asklepios Westklinikum Hamburg,Hamburg,15,2,2016,2022,11
+260310766,Klinikum Wolfsburg,Wolfsburg,14,3,2016,2022,6
+261201356,HELIOS Klinikum Bad Saarow,Bad Saarow,14,3,2014,2024,5
+260591506,KLW St. Paulus GmbH St. Christophorus Krankenhaus Werne,Werne,13,2,2017,2022,9
+260593085,Diakonie Klinikum GmbH,Siegen,12,2,2017,2021,8
+260340557,Bonifatius Hospital Lingen,Lingen,12,1,2014,2014,12
+261110049,Gemeinschaftskrankenhaus Havelhöhe,Berlin,11,2,2012,2013,6
+260590505,Ev. Krankenhaus Herne gGmbH,Herne,11,1,2024,2024,11
+261200721,Medizinische Universität Lausitz - Carl Thiem,Cottbus,11,1,2024,2024,11
+260100034,Malteser Krankenhaus St. Franziskus-Hospital,Flensburg,10,2,2012,2013,5
+260911295,Klinikum Fürstenfeldbruck,Fürstenfeldbruck,10,2,2020,2021,5
+260570044,Evangelisches Klinikum Bethel gGmbH,Bielefeld,10,1,2022,2022,10
+260610280,Klinikum Wetzlar-Braunfels,Wetzlar,10,1,2008,2008,10
+261300276,KMG Klinikum Güstrow,Güstrow,10,1,2024,2024,10
+260811502,"Kliniken Ostalb, Ostalb-Klinikum Aalen",Aalen,8,2,2017,2020,4
+261101527,Sana Klinikum Lichtenberg,Berlin,8,2,2016,2021,4
+260812525,Klinikum Sindelfingen-Böblingen,Sindelfingen,8,1,2022,2022,8
+261100263,Ev. Waldkrankenhaus Spandau,Berlin,8,1,2016,2016,8
+260300070,Klinikum Hann. Münden,Hann. Münden,7,1,2016,2016,7
+260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,Traunstein,7,1,2024,2024,7
+260810191,Marienhospital Stuttgart,Stuttgart,6,1,2023,2023,6
+260551416,St. Franziskus-Hospital GmbH Münster,Münster,5,1,2015,2015,5
+261110083,HELIOS Klinikum Emil von Behring GmbH,Berlin,5,1,2023,2023,5
+260310595,HELIOS Albert-Schweitzer-Klinik Northeim,Northeim,4,1,2017,2017,4
+260500481,AGAPLESION Klinikum Hagen gem. GmbH,Hagen,4,1,2024,2024,4
+260510871,QB Solingen 2023,Solingen,4,1,2023,2023,4
+260530886,Marien-Hospital,Euskirchen,4,1,2024,2024,4
+260811579,Stauferklinikum Schwäbisch-Gmünd,Mutlangen,4,1,2017,2017,4
+260820433,Klinikum Mittelbaden Rastatt,Rastatt,4,1,2024,2024,4
+260841928,Bundeswehrkrankenhaus Ulm,Ulm,4,1,2024,2024,4
+260910249,Klinik Augustinum München,München,4,1,2012,2012,4
+261300367,HELIOS Hanseklinikum Stralsund,Stralsund,4,1,2012,2012,4
+261600521,Hufeland Klinikum GmbH,Bad Langensalza,4,1,2023,2023,4

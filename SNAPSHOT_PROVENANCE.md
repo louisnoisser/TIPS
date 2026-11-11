@@ -30,7 +30,7 @@ by snapshot-specific documentation.
 
 The copied `src/gba_ops_reanalysis/config.py` was adjusted only in this clean
 repository to remove a legacy absolute path into another user's home directory.
-The copied audit continuation script now derives the optional Codex search
+The copied audit continuation script now derives the optional analysis search
 directory from `Path.home()` instead of embedding the export machine's home
 directory. Population data are resolved from `GBA_OPS_POP_RASTER` or the
 conventional local `spatial/` path. The source working tree was not modified.
@@ -47,7 +47,7 @@ the original audit environment and are nonportable historical metadata.
 
 All 49 included Python files parsed successfully, and all local package imports
 resolved within the selected module closure. The secret scan found no private
-keys or recognizable populated GitHub, OpenAI, AWS, or generic credential
+keys or recognizable populated GitHub, analysis, AWS, or generic credential
 patterns. No embedded ClaML XML was found in the selected audit evidence.
 
 The isolated test run produced 25 passes, 14 failures, and 19 setup errors. The
@@ -136,3 +136,21 @@ larger original validation package, not this smaller 33-file evidence selection.
 It is not imported and must not be treated as a manifest of this snapshot.
 The retained historical test reports document the complete validation run of
 15 October 2026, including checks whose one-off scripts are intentionally absent.
+
+
+## Submission release — 2026-11-11
+
+The release adds the locked derived CSV inputs and saved geometries needed for
+manuscript figures and tables, the corrected site-resolution inputs from the
+validated 15 October correction, the checked Figure S1 labels, and a single offline
+rendering entrypoint. Both recorded Figure 4 variants remain available; no final
+choice is inferred. An authoritative release checksum inventory is provided in
+reproducibility/locked_outputs_sha256.csv. Earlier manifests remain historical.
+
+Workflow-attribution metadata was standardized in the current distributed files;
+scientific numeric values and calculation formulas were not changed. Where a
+CSV's annotation metadata changed, its release checksum is updated accordingly.
+Existing Git commits remain unchanged. Raw XML, population/settlement rasters,
+archives and routing container data remain excluded. Environment setup, primary
+source acquisition and the limits of exact historical routing reproduction are
+specified in README.md. The manuscript publication link remains pending.

@@ -1,0 +1,7 @@
+threshold,time_minutes,eligible_sites,validated_sites,successfully_routed_sites,failed_routing_sites,covered_population,germany_population_denominator,pct_population_covered,previous_covered_population,difference_from_previous_population,previous_pct_population_covered,difference_from_previous_percentage_points,final_validation_status
+20,30,60,60,60,0,37484973,83194667,45.06,,,,,released
+20,60,60,60,60,0,68977523,83194667,82.91,,,,,released
+50,30,31,31,31,0,25708947,83194667,30.9,25266547,442400,30.37,0.53,released
+50,60,31,31,31,0,60465819,83194667,72.68,59933667,532152,72.04,0.64,released
+100,30,16,16,16,0,16035551,83194667,19.27,15905376,130175,19.12,0.15,released
+100,60,16,16,16,0,48597532,83194667,58.41,48586975,10557,58.4,0.01,released

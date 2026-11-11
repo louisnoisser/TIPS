@@ -1,0 +1,7 @@
+time_minutes,urban_rural,covered_points,class_points_total,pct_of_class_covered,pct_of_all_covered_points,covered_points_total,all_grid_points_total
+30,other,0,74,0.0,0.0,687,18368
+30,rural,418,16546,2.53,60.84,687,18368
+30,urban,269,1748,15.39,39.16,687,18368
+60,other,9,74,12.16,0.17,5270,18368
+60,rural,4230,16546,25.57,80.27,5270,18368
+60,urban,1031,1748,58.98,19.56,5270,18368

@@ -9,6 +9,8 @@ description = "Reusable G-BA XML workflows for OPS/ICD center extraction, geocod
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+  "python-docx>=1.1,<2.0",
+  "PyYAML>=6,<7",
   "fastapi>=0.115,<1.0",
   "geopandas>=1.0,<2.0",
   "geopy>=2.4,<3.0",

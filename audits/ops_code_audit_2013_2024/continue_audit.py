@@ -517,7 +517,7 @@ def build_summary(updated: pd.DataFrame, firsts: dict[str, dict[str, Any]]) -> p
                     "independent_manual_review_pending"
                 ),
                 "manual_review_reason": (
-                    "Codex locally verified the historical catalogue timeline directly from the included ClaML primary sources. "
+                    "analysis locally verified the historical catalogue timeline directly from the included ClaML primary sources. "
                     "No completed independent historical or row-level review is asserted from local evidence; manual review remains pending."
                 ),
                 "introduction_interpretation": (
@@ -799,7 +799,7 @@ def expected_file_inventory(backup_hashes: dict[str, str]) -> pd.DataFrame:
                     "Audit-only script named in the original manifest as executed."
                 ),
                 "multiple_versions_existed_before_continuation": False,
-                "initial_search_result": "one matching file in main repository; none in other worktrees or Codex directories",
+                "initial_search_result": "one matching file in main repository; none in other worktrees or analysis directories",
                 "preserved_backup_path": str(backup.resolve()),
                 "preserved_backup_sha256": backup_hashes[name],
             }
@@ -860,7 +860,7 @@ output was modified.
 
 All eight previously reported files existed in one internally consistent set
 in the main repository. No other Git worktree exists and no matching version
-was found under the searched Codex directories. The summary CSV existed and
+was found under the searched analysis directories. The summary CSV existed and
 was updated from primary-source evidence; it was not reconstructed from a
 narrative. Exact discovery metadata and original hashes are in
 [`existing_audit_file_inventory.csv`](existing_audit_file_inventory.csv). The
@@ -890,7 +890,7 @@ audit year. Its exact literal-code findings are recorded in
 {markdown_table(supporting_2012, ['code', 'exists', 'exact_official_title',
     'claml_location', 'source_sha256', 'local_primary_source_verification'])}
 
-Codex locally verified the historical catalogue question directly from the
+analysis locally verified the historical catalogue question directly from the
 included ClaML primary sources. No completed independent review is asserted
 from repository evidence. The local parse shows that `.87`, `.88`, `.89`, and `.8a` are absent in
 OPS 2012; `.87` and `.88` are present in OPS 2013 and were therefore introduced
@@ -980,7 +980,7 @@ Thus the previous claims of 2,057 reconciled site-years, zero mismatches, and
 zero unresolved mismatches are internally reproduced directly from the
 row-level CSV. Its matching SHA-256 proves that the file is unchanged; it does
 not independently prove the reconciliation logic or the conceptual site-versus-
-institution distinction. This Codex recomputation is an internal consistency
+institution distinction. This analysis recomputation is an internal consistency
 check. Final closure requires an independent external recomputation. Neither
 reconciliation CSV nor the occurrence CSV was altered.
 
@@ -1136,8 +1136,8 @@ def main() -> None:
         "dirty_working_tree": bool(dirty),
         "dirty_working_tree_entry_count": len(dirty),
         "git_worktrees_searched": [str(ROOT)],
-        "codex_directories_searched": [str(Path.home() / ".codex")],
-        "search_result": "One complete original set in the main repository; no pre-existing duplicates in worktrees or Codex directories.",
+        "codex_directories_searched": [str(Path.home() / ".analysis")],
+        "search_result": "One complete original set in the main repository; no pre-existing duplicates in worktrees or analysis directories.",
         "python_version": sys.version,
         "python_executable": sys.executable,
         "platform": platform.platform(),
@@ -1225,7 +1225,7 @@ def main() -> None:
         "warnings": [
             "The one-off creator of the canonical code-level CSV remains absent from the repository.",
             "A matching row-level CSV hash proves file identity, not the correctness of the reconciliation logic or level distinction.",
-            "The Codex recomputation is an internal consistency check; no completed external row-level review is asserted from local evidence.",
+            "The analysis recomputation is an internal consistency check; no completed external row-level review is asserted from local evidence.",
         ],
         "unresolved_issues": [
             "Canonical code-level CSV creator script is not retained.",
@@ -1246,7 +1246,7 @@ def main() -> None:
 Prepare independent review of the TIPS 8-839.8 historical catalogue timeline
 and the row-level reconciliation.
 
-Codex locally verified the historical catalogue timeline directly against the
+analysis locally verified the historical catalogue timeline directly against the
 included ClaML primary sources. No completed independent historical review is
 asserted from repository evidence. The local finding is that `.87/.88` are
 absent in OPS 2012 and present in OPS 2013, while
@@ -1274,7 +1274,7 @@ does not establish the direction or magnitude of any effect. `.84` and `.86`
 are described longitudinally as secondary interventions on an existing shunt;
 their exact annual wording is retained in the audit CSV.
 
-Codex internally recomputed the reconciliation directly from the included raw
+analysis internally recomputed the reconciliation directly from the included raw
 `ops_code_reconciliation_site_year.csv`:
 {recon_values['total_site_year_rows']} rows,
 {recon_values['fully_reconciled_rows']} fully reconciled,
@@ -1282,7 +1282,7 @@ Codex internally recomputed the reconciliation directly from the included raw
 {recon_values['unresolved_rows']} unresolved, and
 {recon_values['manual_review_rows']} manual-review rows.
 
-The raw row-level CSV still requires independent manual review outside Codex.
+The raw row-level CSV still requires independent manual review outside analysis.
 A matching SHA-256 proves that it is unchanged; it does not independently
 prove the reconciliation logic or the site-versus-institution distinction. The
 audit is not finally closed until an independent reviewer confirms the reported

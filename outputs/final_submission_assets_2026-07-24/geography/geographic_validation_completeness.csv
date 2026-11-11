@@ -1,0 +1,6 @@
+network,expected_sites,observed_sites,validated_site_specific_addresses,probable_site_specific_addresses,institution_level_addresses_only,conflicting_or_missing_addresses,validated_state_assignments,unresolved_state_assignments,state_validated_without_coordinates,ambiguous_postcodes,validated_coordinates,probable_coordinates,institution_level_coordinates_only,unresolved_coordinates,invalid_coordinates,unresolved_visible_activity,manual_review_sites,accessibility_release_permitted,federal_state_release_permitted
+ge100,16,16,16,0,0,0,16,0,0,0,16,0,0,0,0,0,0,True,True
+ge50,31,31,31,0,0,0,31,0,0,0,31,0,0,0,0,0,0,True,True
+ge20,60,60,60,0,0,0,60,0,0,0,60,0,0,0,0,0,0,True,True
+visible,113,113,80,0,33,0,60,53,0,0,60,15,33,5,0,568,53,False,False
+all_active,193,193,112,0,81,0,60,133,0,0,60,15,33,85,0,568,133,False,False

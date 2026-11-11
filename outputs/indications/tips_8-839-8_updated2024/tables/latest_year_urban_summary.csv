@@ -1,0 +1,5 @@
+urban_rural,hospitals,total_cases,median_cases,threshold
+urban,60,4679,52.0,20
+urban,31,3717,112.0,50
+urban,16,2673,137.0,100
+urban,6,1422,222.5,200

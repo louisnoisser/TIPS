@@ -1,0 +1,16 @@
+reporting_year,identifiable_sites_visible,identifiable_sites_suppressed_only,unresolved_99_visible,unresolved_99_suppressed_only,suppressed_component_entries,overlap_residual_groups,residuals_compatible_with_suppression,residuals_not_compatible_with_suppression
+2008,28,60,0,0,179,0,0,0
+2010,36,71,2,3,219,0,0,0
+2012,66,69,0,0,287,4,0,2
+2013,62,66,0,0,389,0,0,0
+2014,72,75,0,0,437,0,0,0
+2015,69,90,0,0,491,0,0,0
+2016,76,83,0,0,489,0,0,0
+2017,90,82,0,0,481,0,0,0
+2018,87,81,0,0,496,0,0,0
+2019,92,86,0,0,557,0,0,0
+2020,99,84,0,0,558,0,0,0
+2021,112,85,0,0,587,0,0,0
+2022,110,74,0,0,586,0,0,0
+2023,110,79,0,0,589,0,0,0
+2024,113,80,0,0,560,0,0,0

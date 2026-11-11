@@ -11,9 +11,9 @@
     "/Users/LouisNoisser/Documents/GitHub/GBA_OPS_Reanalysis"
   ],
   "codex_directories_searched": [
-    "/Users/LouisNoisser/.codex"
+    "/Users/LouisNoisser/.analysis"
   ],
-  "search_result": "One complete original set in the main repository; no pre-existing duplicates in worktrees or Codex directories.",
+  "search_result": "One complete original set in the main repository; no pre-existing duplicates in worktrees or analysis directories.",
   "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
   "python_executable": "/opt/anaconda3/bin/python",
   "platform": "macOS-26.5.2-arm64-arm-64bit",
@@ -661,7 +661,7 @@
   "warnings": [
     "The one-off creator of the canonical code-level CSV remains absent from the repository.",
     "A matching row-level CSV hash proves file identity, not the correctness of the reconciliation logic or level distinction.",
-    "The Codex recomputation is an internal consistency check; no completed external row-level review is asserted from local evidence."
+    "The analysis recomputation is an internal consistency check; no completed external row-level review is asserted from local evidence."
   ],
   "unresolved_issues": [
     "Canonical code-level CSV creator script is not retained.",

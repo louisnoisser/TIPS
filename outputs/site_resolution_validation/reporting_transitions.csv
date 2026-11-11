@@ -1,0 +1,7 @@
+previous_year,reporting_year,ik,transition_type,previous_component_sites,current_component_sites,interpretation
+2008,2010,260930129,component_sites_to_99_only,1,0,potential reporting-granularity change; not proof of provider opening/closure
+2008,2010,261101015,component_sites_to_99_only,1,0,potential reporting-granularity change; not proof of provider opening/closure
+2010,2012,260812364,99_only_to_component_sites,0,1,potential reporting-granularity change; not proof of provider opening/closure
+2010,2012,260930129,99_only_to_component_sites,0,1,potential reporting-granularity change; not proof of provider opening/closure
+2010,2012,261101015,99_only_to_component_sites,0,1,potential reporting-granularity change; not proof of provider opening/closure
+2010,2012,261600521,99_only_to_component_sites,0,1,potential reporting-granularity change; not proof of provider opening/closure

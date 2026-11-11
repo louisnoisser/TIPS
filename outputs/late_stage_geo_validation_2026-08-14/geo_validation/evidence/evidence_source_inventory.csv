@@ -1,0 +1,400 @@
+site_id,evidence_type,source,source_sha256,purpose
+260102423-772498000,official_GBA_structured_report_local,data/xml/xml_2024/260102423-772498000-2024-xml.xml,136471ae9e3337c89d817e13053b15b664dc38b1d083c2244815134c8ff11833,"identity, address, reporting mode and OPS membership"
+260102423-772498000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260102423-772498000-2024-xml.pdf,,public primary-source report
+260102423-772498000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sana.de/luebeck,,supporting institutional identity/location evidence
+260610439-772176000,official_GBA_structured_report_local,data/xml/xml_2024/260610439-772176000-2024-xml.xml,72d95344b628a5b9c193e62a89a85fdc880887d5bac49ffb3cdb9348a507192c,"identity, address, reporting mode and OPS membership"
+260610439-772176000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260610439-772176000-2024-xml.pdf,,public primary-source report
+260610439-772176000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.joho.de,,supporting institutional identity/location evidence
+260910205-771703000,official_GBA_structured_report_local,data/xml/xml_2024/260910205-771703000-2024-xml.xml,4d2f8ca1f784ff9e951f50ec5587d3fc7ec414ae208faf37cf63ae8dcca75f3b,"identity, address, reporting mode and OPS membership"
+260910205-771703000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260910205-771703000-2024-xml.pdf,,public primary-source report
+260910205-771703000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.barmherzige-muenchen.de,,supporting institutional identity/location evidence
+260570306-773235000,official_GBA_structured_report_local,data/xml/xml_2024/260570306-773235000-2024-xml.xml,8a3b7303f1ec5dd499e58d486d7f9a6918362cba929f4d47ff250f6283b4ce30,"identity, address, reporting mode and OPS membership"
+260570306-773235000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260570306-773235000-2024-xml.pdf,,public primary-source report
+260570306-773235000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.klinikum-herford.de/,,supporting institutional identity/location evidence
+260611236-771648000,official_GBA_structured_report_local,data/xml/xml_2024/260611236-771648000-2024-xml.xml,dde28390a593758ebc23bbe10ab6c5b69b344fe8acf5f48c36a73ea713b3597b,"identity, address, reporting mode and OPS membership"
+260611236-771648000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260611236-771648000-2024-xml.pdf,,public primary-source report
+260611236-771648000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-hanau.de,,supporting institutional identity/location evidence
+260960079-773642000,official_GBA_structured_report_local,data/xml/xml_2024/260960079-773642000-2024-xml.xml,6d5c07c8d3a0e4ab22ad1148c6216a80b4c78e68ea500c618f625d4215a14e24,"identity, address, reporting mode and OPS membership"
+260960079-773642000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260960079-773642000-2024-xml.pdf,,public primary-source report
+260960079-773642000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.ukw.de,,supporting institutional identity/location evidence
+260340740-771936000,official_GBA_structured_report_local,data/xml/xml_2024/260340740-771936000-2024-xml.xml,8849011a3b9fc02b7bd1f70386f2d6c0896f23b538e37b57accf293eac8011f2,"identity, address, reporting mode and OPS membership"
+260340740-771936000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260340740-771936000-2024-xml.pdf,,public primary-source report
+260340740-771936000,official_hospital_or_institution_URL_declared_in_GBA_report,http://klinikum-oldenburg.de/,,supporting institutional identity/location evidence
+260551381-773391000,official_GBA_structured_report_local,data/xml/xml_2024/260551381-773391000-2024-xml.xml,1ba97557d3e3607393d85cfbf4a943643c04f6b40000a9b7d489db05976d1a92,"identity, address, reporting mode and OPS membership"
+260551381-773391000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260551381-773391000-2024-xml.pdf,,public primary-source report
+260551381-773391000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.mathias-medizin.de/leistungen-einrichtungen/einrichtungen/klinikum-ibbenbueren,,supporting institutional identity/location evidence
+260930129-771930000,official_GBA_structured_report_local,data/xml/xml_2024/260930129-771930000-2024-xml.xml,b3e3b5c002e781fc385aff3c87f57b7d137d93e4f914d7b5ee3278edd717706c,"identity, address, reporting mode and OPS membership"
+260930129-771930000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260930129-771930000-2024-xml.pdf,,public primary-source report
+260930129-771930000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.kliniken-nordoberpfalz.de,,supporting institutional identity/location evidence
+261000013-771100000,official_GBA_structured_report_local,data/xml/xml_2024/261000013-771100000-2024-xml.xml,3b0b8a31e30f58354c212eec5e5a945412a6a97e31305da9dcf2624945664be0,"identity, address, reporting mode and OPS membership"
+261000013-771100000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261000013-771100000-2024-xml.pdf,,public primary-source report
+261000013-771100000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-saarbruecken.de,,supporting institutional identity/location evidence
+261101878-773179000,official_GBA_structured_report_local,data/xml/xml_2024/261101878-773179000-2024-xml.xml,b19bee0d4c09a9ddefecebc8fab63b5d1f15b0278f68d65c564cc7ab8be792d0,"identity, address, reporting mode and OPS membership"
+261101878-773179000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101878-773179000-2024-xml.pdf,,public primary-source report
+261101878-773179000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.vivantes.de/klinikum-im-friedrichshain,,supporting institutional identity/location evidence
+261101878-773183000,official_GBA_structured_report_local,data/xml/xml_2024/261101878-773183000-2024-xml.xml,b6af44775459f417d9e7b3cf1839cf1c99a33ec596a5761f75f34f6562f151eb,"identity, address, reporting mode and OPS membership"
+261101878-773183000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101878-773183000-2024-xml.pdf,,public primary-source report
+261101878-773183000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.vivantes.de/klinikum-neukoelln,,supporting institutional identity/location evidence
+261101300-773608000,official_GBA_structured_report_local,data/xml/xml_2024/261101300-773608000-2024-xml.xml,8a9395dc406cf7bbf02de10ebc72bac376bcfae15525be6bbfc91c0560f73f84,"identity, address, reporting mode and OPS membership"
+261101300-773608000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101300-773608000-2024-xml.pdf,,public primary-source report
+261101300-773608000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/kliniken/berlin-buch/,,supporting institutional identity/location evidence
+260200400-772533000,official_GBA_structured_report_local,data/xml/xml_2024/260200400-772533000-2024-xml.xml,f7c66a3db15b84e05f4bea03ceb5ce26a5042ef38fa00047ecb9de55f1556c80,"identity, address, reporting mode and OPS membership"
+260200400-772533000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260200400-772533000-2024-xml.pdf,,public primary-source report
+260200400-772533000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.marienkrankenhaus.org,,supporting institutional identity/location evidence
+261600634-771973000,official_GBA_structured_report_local,data/xml/xml_2024/261600634-771973000-2024-xml.xml,2c061de824b972a94e7fe342be4cf047d90c0878f03603e825a3622daddbb2fd,"identity, address, reporting mode and OPS membership"
+261600634-771973000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261600634-771973000-2024-xml.pdf,,public primary-source report
+261600634-771973000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.zentralklinik.de/impressum.html,,supporting institutional identity/location evidence
+260330361-772578000,official_GBA_structured_report_local,data/xml/xml_2024/260330361-772578000-2024-xml.xml,6043e0f23760a003b0dcc6e99db4e213355535efb030e5fc14c19832f7c7be36,"identity, address, reporting mode and OPS membership"
+260330361-772578000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260330361-772578000-2024-xml.pdf,,public primary-source report
+260330361-772578000,official_hospital_or_institution_URL_declared_in_GBA_report,https://klinikum-lueneburg.de,,supporting institutional identity/location evidence
+260591608-772932000,official_GBA_structured_report_local,data/xml/xml_2024/260591608-772932000-2024-xml.xml,7b0126b81b2945129ffe39fd36ae024b3b3df727503b6bea044dcac5f7d7810a,"identity, address, reporting mode and OPS membership"
+260591608-772932000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260591608-772932000-2024-xml.pdf,,public primary-source report
+260591608-772932000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.knappschaft-kliniken.de/bochum/,,supporting institutional identity/location evidence
+260940198-771124000,official_GBA_structured_report_local,data/xml/xml_2024/260940198-771124000-2024-xml.xml,9c2d44df3798cf6b364d3e77fe23b77bed2cc713304acff406886c163cc734f3,"identity, address, reporting mode and OPS membership"
+260940198-771124000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260940198-771124000-2024-xml.pdf,,public primary-source report
+260940198-771124000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.sana-klinikum-hof.de,,supporting institutional identity/location evidence
+261200322-771508000,official_GBA_structured_report_local,data/xml/xml_2024/261200322-771508000-2024-xml.xml,840f09c90b0e6b2706e6d27183a499d8613e5f0d5c5bc7b1be436a2e2b3c1114,"identity, address, reporting mode and OPS membership"
+261200322-771508000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261200322-771508000-2024-xml.pdf,,public primary-source report
+261200322-771508000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.glg-gesundheit.de,,supporting institutional identity/location evidence
+260531661-772113000,official_GBA_structured_report_local,data/xml/xml_2024/260531661-772113000-2024-xml.xml,253f64373eb8440928a6f46e9b410a653d0e7f274e1b5afe9f6c4fe141fd40f9,"identity, address, reporting mode and OPS membership"
+260531661-772113000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260531661-772113000-2024-xml.pdf,,public primary-source report
+260531661-772113000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.rheinmaasklinikum.de,,supporting institutional identity/location evidence
+260930050-771597000,official_GBA_structured_report_local,data/xml/xml_2024/260930050-771597000-2024-xml.xml,ca19b45d9a9c4e59f661180c3ea2881a0fcc2e5649812b926267f0670629c6d3,"identity, address, reporting mode and OPS membership"
+260930050-771597000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260930050-771597000-2024-xml.pdf,,public primary-source report
+260930050-771597000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.barmherzige-regensburg.de,,supporting institutional identity/location evidence
+261500677-772512000,official_GBA_structured_report_local,data/xml/xml_2024/261500677-772512000-2024-xml.xml,fc71ac7d152e6d9f20d0ba612b7f6b58bf94fa549a82879928b895489c6196c7,"identity, address, reporting mode and OPS membership"
+261500677-772512000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261500677-772512000-2024-xml.pdf,,public primary-source report
+261500677-772512000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.krankenhaus-halle-saale.de/,,supporting institutional identity/location evidence
+261601145-773338000,official_GBA_structured_report_local,data/xml/xml_2024/261601145-773338000-2024-xml.xml,f74607d71f798ac706a10b67ea4690c1b15f096823dcb0569749cf48cd1c9d40,"identity, address, reporting mode and OPS membership"
+261601145-773338000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261601145-773338000-2024-xml.pdf,,public primary-source report
+261601145-773338000,official_hospital_or_institution_URL_declared_in_GBA_report,http://kmg-kliniken.de/kmg-soemmerda-klinikum/,,supporting institutional identity/location evidence
+260590505-772000000,official_GBA_structured_report_local,data/xml/xml_2024/260590505-772000000-2024-xml.xml,63457d367ade3bb21068e94a6046a06df07ebfafb4364ebfa5b3d787df8b29ae,"identity, address, reporting mode and OPS membership"
+260590505-772000000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260590505-772000000-2024-xml.pdf,,public primary-source report
+260590505-772000000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.evk-herne.de,,supporting institutional identity/location evidence
+261200721-773088000,official_GBA_structured_report_local,data/xml/xml_2024/261200721-773088000-2024-xml.xml,117ebca94b5dd0e608cbc4ab36eb795502f2b8d49d6cf4885a2b732fa6602367,"identity, address, reporting mode and OPS membership"
+261200721-773088000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261200721-773088000-2024-xml.pdf,,public primary-source report
+261200721-773088000,official_hospital_or_institution_URL_declared_in_GBA_report,https://mul-ct.de/,,supporting institutional identity/location evidence
+260101193-772660000,official_GBA_structured_report_local,data/xml/xml_2024/260101193-772660000-2024-xml.xml,56a0f8fb7454a289fd88809b33baab3c139e6cce8248190f9b2892f1a7eb25e3,"identity, address, reporting mode and OPS membership"
+260101193-772660000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260101193-772660000-2024-xml.pdf,,public primary-source report
+260101193-772660000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.krankenhaus-reinbek.de,,supporting institutional identity/location evidence
+260200046-772530000,official_GBA_structured_report_local,data/xml/xml_2024/260200046-772530000-2024-xml.xml,54b1a55c0e29167fe96d86936c27ac36188298e4e476184c723cf1bea62a8fcb,"identity, address, reporting mode and OPS membership"
+260200046-772530000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260200046-772530000-2024-xml.pdf,,public primary-source report
+260200046-772530000,official_hospital_or_institution_URL_declared_in_GBA_report,http://klinikhamburg@schoen-klinik.de,,supporting institutional identity/location evidence
+261100456-771653000,official_GBA_structured_report_local,data/xml/xml_2024/261100456-771653000-2024-xml.xml,0cdb7636bdcb7a04c4bfa33f98f15b7b8f6d96ae94715fa16d1101f4faba5d79,"identity, address, reporting mode and OPS membership"
+261100456-771653000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261100456-771653000-2024-xml.pdf,,public primary-source report
+261100456-771653000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.krankenhaus-waldfriede.de,,supporting institutional identity/location evidence
+261101878-773184000,official_GBA_structured_report_local,data/xml/xml_2024/261101878-773184000-2024-xml.xml,30d26adb4e6fb62dbcb649e7032c0a3ed622f218f6d34c1c9f039c85a1fc0ce2,"identity, address, reporting mode and OPS membership"
+261101878-773184000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101878-773184000-2024-xml.pdf,,public primary-source report
+261101878-773184000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.vivantes.de/auguste-viktoria-klinikum,,supporting institutional identity/location evidence
+261300276-772987000,official_GBA_structured_report_local,data/xml/xml_2024/261300276-772987000-2024-xml.xml,72ccafcc8b760cc2166ded67bb82e1d7ea1539c73185ca5a681f5675c8f7e9d4,"identity, address, reporting mode and OPS membership"
+261300276-772987000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261300276-772987000-2024-xml.pdf,,public primary-source report
+261300276-772987000,official_hospital_or_institution_URL_declared_in_GBA_report,https://kmg-kliniken.de/kmg-klinikum-guestrow,,supporting institutional identity/location evidence
+260510132-773140000,official_GBA_structured_report_local,data/xml/xml_2024/260510132-773140000-2024-xml.xml,8884a3107801624c2e4e505ca40f3c36b445c731d5b4c76d15e9a250a2dc5279,"identity, address, reporting mode and OPS membership"
+260510132-773140000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510132-773140000-2024-xml.pdf,,public primary-source report
+260510132-773140000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.evk-duesseldorf.de,,supporting institutional identity/location evidence
+260510575-772782000,official_GBA_structured_report_local,data/xml/xml_2024/260510575-772782000-2024-xml.xml,cdd5f04c516074dcba448f6b30e9b88de84d28aed5661fa45516fd222cea550b,"identity, address, reporting mode and OPS membership"
+260510575-772782000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510575-772782000-2024-xml.pdf,,public primary-source report
+260510575-772782000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/kliniken/krefeld/,,supporting institutional identity/location evidence
+260610393-773371000,official_GBA_structured_report_local,data/xml/xml_2024/260610393-773371000-2024-xml.xml,6277a28c504c7bcba84c1377365cc5723631e6234c4e604717f9155b8cc92b30,"identity, address, reporting mode and OPS membership"
+260610393-773371000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260610393-773371000-2024-xml.pdf,,public primary-source report
+260610393-773371000,official_hospital_or_institution_URL_declared_in_GBA_report,https://helios-gesundheit.de/kliniken/wiesbaden-hsk,,supporting institutional identity/location evidence
+260913037-773586000,official_GBA_structured_report_local,data/xml/xml_2024/260913037-773586000-2024-xml.xml,61fda639e104854b50f04545ad6a8884e5a881515bf42c00fe30d0a60f656d6d,"identity, address, reporting mode and OPS membership"
+260913037-773586000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260913037-773586000-2024-xml.pdf,,public primary-source report
+260913037-773586000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-ingolstadt.de,,supporting institutional identity/location evidence
+261101878-773186000,official_GBA_structured_report_local,data/xml/xml_2024/261101878-773186000-2024-xml.xml,42c6ab66a7af8d3918e78644aeb081abe32941fcebe1365b331cc352ccd706b7,"identity, address, reporting mode and OPS membership"
+261101878-773186000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101878-773186000-2024-xml.pdf,,public primary-source report
+261101878-773186000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.vivantes.de/humboldt-klinikum,,supporting institutional identity/location evidence
+260510256-771548000,official_GBA_structured_report_local,data/xml/xml_2024/260510256-771548000-2024-xml.xml,69fb2b7fe1b22c7c4e03232666ac78334ae711be22042384b74ec277b704d790,"identity, address, reporting mode and OPS membership"
+260510256-771548000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510256-771548000-2024-xml.pdf,,public primary-source report
+260510256-771548000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/kliniken/duisburg/,,supporting institutional identity/location evidence
+260512032-771585000,official_GBA_structured_report_local,data/xml/xml_2024/260512032-771585000-2024-xml.xml,3fe3c9cf5076a77b5451cc18c7d90d6a2070ea50029cd43a41472f49960b0a53,"identity, address, reporting mode and OPS membership"
+260512032-771585000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260512032-771585000-2024-xml.pdf,,public primary-source report
+260512032-771585000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/kliniken/niederberg/,,supporting institutional identity/location evidence
+260810475-771511000,official_GBA_structured_report_local,data/xml/xml_2024/260810475-771511000-2024-xml.xml,6f7c2d62c05e676e1fcdf42e226c8a08d5fdc0a5109b3607c3852c0ea6ab88d9,"identity, address, reporting mode and OPS membership"
+260810475-771511000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260810475-771511000-2024-xml.pdf,,public primary-source report
+260810475-771511000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-esslingen.de,,supporting institutional identity/location evidence
+261601021-771835000,official_GBA_structured_report_local,data/xml/xml_2024/261601021-771835000-2024-xml.xml,1d8c744264e2dcbc61478c88e35c5d9ebacfd511d6acbc05e27de72e6e42e696,"identity, address, reporting mode and OPS membership"
+261601021-771835000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261601021-771835000-2024-xml.pdf,,public primary-source report
+261601021-771835000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/kliniken/erfurt/,,supporting institutional identity/location evidence
+260833520-771962000,official_GBA_structured_report_local,data/xml/xml_2024/260833520-771962000-2024-xml.xml,30cdf9888b4346e77531580ae2c6abb53c8699064ba36f9bae33cea4c47cc20d,"identity, address, reporting mode and OPS membership"
+260833520-771962000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260833520-771962000-2024-xml.pdf,,public primary-source report
+260833520-771962000,official_hospital_or_institution_URL_declared_in_GBA_report,https://lahr.ortenau-klinikum.de/,,supporting institutional identity/location evidence
+260912434-772274000,official_GBA_structured_report_local,data/xml/xml_2024/260912434-772274000-2024-xml.xml,eee2f4d0b31d01fad3859928967cc423e456bd8fe352114545326bfdbc0c1297,"identity, address, reporting mode and OPS membership"
+260912434-772274000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260912434-772274000-2024-xml.pdf,,public primary-source report
+260912434-772274000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.kliniken-suedostbayern.de/de/leistungsspektrum/klinikum-traunstein.htm,,supporting institutional identity/location evidence
+260321781-772721000,official_GBA_structured_report_local,data/xml/xml_2024/260321781-772721000-2024-xml.xml,387ef846e27e55e2cace4d09dcdd7814d13611984ea674cf6cb1453eaaec04be,"identity, address, reporting mode and OPS membership"
+260321781-772721000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260321781-772721000-2024-xml.pdf,,public primary-source report
+260321781-772721000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.krh.de/,,supporting institutional identity/location evidence
+260610019-771807000,official_GBA_structured_report_local,data/xml/xml_2024/260610019-771807000-2024-xml.xml,74b415d0beddefc18bf946de5e9781c9618df1af24442091d6ad8f82487df6af,"identity, address, reporting mode and OPS membership"
+260610019-771807000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260610019-771807000-2024-xml.pdf,,public primary-source report
+260610019-771807000,official_hospital_or_institution_URL_declared_in_GBA_report,https://klinikum-darmstadt.de,,supporting institutional identity/location evidence
+261300152-773589000,official_GBA_structured_report_local,data/xml/xml_2024/261300152-773589000-2024-xml.xml,823df2dccfb8226a3b28e2b0ed9068d950300c630409bf81d375eeed5290d4bf,"identity, address, reporting mode and OPS membership"
+261300152-773589000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261300152-773589000-2024-xml.pdf,,public primary-source report
+261300152-773589000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.medizin.uni-greifswald.de/de/impressum/,,supporting institutional identity/location evidence
+261101878-773181000,official_GBA_structured_report_local,data/xml/xml_2024/261101878-773181000-2024-xml.xml,af3d1eb81ce1c79264641b6cfc34ee572b91c7cbdf524a4d028ca01f91e0cf63,"identity, address, reporting mode and OPS membership"
+261101878-773181000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101878-773181000-2024-xml.pdf,,public primary-source report
+261101878-773181000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.vivantes.de/klinikum-am-urban,,supporting institutional identity/location evidence
+260500481-772088000,official_GBA_structured_report_local,data/xml/xml_2024/260500481-772088000-2024-xml.xml,a7d43966e472bdc1937d5b7c32f37a7dacb54259016b523258e6bfae217f99e1,"identity, address, reporting mode and OPS membership"
+260500481-772088000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260500481-772088000-2024-xml.pdf,,public primary-source report
+260500481-772088000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-hagen.de/,,supporting institutional identity/location evidence
+260510746-771889000,official_GBA_structured_report_local,data/xml/xml_2024/260510746-771889000-2024-xml.xml,bf5a89b2c0d35e9614db261df3053dff2656354df2b35ce4ddd537a1c6fe5f79,"identity, address, reporting mode and OPS membership"
+260510746-771889000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510746-771889000-2024-xml.pdf,,public primary-source report
+260510746-771889000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.evkmh.de,,supporting institutional identity/location evidence
+260511781-772188000,official_GBA_structured_report_local,data/xml/xml_2024/260511781-772188000-2024-xml.xml,ceef8498b8fc503984ebf0df6f7eb2708bd90b8d08522f9040d66ce04193199a,"identity, address, reporting mode and OPS membership"
+260511781-772188000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260511781-772188000-2024-xml.pdf,,public primary-source report
+260511781-772188000,official_hospital_or_institution_URL_declared_in_GBA_report,https://rheinlandklinikum.de/lukasneuss/,,supporting institutional identity/location evidence
+260530886-771698000,official_GBA_structured_report_local,data/xml/xml_2024/260530886-771698000-2024-xml.xml,e798fbbff9079366400627438b74ca2bb16413c98be4d9d3546739070342d6c9,"identity, address, reporting mode and OPS membership"
+260530886-771698000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260530886-771698000-2024-xml.pdf,,public primary-source report
+260530886-771698000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.marien-hospital.com,,supporting institutional identity/location evidence
+260590071-772744000,official_GBA_structured_report_local,data/xml/xml_2024/260590071-772744000-2024-xml.xml,a0d189e0f7ec08da340bb2c8904762615ec9dd98e28f246be11b83579943f6a9,"identity, address, reporting mode and OPS membership"
+260590071-772744000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260590071-772744000-2024-xml.pdf,,public primary-source report
+260590071-772744000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-bochum.de,,supporting institutional identity/location evidence
+260820433-772905000,official_GBA_structured_report_local,data/xml/xml_2024/260820433-772905000-2024-xml.xml,e9a6ca7b116c276dad4d9563c800100ac5e69380e87cda8dd34fa5383761b417,"identity, address, reporting mode and OPS membership"
+260820433-772905000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260820433-772905000-2024-xml.pdf,,public primary-source report
+260820433-772905000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-mittelbaden.de,,supporting institutional identity/location evidence
+260841928-771415000,official_GBA_structured_report_local,data/xml/xml_2024/260841928-771415000-2024-xml.xml,d058af308b5734c4c07d5dd1abea140d24ad3f84712afed2c0b6a23cbde9e2d2,"identity, address, reporting mode and OPS membership"
+260841928-771415000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260841928-771415000-2024-xml.pdf,,public primary-source report
+260841928-771415000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.bwkrankenhaus.de/de/bundeswehrkrankenhaus-ulm,,supporting institutional identity/location evidence
+261201356-771839000,official_GBA_structured_report_local,data/xml/xml_2024/261201356-771839000-2024-xml.xml,3b5804b26b1161cea50253df660f0232e43651648a67731519925a9b5add13a2,"identity, address, reporting mode and OPS membership"
+261201356-771839000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261201356-771839000-2024-xml.pdf,,public primary-source report
+261201356-771839000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.helios-gesundheit.de/kliniken/bad-saarow/,,supporting institutional identity/location evidence
+260100034-771320000,official_GBA_structured_report_local,data/xml/xml_2024/260100034-771320000-2024-xml.xml,ec0836480014faba592c7cf6f78f0a648d8d9add220af19d3ca7b11ea4d771d6,"identity, address, reporting mode and OPS membership"
+260100034-771320000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260100034-771320000-2024-xml.pdf,,public primary-source report
+260100034-771320000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.malteser-franziskus.de/,,supporting institutional identity/location evidence
+260100476-772465000,official_GBA_structured_report_local,data/xml/xml_2024/260100476-772465000-2024-xml.xml,dea00d417966bbb8536afc70e93210f698454f497bdc3733c5fce9f7d5ff9d9e,"identity, address, reporting mode and OPS membership"
+260100476-772465000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260100476-772465000-2024-xml.pdf,,public primary-source report
+260100476-772465000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-nf.de,,supporting institutional identity/location evidence
+260200284-773032000,official_GBA_structured_report_local,data/xml/xml_2024/260200284-773032000-2024-xml.xml,c0444d3c7e64521fd1352d73033c57cba08f0909a75456db278202b06d7e5837,"identity, address, reporting mode and OPS membership"
+260200284-773032000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260200284-773032000-2024-xml.pdf,,public primary-source report
+260200284-773032000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.ik-h.de/,,supporting institutional identity/location evidence
+260310209-772363000,official_GBA_structured_report_local,data/xml/xml_2024/260310209-772363000-2024-xml.xml,0d31b2126871219f8cdde406e5546fb6238c81c26ca9ae7c4109c412d0735d4c,"identity, address, reporting mode and OPS membership"
+260310209-772363000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260310209-772363000-2024-xml.pdf,,public primary-source report
+260310209-772363000,official_hospital_or_institution_URL_declared_in_GBA_report,https://klinikum-braunschweig.de/info?id_object=511&object=contact,,supporting institutional identity/location evidence
+260310447-772684000,official_GBA_structured_report_local,data/xml/xml_2024/260310447-772684000-2024-xml.xml,208fec80991bae4f7ceded1d892432d6ece27c67e551f0e2827c4822850aa027,"identity, address, reporting mode and OPS membership"
+260310447-772684000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260310447-772684000-2024-xml.pdf,,public primary-source report
+260310447-772684000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.ekweende.de,,supporting institutional identity/location evidence
+260310766-771722000,official_GBA_structured_report_local,data/xml/xml_2024/260310766-771722000-2024-xml.xml,9e71d5ac9e7f33ee87c3ba4e801d8bb4f0133d11a3f9a64ae29cc89ec108cfce,"identity, address, reporting mode and OPS membership"
+260310766-771722000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260310766-771722000-2024-xml.pdf,,public primary-source report
+260310766-771722000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.klinikum.wolfsburg.de/start,,supporting institutional identity/location evidence
+260320622-772333000,official_GBA_structured_report_local,data/xml/xml_2024/260320622-772333000-2024-xml.xml,9bb8efe61ba1b62a0d80fe21bde7910d748ded35fb62bcc99178341d35771f16,"identity, address, reporting mode and OPS membership"
+260320622-772333000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260320622-772333000-2024-xml.pdf,,public primary-source report
+260320622-772333000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.bernward-khs.de/,,supporting institutional identity/location evidence
+260330167-772803000,official_GBA_structured_report_local,data/xml/xml_2024/260330167-772803000-2024-xml.xml,59e0f8fc5d9dc9d97c69b238c02f5877f5086f7e5ea402893e7337829eb00883,"identity, address, reporting mode and OPS membership"
+260330167-772803000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260330167-772803000-2024-xml.pdf,,public primary-source report
+260330167-772803000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.helios-gesundheit.de/cuxhaven,,supporting institutional identity/location evidence
+260340886-772441000,official_GBA_structured_report_local,data/xml/xml_2024/260340886-772441000-2024-xml.xml,66cac23dc99235dd9984cab959dbda40d5817adefc8d216be6a9d9e78aeb03f8,"identity, address, reporting mode and OPS membership"
+260340886-772441000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260340886-772441000-2024-xml.pdf,,public primary-source report
+260340886-772441000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.ckq-gmbh.de,,supporting institutional identity/location evidence
+260341444-772466000,official_GBA_structured_report_local,data/xml/xml_2024/260341444-772466000-2024-xml.xml,902ab9d63411b75402f8f4de88c0aaf7cf5d27897c208e464128cc35c6a86786,"identity, address, reporting mode and OPS membership"
+260341444-772466000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260341444-772466000-2024-xml.pdf,,public primary-source report
+260341444-772466000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.ammerland-klinik.de/,,supporting institutional identity/location evidence
+260510461-771980000,official_GBA_structured_report_local,data/xml/xml_2024/260510461-771980000-2024-xml.xml,0086acdcad46a376972730cc47d04da35f884b758dcc7e2338440b3a84ede82a,"identity, address, reporting mode and OPS membership"
+260510461-771980000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510461-771980000-2024-xml.pdf,,public primary-source report
+260510461-771980000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.contilia.de/einrichtungen/elisabeth-krankenhaus-essen.html,,supporting institutional identity/location evidence
+260510611-771123000,official_GBA_structured_report_local,data/xml/xml_2024/260510611-771123000-2024-xml.xml,58753d437930deaab983d14aa554877fee8c355789e647d7690bd593eeb2f250,"identity, address, reporting mode and OPS membership"
+260510611-771123000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510611-771123000-2024-xml.pdf,,public primary-source report
+260510611-771123000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.region.alexianer-krefeld.de/impressum,,supporting institutional identity/location evidence
+260510826-771259000,official_GBA_structured_report_local,data/xml/xml_2024/260510826-771259000-2024-xml.xml,d2a9026a65dccd3aad21957d39e8359e701b515bca4913ffa6d6cc3a4862dd7a,"identity, address, reporting mode and OPS membership"
+260510826-771259000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510826-771259000-2024-xml.pdf,,public primary-source report
+260510826-771259000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sana.de/remscheid,,supporting institutional identity/location evidence
+260510906-772692000,official_GBA_structured_report_local,data/xml/xml_2024/260510906-772692000-2024-xml.xml,7ac0b902e99d8542ac33d180ec2d65c3b709695ef640fcab7855728d76bea8fe,"identity, address, reporting mode and OPS membership"
+260510906-772692000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260510906-772692000-2024-xml.pdf,,public primary-source report
+260510906-772692000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/wuppertal,,supporting institutional identity/location evidence
+260511462-771827000,official_GBA_structured_report_local,data/xml/xml_2024/260511462-771827000-2024-xml.xml,5d3e6eb85ff4e99e1917ac8f1c9e24c4b66091aee51fed56fedae1551c9b6020,"identity, address, reporting mode and OPS membership"
+260511462-771827000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260511462-771827000-2024-xml.pdf,,public primary-source report
+260511462-771827000,official_hospital_or_institution_URL_declared_in_GBA_report,https://kliniken-niederrhein.gfo-online.de/ueber-uns/kontakt-und-anfahrt,,supporting institutional identity/location evidence
+260530056-772078000,official_GBA_structured_report_local,data/xml/xml_2024/260530056-772078000-2024-xml.xml,8d00848901835f27512861ea2dacb17129e778921ad3bcddbe756d724526d58e,"identity, address, reporting mode and OPS membership"
+260530056-772078000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260530056-772078000-2024-xml.pdf,,public primary-source report
+260530056-772078000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.luisenhospital.de,,supporting institutional identity/location evidence
+260530396-772936000,official_GBA_structured_report_local,data/xml/xml_2024/260530396-772936000-2024-xml.xml,82e8f3d790efff45161e499a433f1d05d165df82ff06ed6f587134fc19a05f3c,"identity, address, reporting mode and OPS membership"
+260530396-772936000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260530396-772936000-2024-xml.pdf,,public primary-source report
+260530396-772936000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.hgk-koeln.de/ihr-aufenthalt/anfahrt-parken/,,supporting institutional identity/location evidence
+260550905-773430000,official_GBA_structured_report_local,data/xml/xml_2024/260550905-773430000-2024-xml.xml,3cc29fc4ff0e1ce5904ca22fdff91b71d99a44c816ce24cbe95e528042aa11db,"identity, address, reporting mode and OPS membership"
+260550905-773430000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260550905-773430000-2024-xml.pdf,,public primary-source report
+260550905-773430000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.mathias-medizin.de/leistungen-einrichtungen/einrichtungen/klinikum-rheine,,supporting institutional identity/location evidence
+260551154-772550000,official_GBA_structured_report_local,data/xml/xml_2024/260551154-772550000-2024-xml.xml,3e61d644f9f23be565722012dc83e60a13b5e7d7901125d10041048a2e8e5e3d,"identity, address, reporting mode and OPS membership"
+260551154-772550000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260551154-772550000-2024-xml.pdf,,public primary-source report
+260551154-772550000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.knappschaft-kliniken.de/gelsenkirchen/,,supporting institutional identity/location evidence
+260551165-772472000,official_GBA_structured_report_local,data/xml/xml_2024/260551165-772472000-2024-xml.xml,a43cbf998ce01250bd5968964e06ee133744d5138daedf10068dfd9e2906e0ce,"identity, address, reporting mode and OPS membership"
+260551165-772472000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260551165-772472000-2024-xml.pdf,,public primary-source report
+260551165-772472000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.knappschaft-kliniken.de,,supporting institutional identity/location evidence
+260551165-772473000,official_GBA_structured_report_local,data/xml/xml_2024/260551165-772473000-2024-xml.xml,69ed8fa657962a49a14ffaab53ae0d8ea2fc3fa832711c8ab427c75abfa7d5bc,"identity, address, reporting mode and OPS membership"
+260551165-772473000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260551165-772473000-2024-xml.pdf,,public primary-source report
+260551165-772473000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.knappschaft-kliniken.de,,supporting institutional identity/location evidence
+260551416-772191000,official_GBA_structured_report_local,data/xml/xml_2024/260551416-772191000-2024-xml.xml,e38eb025c46fd38b37ff75f0971025156b03261b9bf9ba30fb0d209d1cd49af2,"identity, address, reporting mode and OPS membership"
+260551416-772191000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260551416-772191000-2024-xml.pdf,,public primary-source report
+260551416-772191000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sfh-muenster.de/startseite/,,supporting institutional identity/location evidence
+260570044-771239000,official_GBA_structured_report_local,data/xml/xml_2024/260570044-771239000-2024-xml.xml,d453710fe496b4b1c420e6a3ecb939b947ab8f21ca11146899830369eb810e9d,"identity, address, reporting mode and OPS membership"
+260570044-771239000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260570044-771239000-2024-xml.pdf,,public primary-source report
+260570044-771239000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.evkb.de,,supporting institutional identity/location evidence
+260570044-773641000,official_GBA_structured_report_local,data/xml/xml_2024/260570044-773641000-2024-xml.xml,a62caca5e141c8ff3e598871d810f93f93fe3cad06aa007fcc6ede4f136bd148,"identity, address, reporting mode and OPS membership"
+260570044-773641000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260570044-773641000-2024-xml.pdf,,public primary-source report
+260570044-773641000,official_hospital_or_institution_URL_declared_in_GBA_report,https://evkb.de/kliniken-zentren/psyche-nerven/neurochirurgie/kontaktsprechstunden,,supporting institutional identity/location evidence
+260590037-773238000,official_GBA_structured_report_local,data/xml/xml_2024/260590037-773238000-2024-xml.xml,1d194ceef4c8d8a353eee95c855d00415e05d5c86c9da7977489b25524eea04d,"identity, address, reporting mode and OPS membership"
+260590037-773238000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260590037-773238000-2024-xml.pdf,,public primary-source report
+260590037-773238000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.bergmannsheil.de,,supporting institutional identity/location evidence
+260590402-773164000,official_GBA_structured_report_local,data/xml/xml_2024/260590402-773164000-2024-xml.xml,a9d181e8d5e0d2e1c31452bd40354491affb10c1b2ced2f00ba4642456a918a5,"identity, address, reporting mode and OPS membership"
+260590402-773164000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260590402-773164000-2024-xml.pdf,,public primary-source report
+260590402-773164000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.johanniter.de/johanniter-kliniken/johanniter-kliniken-hamm/,,supporting institutional identity/location evidence
+260590696-773218000,official_GBA_structured_report_local,data/xml/xml_2024/260590696-773218000-2024-xml.xml,bbba99b70d1c2ec1348cd6d75f112c11845bf1efaf0bf55a0dc2310900022b1b,"identity, address, reporting mode and OPS membership"
+260590696-773218000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260590696-773218000-2024-xml.pdf,,public primary-source report
+260590696-773218000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.krankenhaus-brilon.de,,supporting institutional identity/location evidence
+260591506-771395000,official_GBA_structured_report_local,data/xml/xml_2024/260591506-771395000-2024-xml.xml,0c6cd75e23a86a7eec4b8d6c64f369bb6a07bf72e39054b9b03f1b6a28ab1a53,"identity, address, reporting mode and OPS membership"
+260591506-771395000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260591506-771395000-2024-xml.pdf,,public primary-source report
+260591506-771395000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-luenen.de/startseite/,,supporting institutional identity/location evidence
+260592084-772561000,official_GBA_structured_report_local,data/xml/xml_2024/260592084-772561000-2024-xml.xml,05baa71a7c97675d79dbec9f8a57aab9b684776eb2923c3ce0ac10aa5f17ea1e,"identity, address, reporting mode and OPS membership"
+260592084-772561000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260592084-772561000-2024-xml.pdf,,public primary-source report
+260592084-772561000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.barbaraklinik.de,,supporting institutional identity/location evidence
+260593600-772597000,official_GBA_structured_report_local,data/xml/xml_2024/260593600-772597000-2024-xml.xml,3c81c59692f35e4d9c8c49660fc812f532e3cd6812c791514d35f6386ddfd36a,"identity, address, reporting mode and OPS membership"
+260593600-772597000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260593600-772597000-2024-xml.pdf,,public primary-source report
+260593600-772597000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-hochsauerland.de/das-klinikum/Standorte/karolinen-hospital,,supporting institutional identity/location evidence
+260610359-772356000,official_GBA_structured_report_local,data/xml/xml_2024/260610359-772356000-2024-xml.xml,697013b4b25a41d2ef2c4d510350ef90ea81f0cc5617448d174cce0c8a6575c1,"identity, address, reporting mode and OPS membership"
+260610359-772356000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260610359-772356000-2024-xml.pdf,,public primary-source report
+260610359-772356000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sana.de/offenbach,,supporting institutional identity/location evidence
+260610360-771398000,official_GBA_structured_report_local,data/xml/xml_2024/260610360-771398000-2024-xml.xml,f4ac962719e7480bb62fd8bcbb0e9b1b74f0c7f892e025f71e45a72fc11e3fdc,"identity, address, reporting mode and OPS membership"
+260610360-771398000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260610360-771398000-2024-xml.pdf,,public primary-source report
+260610360-771398000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.ketteler-krankenhaus.de/patienten-und-besucher/besucher-angehoerige/,,supporting institutional identity/location evidence
+260620011-772565000,official_GBA_structured_report_local,data/xml/xml_2024/260620011-772565000-2024-xml.xml,5f1299987c272a0a0731f25629ac19363d8665769757ed3bf9896687995837d5,"identity, address, reporting mode and OPS membership"
+260620011-772565000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260620011-772565000-2024-xml.pdf,,public primary-source report
+260620011-772565000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.gesundheit-nordhessen.de/klinikum-kassel/,,supporting institutional identity/location evidence
+260620157-772145000,official_GBA_structured_report_local,data/xml/xml_2024/260620157-772145000-2024-xml.xml,204192bce3d1f2686dc93a21b5a420b37ccdd156773f8cbf5db63d91aee1cfe7,"identity, address, reporting mode and OPS membership"
+260620157-772145000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260620157-772145000-2024-xml.pdf,,public primary-source report
+260620157-772145000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-fulda.de,,supporting institutional identity/location evidence
+260641243-772737000,official_GBA_structured_report_local,data/xml/xml_2024/260641243-772737000-2024-xml.xml,6c8b1b6cc2927bd54e72932b7872922a6d97b4f42661be2eacc1627b4ca53b46,"identity, address, reporting mode and OPS membership"
+260641243-772737000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260641243-772737000-2024-xml.pdf,,public primary-source report
+260641243-772737000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.markus-krankenhaus.de,,supporting institutional identity/location evidence
+260700109-773518000,official_GBA_structured_report_local,data/xml/xml_2024/260700109-773518000-2024-xml.xml,f59105181eb994e3480928a5ee7d1c6ae9636342708ebf15e9fe49c6bb87f5c4,"identity, address, reporting mode and OPS membership"
+260700109-773518000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260700109-773518000-2024-xml.pdf,,public primary-source report
+260700109-773518000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.gk.de/,,supporting institutional identity/location evidence
+260710087-771220000,official_GBA_structured_report_local,data/xml/xml_2024/260710087-771220000-2024-xml.xml,0a5b2e94be373b702a206043bae1568e54083bf820ff2413a5e478f0c8e4ef58,"identity, address, reporting mode and OPS membership"
+260710087-771220000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260710087-771220000-2024-xml.pdf,,public primary-source report
+260710087-771220000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.marienhaus-klinikum-ahr.de/unserklinikum/standorte/krankenhaus-maria-hilf-bad-neuenahr-ahrweiler/,,supporting institutional identity/location evidence
+260720034-771463000,official_GBA_structured_report_local,data/xml/xml_2024/260720034-771463000-2024-xml.xml,72a012d0ee65a3d30bcb87551ae1e7a0292740c8ab890e52038d8be2dfb28d83,"identity, address, reporting mode and OPS membership"
+260720034-771463000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260720034-771463000-2024-xml.pdf,,public primary-source report
+260720034-771463000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.mutterhaus.de/,,supporting institutional identity/location evidence
+260730478-772427000,official_GBA_structured_report_local,data/xml/xml_2024/260730478-772427000-2024-xml.xml,84bab073ae68692aebf002c3d2bccca4b451e778d5283c1aeaa46144de3ebba8,"identity, address, reporting mode and OPS membership"
+260730478-772427000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260730478-772427000-2024-xml.pdf,,public primary-source report
+260730478-772427000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.nardiniklinikum.de,,supporting institutional identity/location evidence
+260810146-773033000,official_GBA_structured_report_local,data/xml/xml_2024/260810146-773033000-2024-xml.xml,cd00bb2644c086793dea40755188a7a90b388b65a241499eb186af21789e3541,"identity, address, reporting mode and OPS membership"
+260810146-773033000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260810146-773033000-2024-xml.pdf,,public primary-source report
+260810146-773033000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.diakonie-klinikum.de/,,supporting institutional identity/location evidence
+260810191-772796000,official_GBA_structured_report_local,data/xml/xml_2024/260810191-772796000-2024-xml.xml,919d70cc1b2ff37bd1b1e4e6b1e1e9ed90ca03e7da784bda3f460a8e1add42e5,"identity, address, reporting mode and OPS membership"
+260810191-772796000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260810191-772796000-2024-xml.pdf,,public primary-source report
+260810191-772796000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.marienhospital-stuttgart.de,,supporting institutional identity/location evidence
+260810589-772384000,official_GBA_structured_report_local,data/xml/xml_2024/260810589-772384000-2024-xml.xml,78f231225ce9dc64918e1a9724157ec08e8c7e1f97c366ab58810b39ddee8a62,"identity, address, reporting mode and OPS membership"
+260810589-772384000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260810589-772384000-2024-xml.pdf,,public primary-source report
+260810589-772384000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.alb-fils-klinikum.de,,supporting institutional identity/location evidence
+260810794-772048000,official_GBA_structured_report_local,data/xml/xml_2024/260810794-772048000-2024-xml.xml,8427b9a8d2d15762c42f210009d4d928182778b811f3787aa32b56be05bcdb4b,"identity, address, reporting mode and OPS membership"
+260810794-772048000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260810794-772048000-2024-xml.pdf,,public primary-source report
+260810794-772048000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.slk-kliniken.de/ueber-uns/standorte/klinikum-am-gesundbrunnen/,,supporting institutional identity/location evidence
+260811192-772437000,official_GBA_structured_report_local,data/xml/xml_2024/260811192-772437000-2024-xml.xml,d8b7fb80fc7ff8a8880f152788e32877406b462dd3ed2b7bb913218b2ea5fb96,"identity, address, reporting mode and OPS membership"
+260811192-772437000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260811192-772437000-2024-xml.pdf,,public primary-source report
+260811192-772437000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.diak-klinikum.de/,,supporting institutional identity/location evidence
+260811579-771470000,official_GBA_structured_report_local,data/xml/xml_2024/260811579-771470000-2024-xml.xml,bd666645faad045fb43c05f41f29377117d01c62d2db350656601e74cb35357e,"identity, address, reporting mode and OPS membership"
+260811579-771470000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260811579-771470000-2024-xml.pdf,,public primary-source report
+260811579-771470000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.kliniken-ostalb.de,,supporting institutional identity/location evidence
+260812525-771314000,official_GBA_structured_report_local,data/xml/xml_2024/260812525-771314000-2024-xml.xml,d57b65b761ab0deb6ceb1f85026e629950aa725b64d40bdad07e02713fad07df,"identity, address, reporting mode and OPS membership"
+260812525-771314000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260812525-771314000-2024-xml.pdf,,public primary-source report
+260812525-771314000,official_hospital_or_institution_URL_declared_in_GBA_report,https://klinikverbund-suedwest.de/der-klinikverbund-suedwest/standorte-kontakt/kliniken-boeblingen/,,supporting institutional identity/location evidence
+260820284-772071000,official_GBA_structured_report_local,data/xml/xml_2024/260820284-772071000-2024-xml.xml,ff85e9a86d3a19e8efcfe468dcb0ab4125709c9da2db8a1de74732f2e1e9306e,"identity, address, reporting mode and OPS membership"
+260820284-772071000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260820284-772071000-2024-xml.pdf,,public primary-source report
+260820284-772071000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.rkh-gesundheit.de/kliniken-zentren/unsere-kliniken/fuerst-stirum-klinik-bruchsal/,,supporting institutional identity/location evidence
+260820503-771242000,official_GBA_structured_report_local,data/xml/xml_2024/260820503-771242000-2024-xml.xml,55766c269487ba308c52ec7c60e1c64498c10178ab09c059c6f370a4a2ade3e0,"identity, address, reporting mode and OPS membership"
+260820503-771242000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260820503-771242000-2024-xml.pdf,,public primary-source report
+260820503-771242000,official_hospital_or_institution_URL_declared_in_GBA_report,http://krankenhaus-salem.de,,supporting institutional identity/location evidence
+260830048-771473000,official_GBA_structured_report_local,data/xml/xml_2024/260830048-771473000-2024-xml.xml,a650ea22f1fa1b213106b08d297b1d699a4929ab06777fd10100d3bf37512dc8,"identity, address, reporting mode and OPS membership"
+260830048-771473000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260830048-771473000-2024-xml.pdf,,public primary-source report
+260830048-771473000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.rkk-klinikum.de/page-11,,supporting institutional identity/location evidence
+260831481-772585000,official_GBA_structured_report_local,data/xml/xml_2024/260831481-772585000-2024-xml.xml,848befbdae193589c47691f3e678b12d687cbb6f3bb855b00c30803d9ec41d14,"identity, address, reporting mode and OPS membership"
+260831481-772585000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260831481-772585000-2024-xml.pdf,,public primary-source report
+260831481-772585000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.glkn.de,,supporting institutional identity/location evidence
+260910090-772207000,official_GBA_structured_report_local,data/xml/xml_2024/260910090-772207000-2024-xml.xml,f97fb6718836f5cb0de2a836542b80ac6c77fbd26623024bf8c0b5837e27c08b,"identity, address, reporting mode and OPS membership"
+260910090-772207000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260910090-772207000-2024-xml.pdf,,public primary-source report
+260910090-772207000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.helios-gesundheit.de/muenchen-west,,supporting institutional identity/location evidence
+260910136-772835000,official_GBA_structured_report_local,data/xml/xml_2024/260910136-772835000-2024-xml.xml,272511ca74ffb67b47d32ef61856cb0069e95c0f63918bc975bca7080f825401,"identity, address, reporting mode and OPS membership"
+260910136-772835000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260910136-772835000-2024-xml.pdf,,public primary-source report
+260910136-772835000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.deutsches-herzzentrum-muenchen.de,,supporting institutional identity/location evidence
+260910637-772849000,official_GBA_structured_report_local,data/xml/xml_2024/260910637-772849000-2024-xml.xml,b21aaedf65c4a8e67c68032681077954869b2eaaa103acc7b078beacaf4e47c1,"identity, address, reporting mode and OPS membership"
+260910637-772849000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260910637-772849000-2024-xml.pdf,,public primary-source report
+260910637-772849000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.romed-kliniken.de/de/rosenheim/das-klinikum-im-ueberblick%2C42643.htm,,supporting institutional identity/location evidence
+260911295-772387000,official_GBA_structured_report_local,data/xml/xml_2024/260911295-772387000-2024-xml.xml,159c15de2dc2f1d9f8d9b8823c07625c8d1b25d4870af190b9a966e972704a38,"identity, address, reporting mode and OPS membership"
+260911295-772387000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260911295-772387000-2024-xml.pdf,,public primary-source report
+260911295-772387000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-ffb.de,,supporting institutional identity/location evidence
+260911320-773597000,official_GBA_structured_report_local,data/xml/xml_2024/260911320-773597000-2024-xml.xml,cf433ed7205f873c0ee7a2a46a861e4cf0af73dcad4f9bb9dc11d1197c1c0b1f,"identity, address, reporting mode and OPS membership"
+260911320-773597000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260911320-773597000-2024-xml.pdf,,public primary-source report
+260911320-773597000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.klinikum-gap.de/standorte/murnau,,supporting institutional identity/location evidence
+260911320-773617000,official_GBA_structured_report_local,data/xml/xml_2024/260911320-773617000-2024-xml.xml,66a7047623b905407f667be3576ce2cec2d3fb9c7db67c041564bf82e0215afb,"identity, address, reporting mode and OPS membership"
+260911320-773617000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260911320-773617000-2024-xml.pdf,,public primary-source report
+260911320-773617000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-gap.de,,supporting institutional identity/location evidence
+260911386-773259000,official_GBA_structured_report_local,data/xml/xml_2024/260911386-773259000-2024-xml.xml,af9770a16c3464c6051f0794c5bcd2584c5feb6e7a985d0810ec01e8b2016243,"identity, address, reporting mode and OPS membership"
+260911386-773259000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260911386-773259000-2024-xml.pdf,,public primary-source report
+260911386-773259000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.bgu-murnau.de/,,supporting institutional identity/location evidence
+260914050-771734000,official_GBA_structured_report_local,data/xml/xml_2024/260914050-771734000-2024-xml.xml,2c8e699303efccba141f72a7e176971128dbe6a7214691b4793ed7ff5433bc54,"identity, address, reporting mode and OPS membership"
+260914050-771734000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260914050-771734000-2024-xml.pdf,,public primary-source report
+260914050-771734000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.lmu-klinikum.de/,,supporting institutional identity/location evidence
+260940029-771420000,official_GBA_structured_report_local,data/xml/xml_2024/260940029-771420000-2024-xml.xml,8a91d21084cd843b627181d5d2a70a778685b39aca2f976f7cbd0b0590928fad,"identity, address, reporting mode and OPS membership"
+260940029-771420000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260940029-771420000-2024-xml.pdf,,public primary-source report
+260940029-771420000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.sozialstiftung-bamberg.de,,supporting institutional identity/location evidence
+260940109-772810000,official_GBA_structured_report_local,data/xml/xml_2024/260940109-772810000-2024-xml.xml,861ece3405ac423651365c1cf99001d15c9d49c3dc61857e1c1c452cfcc12fea,"identity, address, reporting mode and OPS membership"
+260940109-772810000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/260940109-772810000-2024-xml.pdf,,public primary-source report
+260940109-772810000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-bayreuth.de,,supporting institutional identity/location evidence
+261000934-773075000,official_GBA_structured_report_local,data/xml/xml_2024/261000934-773075000-2024-xml.xml,c380cbb2a54dc19fbf3852f829b748c2a20b52d147a4c71dc5293df20689b608,"identity, address, reporting mode and OPS membership"
+261000934-773075000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261000934-773075000-2024-xml.pdf,,public primary-source report
+261000934-773075000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.caritasklinikum.de,,supporting institutional identity/location evidence
+261100025-773370000,official_GBA_structured_report_local,data/xml/xml_2024/261100025-773370000-2024-xml.xml,c03a678c3198a2eb34af810f0cc3dd59bd85cefb677e419332ed39cd4f6de775,"identity, address, reporting mode and OPS membership"
+261100025-773370000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261100025-773370000-2024-xml.pdf,,public primary-source report
+261100025-773370000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.johannesstift-diakonie.de/medizinische-versorgung/evangelische-elisabeth-klinik,,supporting institutional identity/location evidence
+261100855-771917000,official_GBA_structured_report_local,data/xml/xml_2024/261100855-771917000-2024-xml.xml,e07785193823bc7dd673e47108b042043c0a14e9f8724e8fbcf2982dbad89114,"identity, address, reporting mode and OPS membership"
+261100855-771917000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261100855-771917000-2024-xml.pdf,,public primary-source report
+261100855-771917000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sjk.de/,,supporting institutional identity/location evidence
+261101311-772832000,official_GBA_structured_report_local,data/xml/xml_2024/261101311-772832000-2024-xml.xml,49e9b4f5e686a29f5b68b39d991ae212b3fad5b25fc3994fe9631cd6cc10b511,"identity, address, reporting mode and OPS membership"
+261101311-772832000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101311-772832000-2024-xml.pdf,,public primary-source report
+261101311-772832000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.drk-kliniken-berlin.de/koepenick,,supporting institutional identity/location evidence
+261101527-773403000,official_GBA_structured_report_local,data/xml/xml_2024/261101527-773403000-2024-xml.xml,03b13f4cc640ebc76d1526af44a6904cdd4d2c2f24a5f74d849a7bfa9cd97c17,"identity, address, reporting mode and OPS membership"
+261101527-773403000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101527-773403000-2024-xml.pdf,,public primary-source report
+261101527-773403000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sana.de/berlin,,supporting institutional identity/location evidence
+261101561-773065000,official_GBA_structured_report_local,data/xml/xml_2024/261101561-773065000-2024-xml.xml,25026639a06184b0e1a62559ad8f1f13a0c04af0f57ec38b73e359bf141c6bb3,"identity, address, reporting mode and OPS membership"
+261101561-773065000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101561-773065000-2024-xml.pdf,,public primary-source report
+261101561-773065000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.drk-kliniken-berlin.de/westend,,supporting institutional identity/location evidence
+261101754-771923000,official_GBA_structured_report_local,data/xml/xml_2024/261101754-771923000-2024-xml.xml,f5422ec7046b7b6b05f8ea57c2a4ad70f3b613559fc8fdb724973b0d7beafb4e,"identity, address, reporting mode and OPS membership"
+261101754-771923000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101754-771923000-2024-xml.pdf,,public primary-source report
+261101754-771923000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.ukb.de,,supporting institutional identity/location evidence
+261101878-773187000,official_GBA_structured_report_local,data/xml/xml_2024/261101878-773187000-2024-xml.xml,0ae2aac6d8de3a089fb1df8cc49328fd20e8ac3f9d83b6a300be59857d36c1fc,"identity, address, reporting mode and OPS membership"
+261101878-773187000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261101878-773187000-2024-xml.pdf,,public primary-source report
+261101878-773187000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.vivantes.de/klinikum-spandau,,supporting institutional identity/location evidence
+261110083-772955000,official_GBA_structured_report_local,data/xml/xml_2024/261110083-772955000-2024-xml.xml,35fefd3db345663e325ffb4f7488fb41aefc1c5b5d8ed2fb1a4abd2ce55043be,"identity, address, reporting mode and OPS membership"
+261110083-772955000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261110083-772955000-2024-xml.pdf,,public primary-source report
+261110083-772955000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.helios-gesundheit.de/kliniken/berlin-klinikum-emil-von-behring/,,supporting institutional identity/location evidence
+261200220-772760000,official_GBA_structured_report_local,data/xml/xml_2024/261200220-772760000-2024-xml.xml,450f4060eed82046012f79db208dc818af05e6c73a0131d99f2b9138d803e490,"identity, address, reporting mode and OPS membership"
+261200220-772760000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261200220-772760000-2024-xml.pdf,,public primary-source report
+261200220-772760000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikumevb.de,,supporting institutional identity/location evidence
+261200457-772221000,official_GBA_structured_report_local,data/xml/xml_2024/261200457-772221000-2024-xml.xml,dbdbaa3536e2fd947b6ea19320726a568459cc0638efcb21d40d8fd9b5ed6ef7,"identity, address, reporting mode and OPS membership"
+261200457-772221000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261200457-772221000-2024-xml.pdf,,public primary-source report
+261200457-772221000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.uk-brandenburg.de,,supporting institutional identity/location evidence
+261200538-772643000,official_GBA_structured_report_local,data/xml/xml_2024/261200538-772643000-2024-xml.xml,484cb123b123ce847aaa7898ec49bccccc699f0078054dee3b6687a1c7a8c73f,"identity, address, reporting mode and OPS membership"
+261200538-772643000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261200538-772643000-2024-xml.pdf,,public primary-source report
+261200538-772643000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.havelland.kliniken.de,,supporting institutional identity/location evidence
+261201061-771632000,official_GBA_structured_report_local,data/xml/xml_2024/261201061-771632000-2024-xml.xml,f8eda4a2fcbe42f4e2c8565f335c9ac26f37850e727456b9c131680072e07c9b,"identity, address, reporting mode and OPS membership"
+261201061-771632000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261201061-771632000-2024-xml.pdf,,public primary-source report
+261201061-771632000,official_hospital_or_institution_URL_declared_in_GBA_report,http://klinikumffo.de/,,supporting institutional identity/location evidence
+261201414-772821000,official_GBA_structured_report_local,data/xml/xml_2024/261201414-772821000-2024-xml.xml,902cfb41672ebc5f9c6c0354ee981e800eb13828f71a3a2dcbd802b53559b024,"identity, address, reporting mode and OPS membership"
+261201414-772821000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261201414-772821000-2024-xml.pdf,,public primary-source report
+261201414-772821000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.klinikum-ds.de/home.html,,supporting institutional identity/location evidence
+261300312-772096000,official_GBA_structured_report_local,data/xml/xml_2024/261300312-772096000-2024-xml.xml,5021d5c30beef3f4108545aefe23468500e7b3ea805d993225e8d0129ec865b8,"identity, address, reporting mode and OPS membership"
+261300312-772096000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261300312-772096000-2024-xml.pdf,,public primary-source report
+261300312-772096000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.sana.de/ruegen,,supporting institutional identity/location evidence
+261400949-772842000,official_GBA_structured_report_local,data/xml/xml_2024/261400949-772842000-2024-xml.xml,5915a4805cec11577deea19b510d7607be634cba3b9aa65bffe4fd823a44ede7,"identity, address, reporting mode and OPS membership"
+261400949-772842000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261400949-772842000-2024-xml.pdf,,public primary-source report
+261400949-772842000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.klinikum-dresden.de,,supporting institutional identity/location evidence
+261500757-771701000,official_GBA_structured_report_local,data/xml/xml_2024/261500757-771701000-2024-xml.xml,2b1d59d17c999da95debce288840aa433b1f9a1566226d8d34bde487c5ce0417,"identity, address, reporting mode and OPS membership"
+261500757-771701000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261500757-771701000-2024-xml.pdf,,public primary-source report
+261500757-771701000,official_hospital_or_institution_URL_declared_in_GBA_report,https://www.klinikum-dessau.de,,supporting institutional identity/location evidence
+261600521-771235000,official_GBA_structured_report_local,data/xml/xml_2024/261600521-771235000-2024-xml.xml,a0eed63cab0a1fae522ff7d093faf5e724a41021b2b0044098cc450500b31908,"identity, address, reporting mode and OPS membership"
+261600521-771235000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261600521-771235000-2024-xml.pdf,,public primary-source report
+261600521-771235000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.hufeland.de,,supporting institutional identity/location evidence
+261600872-771725000,official_GBA_structured_report_local,data/xml/xml_2024/261600872-771725000-2024-xml.xml,03e4b4f7effc35b4179904a7ab151fa0b2a364fa13dd451a11b3ff4b418934df,"identity, address, reporting mode and OPS membership"
+261600872-771725000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261600872-771725000-2024-xml.pdf,,public primary-source report
+261600872-771725000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.medinos-kliniken.de/,,supporting institutional identity/location evidence
+261601123-772308000,official_GBA_structured_report_local,data/xml/xml_2024/261601123-772308000-2024-xml.xml,7f8d779df02b7375b56b3701e5b01ccfff5e1677beea646c504c91140d9b9854,"identity, address, reporting mode and OPS membership"
+261601123-772308000,official_GBA_report_URL,https://qb-referenzdatenbank.g-ba.de/api/download/261601123-772308000-2024-xml.pdf,,public primary-source report
+261601123-772308000,official_hospital_or_institution_URL_declared_in_GBA_report,http://www.stgeorgklinikum.de,,supporting institutional identity/location evidence

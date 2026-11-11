@@ -1,0 +1,194 @@
+site_id,ik,provider_name,inclusive_reporting_status,selected_code_reporting_status,selected_code_identifiable,selected_code_openly_numeric,selected_code_suppressed_only,de_novo_visible_activity,de_novo_suppressed_entry_count,selected_codes,latitude_final,longitude_final,stable_site_id_exact_match
+260100034-771320000,260100034,Malteser Krankenhaus St. Franziskus-Hospital,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.89,54.7922897,9.4207165,True
+260100476-772465000,260100476,Klinikum Nordfriesland gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,54.4833008,9.0502002,True
+260101193-772660000,260101193,Krankenhaus Reinbek St. Adolf-Stift GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,1,8-839.88,53.5097359,10.2406578,True
+260101488-772073000,260101488,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,35,1,8-839.87|8-839.88,54.0643152,9.9913258,True
+260102343-773447000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,35,0,8-839.87|8-839.88,53.8387592,10.7078632,True
+260102343-773448000,260102343,UNIVERSITÄTSKLINIKUM Schleswig-Holstein,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,56,1,8-839.87|8-839.88,54.3287985,10.1441819,True
+260102423-772498000,260102423,Sana Kliniken Lübeck GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,2,8-839.87|8-839.88,53.8488707,10.6879537,True
+260200013-773675000,260200013,Universitätsklinikum Hamburg-Eppendorf,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,93,2,8-839.88|8-839.8a,53.5918063,9.9725632,True
+260200035-772584000,260200035,Asklepios Klinik Barmbek,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,24,1,8-839.87|8-839.88,53.6062742,10.0364792,True
+260200046-772530000,260200046,Schön Klinik Hamburg Eilbek,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,1,8-839.88,53.577895,10.0529663,True
+260200079-772901000,260200079,Asklepios Klinikum Harburg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,20,1,8-839.88|8-839.8a,53.4594541,9.9501356,True
+260200284-773032000,260200284,Israelitisches Krankenhaus in Hamburg,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.8a,53.6057601,9.9911582,True
+260200400-772533000,260200400,Kath. Marienkrankenhaus gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,0,8-839.88,53.559033,10.0307399,True
+260310209-772363000,260310209,Städtisches Klinikum Braunschweig gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.2384278,10.5452476,True
+260310378-772918000,260310378,Universitätsmedizin Göttingen,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,39,0,8-839.87|8-839.88|8-839.8a,51.549382,9.9443011,True
+260310447-772684000,260310447,Evangelisches Krankenhaus Göttingen-Weende gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.5544233,9.9446367,True
+260310766-771722000,260310766,Klinikum Wolfsburg,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.4136733,10.7685967,True
+260320597-771519000,260320597,Medizinische Hochschule Hannover,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,51,3,8-839.87|8-839.88|8-839.89|8-839.8a,52.3842111,9.802795,True
+260320622-772333000,260320622,St. Bernward Krankenhaus GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.1469731,9.9476069,True
+260321781-772721000,260321781,KRH Klinikum Siloah,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,6,0,8-839.88,52.3594837,9.725112,True
+260330167-772803000,260330167,Helios Klinik Cuxhaven GmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,53.8527503,8.6927855,True
+260330361-772578000,260330361,Städtisches Klinikum Lüneburg gemeinnützige GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,0,8-839.88,53.240222,10.3958656,True
+260340740-771936000,260340740,Klinikum Oldenburg AöR,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,7,0,8-839.88,53.111788,8.2171526,True
+260340886-772441000,260340886,Christliches Krankenhaus Quakenbrück GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.89,52.6678274,7.9386468,True
+260341444-772466000,260341444,Ammerland-Klinik Westerstede,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.87,53.2579622,7.9184201,True
+260500481-772088000,260500481,AGAPLESION Klinikum Hagen gem. GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,51.3540265,7.4660777,True
+260510018-773410000,260510018,Universitätsklinikum Düsseldorf,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,122,1,8-839.87|8-839.88|8-839.89|8-839.8a,51.1959679,6.7898208,True
+260510132-773140000,260510132,Evangelisches Krankenhaus Düsseldorf,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,0,8-839.88,51.2132109,6.7730577,True
+260510256-771548000,260510256,Helios St. Johannes Klinik,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,8,1,8-839.88,51.490144,6.7606062,True
+260510381-771967000,260510381,Universitätsklinikum Essen (AöR),inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,65,2,8-839.87|8-839.88|8-839.8a,51.4331571,6.988283,True
+260510461-771980000,260510461,Elisabeth-Krankenhaus Essen,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.445437,7.0328223,True
+260510575-772782000,260510575,Helios Klinikum Krefeld,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,0,8-839.88,51.3209451,6.5660868,True
+260510611-771123000,260510611,Alexianer Krefeld GmbH - Krankenhaus Maria-Hilf,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,51.3254918,6.5866841,True
+260510746-771889000,260510746,Evangelisches Krankenhaus Mülheim an der Ruhr GmbH,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,2,8-839.88|8-839.8a,51.4245961,6.8824168,True
+260510826-771259000,260510826,Sana-Klinikum Remscheid GmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,51.1616257,7.1887229,True
+260510906-772692000,260510906,Helios Universitätsklinikum Wuppertal - Campus Elberfeld,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,51.2501708,7.1330009,True
+260510939-771562000,260510939,Klinikverbund St. Antonius und St. Josef GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,24,0,8-839.87|8-839.88,51.2758661,7.1918608,True
+260511462-771827000,260511462,St. Vinzenz Hospital,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.5600405,6.7274332,True
+260511781-772188000,260511781,Rheinland Klinikum  Lukaskrankenhaus Neuss,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,4,8-839.87|8-839.88,51.1915915,6.6715957,True
+260512032-771585000,260512032,Helios Klinikum Niederberg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,51.3503039,7.0116891,True
+260530012-771450000,260530012,Uniklinik RWTH Aachen,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,16,1,8-839.88,50.7769172,6.0433753,True
+260530056-772078000,260530056,Luisenhospital Aachen,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.87,50.7676431,6.076747,True
+260530103-772247000,260530103,Universitätsklinikum Bonn,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,131,4,8-839.87|8-839.88|8-839.89|8-839.8a,50.6957054,7.1048217,True
+260530283-773491000,260530283,Universitätsklinikum Köln,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,39,0,8-839.87|8-839.88,50.9235258,6.9192613,True
+260530396-772936000,260530396,Cellitinnen-Krankenhaus Heilig Geist,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88|8-839.8a,50.9916327,6.9253461,True
+260530443-771696000,260530443,Cellitinnen-Krankenhaus St. Vinzenz,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,35,2,8-839.87|8-839.88|8-839.8a,50.9669681,6.9471043,True
+260530465-772075000,260530465,Cellitinnen-Krankenhaus St. Franziskus,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,8,3,8-839.88|8-839.89|8-839.8a,50.9541498,6.9175248,True
+260530886-771698000,260530886,Marien-Hospital,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,50.6423738,6.7912555,True
+260531661-772113000,260531661,Rhein-Maas Klinikum GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,6,0,8-839.88,50.8151704,6.1429153,True
+260550131-772432000,260550131,Universitätsklinikum Münster,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,106,4,8-839.87|8-839.88|8-839.89|8-839.8a,51.9607705,7.5959555,True
+260550460-771191000,260550460,Christophorus Kliniken Coesfeld Dülmen Nottuln,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,20,1,8-839.88,51.9441642,7.1700403,True
+260550701-772358000,260550701,Stiftungsklinikum PROSELIS gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,1,8-839.88,51.6063388,7.1923347,True
+260550905-773430000,260550905,Klinikum Rheine,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.2761609,7.4258089,True
+260551154-772550000,260551154,Knappschaft Kliniken Gelsenkirchen -Buer GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.5708201,7.0605878,True
+260551165-772472000,260551165,"Knappschaft Kliniken Vest GmbH, Paracelsus Marl",inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.6620448,7.1241778,True
+260551165-772473000,260551165,"Knappschaft Kliniken Vest GmbH, Recklinghausen",inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.6199679,7.1760656,True
+260551381-773391000,260551381,Klinikum Ibbenbüren,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,0,8-839.88,52.278612,7.71381,True
+260551416-772191000,260551416,St. Franziskus-Hospital GmbH Münster,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,51.9609413,7.649296,True
+260570044-771239000,260570044,Evangelisches Klinikum Bethel gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,52.042659,8.5404752,True
+260570044-773641000,260570044,Evangelisches Klinikum Bethel gGmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,52.0134873,8.5259463,True
+260570306-773235000,260570306,Kreiskliniken Herford-Bünde AöR,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,8,3,8-839.87|8-839.88|8-839.89,52.126119,8.7004351,True
+260570692-772283000,260570692,Johannes Wesling Klinikum Minden,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,0,8-839.88,52.2612462,8.8890891,True
+260571421-773289000,260571421,Katholische Hospitalvereinigung Ostwestfalen gem. GmbH,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,3,8-839.87|8-839.88,52.0226864,8.5227616,True
+260590037-773238000,260590037,Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.468189,7.2110654,True
+260590071-772744000,260590071,Katholisches Klinikum Bochum,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,2,8-839.88,51.4921353,7.2301124,True
+260590139-773659000,260590139,Klinikzentrum Mitte,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,19,0,8-839.87|8-839.88,51.5084552,7.4576213,True
+260590402-773164000,260590402,HAMM,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88,51.6694066,7.8272082,True
+260590505-772000000,260590505,Ev. Krankenhaus Herne gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,6,1,8-839.88|8-839.89,51.5338179,7.2307044,True
+260590696-773218000,260590696,Städt. Krankenhaus Maria-Hilf Brilon gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.3857818,8.5821875,True
+260591506-771395000,260591506,KLW St. Paulus GmbH St. Marien Hospital Lünen,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.6188621,7.5153293,True
+260591608-772932000,260591608,Knappschaft Kliniken Universitätsklinikum Bochum GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,0,8-839.88,51.4639837,7.3272232,True
+260592084-772561000,260592084,St. Barbara-Klinik Hamm GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.87,51.7078282,7.8416243,True
+260593600-772597000,260593600,Alexianer Klinikum Hochsauerland | Standort Karolinen-Hospital Hüsten,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.4260697,7.9996717,True
+260610019-771807000,260610019,Klinikum Darmstadt GmbH,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,3,8-839.87|8-839.88|8-839.89,49.8741151,8.6461352,True
+260610359-772356000,260610359,Sana Klinikum Offenbach GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.8a,50.0943621,8.7562569,True
+260610360-771398000,260610360,Ketteler Krankenhaus,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,50.094655,8.7847016,True
+260610393-773371000,260610393,Helios Dr. Horst-Schmidt Kliniken Wiesbaden GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,1,8-839.87|8-839.88,50.0658506,8.1914707,True
+260610439-772176000,260610439,St. Josefs-Hospital Wiesbaden GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,0,8-839.88,50.0764489,8.2544924,True
+260611236-771648000,260611236,Klinikum Hanau GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,0,8-839.88,50.1334541,8.923525,True
+260612124-772858000,260612124,Universitätsklinikum Frankfurt,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,45,2,8-839.87|8-839.88|8-839.89|8-839.8a,50.0952039,8.6611054,True
+260620011-772565000,260620011,Klinikum Kassel GmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,51.3277916,9.5078509,True
+260620157-772145000,260620157,Klinikum Fulda gAG,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,4,8-839.88|8-839.89,50.5472481,9.7048593,True
+260620431-773132000,260620431,Universitätsklinikum Gießen und Marburg GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,15,1,8-839.88,50.8174459,8.8087518,True
+260641243-772737000,260641243,AGAPLESION FRANKFURTER DIAKONIE KLINIKEN gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,50.1364997,8.6476246,True
+260700109-773518000,260700109,Gemeinschaftsklinikum Mittelrhein gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,50.3556095,7.5646017,True
+260710087-771220000,260710087,Krankenhaus Maria Hilf,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,50.5414191,7.1271551,True
+260720034-771463000,260720034,Klinikum Mutterhaus der Borromäerinnen,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88,49.7548636,6.6319705,True
+260730025-772988000,260730025,Westpfalz-Klinikum GmbH - Standort I+II Kaiserslautern und Kusel,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,1,8-839.88,49.4414169,7.7560839,True
+260730161-771621000,260730161,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,68,3,8-839.87|8-839.88,49.9942674,8.2565791,True
+260730478-772427000,260730478,Nardini Klinikum St. Elisabeth Zweibrücken,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,49.2461799,7.3630233,True
+260810146-773033000,260810146,Diakonie-Klinikum Stuttgart,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,48.7816289,9.1646209,True
+260810191-772796000,260810191,Marienhospital Stuttgart,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,48.7609892,9.1633814,True
+260810271-772311000,260810271,Robert Bosch Krankenhaus,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,21,2,8-839.88,48.8143238,9.1872156,True
+260810453-771315000,260810453,Krankenhaus Leonberg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,0,8-839.88,48.8018366,9.0033196,True
+260810475-771511000,260810475,Klinikum Esslingen GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,8,1,8-839.88,48.7374557,9.3263778,True
+260810589-772384000,260810589,ALB FILS KLINIKUM GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,48.6903119,9.6512629,True
+260810647-772121000,260810647,Klinikum Ludwigsburg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,75,2,8-839.87|8-839.88|8-839.8a,48.8989021,9.2035793,True
+260810794-772048000,260810794,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.87,49.1540716,9.189318,True
+260811192-772437000,260811192,Diak Klinikum Landkreis Schwäbisch Hall gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.87,49.1248283,9.7417081,True
+260811579-771470000,260811579,Stauferklinikum Schwäbisch Gmünd,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88|8-839.8a,48.8197488,9.7872864,True
+260812364-772783000,260812364,Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,33,1,8-839.87|8-839.88|8-839.8a,48.7837421,9.1733168,True
+260812525-771314000,260812525,Klinikum Sindelfingen-Böblingen,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,48.6897835,9.0331835,True
+260820115-772143000,260820115,Städtisches Klinikum Karlsruhe gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,13,3,8-839.88|8-839.89,49.0156523,8.3745829,True
+260820284-772071000,260820284,Fürst-Stirum-Klinik Bruchsal,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,49.1321189,8.6039746,True
+260820433-772905000,260820433,Klinikum Mittelbaden Rastatt,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.89,48.8614131,8.2059359,True
+260820466-771700000,260820466,Universitätsklinikum Heidelberg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,35,2,8-839.87|8-839.88,49.4199193,8.6676297,True
+260820503-771242000,260820503,Krankenhaus Salem derEvang. Stadtmission Heidelberg gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,49.4231957,8.6846485,True
+260820569-772389000,260820569,Universitätsklinikum Mannheim GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,21,0,8-839.88,49.4914346,8.4903529,True
+260830048-771473000,260830048,St Josefskrankenhaus,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88,48.0016474,7.8520533,True
+260831481-772585000,260831481,Klinikum Konstanz,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,47.6720647,9.1883441,True
+260832299-773657000,260832299,Universitätsklinikum Freiburg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,61,0,8-839.88|8-839.8a,48.0060746,7.8411712,True
+260833520-771962000,260833520,Ortenau Klinikum Lahr,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,7,1,8-839.88,48.3444307,7.8854433,True
+260840108-772041000,260840108,Universitätsklinikum Tübingen,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,24,3,8-839.87|8-839.88,48.5277394,9.0489311,True
+260840200-773713000,260840200,Universitätsklinikum Ulm,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,14,1,8-839.88|8-839.8a,48.4226209,9.9484836,True
+260841928-771415000,260841928,Bundeswehrkrankenhaus Ulm,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,48.4250052,9.9479647,True
+260910090-772207000,260910090,Helios Klinikum München West,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,48.1444878,11.4542841,True
+260910136-772835000,260910136,TUM Klinikum Deutsches Herzzentrum,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,48.1530343,11.5500495,True
+260910205-771703000,260910205,Barmherzige Brüder Krankenhaus München,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,9,2,8-839.87|8-839.88|8-839.89,48.1565407,11.5096232,True
+260910637-772849000,260910637,RoMed Klinikum Rosenheim,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87,47.8601386,12.1323599,True
+260911295-772387000,260911295,Klinikum Fürstenfeldbruck,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.87,48.1808812,11.2593161,True
+260911320-773597000,260911320,Klinikum Garmisch-Partenkirchen Standort Murnau,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,47.6715911,11.2172762,True
+260911320-773617000,260911320,Klinikum Garmisch-Partenkirchen - Haupthaus,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,47.4833708,11.1284124,True
+260911386-773259000,260911386,Berufsgenossenschaftliche Unfallklinik Murnau gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88|8-839.89,47.6715911,11.2172762,True
+260912434-772274000,260912434,Klinikum Traunstein mit der Außenstelle Ruhpolding,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,47.873791,12.6318425,True
+260913037-773586000,260913037,Klinikum Ingolstadt GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,1,8-839.88|8-839.8a,48.7694308,11.3772507,True
+260913195-772053000,260913195,TUM Klinikum Rechts der Isar,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,24,1,8-839.87|8-839.88,48.1378387,11.6015956,True
+260913480-771080000,260913480,"München Klinik Bogenhausen, München Klinik gGmbH",inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,19,1,8-839.88|8-839.89,48.1551599,11.6247172,True
+260914050-771734000,260914050,LMU Klinikum,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.88,48.1327875,11.5615957,True
+260914050-771736000,260914050,LMU Klinikum,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,70,2,8-839.87|8-839.88|8-839.89|8-839.8a,48.1091496,11.4739688,True
+260920014-773514000,260920014,Klinikum Landshut Anstalt des öffentlichen Rechts der Stadt Landshut,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,21,0,8-839.88,48.5376923,12.1374237,True
+260920069-772859000,260920069,Klinikum Passau,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,16,2,8-839.88,48.5650357,13.4453357,True
+260930050-771597000,260930050,Krankenhaus Barmherzige Brüder Regensburg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,12,0,8-839.88,49.0158519,12.064153,True
+260930129-771930000,260930129,Kliniken Nordoberpfalz AG - Weiden,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,1,8-839.88,49.6810074,12.1664352,True
+260930608-771402000,260930608,Universitätsklinikum Regensburg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,106,1,8-839.87|8-839.88|8-839.89,48.9904494,12.0813806,True
+260940029-771420000,260940029,Sozialstiftung Bamberg Klinikum Bamberg,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,49.8677984,10.8936927,True
+260940109-772810000,260940109,Klinikum Bayreuth GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,49.9436118,11.5323659,True
+260940198-771124000,260940198,Sana Klinikum Hof,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,1,8-839.88,50.3026772,11.9154026,True
+260950099-771374000,260950099,Klinikum Nürnberg Nord,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,13,1,8-839.88|8-839.8a,49.4630757,11.0633534,True
+260950567-771175000,260950567,Universitätsklinikum Erlangen,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,20,1,8-839.87|8-839.88,49.6008509,11.0104406,True
+260960079-773642000,260960079,Universitätsklinikum Würzburg,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,18,0,8-839.88|8-839.8a,49.8060767,9.9581188,True
+260970015-772997000,260970015,Universitätsklinikum Augsburg A.ö.R.,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,32,1,8-839.88,48.3848965,10.8396834,True
+261000013-771100000,261000013,Klinikum Saarbrücken,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,16,2,8-839.88|8-839.89|8-839.8a,49.2205225,6.9965143,True
+261000386-771261000,261000386,Universitätsklinikum des Saarlandes,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,28,3,8-839.88|8-839.8a,49.3062191,7.3464925,True
+261000934-773075000,261000934,CaritasKlinikum Saarbrücken,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,49.248073,6.9598092,True
+261100025-773370000,261100025,Evangelische Elisabeth Klinik,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,52.5041823,13.3642154,True
+261100070-773109000,261100070,DRK Kliniken Berlin Mitte,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,26,1,8-839.87|8-839.88,52.5570876,13.3766559,True
+261100456-771653000,261100456,Krankenhaus Waldfriede e.V.,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,0,8-839.88,52.4444805,13.240098,True
+261100855-771917000,261100855,St.Joseph Krankenhaus,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,52.4781421,13.3729493,True
+261101015-772563000,261101015,Charité - Universitätsmedizin Berlin,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,94,2,8-839.87|8-839.88|8-839.89|8-839.8a,52.5258523,13.3777575,True
+261101300-773608000,261101300,Helios Klinikum Berlin-Buch,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,8,2,8-839.87|8-839.88|8-839.89|8-839.8a,52.6317717,13.5095435,True
+261101311-772832000,261101311,DRK Kliniken Berlin Köpenick,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,52.4405588,13.5939645,True
+261101479-773680000,261101479,Evangelisches Krankenhaus Königin Elisabeth Herzberge gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,13,0,8-839.88,52.5279222,13.508992,True
+261101527-773403000,261101527,Sana Klinikum Lichtenberg,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.5132845,13.4959012,True
+261101561-773065000,261101561,DRK Kliniken Berlin Westend,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.8a,52.5188836,13.2770845,True
+261101754-771923000,261101754,BG Klinikum Unfallkrankenhaus Berlin gGmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.5191728,13.5683225,True
+261101878-773179000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,1,8-839.87|8-839.88,52.5255105,13.4393691,True
+261101878-773181000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,0,8-839.88,52.4939186,13.4086236,True
+261101878-773183000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,6,2,8-839.88|8-839.89,52.4380704,13.4612596,True
+261101878-773184000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,10,0,8-839.88,52.4620322,13.3464416,True
+261101878-773186000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,52.5901776,13.3047554,True
+261101878-773187000,261101878,Vivantes - Netzwerk für Gesundheit GmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,52.5488537,13.2042875,True
+261110083-772955000,261110083,HELIOS Klinikum Emil von Behring GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,52.4239253,13.2552695,True
+261200220-772760000,261200220,Klinikum Ernst von Bergmann gemeinnützige GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,52.401183,13.0658244,True
+261200322-771508000,261200322,GLG Werner Forßmann Klinikum Eberswalde GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,52.8289124,13.7918402,True
+261200457-772221000,261200457,Universitätsklinikum Brandenburg an der Havel GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,2,8-839.87,52.4137695,12.546359,True
+261200538-772643000,261200538,"Havelland Kliniken GmbH, Klinik Nauen",inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,52.6007689,12.8758899,True
+261200721-773088000,261200721,Medizinische Universität Lausitz - Carl Thiem,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,1,8-839.87|8-839.88,51.7408574,14.3213228,True
+261201061-771632000,261201061,Klinikum Frankfurt (Oder) GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,3,8-839.87|8-839.88,52.3023409,14.4823242,True
+261201356-771839000,261201356,HELIOS Klinikum Bad Saarow,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,0,8-839.88,52.2837363,14.0626258,True
+261201414-772821000,261201414,Klinikum Dahme Spreewald GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,52.3034543,13.6281495,True
+261300118-771003000,261300118,Klinikum Südstadt Rostock,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,27,2,8-839.87|8-839.88|8-839.89,54.0717274,12.1066615,True
+261300152-773589000,261300152,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,inclusive_openly_numeric,selected_code_suppressed_only,True,False,True,0,2,8-839.87|8-839.88,54.0881225,13.402352,True
+261300185-772916000,261300185,Helios Kliniken Schwerin,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,12,0,8-839.88,53.651422,11.4082224,True
+261300276-772987000,261300276,KMG Klinikum Güstrow,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,0,8-839.88,53.8109937,12.2003523,True
+261300312-772096000,261300312,Sana-Krankenhaus Rügen GmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,54.4196619,13.4289453,True
+261300425-773084000,261300425,Universitätsmedizin Rostock - Teilkörperschaft der Universität Rostock,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,38,4,8-839.87|8-839.88,54.085705,12.1014711,True
+261400530-772884000,261400530,Klinikum St. Georg gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,20,2,8-839.88|8-839.8a,51.3840002,12.3810491,True
+261400847-771139000,261400847,Helios Park-Klinikum Leipzig,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,27,3,8-839.87|8-839.88,51.3080037,12.4369348,True
+261400949-772842000,261400949,Städtisches Klinikum Dresden,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.0590771,13.7149084,True
+261401030-773444000,261401030,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,70,2,8-839.88|8-839.8a,51.0565116,13.7825779,True
+261401052-771392000,261401052,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,30,2,8-839.88,51.3310239,12.3850465,True
+261401416-772794000,261401416,Klinikum Chemnitz gGmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,21,1,8-839.88|8-839.8a,50.8447689,12.8861281,True
+261500289-773667000,261500289,Universitätsklinikum Magdeburg A. ö. R. - Standort: Leipziger Straße,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,35,5,8-839.87|8-839.88|8-839.89|8-839.8a,52.1041758,11.6201463,True
+261500677-772512000,261500677,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,5,0,8-839.88,51.4783067,11.9674471,True
+261500702-773513000,261500702,Universitätsklinikum Halle (Saale),inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,21,1,8-839.88,51.5018258,11.9364462,True
+261500757-771701000,261500757,Städtisches Klinikum Dessau,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.8159149,12.1976598,True
+261600521-771235000,261600521,Hufeland Klinikum GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,51.2015306,10.4683,True
+261600634-771973000,261600634,Zentralklinik Bad Berka GmbH,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,7,1,8-839.88,50.8900432,11.265938,True
+261600736-772874000,261600736,Universitätsklinikum Jena,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,31,2,8-839.88|8-839.8a,50.8856144,11.621318,True
+261600872-771725000,261600872,MEDINOS Kliniken des Landkreises Sonneberg GmbH,inclusive_suppressed_only,selected_code_suppressed_only,True,False,True,0,1,8-839.88,50.3539323,11.1631209,True
+261601021-771835000,261601021,HELIOS Klinikum Erfurt,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,4,1,8-839.87|8-839.88,50.9938627,11.0106068,True
+261601123-772308000,261601123,St. Georg Klinikum Eisenach gemeinnützige GmbH,inclusive_suppressed_only,no_selected_code_activity_identified,False,False,False,0,0,,50.9885987,10.3160887,True
+261601145-773338000,261601145,KMG Klinikum Sömmerda,inclusive_openly_numeric,selected_code_openly_numeric,True,True,False,6,1,8-839.88,51.162229,11.1218524,True

@@ -1,0 +1,42 @@
+{
+  "GHS_POP": {
+    "path": "spatial/GHS_POP_E2025_GLOBE_R2023A_4326_3ss_V1_0.tif",
+    "sha256": "fe3bfa375b0c4e46551afc63d40212b43c01950ff02b9b386bbb228785b483ba",
+    "release": "R2023A",
+    "epoch": 2025,
+    "resolution": "3 arcsec"
+  },
+  "GHS_SMOD": {
+    "path": "spatial/GHS_SMOD_E2025_GLOBE_R2023A_54009_1000_V2_0.tif",
+    "sha256": "fd076785d1639a5ebf0b1ef2021d28c984cdba0c9e9d4839d64044531d34b7cc",
+    "release": "R2023A",
+    "epoch": 2025
+  },
+  "Germany_boundary": {
+    "path": "spatial/germany-detailed-boundary_917.geojson",
+    "sha256": "f9e1271cb34b336ad9dd62eb1c62dbceca5f5b58dfbde2c33af249d1f01da0d7"
+  },
+  "overlay_crs": "population raster CRS; EPSG:3035 for area QA",
+  "geometry_mask_all_touched": false,
+  "SMOD_resampling": "nearest",
+  "urban_codes": [
+    30,
+    23,
+    22,
+    21
+  ],
+  "rural_codes": [
+    13,
+    12,
+    11
+  ],
+  "other_definition": "neither urban nor rural",
+  "denominators": {
+    "total": 83194667,
+    "urban": 60644251,
+    "rural": 22550346,
+    "other": 69
+  },
+  "denominator_reconciliation": false,
+  "rounding": "covered floating sums rounded to integer; percentages reported unrounded and at one decimal"
+}

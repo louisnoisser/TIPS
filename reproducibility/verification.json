@@ -1,0 +1,16 @@
+{
+  "file_count": 670,
+  "bytes": 117024994,
+  "locked_input_count": 576,
+  "numeric_cells_verified": 1117011,
+  "tests": "8 passed",
+  "offline_render": "passed; six PDFs (S1 four pages), PNG/SVG where produced",
+  "visual_review": "Figures1/2/3B/4C113/4C193 and all S1 pages inspected",
+  "private": true,
+  "date": "2026-11-11",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src:scripts GBA_OPS_SITE_DATA=outputs/site_resolution_validation/resolved_site_level_data.csv python -m pytest -q -p no:cacheprovider tests/test_report_file_selection.py tests/test_final_corrected.py",
+  "test_result": "8 passed in 0.46s",
+  "render_command": "python scripts/reproduce_submission.py --output-dir <new-directory>",
+  "raw_inputs_included": false,
+  "container_runtime_data_included": false
+}

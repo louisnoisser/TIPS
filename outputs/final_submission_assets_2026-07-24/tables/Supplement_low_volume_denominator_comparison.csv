@@ -1,0 +1,15 @@
+reporting_year,denominator_type,category,count,denominator,percentage,scenario
+2008,openly_reported_numeric_activity,below_20,11,28,39.285714285714285,visible
+2008,all_identifiable_active_providers,definitely_below_20,66,88,75.0,interval_classification
+2008,all_identifiable_active_providers,uncertain_at_20,2,88,2.272727272727273,interval_classification
+2008,all_identifiable_active_providers,definitely_at_or_above_20,20,88,22.727272727272727,interval_classification
+2008,all_identifiable_active_providers,below_20,68,88,77.27272727272727,lower
+2008,all_identifiable_active_providers,below_20,68,88,77.27272727272727,midpoint
+2008,all_identifiable_active_providers,below_20,66,88,75.0,upper
+2024,openly_reported_numeric_activity,below_20,53,113,46.90265486725664,visible
+2024,all_identifiable_active_providers,definitely_below_20,112,193,58.03108808290155,interval_classification
+2024,all_identifiable_active_providers,uncertain_at_20,12,193,6.217616580310881,interval_classification
+2024,all_identifiable_active_providers,definitely_at_or_above_20,69,193,35.751295336787564,interval_classification
+2024,all_identifiable_active_providers,below_20,124,193,64.24870466321244,lower
+2024,all_identifiable_active_providers,below_20,119,193,61.6580310880829,midpoint
+2024,all_identifiable_active_providers,below_20,112,193,58.031088082901555,upper

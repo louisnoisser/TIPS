@@ -1,0 +1,8 @@
+input_type,software_or_dataset,release_or_version,reference_year,source_path,crs,licence_metadata,configuration_or_notes,validation_status
+routing_engine,OpenRouteService,software version not pinned,,ors-docker/config,,licence metadata not recorded locally,driving-car graph exists; routing withheld because coordinate completeness gate failed,blocked
+road_data,OpenStreetMap Germany extract / ORS graph,graph version 4,OSM timestamp 2026-03-29T20:20:46Z,ors-docker/files/germany-latest.osm.pbf; ors-docker/graphs/driving-car/graph_build_info.yml,graph-native,licence metadata not recorded alongside local extract,graph built 2026-04-01; exact OSM data timestamp is recorded in graph metadata,available but unused
+population,GHS-POP E2025 GLOBE R2023A 3 arcsec V1.0,R2023A V1.0,2025,spatial/GHS_POP_E2025_GLOBE_R2023A_4326_3ss_V1_0.tif,EPSG:4326,licence metadata not found alongside raster,"cached Germany total is 83,194,667; denominator not recomputed in this run because routing was withheld",available but unused
+settlement,GHS-SMOD E2025 GLOBE R2023A 1km V2.0,R2023A V2.0,2025,spatial/GHS_SMOD_E2025_GLOBE_R2023A_54009_1000_V2_0.tif,ESRI:54009,licence metadata not found alongside raster,codes 30/23/22/21 urban; 13/12/11 rural; other otherwise,available and sampled
+federal_states,Germany states GeoJSON,unknown,unknown,spatial/germany-states.geojson,EPSG:4326,provider/version/licence metadata absent,GADM-style attributes; used only to audit coordinate-derived state,metadata blocked
+coordinates,TIPS geocoding cache,undated,2024 cohort,data/cache/geocode/tips_8-839-8_geocode_cache.csv,EPSG:4326,not recorded,113 cached rows; no live geocoding used,available
+postcode_state_reference,none found,,,,,,required for independent postcode-derived state validation,missing
