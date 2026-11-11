@@ -86,6 +86,10 @@ def main():
     import geopandas as gpd
     from shapely.geometry import shape
     master=pd.read_csv(maps.MASTER,dtype={'site_id':str,'ik':str})
+    # Use the validated coordinates, as in the original geographic workflow.
+    master['latitude']=pd.to_numeric(master.proposed_latitude,errors='raise')
+    master['longitude']=pd.to_numeric(master.proposed_longitude,errors='raise')
+    assert len(master)==master.site_id.nunique()==193 and master[['latitude','longitude']].notna().all().all()
     for col in ['suppressed_only','threshold_ge20','threshold_ge50','threshold_ge100']:
         master[col]=master[col].astype(str).str.lower().isin(['true','1'])
     locked_gdf=gpd.read_file(maps.LOCKED_UNIONS)
@@ -98,7 +102,7 @@ def main():
             j=json.loads(p.read_text());unions[network][minutes]=shape(j['features'][0]['geometry']) if j.get('type')=='FeatureCollection' else shape(j['geometry'])
     maps.OUT=out
     labels=pd.read_csv(maps.LABELS,dtype={'site_id':str})
-    for kind in ['C113','C193']:maps.build_figure(kind,master,unions,locked,labels)
+    maps.build_figure('C193',master,unions,locked,labels)
     figure_s1(out)
     # Export all corrected manuscript table CSVs, preserving their relative paths.
     for p in (ROOT/'outputs/final_corrected_2026-07-24').rglob('*.csv'):
@@ -117,7 +121,7 @@ def main():
     source=ROOT/'outputs/de_novo_sensitivity_2013_2024'
     for p in source.glob('*.csv'):shutil.copy2(p,tables/p.name)
     for p in (ROOT/'outputs/tips_geographic_suppression_sensitivity_2026-09-23').glob('*.csv'):shutil.copy2(p,tables/p.name)
-    (out/'reproduction_summary.json').write_text(json.dumps({'status':'passed','figures':['1','2','3B','4 C113','4 C193','S1 A-D'],'figure4_selection':'both retained; no final choice inferred','locked_csv_tables':[str(p.relative_to(tables)) for p in sorted(tables.rglob('*.csv'))]},indent=2)+'\n')
+    (out/'reproduction_summary.json').write_text(json.dumps({'status':'passed','figures':['1','2','3B','4 C193','S1 A-D'],'figure4_selection':'C193','locked_csv_tables':[str(p.relative_to(tables)) for p in sorted(tables.rglob('*.csv'))]},indent=2)+'\n')
     print('PASS: manuscript figures and locked tables exported to',out)
 
 if __name__=='__main__':main()

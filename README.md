@@ -77,23 +77,23 @@ by the submission renderer; select a new output directory for each run.
    ```
 
 3. Render Figures 1–2 with the existing plot functions; the selected Figure 3B
-   using the corrected validated stack; both saved Figure 4 candidates (C113 and
-   C193) using saved 30/60-minute geometries; and all four short-name Figure S1
+   using the corrected validated stack; manuscript Figure 4 (C193) using saved
+   30/60-minute geometries; and all four short-name Figure S1
    panels. Export the locked corrected tables, de novo sensitivity and geographic
    sensitivity CSVs in the same run:
 
    ```bash
    PYTHONPATH=src:scripts python scripts/reproduce_submission.py \
-     --output-dir results/submission-v1
+     --output-dir results/submission-v1.0.1
    ```
 
-   The original recorded workflow did not select a final Figure 4 candidate.
-   Both are preserved and named explicitly; this release does not invent a choice.
+   C193 is the manuscript Figure 4. C113 is an earlier, unused alternative and
+   is not rendered or used in the manuscript or supplement.
    Figure S1 uses the checked names, including Klinikum Dortmund Mitte and
    Cellitinnen-Krankenhaus St. Petrus, Wuppertal. It checks single-line/unique labels
    and text bounding boxes at 600 dpi.
 
-4. Inspect `results/submission-v1/reproduction_summary.json`, `qa/`, PDF/PNG/SVG
+4. Inspect `results/submission-v1.0.1/reproduction_summary.json`, `qa/`, PDF/PNG/SVG
    figures and `tables/`. Table S10 inputs are in
    `outputs/de_novo_sensitivity_2013_2024/` and
    `outputs/de_novo_accessibility_sensitivity_2026-08-16/`; corrected Panel C

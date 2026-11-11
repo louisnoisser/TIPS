@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.0.1-submission — 2026-11-11
+
+- Record C193 as the submitted manuscript Figure 4; C113 is an unused earlier
+  alternative and is no longer rendered by the submission entrypoint.
+- Load the existing validated coordinate columns, matching the original
+  geographic workflow, so all 80 suppressed-only sites are plotted in Panel A.
+- Set `figure4_selection` to `C193` in the reproduction summary and align the
+  README and citation release metadata. Locked inputs, checksums, scientific
+  calculations and plotting logic are unchanged.
+
 ## 2026-05-08
 
 - Added predefined TIPS 8-839.8* code sets in [`src/gba_ops_reanalysis/config.py`](src/gba_ops_reanalysis/config.py):

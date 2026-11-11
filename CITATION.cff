@@ -6,11 +6,11 @@ authors:
   - family-names: Noisser
     given-names: Louis
     email: louis.noisser@gmail.com
-version: "1.0-submission"
+version: "1.0.1-submission"
 date-released: "2026-11-11"
 license: MIT
 repository-code: "https://github.com/louisnoisser/TIPS"
-url: "https://github.com/louisnoisser/TIPS/releases/tag/v1.0-submission"
+url: "https://github.com/louisnoisser/TIPS/releases/tag/v1.0.1-submission"
 abstract: >-
   Analysis code and locked derived inputs for hospital-level TIPS-related
   procedural activity, provider concentration, suppression sensitivity,
